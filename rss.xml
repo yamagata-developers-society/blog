@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/yds/.</link><generator>RSS for Node</generator><lastBuildDate>Wed, 28 Nov 2018 18:25:35 GMT</lastBuildDate><item><title><![CDATA[A Full and Comprehensive Style Test]]></title><description><![CDATA[Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs…]]></description><link>https://yamagata-developers-society.github.io/yds/./a-full-style-test/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/./a-full-style-test/</guid><pubDate>Sun, 30 Sep 2018 07:03:47 GMT</pubDate><content:encoded>&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/yds/.</link><generator>RSS for Node</generator><lastBuildDate>Wed, 28 Nov 2018 18:33:15 GMT</lastBuildDate><item><title><![CDATA[A Full and Comprehensive Style Test]]></title><description><![CDATA[Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs…]]></description><link>https://yamagata-developers-society.github.io/yds/./a-full-style-test/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/./a-full-style-test/</guid><pubDate>Sun, 30 Sep 2018 07:03:47 GMT</pubDate><content:encoded>&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1&gt;Heading 1&lt;/h1&gt;
 &lt;h2&gt;Heading 2&lt;/h2&gt;
@@ -27,10 +27,10 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Test Image&quot;
         title=&quot;&quot;
-        src=&quot;/static/testimg1-8bafcea43f0bc141b01ef5b43dd2003b-ae198.jpg&quot;
-        srcset=&quot;/static/testimg1-8bafcea43f0bc141b01ef5b43dd2003b-82c04.jpg 293w,
-/static/testimg1-8bafcea43f0bc141b01ef5b43dd2003b-5511d.jpg 585w,
-/static/testimg1-8bafcea43f0bc141b01ef5b43dd2003b-ae198.jpg 1080w&quot;
+        src=&quot;/yds/static/testimg1-8bafcea43f0bc141b01ef5b43dd2003b-ae198.jpg&quot;
+        srcset=&quot;/yds/static/testimg1-8bafcea43f0bc141b01ef5b43dd2003b-82c04.jpg 293w,
+/yds/static/testimg1-8bafcea43f0bc141b01ef5b43dd2003b-5511d.jpg 585w,
+/yds/static/testimg1-8bafcea43f0bc141b01ef5b43dd2003b-ae198.jpg 1080w&quot;
         sizes=&quot;(max-width: 1080px) 100vw, 1080px&quot;
       /&gt;
     &lt;/span&gt;
@@ -53,9 +53,9 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Small Test Image&quot;
         title=&quot;&quot;
-        src=&quot;/static/testimg2-b629d579b1c63df6750fc11d47141796-d6719.jpg&quot;
-        srcset=&quot;/static/testimg2-b629d579b1c63df6750fc11d47141796-88570.jpg 293w,
-/static/testimg2-b629d579b1c63df6750fc11d47141796-d6719.jpg 300w&quot;
+        src=&quot;/yds/static/testimg2-b629d579b1c63df6750fc11d47141796-d6719.jpg&quot;
+        srcset=&quot;/yds/static/testimg2-b629d579b1c63df6750fc11d47141796-88570.jpg 293w,
+/yds/static/testimg2-b629d579b1c63df6750fc11d47141796-d6719.jpg 300w&quot;
         sizes=&quot;(max-width: 300px) 100vw, 300px&quot;
       /&gt;
     &lt;/span&gt;
@@ -230,7 +230,7 @@ The &lt;u&gt;u element&lt;/u&gt; example&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-7371e.jpg&quot;
+    href=&quot;/yds/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-7371e.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -249,11 +249,11 @@ The &lt;u&gt;u element&lt;/u&gt; example&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Computer&quot;
         title=&quot;&quot;
-        src=&quot;/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-27561.jpg&quot;
-        srcset=&quot;/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-06456.jpg 293w,
-/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-4b3e4.jpg 585w,
-/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-27561.jpg 1170w,
-/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-7371e.jpg 1200w&quot;
+        src=&quot;/yds/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-27561.jpg&quot;
+        srcset=&quot;/yds/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-06456.jpg 293w,
+/yds/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-4b3e4.jpg 585w,
+/yds/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-27561.jpg 1170w,
+/yds/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-7371e.jpg 1200w&quot;
         sizes=&quot;(max-width: 1170px) 100vw, 1170px&quot;
       /&gt;
     &lt;/span&gt;
@@ -285,7 +285,7 @@ The &lt;u&gt;u element&lt;/u&gt; example&lt;/p&gt;
 &lt;h2&gt;Dividing things up&lt;/h2&gt;
 &lt;p&gt;If you’re writing a piece in parts and you just feel like you need to divide a couple of sections distinctly from each other, a horizontal rule might be just what you need. Dropping &lt;code class=&quot;language-text&quot;&gt;---&lt;/code&gt; on a new line will create a sleek divider, anywhere you want it.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;This should get you going with the vast majority of what you need to do in the editor, but if you’re still curious about more advanced tips then check out the &lt;a href=&quot;/advanced-markdown/&quot;&gt;Advanced Markdown Guide&lt;/a&gt; - or if you’d rather learn about how Ghost taxononomies work, we’ve got a overview of &lt;a href=&quot;/using-tags/&quot;&gt;how to use Ghost tags&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Purpose of Education]]></title><description><![CDATA[As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the…]]></description><link>https://yamagata-developers-society.github.io/yds/./purpose-of-education/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/./purpose-of-education/</guid><pubDate>Mon, 20 Aug 2012 15:11:55 GMT</pubDate><content:encoded>&lt;p&gt;As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.&lt;/p&gt;
+&lt;p&gt;This should get you going with the vast majority of what you need to do in the editor, but if you’re still curious about more advanced tips then check out the &lt;a href=&quot;/yds/advanced-markdown/&quot;&gt;Advanced Markdown Guide&lt;/a&gt; - or if you’d rather learn about how Ghost taxononomies work, we’ve got a overview of &lt;a href=&quot;/yds/using-tags/&quot;&gt;how to use Ghost tags&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Purpose of Education]]></title><description><![CDATA[As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the…]]></description><link>https://yamagata-developers-society.github.io/yds/./purpose-of-education/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/./purpose-of-education/</guid><pubDate>Mon, 20 Aug 2012 15:11:55 GMT</pubDate><content:encoded>&lt;p&gt;As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.&lt;/p&gt;
 &lt;p&gt;It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.&lt;/p&gt;
 &lt;p&gt;Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult. We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically. Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.&lt;/p&gt;
 &lt;p&gt;The function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.&lt;/p&gt;
