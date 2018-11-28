@@ -14,7 +14,7 @@ import PostContent from '../components/PostContent';
 import PostFullFooter from '../components/PostFullFooter';
 import PostFullFooterRight from '../components/PostFullFooterRight';
 import ReadNextCard from '../components/ReadNextCard';
-import Subscribe from '../components/subsribe/Subscribe';
+import Subscribe from '../components/subscribe/Subscribe';
 import Wrapper from '../components/Wrapper';
 import IndexLayout from '../layouts';
 import { colors } from '../styles/colors';
@@ -269,15 +269,14 @@ const PageTemplate: React.SFC<PageTemplateProps> = props => {
                   <PostFullMetaDate dateTime={post.frontmatter.date}>
                     {post.frontmatter.userDate}
                   </PostFullMetaDate>
-                  {post.frontmatter.tags &&
-                    post.frontmatter.tags.length > 0 && (
-                      <>
-                        <DateDivider>/</DateDivider>
-                        <Link to={`/tags/${_.kebabCase(post.frontmatter.tags[0])}/`}>
-                          {post.frontmatter.tags[0]}
-                        </Link>
-                      </>
-                    )}
+                  {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
+                    <>
+                      <DateDivider>/</DateDivider>
+                      <Link to={`/tags/${_.kebabCase(post.frontmatter.tags[0])}/`}>
+                        {post.frontmatter.tags[0]}
+                      </Link>
+                    </>
+                  )}
                 </PostFullMeta>
                 <PostFullTitle>{post.frontmatter.title}</PostFullTitle>
               </PostFullHeader>
