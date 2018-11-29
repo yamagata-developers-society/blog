@@ -1,4 +1,94 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/yds/.</link><generator>RSS for Node</generator><lastBuildDate>Wed, 28 Nov 2018 18:33:15 GMT</lastBuildDate><item><title><![CDATA[A Full and Comprehensive Style Test]]></title><description><![CDATA[Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs…]]></description><link>https://yamagata-developers-society.github.io/yds/./a-full-style-test/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/./a-full-style-test/</guid><pubDate>Sun, 30 Sep 2018 07:03:47 GMT</pubDate><content:encoded>&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/yds</link><generator>RSS for Node</generator><lastBuildDate>Thu, 29 Nov 2018 11:12:11 GMT</lastBuildDate><item><title><![CDATA[Build an App with Electron.js]]></title><description><![CDATA[Build an App with Electron.js Site and Documentation Look at the  apps built on Electron ! You might be surprised. I. Use the package or a…]]></description><link>https://yamagata-developers-society.github.io/yds/build-app-with-electronjs/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/build-app-with-electronjs/</guid><pubDate>Sat, 01 Dec 2018 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Build an App with Electron.js&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://electronjs.org/&quot;&gt;Site and Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Look at the &lt;a href=&quot;https://electronjs.org/apps&quot;&gt;apps built on Electron&lt;/a&gt;! You might be surprised.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/yds/static/apps-b690f2c415533ed9bc0ce62d8180f098-28ef4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1170px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 61.58940397350994%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAACMUlEQVQoz21RS2gTURSdjassdOEHFRW3rtWNCHXn1g/FGkjRRVBauhC0CiHQLrJSUUHsIlpK3IqBRAsRIW0Ha7QNaZtofmbGJDRNMsmkM3nzeZ8Z35tM2o0XHtzz7j3v3HseZ9v2Uhs9LxmZHrad0HeNXLTUzEs073S6wWBg5uFkYPrRdqNBbxCxkDVotDl6bq2C8Z/gKt/fdPiJ19+ysXzi5QpoG+WqcMZz8OnItRPHT35PpWg1LpjhHGqAIflJVventStL6rxoUhgJLWYzxXDwY6euimL58Omzx27c5zyHMutrjFwGMYEIMrRti5G7pvWqAB5vanWNUFj/2/qxvJVZLdBcarXvTU1c9928O+6r1etsKcOQFRUj5CpbbAf6EmNaDFpuYv8naBUiuL9zTcFTX3bfboBBfyaZirwIxxc+mH2dSalkp4t6jhQTgVBVVbSn7I/LI5HW5XfNr4JG4Z3RMY7jTh052hREtpTAXKxhw7DYaDzP3/Z6K5WKS55Lg7l1EEgqW01m2KTf6/EcuHThnNysMXIVqgDXTA075BWeD4VCxWJhuDNGiwUlt6MNxoZ6T5aqmtqynW6EyLYE9OHYmgkVoFHbXLJhmhaGlk0wIUNXBi7uBdlPMUS67hpGCOvaSHc+R6tulZC2DgjGdA5aIwQn8z1Rcglvfiujz/hU8perLP5RZqfXJnzLfZX9ATRhqdsVerLtvJvISjMxIZpu0VyG1sVP1fMPIoHZ9xT+A20ca01bLt5tAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Apps build on Electron&quot;
+        title=&quot;&quot;
+        src=&quot;/yds/static/apps-b690f2c415533ed9bc0ce62d8180f098-a66a3.png&quot;
+        srcset=&quot;/yds/static/apps-b690f2c415533ed9bc0ce62d8180f098-65e34.png 293w,
+/yds/static/apps-b690f2c415533ed9bc0ce62d8180f098-8d594.png 585w,
+/yds/static/apps-b690f2c415533ed9bc0ce62d8180f098-a66a3.png 1170w,
+/yds/static/apps-b690f2c415533ed9bc0ce62d8180f098-28ef4.png 1510w&quot;
+        sizes=&quot;(max-width: 1170px) 100vw, 1170px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;I. Use the package or a CLI&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Electron.js can be installed separatately as a package.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -D electron@latest&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Or you can use a CLI to work faster! &lt;a href=&quot;https://electronjs.org/docs/tutorial/boilerplates-and-clis&quot;&gt;Lots to choose from.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;II. Bootstrap with electron-forge&lt;/h2&gt;
+&lt;p&gt;I recommend &lt;a href=&quot;https://electronforge.io/templates&quot;&gt;electron-forge templates&lt;/a&gt; because they are ready to use without much configuration.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Install cli globally&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -g electron-forge&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Initialize new project&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ electron-forge init my-new-project&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;Launch your app&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;cd&lt;/span&gt; my-new-project
+$ electron-forge start&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;III. How to debug&lt;/h2&gt;
+&lt;p&gt;Uncomment this line index.js&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// mainWindow.webContents.openDevTools();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;IV. How to add jQuery&lt;/h2&gt;
+&lt;p&gt;How to add jquery or other common packages. Use npm!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ npm install jquery --save&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And add this line to the index.html file:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;$ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;jQuery &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;jquery&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;V. How to deploy&lt;/h2&gt;
+&lt;p&gt;Take a look at the &lt;a href=&quot;https://electronforge.io/cli&quot;&gt;available CLI commands&lt;/a&gt;. We’ll use the make command.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ electron-forge &lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;path&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;BONUS - How to add custom icon&lt;/h2&gt;
+&lt;p&gt;Easy! After preparing a &lt;code class=&quot;language-text&quot;&gt;icon.icns&lt;/code&gt; file, include the path in your &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&quot;electronPackagerConfig&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+  &lt;span class=&quot;token string&quot;&gt;&quot;icon&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;src/public/icons/mac/icon.icns&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Welcome to YDS!]]></title><description><![CDATA[👋 Welcome, it’s great to have you here. YDS  is a community of developers, designers, project managers, business people sharing knowledge…]]></description><link>https://yamagata-developers-society.github.io/yds/welcome/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/welcome/</guid><pubDate>Thu, 29 Nov 2018 18:00:00 GMT</pubDate><content:encoded>&lt;p&gt;👋 Welcome, it’s great to have you here.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;YDS&lt;/strong&gt; is a community of developers, designers, project managers, business people sharing knowledge.
+From novices to seasoned professionals — We are people seriously interested in technology and design and want to share what we know with the world.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A few things you should know upfront&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Beginners welcome!&lt;/strong&gt; We are all students and teachers at some point in our life, and each meetup is designed to be accessible to all levels.&lt;/li&gt;
+&lt;li&gt;Technology and design are transformational. Not just technology and design, but technological and design &lt;em&gt;thinking&lt;/em&gt;. The way you think about the world, shapes it!&lt;/li&gt;
+&lt;li&gt;No egos — just fun! Those with passion and curiosity should join today!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;YDS is dedicated to learning and knowledge-sharing! We take the passion we have for technology and design to make a positive impact in Yamagata and the community we live in.&lt;/p&gt;
+&lt;h2&gt;Meeting Place&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.coworking-too.com/&quot;&gt;coworking space too&lt;/a&gt; is our home and where we have held every YDS meetup since our very humble beginings. Coworking space is located on Nanokamachi at &lt;em&gt;2 Chome-7-38 Nanukamachi, Yamagata, Yamagata Prefecture 990-0042&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;Schedule&lt;/h2&gt;
+&lt;p&gt;For a list of upcoming events, check coworking space too’s &lt;a href=&quot;https://www.facebook.com/pg/as.works.2015/events/&quot;&gt;Events Page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We meet once a month at coworking space for developer meetup nights. If you have never been to a meetup before, don’t let that stop you. Think of it like a little party where everyone has an interesting story to tell. Check&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A Full and Comprehensive Style Test]]></title><description><![CDATA[Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs…]]></description><link>https://yamagata-developers-society.github.io/yds/a-full-style-test/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/a-full-style-test/</guid><pubDate>Sun, 30 Sep 2018 07:03:47 GMT</pubDate><content:encoded>&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1&gt;Heading 1&lt;/h1&gt;
 &lt;h2&gt;Heading 2&lt;/h2&gt;
@@ -8,7 +98,7 @@
 &lt;h6&gt;Heading 6&lt;/h6&gt;
 &lt;hr&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, &lt;a href=&quot;&quot;&gt;test link&lt;/a&gt; adipiscing elit. &lt;strong&gt;This is strong.&lt;/strong&gt; Nullam dignissim convallis est. Quisque aliquam. &lt;em&gt;This is emphasized.&lt;/em&gt; Donec faucibus. Nunc iaculis suscipit dui. 5&lt;sup&gt;3&lt;/sup&gt; = 125. Water is H&lt;sub&gt;2&lt;/sub&gt;O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. &lt;cite&gt;The New York Times&lt;/cite&gt; (That’s a citation). &lt;span style=&quot;text-decoration:underline;&quot;&gt;Underline&lt;/span&gt;. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
-&lt;p&gt;&lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; and &lt;abbr title=&quot;Cascading Style Sheets&quot;&gt;CSS&lt;/abbr&gt; are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type &lt;code class=&quot;language-text&quot;&gt;COPY filename&lt;/code&gt;. &lt;del&gt;Dinner’s at 5:00.&lt;/del&gt; &lt;span style=&quot;text-decoration:underline;&quot;&gt;Let’s make that 7&lt;/span&gt;. This &lt;del&gt;text&lt;/del&gt; has been struck.&lt;/p&gt;
+&lt;p&gt;HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type &lt;code class=&quot;language-text&quot;&gt;COPY filename&lt;/code&gt;. &lt;del&gt;Dinner’s at 5:00.&lt;/del&gt; &lt;span style=&quot;text-decoration:underline;&quot;&gt;Let’s make that 7&lt;/span&gt;. This &lt;del&gt;text&lt;/del&gt; has been struck.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Media&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.&lt;/p&gt;
@@ -129,9 +219,9 @@
 filter&lt;/a&gt; to
 highlight a block of code. Because we have more specific typographic needs for code, we’ll specify Consolas and Monaco ahead of the browser-defined monospace font.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token property&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; left&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token property&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0 -240px 0 0&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 100%&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; left&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0 -240px 0 0&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 100%&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;hr&gt;
 &lt;h2&gt;Blockquotes&lt;/h2&gt;
@@ -142,7 +232,7 @@ highlight a block of code. Because we have more specific typographic needs for c
 &lt;p&gt;And here’s a bit of trailing text.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Text-level semantics&lt;/h2&gt;
-&lt;p&gt;&lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; elements&lt;/p&gt;
+&lt;p&gt;HTML elements&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&quot;#&quot;&gt;a element&lt;/a&gt; example &lt;br&gt;
 The &lt;abbr&gt;abbr element&lt;/abbr&gt; and &lt;abbr title=&quot;Title text&quot;&gt;abbr element with title&lt;/abbr&gt; examples &lt;br&gt;
 The &lt;b&gt;b element&lt;/b&gt; example &lt;br&gt;
@@ -197,100 +287,6 @@ The &lt;u&gt;u element&lt;/u&gt; example&lt;/p&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.&lt;/p&gt;
 &lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;bcqhe&quot; data-default-tab=&quot;result&quot; data-user=&quot;rglazebrook&quot; class=&apos;codepen&apos;&gt;See the Pen &lt;a href=&apos;http://codepen.io/rglazebrook/pen/bcqhe/&apos;&gt;Simple Rotating Spinner&lt;/a&gt; by Rob Glazebrook (&lt;a href=&apos;http://codepen.io/rglazebrook&apos;&gt;@rglazebrook&lt;/a&gt;) on &lt;a href=&apos;http://codepen.io&apos;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-&lt;p&gt;Isn’t it beautiful.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Welcome to Ghost]]></title><description><![CDATA[👋 Welcome, it’s great to have you here. We know that first impressions are important, so we’ve populated your new site with some initial…]]></description><link>https://yamagata-developers-society.github.io/yds/./welcome/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/./welcome/</guid><pubDate>Sun, 06 May 2018 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;👋 Welcome, it’s great to have you here.&lt;/p&gt;
-&lt;p&gt;We know that first impressions are important, so we’ve populated your new site with some initial &lt;strong&gt;getting started&lt;/strong&gt; posts that will help you get familiar with everything in no time. This is the first one!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A few things you should know upfront&lt;/strong&gt;:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Ghost is designed for ambitious, professional publishers who want to actively build a business around their content. That’s who it works best for. &lt;/li&gt;
-&lt;li&gt;The entire platform can be modified and customised to suit your needs. It’s very powerful, but does require some knowledge of code. Ghost is not necessarily a good platform for beginners or people who just want a simple personal blog. &lt;/li&gt;
-&lt;li&gt;For the best experience we recommend downloading the Ghost Desktop App for your computer, which is the best way to access your Ghost site on a desktop device. &lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Ghost is made by an independent non-profit organisation called the Ghost Foundation. We are 100% self funded by revenue from our Ghost(Pro) service, and every penny we make is re-invested into funding further development of free, open source technology for modern publishing.  &lt;/p&gt;
-&lt;p&gt;The version of Ghost you are looking at right now would not have been made possible without generous contributions from the open source community.  &lt;/p&gt;
-&lt;h2&gt;Next up, the editor&lt;/h2&gt;
-&lt;p&gt;The main thing you’ll want to read about next is probably: the Ghost editor. This is where the good stuff happens.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;By the way, once you’re done reading, you can simply delete the default &lt;strong&gt;Ghost&lt;/strong&gt; user from your team to remove all of these introductory posts! &lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Using The Ghost Editor]]></title><description><![CDATA[Ghost uses a language called  Markdown  to format text. When you go to edit a post and see special characters and colours intertwined…]]></description><link>https://yamagata-developers-society.github.io/yds/./using-the-ghost-editor/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/./using-the-ghost-editor/</guid><pubDate>Mon, 02 Feb 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Ghost uses a language called &lt;strong&gt;Markdown&lt;/strong&gt; to format text.&lt;/p&gt;
-&lt;p&gt;When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you can quickly apply formatting as you type, without needing to pause.&lt;/p&gt;
-&lt;p&gt;At the bottom of the editor, you’ll find a toolbar with basic formatting options to help you get started as easily as possible. You’ll also notice that there’s a &lt;strong&gt;?&lt;/strong&gt; icon, which contains more advanced shortcuts.&lt;/p&gt;
-&lt;p&gt;For now, though, let’s run you through some of the basics. You’ll want to make sure you’re editing this post in order to see all the Markdown we’ve used.&lt;/p&gt;
-&lt;h2&gt;Formatting text&lt;/h2&gt;
-&lt;p&gt;The most common shortcuts are of course, &lt;strong&gt;bold&lt;/strong&gt; text, &lt;em&gt;italic&lt;/em&gt; text, and &lt;a href=&quot;https://example.com&quot;&gt;hyperlinks&lt;/a&gt;. These generally make up the bulk of any document. You can type the characters out, but you can also use keyboard shortcuts.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;CMD/Ctrl + B&lt;/code&gt; for Bold&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;CMD/Ctrl + I&lt;/code&gt; for Italic&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;CMD/Ctrl + K&lt;/code&gt; for a Link&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;CMD/Ctrl + H&lt;/code&gt; for a Heading (Press multiple times for h2/h3/h4/etc)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;With just a couple of extra characters here and there, you’re well on your way to creating a beautifully formatted story.&lt;/p&gt;
-&lt;h2&gt;Inserting images&lt;/h2&gt;
-&lt;p&gt;Images in Markdown look just the same as links, except they’re prefixed with an exclamation mark, like this:&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;![Image description](/path/to/image.jpg)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/yds/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-7371e.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1170px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUBA//EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGVRno1xL//xAAaEAACAwEBAAAAAAAAAAAAAAACAwABEhAR/9oACAEBAAEFAhLN09ZwvNLZiGeuf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAICAgMAAAAAAAAAAAAAAAERABACITFBYf/aAAgBAQAGPwJpzeq4YPUCxAHlf//EABwQAAICAgMAAAAAAAAAAAAAAAERADEQIUFhgf/aAAgBAQABPyFVoQARfwq9gsUM4S4US6GDH//aAAwDAQACAAMAAAAQny//xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAIAQMBAT8Quq//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxCI/8QAHRABAAICAgMAAAAAAAAAAAAAAQARITFBgVFxkf/aAAgBAQABPxC+9V8dXCEUqGa6HPZGprFGxvRYuEZQp9dsseK9M//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Computer&quot;
-        title=&quot;&quot;
-        src=&quot;/yds/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-27561.jpg&quot;
-        srcset=&quot;/yds/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-06456.jpg 293w,
-/yds/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-4b3e4.jpg 585w,
-/yds/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-27561.jpg 1170w,
-/yds/static/computer-4aec4f6250f1a9c047e5e7973c9e348b-7371e.jpg 1200w&quot;
-        sizes=&quot;(max-width: 1170px) 100vw, 1170px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;Most Markdown editors don’t make you type this out, though. In Ghost you can click on the image icon in the toolbar at the bottom of the editor, or you can just click and drag an image from your desktop directly into the editor. Both will upload the image for you and generate the appropriate Markdown.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Important Note:&lt;/strong&gt; Ghost does not currently have automatic image resizing, so it’s always a good idea to make sure your images aren’t gigantic files &lt;strong&gt;before&lt;/strong&gt; uploading them to Ghost.&lt;/em&gt;&lt;/p&gt;
-&lt;h2&gt;Making lists&lt;/h2&gt;
-&lt;p&gt;Lists in HTML are a formatting nightmare, but in Markdown they become an absolute breeze with just a couple of characters and a bit of smart automation. For numbered lists, just write out the numbers. For bullet lists, just use &lt;code class=&quot;language-text&quot;&gt;*&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;-&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;+&lt;/code&gt;. Like this:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Crack the eggs over a bowl&lt;/li&gt;
-&lt;li&gt;Whisk them together&lt;/li&gt;
-&lt;li&gt;Make an omelette&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;or&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Remember to buy milk&lt;/li&gt;
-&lt;li&gt;Feed the cat&lt;/li&gt;
-&lt;li&gt;Come up with idea for next story&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Adding quotes&lt;/h2&gt;
-&lt;p&gt;When you want to pull out a particularly good excerpt in the middle of a piece, you can use &lt;code class=&quot;language-text&quot;&gt;&amp;gt;&lt;/code&gt; at the beginning of a paragraph to turn it into a Blockquote. You might’ve seen this formatting before in email clients.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A well placed quote guides a reader through a story, helping them to understand the most important points being made&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;All themes handles blockquotes slightly differently. Sometimes they’ll look better kept shorter, while other times you can quote fairly hefty amounts of text and get away with it. Generally, the safest option is to use blockquotes sparingly.&lt;/p&gt;
-&lt;h2&gt;Dividing things up&lt;/h2&gt;
-&lt;p&gt;If you’re writing a piece in parts and you just feel like you need to divide a couple of sections distinctly from each other, a horizontal rule might be just what you need. Dropping &lt;code class=&quot;language-text&quot;&gt;---&lt;/code&gt; on a new line will create a sleek divider, anywhere you want it.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This should get you going with the vast majority of what you need to do in the editor, but if you’re still curious about more advanced tips then check out the &lt;a href=&quot;/yds/advanced-markdown/&quot;&gt;Advanced Markdown Guide&lt;/a&gt; - or if you’d rather learn about how Ghost taxononomies work, we’ve got a overview of &lt;a href=&quot;/yds/using-tags/&quot;&gt;how to use Ghost tags&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Purpose of Education]]></title><description><![CDATA[As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the…]]></description><link>https://yamagata-developers-society.github.io/yds/./purpose-of-education/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/./purpose-of-education/</guid><pubDate>Mon, 20 Aug 2012 15:11:55 GMT</pubDate><content:encoded>&lt;p&gt;As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.&lt;/p&gt;
-&lt;p&gt;It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.&lt;/p&gt;
-&lt;p&gt;Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult. We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically. Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.&lt;/p&gt;
-&lt;p&gt;The function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.&lt;/p&gt;
-&lt;p&gt;The late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?&lt;/p&gt;
-&lt;p&gt;We must remember that intelligence is not enough. Intelligence plus character—that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.&lt;/p&gt;
-&lt;p&gt;If we are not careful, our colleges will produce a group of close-minded, unscientific, illogical propagandists, consumed with immoral acts. Be careful, “brethren!” Be careful, teachers!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gettysburg Address]]></title><description><![CDATA[Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the…]]></description><link>https://yamagata-developers-society.github.io/yds/./gettysburg-address/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/./gettysburg-address/</guid><pubDate>Thu, 19 Nov 1863 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
-&lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
-&lt;p&gt;But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Isn’t it beautiful.&lt;/p&gt;
+&lt;p&gt;_[HTML]: Hyper Text Markup Language
+_[CSS]: Cascading Style Sheets&lt;/p&gt;</content:encoded></item></channel></rss>
