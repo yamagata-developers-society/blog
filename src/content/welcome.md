@@ -1,25 +1,32 @@
 ---
 layout: post
-title: "Welcome to Ghost"
-author: Ghost
-tags: ["Getting Started"]
+title: 'Welcome to YDS!'
+author: Elliott Hindman
+tags: ['announcements']
 image: img/welcome-to-ghost.jpg
-date: "2018-05-06T23:46:37.121Z"
+date: '2018-11-29T18:00:00.000Z'
 draft: false
 ---
 
 👋 Welcome, it's great to have you here.
 
-We know that first impressions are important, so we've populated your new site with some initial __getting started__ posts that will help you get familiar with everything in no time. This is the first one!
+**YDS** is a community of developers, designers, project managers, business people sharing knowledge.
+From novices to seasoned professionals -- We are people seriously interested in technology and design and want to share what we know with the world.
 
-__A few things you should know upfront__:
-1. Ghost is designed for ambitious, professional publishers who want to actively build a business around their content. That's who it works best for. 
-2. The entire platform can be modified and customised to suit your needs. It's very powerful, but does require some knowledge of code. Ghost is not necessarily a good platform for beginners or people who just want a simple personal blog. 
-3. For the best experience we recommend downloading the Ghost Desktop App for your computer, which is the best way to access your Ghost site on a desktop device. 
+**A few things you should know upfront**:
 
-Ghost is made by an independent non-profit organisation called the Ghost Foundation. We are 100% self funded by revenue from our Ghost(Pro) service, and every penny we make is re-invested into funding further development of free, open source technology for modern publishing.  
+1. **Beginners welcome!** We are all students and teachers at some point in our life, and each meetup is designed to be accessible to all levels.
+2. Technology and design are transformational. Not just technology and design, but technological and design _thinking_. The way you think about the world, shapes it!
+3. No egos -- just fun! Those with passion and curiosity should join today!
 
-The version of Ghost you are looking at right now would not have been made possible without generous contributions from the open source community.  
-## Next up, the editor
-The main thing you'll want to read about next is probably: the Ghost editor. This is where the good stuff happens.
-> By the way, once you're done reading, you can simply delete the default __Ghost__ user from your team to remove all of these introductory posts! 
+YDS is dedicated to learning and knowledge-sharing! We take the passion we have for technology and design to make a positive impact in Yamagata and the community we live in.
+
+## Meeting Place
+
+[coworking space too](https://www.coworking-too.com/) is our home and where we have held every YDS meetup since our very humble beginings. Coworking space is located on Nanokamachi at _2 Chome-7-38 Nanukamachi, Yamagata, Yamagata Prefecture 990-0042_.
+
+## Schedule
+
+For a list of upcoming events, check coworking space too's [Events Page](https://www.facebook.com/pg/as.works.2015/events/).
+
+We meet once a month at coworking space for developer meetup nights. If you have never been to a meetup before, don't let that stop you. Think of it like a little party where everyone has an interesting story to tell. Check
