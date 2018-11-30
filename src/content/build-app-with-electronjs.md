@@ -3,7 +3,7 @@ layout: post
 title: 'Build an App with Electron.js'
 author: Elliott Hindman
 tags: ['electron']
-image: img/electron/cover01.png
+image: img/electron-cover01.jpg
 date: '2018-12-01T18:00:00.000Z'
 draft: false
 ---
@@ -14,7 +14,7 @@ draft: false
 
 Look at the [apps built on Electron](https://electronjs.org/apps)! You might be surprised.
 
-![Apps build on Electron](img/electron/apps.png)
+![Apps build on Electron](img/electron-apps.jpg)
 
 ## I. Use the package or a CLI
 
