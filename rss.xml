@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/yds</link><generator>RSS for Node</generator><lastBuildDate>Thu, 29 Nov 2018 11:12:11 GMT</lastBuildDate><item><title><![CDATA[Build an App with Electron.js]]></title><description><![CDATA[Build an App with Electron.js Site and Documentation Look at the  apps built on Electron ! You might be surprised. I. Use the package or a…]]></description><link>https://yamagata-developers-society.github.io/yds/build-app-with-electronjs/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/build-app-with-electronjs/</guid><pubDate>Sat, 01 Dec 2018 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Build an App with Electron.js&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/yds</link><generator>RSS for Node</generator><lastBuildDate>Fri, 30 Nov 2018 11:07:40 GMT</lastBuildDate><item><title><![CDATA[Build an App with Electron.js]]></title><description><![CDATA[Build an App with Electron.js Site and Documentation Look at the  apps built on Electron ! You might be surprised. I. Use the package or a…]]></description><link>https://yamagata-developers-society.github.io/yds/build-app-with-electronjs/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/build-app-with-electronjs/</guid><pubDate>Sat, 01 Dec 2018 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Build an App with Electron.js&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://electronjs.org/&quot;&gt;Site and Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Look at the &lt;a href=&quot;https://electronjs.org/apps&quot;&gt;apps built on Electron&lt;/a&gt;! You might be surprised.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/yds/static/apps-b690f2c415533ed9bc0ce62d8180f098-28ef4.png&quot;
+    href=&quot;/yds/static/electron-apps-4165220043bf6fd2c2b614c47936d7fa-ae198.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -12,23 +12,22 @@
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1170px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 1080px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 61.58940397350994%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAACMUlEQVQoz21RS2gTURSdjassdOEHFRW3rtWNCHXn1g/FGkjRRVBauhC0CiHQLrJSUUHsIlpK3IqBRAsRIW0Ha7QNaZtofmbGJDRNMsmkM3nzeZ8Z35tM2o0XHtzz7j3v3HseZ9v2Uhs9LxmZHrad0HeNXLTUzEs073S6wWBg5uFkYPrRdqNBbxCxkDVotDl6bq2C8Z/gKt/fdPiJ19+ysXzi5QpoG+WqcMZz8OnItRPHT35PpWg1LpjhHGqAIflJVventStL6rxoUhgJLWYzxXDwY6euimL58Omzx27c5zyHMutrjFwGMYEIMrRti5G7pvWqAB5vanWNUFj/2/qxvJVZLdBcarXvTU1c9928O+6r1etsKcOQFRUj5CpbbAf6EmNaDFpuYv8naBUiuL9zTcFTX3bfboBBfyaZirwIxxc+mH2dSalkp4t6jhQTgVBVVbSn7I/LI5HW5XfNr4JG4Z3RMY7jTh052hREtpTAXKxhw7DYaDzP3/Z6K5WKS55Lg7l1EEgqW01m2KTf6/EcuHThnNysMXIVqgDXTA075BWeD4VCxWJhuDNGiwUlt6MNxoZ6T5aqmtqynW6EyLYE9OHYmgkVoFHbXLJhmhaGlk0wIUNXBi7uBdlPMUS67hpGCOvaSHc+R6tulZC2DgjGdA5aIwQn8z1Rcglvfiujz/hU8perLP5RZqfXJnzLfZX9ATRhqdsVerLtvJvISjMxIZpu0VyG1sVP1fMPIoHZ9xT+A20ca01bLt5tAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAenVzKmTED//xAAZEAACAwEAAAAAAAAAAAAAAAABAgAREhP/2gAIAQEAAQUCLIqctuCIjbl03c3/AP/EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQMBAT8BWIp//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/Aayv/8QAGxABAAIDAQEAAAAAAAAAAAAAAQAhAgMRMZH/2gAIAQEABj8CyXOia9hseB9jczOFMDkaPZ//xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhMXH/2gAIAQEAAT8hQ8N1TeNg5MZxcY4E0ofcyYiaJ+Wf/9oADAMBAAIAAwAAABAEL//EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQMBAT8Q4ICaX//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxDSzH//xAAcEAEAAgMAAwAAAAAAAAAAAAABACERMVFBgaH/2gAIAQEAAT8QNRVYq/o6qNqEmSlo7rOeeIuM57NPIANWJnTbAHCPRwlgogU6n//Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Apps build on Electron&quot;
         title=&quot;&quot;
-        src=&quot;/yds/static/apps-b690f2c415533ed9bc0ce62d8180f098-a66a3.png&quot;
-        srcset=&quot;/yds/static/apps-b690f2c415533ed9bc0ce62d8180f098-65e34.png 293w,
-/yds/static/apps-b690f2c415533ed9bc0ce62d8180f098-8d594.png 585w,
-/yds/static/apps-b690f2c415533ed9bc0ce62d8180f098-a66a3.png 1170w,
-/yds/static/apps-b690f2c415533ed9bc0ce62d8180f098-28ef4.png 1510w&quot;
-        sizes=&quot;(max-width: 1170px) 100vw, 1170px&quot;
+        src=&quot;/yds/static/electron-apps-4165220043bf6fd2c2b614c47936d7fa-ae198.jpg&quot;
+        srcset=&quot;/yds/static/electron-apps-4165220043bf6fd2c2b614c47936d7fa-82c04.jpg 293w,
+/yds/static/electron-apps-4165220043bf6fd2c2b614c47936d7fa-5511d.jpg 585w,
+/yds/static/electron-apps-4165220043bf6fd2c2b614c47936d7fa-ae198.jpg 1080w&quot;
+        sizes=&quot;(max-width: 1080px) 100vw, 1080px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -103,29 +102,7 @@ From novices to seasoned professionals — We are people seriously interested in
 &lt;h2&gt;Media&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.&lt;/p&gt;
 &lt;h3&gt;Big Image&lt;/h3&gt;
-&lt;p&gt;
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1080px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 66.3888888888889%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAdNeMx1yIr//xAAbEAADAAIDAAAAAAAAAAAAAAAAAQMCEQQSE//aAAgBAQABBQKVMVXkV6r1yENm9H//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPwFn/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAESMRARIv/aAAgBAQAGPwJ9KOhRLKKx/8QAGhABAQADAQEAAAAAAAAAAAAAAQARITFBYf/aAAgBAQABPyHgEOGIT27yS7V8WXxC4v/aAAwDAQACAAMAAAAQb8//xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EIpj/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EE7a3//EAB0QAQADAAEFAAAAAAAAAAAAAAEAESExQVFxgfH/2gAIAQEAAT8QuNAEw+8wVNmjg6S2a8hBvVruQFWHuGU6J//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Test Image&quot;
-        title=&quot;&quot;
-        src=&quot;/yds/static/testimg1-8bafcea43f0bc141b01ef5b43dd2003b-ae198.jpg&quot;
-        srcset=&quot;/yds/static/testimg1-8bafcea43f0bc141b01ef5b43dd2003b-82c04.jpg 293w,
-/yds/static/testimg1-8bafcea43f0bc141b01ef5b43dd2003b-5511d.jpg 585w,
-/yds/static/testimg1-8bafcea43f0bc141b01ef5b43dd2003b-ae198.jpg 1080w&quot;
-        sizes=&quot;(max-width: 1080px) 100vw, 1080px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;img/testing1.jpg&quot; alt=&quot;Test Image&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
 &lt;h3&gt;Small Image&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.&lt;/p&gt;
@@ -143,9 +120,9 @@ From novices to seasoned professionals — We are people seriously interested in
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Small Test Image&quot;
         title=&quot;&quot;
-        src=&quot;/yds/static/testimg2-b629d579b1c63df6750fc11d47141796-d6719.jpg&quot;
-        srcset=&quot;/yds/static/testimg2-b629d579b1c63df6750fc11d47141796-88570.jpg 293w,
-/yds/static/testimg2-b629d579b1c63df6750fc11d47141796-d6719.jpg 300w&quot;
+        src=&quot;/yds/static/testing2-b629d579b1c63df6750fc11d47141796-d6719.jpg&quot;
+        srcset=&quot;/yds/static/testing2-b629d579b1c63df6750fc11d47141796-88570.jpg 293w,
+/yds/static/testing2-b629d579b1c63df6750fc11d47141796-d6719.jpg 300w&quot;
         sizes=&quot;(max-width: 300px) 100vw, 300px&quot;
       /&gt;
     &lt;/span&gt;
