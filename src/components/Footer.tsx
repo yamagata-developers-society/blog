@@ -83,11 +83,11 @@ const Footer: React.SFC = () => {
               Twitter
             </a>
           )}
-
-          <a href="https://ghost.org" target="_blank" rel="noopener noreferrer">
-            Ghost
-          </a>
-
+          {config.github && (
+            <a href={config.github} target="_blank" rel="noopener noreferrer">
+              Github
+            </a>
+          )}
           <Link to="/rss.xml">RSS</Link>
         </SiteFooterNav>
       </div>

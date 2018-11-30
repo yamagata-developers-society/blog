@@ -36,26 +36,26 @@ const About: React.SFC = () => (
           <PostFullContent className="post-full-content">
             <div className="post-content">
               <p>
-                Ghost is professional publishing platform designed for modern journalism. This is a
-                demo site of a basic Ghost install to give you a general sense of what a new Ghost
-                site looks like when set up for the first time.
+                Yamagata Developer Society is a community for professionals and students alike. We
+                hold monthly developer meetups at{' '}
+                <a href="https://www.coworking-too.com/">coworking space too</a> in downtown
+                Yamagata.
               </p>
               <blockquote>
                 <p>
-                  If you'd like to set up a site like this for yourself, head over to{' '}
-                  <a href="https://ghost.org">Ghost.org</a> and start a free 14 day trial to give
-                  Ghost a try!
+                  If you'd like to join one of our montly meetups, head over to coworking space's{' '}
+                  <a href="https://www.facebook.com/pg/as.works.2015/events/">Events Page</a> and
+                  learn about our upcomming events!
                 </p>
               </blockquote>
               <p>
-                If you're a developer: Ghost is a completely open source (MIT) Node.js application
-                built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite,
-                and is publicly available <a href="https://github.com/TryGhost/ghost">on Github</a>.
+                If you're a developer: check us out{' '}
+                <a href="https://github.com/yamagata-developers-society">on Github</a>. New projects
+                welcome!
               </p>
               <p>
-                If you need help with using Ghost, you'll find a ton of useful articles on{' '}
-                <a href="https://help.ghost.org">our knowledgebase</a>, as well as extensive{' '}
-                <a href="https://docs.ghost.org">developer documentation</a>.
+                If you are looking for some other way to connect with us, you can find us on{' '}
+                <a href="https://twitter.com/yamagataDevSoc">Twitter</a>.
               </p>
             </div>
           </PostFullContent>

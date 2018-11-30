@@ -9,6 +9,7 @@ export interface WebsiteConfig {
   siteUrl: string;
   facebook?: string;
   twitter?: string;
+  github?: string;
   /**
    * hide or show all email subscribe boxes
    */
@@ -31,6 +32,7 @@ const config: WebsiteConfig = {
   siteUrl: 'https://yamagata-developers-society.github.io/yds/',
   facebook: 'https://www.facebook.com/pg/as.works.2015/events/',
   twitter: 'https://twitter.com/yamagataDevSoc',
+  github: 'https://github.com/yamagata-developers-society',
   showSubscribe: false,
   mailchimpAction: '#mailchimpAction',
   mailchimpName: '#mailchimpName',
