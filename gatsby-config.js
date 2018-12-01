@@ -1,12 +1,12 @@
 const path = require('path');
 
 module.exports = {
+  pathPrefix: '/blog',
   siteMetadata: {
     title: 'Yamagata Developers Society',
     description: 'Official Homepage of Yamagata Developers Society',
     siteUrl: 'https://yamagata-developers-society.github.io/blog', // full path to blog - no ending slash
   },
-  pathPrefix: '/blog',
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
   },
