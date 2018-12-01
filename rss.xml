@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/yds</link><generator>RSS for Node</generator><lastBuildDate>Fri, 30 Nov 2018 12:54:33 GMT</lastBuildDate><item><title><![CDATA[Build an App with Electron.js]]></title><description><![CDATA[Build an App with Electron.js Site and Documentation Look at the  apps built on Electron ! You might be surprised. I. Use the package or a…]]></description><link>https://yamagata-developers-society.github.io/yds/build-app-with-electronjs/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/build-app-with-electronjs/</guid><pubDate>Sat, 01 Dec 2018 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Build an App with Electron.js&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://electronjs.org/&quot;&gt;Site and Documentation&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/yds</link><generator>RSS for Node</generator><lastBuildDate>Sat, 01 Dec 2018 03:26:51 GMT</lastBuildDate><item><title><![CDATA[Build an App with Electron.js]]></title><description><![CDATA[Build an App with  Electron.js “If you can build a website, you can build a desktop app. Electron is a framework for creating native…]]></description><link>https://yamagata-developers-society.github.io/yds/build-app-with-electronjs/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/build-app-with-electronjs/</guid><pubDate>Sat, 01 Dec 2018 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Build an App with &lt;a href=&quot;https://electronjs.org/&quot;&gt;Electron.js&lt;/a&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“If you can build a website, you can build a desktop app. Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS.”&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Look at the &lt;a href=&quot;https://electronjs.org/apps&quot;&gt;apps built on Electron&lt;/a&gt;! You might be surprised.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
@@ -58,13 +60,22 @@
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;cd&lt;/span&gt; my-new-project
 $ electron-forge start&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;III. How to debug&lt;/h2&gt;
-&lt;p&gt;Uncomment this line index.js&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// mainWindow.webContents.openDevTools();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;IV. How to add jQuery&lt;/h2&gt;
+&lt;p&gt;This line in your index.js does it. Comment it out to hide dev tools.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;webContents&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;openDevTools&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I also recommend passing a &lt;code class=&quot;language-text&quot;&gt;mode&lt;/code&gt; option to the &lt;code class=&quot;language-text&quot;&gt;openDevTools()&lt;/code&gt; method:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;mainWindow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;webContents&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;openDevTools&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; mode&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;bottom&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;See &lt;a href=&quot;https://github.com/electron/electron/blob/master/docs/api/web-contents.md#contentsopendevtoolsoptions&quot;&gt;webContents Documentation&lt;/a&gt; for more info about available options.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;IV. How to add jQuery and include internal script&lt;/h2&gt;
 &lt;p&gt;How to add jquery or other common packages. Use npm!&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ npm install jquery --save&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;And add this line to the index.html file:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;$ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;jQuery &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;jquery&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Below that, add this line:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;./&amp;lt;path_to_your_js&gt;/js/app.js&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;script&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;V. How to deploy&lt;/h2&gt;
 &lt;p&gt;Take a look at the &lt;a href=&quot;https://electronforge.io/cli&quot;&gt;available CLI commands&lt;/a&gt;. We’ll use the make command.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ electron-forge &lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;path&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -79,7 +90,7 @@ From novices to seasoned professionals — We are people seriously interested in
 &lt;p&gt;&lt;strong&gt;A few things you should know upfront&lt;/strong&gt;:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Beginners welcome!&lt;/strong&gt; We are all students and teachers at some point in our life, and each meetup is designed to be accessible to all levels.&lt;/li&gt;
-&lt;li&gt;Technology and design are transformational. Not just technology and design, but technological and design &lt;em&gt;thinking&lt;/em&gt;. The way you think about the world, shapes it!&lt;/li&gt;
+&lt;li&gt;Technology and design are transformational. Not just technology and design, but technological and design &lt;strong&gt;thinking&lt;/strong&gt;. The way you think about the world, shapes it!&lt;/li&gt;
 &lt;li&gt;No egos — just fun! Those with passion and curiosity should join today!&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;YDS is dedicated to learning and knowledge-sharing! We take the passion we have for technology and design to make a positive impact in Yamagata and the community we live in.&lt;/p&gt;
@@ -87,7 +98,7 @@ From novices to seasoned professionals — We are people seriously interested in
 &lt;p&gt;&lt;a href=&quot;https://www.coworking-too.com/&quot;&gt;coworking space too&lt;/a&gt; is our home and where we have held every YDS meetup since our very humble beginings. Coworking space is located on Nanokamachi at &lt;em&gt;2 Chome-7-38 Nanukamachi, Yamagata, Yamagata Prefecture 990-0042&lt;/em&gt;.&lt;/p&gt;
 &lt;h2&gt;Schedule&lt;/h2&gt;
 &lt;p&gt;For a list of upcoming events, check coworking space too’s &lt;a href=&quot;https://www.facebook.com/pg/as.works.2015/events/&quot;&gt;Events Page&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;We meet once a month at coworking space for developer meetup nights. If you have never been to a meetup before, don’t let that stop you. Think of it like a little party where everyone has an interesting story to tell. Check&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A Full and Comprehensive Style Test]]></title><description><![CDATA[Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs…]]></description><link>https://yamagata-developers-society.github.io/yds/a-full-style-test/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/a-full-style-test/</guid><pubDate>Sun, 30 Sep 2018 07:03:47 GMT</pubDate><content:encoded>&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
+&lt;p&gt;We meet once a month at coworking space for developer meetup nights. If you have never been to a meetup before, don’t let that stop you. Think of it like a little party where everyone has an interesting story to tell.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A Full and Comprehensive Style Test]]></title><description><![CDATA[Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs…]]></description><link>https://yamagata-developers-society.github.io/yds/a-full-style-test/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/yds/a-full-style-test/</guid><pubDate>Sun, 30 Sep 2018 07:03:47 GMT</pubDate><content:encoded>&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1&gt;Heading 1&lt;/h1&gt;
 &lt;h2&gt;Heading 2&lt;/h2&gt;
@@ -102,7 +113,29 @@ From novices to seasoned professionals — We are people seriously interested in
 &lt;h2&gt;Media&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.&lt;/p&gt;
 &lt;h3&gt;Big Image&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;img/testing1.jpg&quot; alt=&quot;Test Image&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1080px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.3888888888889%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAdNeMx1yIr//xAAbEAADAAIDAAAAAAAAAAAAAAAAAQMCEQQSE//aAAgBAQABBQKVMVXkV6r1yENm9H//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPwFn/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAESMRARIv/aAAgBAQAGPwJ9KOhRLKKx/8QAGhABAQADAQEAAAAAAAAAAAAAAQARITFBYf/aAAgBAQABPyHgEOGIT27yS7V8WXxC4v/aAAwDAQACAAMAAAAQb8//xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EIpj/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EE7a3//EAB0QAQADAAEFAAAAAAAAAAAAAAEAESExQVFxgfH/2gAIAQEAAT8QuNAEw+8wVNmjg6S2a8hBvVruQFWHuGU6J//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Test Image&quot;
+        title=&quot;&quot;
+        src=&quot;/yds/static/testing01-8bafcea43f0bc141b01ef5b43dd2003b-ae198.jpg&quot;
+        srcset=&quot;/yds/static/testing01-8bafcea43f0bc141b01ef5b43dd2003b-82c04.jpg 293w,
+/yds/static/testing01-8bafcea43f0bc141b01ef5b43dd2003b-5511d.jpg 585w,
+/yds/static/testing01-8bafcea43f0bc141b01ef5b43dd2003b-ae198.jpg 1080w&quot;
+        sizes=&quot;(max-width: 1080px) 100vw, 1080px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
 &lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
 &lt;h3&gt;Small Image&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.&lt;/p&gt;
@@ -120,9 +153,9 @@ From novices to seasoned professionals — We are people seriously interested in
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Small Test Image&quot;
         title=&quot;&quot;
-        src=&quot;/yds/static/testing2-b629d579b1c63df6750fc11d47141796-d6719.jpg&quot;
-        srcset=&quot;/yds/static/testing2-b629d579b1c63df6750fc11d47141796-88570.jpg 293w,
-/yds/static/testing2-b629d579b1c63df6750fc11d47141796-d6719.jpg 300w&quot;
+        src=&quot;/yds/static/testing02-b629d579b1c63df6750fc11d47141796-d6719.jpg&quot;
+        srcset=&quot;/yds/static/testing02-b629d579b1c63df6750fc11d47141796-88570.jpg 293w,
+/yds/static/testing02-b629d579b1c63df6750fc11d47141796-d6719.jpg 300w&quot;
         sizes=&quot;(max-width: 300px) 100vw, 300px&quot;
       /&gt;
     &lt;/span&gt;
