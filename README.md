@@ -55,3 +55,23 @@ III. For images, add your image to the `/src/content/img/` folder. Include a rel
 IV. If you are a new author or add a new tag, make sure you update the `src/content/author.yaml` and `src/content/tag.yaml` files, respectively.
 
 V. Finally, commit your changes and create a **Pull Request**, and a site administrator will review your changes before deploying.
+
+## Troubleshooting
+
+If you are getting strange starup errors, or your changes are not showing up try the following:
+
+```bash
+$ npm run clean
+$ gatsby develop
+```
+
+This will remove public directory.
+
+A second option is to try removing the `.cache` folder:
+
+```bash
+$ rimraf .cache
+$ gatsby develop
+```
+
+In both cases, `gatsby develop` command will rebuild `/public` and `.cache` directories.
