@@ -29,7 +29,7 @@ const config: WebsiteConfig = {
   description: 'A community of professionals sharing knowledge',
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/yds-logo.png',
-  siteUrl: 'https://yamagata-developers-society.github.io/yds/',
+  siteUrl: 'https://yamagata-developers-society.github.io/blog/',
   facebook: 'https://www.facebook.com/pg/as.works.2015/events/',
   twitter: 'https://twitter.com/yamagataDevSoc',
   github: 'https://github.com/yamagata-developers-society',

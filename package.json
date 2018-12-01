@@ -9,6 +9,7 @@
     "start": "npm run dev",
     "dev": "gatsby develop",
     "clean": "rimraf public",
+    "fullclean": "rimraf public && rimraf .cache",
     "build": "gatsby build",
     "lint": "tslint -t stylish -p .",
     "lint:fix": "tslint -p tsconfig.json -t stylish --fix 'src/**/*.ts' 'test/**/*.ts'",
