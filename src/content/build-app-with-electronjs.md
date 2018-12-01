@@ -8,9 +8,9 @@ date: '2018-12-01T18:00:00.000Z'
 draft: false
 ---
 
-# Build an App with Electron.js
+# Build an App with [Electron.js](https://electronjs.org/)
 
-[Site and Documentation](https://electronjs.org/)
+> "If you can build a website, you can build a desktop app. Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS."
 
 Look at the [apps built on Electron](https://electronjs.org/apps)! You might be surprised.
 
@@ -51,13 +51,21 @@ $ electron-forge start
 
 ## III. How to debug
 
-Uncomment this line index.js
+This line in your index.js does it. Comment it out to hide dev tools.
 
 ```js
-// mainWindow.webContents.openDevTools();
+mainWindow.webContents.openDevTools();
 ```
 
-## IV. How to add jQuery
+I also recommend passing a `mode` option to the `openDevTools()` method:
+
+```js
+mainWindow.webContents.openDevTools({ mode: 'bottom' });
+```
+
+> See [webContents Documentation](https://github.com/electron/electron/blob/master/docs/api/web-contents.md#contentsopendevtoolsoptions) for more info about available options.
+
+## IV. How to add jQuery and include internal script
 
 How to add jquery or other common packages. Use npm!
 
@@ -69,6 +77,14 @@ And add this line to the index.html file:
 
 ```js
 <script>window.$ = window.jQuery = require('jquery');</script>
+```
+
+Below that, add this line:
+
+```js
+<script>
+  require("./<path_to_your_js>/js/app.js");
+</script>
 ```
 
 ## V. How to deploy

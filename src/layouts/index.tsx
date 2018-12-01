@@ -184,9 +184,9 @@ input,
 optgroup,
 select,
 textarea {
-  margin: 0; 
-  color: inherit; 
-  font: inherit; 
+  margin: 0;
+  color: inherit;
+  font: inherit;
 }
 button {
   overflow: visible;
@@ -201,9 +201,9 @@ html input[type="button"],
 
 input[type="reset"],
 input[type="submit"] {
-  cursor: pointer; 
+  cursor: pointer;
 
-  -webkit-appearance: button; 
+  -webkit-appearance: button;
 }
 button[disabled],
 html input[disabled] {
@@ -222,25 +222,25 @@ input:focus {
 }
 input[type="checkbox"],
 input[type="radio"] {
-  box-sizing: border-box; 
-  padding: 0; 
+  box-sizing: border-box;
+  padding: 0;
 }
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 input[type="search"] {
-  box-sizing: content-box; 
+  box-sizing: content-box;
 
-  -webkit-appearance: textfield; 
+  -webkit-appearance: textfield;
 }
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 legend {
-  padding: 0; 
-  border: 0; 
+  padding: 0;
+  border: 0;
 }
 textarea {
   overflow: auto;

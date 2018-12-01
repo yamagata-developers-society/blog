@@ -16,7 +16,7 @@ From novices to seasoned professionals -- We are people seriously interested in 
 **A few things you should know upfront**:
 
 1. **Beginners welcome!** We are all students and teachers at some point in our life, and each meetup is designed to be accessible to all levels.
-2. Technology and design are transformational. Not just technology and design, but technological and design _thinking_. The way you think about the world, shapes it!
+2. Technology and design are transformational. Not just technology and design, but technological and design **thinking**. The way you think about the world, shapes it!
 3. No egos -- just fun! Those with passion and curiosity should join today!
 
 YDS is dedicated to learning and knowledge-sharing! We take the passion we have for technology and design to make a positive impact in Yamagata and the community we live in.
@@ -29,4 +29,4 @@ YDS is dedicated to learning and knowledge-sharing! We take the passion we have 
 
 For a list of upcoming events, check coworking space too's [Events Page](https://www.facebook.com/pg/as.works.2015/events/).
 
-We meet once a month at coworking space for developer meetup nights. If you have never been to a meetup before, don't let that stop you. Think of it like a little party where everyone has an interesting story to tell. Check
+We meet once a month at coworking space for developer meetup nights. If you have never been to a meetup before, don't let that stop you. Think of it like a little party where everyone has an interesting story to tell.

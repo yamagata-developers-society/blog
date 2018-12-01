@@ -152,7 +152,7 @@ export const PostFullContent = styled.section`
 
   code {
     padding: 0 5px 2px;
-    font-size: 0.8em;
+    font-size: 1em;
     line-height: 1em;
     font-weight: 400 !important;
     background: ${colors.whitegrey};
@@ -180,7 +180,7 @@ export const PostFullContent = styled.section`
 
   pre code {
     padding: 0;
-    font-size: inherit;
+    font-size: 1.15em;
     line-height: inherit;
     background: transparent;
   }
@@ -225,7 +225,7 @@ export const PostFullContent = styled.section`
   }
 
   h1 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0;
     font-size: 4.6rem;
     font-weight: 700;
   }
@@ -236,7 +236,7 @@ export const PostFullContent = styled.section`
   }
 
   h2 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0;
     font-size: 3.6rem;
     font-weight: 700;
   }
@@ -247,7 +247,7 @@ export const PostFullContent = styled.section`
   }
 
   h3 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0;
     font-size: 2.8rem;
     font-weight: 700;
   }
@@ -258,7 +258,7 @@ export const PostFullContent = styled.section`
   }
 
   h4 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0;
     font-size: 2.8rem;
     font-weight: 700;
   }
@@ -292,7 +292,7 @@ export const PostFullContent = styled.section`
   }
 
   h6 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0;
     font-size: 2.3rem;
     font-weight: 700;
   }
