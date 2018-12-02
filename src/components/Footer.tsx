@@ -88,7 +88,7 @@ const Footer: React.SFC = () => {
               Github
             </a>
           )}
-          <Link to="/rss.xml">RSS</Link>
+          {/* <Link to="/rss.xml">RSS</Link> */}
         </SiteFooterNav>
       </div>
     </footer>

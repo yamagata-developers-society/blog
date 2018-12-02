@@ -30,13 +30,13 @@ $ npm install -D electron@latest
 
 I recommend [electron-forge templates](https://electronforge.io/templates) because they are ready to use without much configuration.
 
-1. Install cli globally
+1. Install the electron-forge CLI globally
 
 ```bash
 $ npm install -g electron-forge
 ```
 
-2. Initialize new project
+2. Initialize a new project
 
 ```bash
 $ electron-forge init my-new-project
@@ -51,7 +51,7 @@ $ electron-forge start
 
 ## III. How to debug
 
-This line in your index.js does it. Comment it out to hide dev tools.
+This line in your index.js does it. Comment it out to hide the dev tools.
 
 ```js
 mainWindow.webContents.openDevTools();
@@ -65,31 +65,29 @@ mainWindow.webContents.openDevTools({ mode: 'bottom' });
 
 > See [webContents Documentation](https://github.com/electron/electron/blob/master/docs/api/web-contents.md#contentsopendevtoolsoptions) for more info about available options.
 
-## IV. How to add jQuery and include internal script
+## IV. How to add jQuery and include internal scripts
 
-How to add jquery or other common packages. Use npm!
+To add jQuery, first use npm!
 
 ```
 $ npm install jquery --save
 ```
 
-And add this line to the index.html file:
+And add this line to the index.html file near the closing `</body>` tag:
 
 ```js
 <script>window.$ = window.jQuery = require('jquery');</script>
 ```
 
-Below that, add this line:
+To add an internal JS file, add this line below that.
 
 ```js
-<script>
-  require("./<path_to_your_js>/js/app.js");
-</script>
+<script>require("./public/js/app.js");</script>
 ```
 
 ## V. How to deploy
 
-Take a look at the [available CLI commands](https://electronforge.io/cli). We'll use the make command.
+Take a look at the [available CLI commands](https://electronforge.io/cli). We'll use the `make` command.
 
 ```bash
 $ electron-forge make [path]
@@ -97,7 +95,7 @@ $ electron-forge make [path]
 
 ## BONUS - How to add custom icon
 
-Easy! After preparing a `icon.icns` file, include the path in your `package.json` file:
+Easy! After preparing an `icon.icns` file, include the path in your `package.json` file:
 
 ```js
 "electronPackagerConfig": {

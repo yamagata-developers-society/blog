@@ -14,6 +14,20 @@ const PageTemplate = css`
     background #fff;
     padding-bottom: 4vw;
   }
+  .responsive-iframe {
+    padding-bottom: 56.1667%;
+    position: relative;
+    height: 0px;
+    overflow: hidden;
+    margin-bottom: 3.2rem;
+  }
+  .responsive-iframe iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+  }
 `;
 
 const About: React.SFC = () => (
@@ -35,6 +49,21 @@ const About: React.SFC = () => (
 
           <PostFullContent className="post-full-content">
             <div className="post-content">
+              <div className={`responsive-iframe`}>
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/AJnTCzvTwYg"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                />
+              </div>
+              <p>
+                <small>
+                  Source: video by <a href="http://handagiken.com/">Handa Giken Works</a>
+                </small>
+              </p>
               <p>
                 Yamagata Developer Society is a community for professionals and students alike. We
                 hold monthly developer meetups at{' '}
