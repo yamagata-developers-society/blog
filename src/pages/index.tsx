@@ -91,6 +91,7 @@ const IndexPage: React.SFC<IndexProps> = props => {
     <IndexLayout className={`${HomePosts}`}>
       <Helmet>
         <title>{config.title}</title>
+        <meta name="description" content={config.description} />
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={config.title} />
@@ -153,7 +154,7 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query {
-    logo: file(relativePath: { eq: "img/yds-logo.png" }) {
+    logo: file(relativePath: { eq: "img/common/yds-logo.png" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
@@ -162,7 +163,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    header: file(relativePath: { eq: "img/blog-cover.jpg" }) {
+    header: file(relativePath: { eq: "img/common/yds-cover.jpg" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.

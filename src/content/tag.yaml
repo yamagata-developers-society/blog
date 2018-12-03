@@ -1,6 +1,6 @@
 - id: electron
   description: Harness the power of Electron.js
-  image: img/blog-cover.jpg
+  image: img/tags/electron-cover.jpg
 - id: announcements
   description: Important news and updates
-  image: img/blog-cover.jpg
+  image: img/tags/announcements-cover.jpg

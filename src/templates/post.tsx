@@ -217,7 +217,7 @@ const PageTemplate: React.SFC<PageTemplateProps> = props => {
     <IndexLayout className="post-template">
       <Helmet>
         <title>{post.frontmatter.title}</title>
-
+        <meta name="description" content={post.excerpt} />
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={post.frontmatter.title} />
@@ -325,7 +325,7 @@ export default PageTemplate;
 
 export const query = graphql`
   query($slug: String, $primaryTag: String) {
-    logo: file(relativePath: { eq: "img/yds-logo.png" }) {
+    logo: file(relativePath: { eq: "img/common/yds-logo.png" }) {
       childImageSharp {
         fixed {
           ...GatsbyImageSharpFixed

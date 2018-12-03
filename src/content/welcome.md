@@ -3,7 +3,7 @@ layout: post
 title: 'Welcome to YDS!'
 author: Elliott Hindman
 tags: ['announcements']
-image: img/welcome-to-ghost.jpg
+image: img/posts/welcome-cover.jpg
 date: '2018-11-29T18:00:00.000Z'
 draft: false
 ---

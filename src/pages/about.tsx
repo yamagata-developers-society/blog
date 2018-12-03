@@ -8,6 +8,7 @@ import { PostFullHeader, PostFullTitle, NoImage, PostFull } from '../templates/p
 import { PostFullContent } from '../components/PostContent';
 import Footer from '../components/Footer';
 import Helmet from 'react-helmet';
+import config from '../website-config';
 
 const PageTemplate = css`
   .site-main {
@@ -33,7 +34,8 @@ const PageTemplate = css`
 const About: React.SFC = () => (
   <IndexLayout>
     <Helmet>
-      <title>About</title>
+      <title>About - {config.title}</title>
+      <meta name="description" content={`About - ${config.description}`} />
     </Helmet>
     <Wrapper className={`${PageTemplate}`}>
       <header className={`${SiteHeader} ${outer}`}>

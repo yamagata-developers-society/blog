@@ -6,15 +6,16 @@
   "author": "Scott Cooper <scttcper@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "npm run dev",
-    "dev": "gatsby develop",
     "clean": "rimraf public",
     "fullclean": "rimraf public && rimraf .cache",
+    "prestart": "npm run fullclean",
+    "start": "npm run dev",
+    "dev": "gatsby develop",
     "build": "gatsby build",
+    "predeploy": "npm run fullclean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "lint": "tslint -t stylish -p .",
     "lint:fix": "tslint -p tsconfig.json -t stylish --fix 'src/**/*.ts' 'test/**/*.ts'",
-    "predeploy": "npm run clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
