@@ -21,6 +21,7 @@ import {
   SiteTitle,
 } from '../styles/shared';
 import { PageContext } from '../templates/post';
+import favicon from '../favicon.ico';
 
 const HomePosts = css`
   @media (min-width: 795px) {
@@ -112,6 +113,7 @@ const IndexPage: React.SFC<IndexProps> = props => {
         <meta name="twitter:site" content={`@${config.twitter.split('https://twitter.com/')[0]}`} />
         <meta property="og:image:width" content={width} />
         <meta property="og:image:height" content={height} />
+        <link rel="shortcut icon" href={favicon} />;
       </Helmet>
       <Wrapper>
         <header
