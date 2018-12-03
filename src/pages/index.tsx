@@ -97,13 +97,13 @@ const IndexPage: React.SFC<IndexProps> = props => {
         <meta property="og:title" content={config.title} />
         <meta property="og:description" content={config.description} />
         <meta property="og:url" content={config.siteUrl} />
-        <meta property="og:image" content={props.data.header.childImageSharp.fluid.src} />
+        <meta property="og:image" content={props.data.social_bg.childImageSharp.fluid.src} />
         <meta property="article:publisher" content={config.facebook} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={config.title} />
         <meta name="twitter:description" content={config.description} />
         <meta name="twitter:url" content={config.siteUrl} />
-        <meta name="twitter:image" content={props.data.header.childImageSharp.fluid.src} />
+        <meta name="twitter:image" content={props.data.social_bg.childImageSharp.fluid.src} />
         <meta name="twitter:site" content={`@${config.twitter.split('https://twitter.com/')[0]}`} />
         <meta property="og:image:width" content={width} />
         <meta property="og:image:height" content={height} />
@@ -164,6 +164,15 @@ export const pageQuery = graphql`
       }
     }
     header: file(relativePath: { eq: "img/common/yds-cover.jpg" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fluid(maxWidth: 2000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    social_bg: file(relativePath: { eq: "img/common/yds-social-bg.jpg" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
