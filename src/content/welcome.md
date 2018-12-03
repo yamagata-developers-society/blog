@@ -2,7 +2,7 @@
 layout: post
 title: 'Welcome to YDS!'
 author: Elliott Hindman
-tags: ['announcements']
+tags: ['news']
 image: img/posts/welcome-cover.jpg
 date: '2018-11-29T18:00:00.000Z'
 draft: false
@@ -10,13 +10,13 @@ draft: false
 
 👋 Welcome, it's great to have you here.
 
-**YDS** is a community of developers, designers, project managers, business people and students all sharing knowledge.
-From novices to seasoned professionals -- we are people seriously interested in technology and design, and want to share what we know with the world.
+**YDS** is a community of developers, designers, project managers, business people and students -- all sharing knowledge.
+From novices to seasoned professionals, we are people seriously interested in technology and design, and want to share what we know with the world.
 
 **A few things you should know upfront**:
 
 1. **Beginners welcome!** We are all students and teachers at some point in our life, and each meetup is designed to be accessible to all levels.
-2. Technology and design are transformational. Not just technology and design, but technological and design **thinking**. The way you think about the world, shapes it!
+2. Technology and design are transformational. Not just technology and design, but technological and design **thinking**. The way you think about the world shapes it!
 3. No egos -- just fun! Those with passion and curiosity should join today!
 
 YDS is dedicated to learning and knowledge-sharing! We take the passion we have for technology and design to make a positive impact in Yamagata.

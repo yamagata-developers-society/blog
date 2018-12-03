@@ -76,6 +76,11 @@ export interface IndexProps {
         fluid: any;
       };
     };
+    social_bg: {
+      childImageSharp: {
+        fluid: any;
+      };
+    };
     allMarkdownRemark: {
       edges: {
         node: PageContext;
