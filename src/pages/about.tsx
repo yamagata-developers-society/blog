@@ -53,11 +53,12 @@ const About: React.SFC = () => (
             <div className="post-content">
               <div className={`responsive-iframe`}>
                 <iframe
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/AJnTCzvTwYg"
+                  src="https://player.vimeo.com/video/303992016"
+                  width="640"
+                  height="360"
                   frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  webkitallowfullscreen
+                  mozallowfullscreen
                   allowfullscreen
                 />
               </div>

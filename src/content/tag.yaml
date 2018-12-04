@@ -4,3 +4,6 @@
 - id: news
   description: Important announcements and updates
   image: img/tags/news-cover.jpg
+- id: quicktip
+  description: Tips and tricks to improve your dev process
+  image: img/common/blog-cover.jpg
