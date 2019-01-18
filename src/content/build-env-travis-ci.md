@@ -65,3 +65,7 @@ Travis CIの設定は、`.travis.yml`に記載していくことになります�
 [本家Docs](https://docs.travis-ci.com/user/apps/)に紹介がありますので、合わせてご確認いただくと、
 好みのものが見つかるかもしれません。。
 
+# 関連記事
+
+実際にTravis CIを使用した記事は[こちら](/dev-automation-and-ci-cd)です。
+こちらでは、設定ファイルである`.travis.yml`についても内容を触れているので、合わせてご確認ください。

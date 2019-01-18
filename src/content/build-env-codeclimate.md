@@ -50,3 +50,7 @@ Additional Requestも許可します。「Authorize codeclimate」を押下し�
 ![Reporter ID](img/posts/build-env-codeclimate/reporter_id_codeclimate.png)
 
 
+# 関連記事
+
+実際にTravis CIと連携して利用した記事は[こちら](/dev-automation-and-ci-cd)。
+合わせてご覧いただくと、CI環境構築に役立つかと思います。
