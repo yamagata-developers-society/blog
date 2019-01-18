@@ -7,3 +7,9 @@
 - id: quicktip
   description: Tips and tricks to improve your dev process
   image: img/common/blog-cover.jpg
+- id: meetup
+  description: Reports of 'Yamagata Developer's Meetup Night!'
+  image: img/common/blog-cover.jpg
+- id: tool
+  description: Useful tools
+  image: img/common/blog-cover.jpg
