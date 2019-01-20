@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 'CodeClimate 環境構築'
-author: Yoshihisa Sato (yosi-q)
+author: 'Yoshihisa Sato (yosi-q)'
 tags: ['tool', 'quicktip']
 image: img/posts/build-env-codeclimate/header-image.png
-date: '2019-01-18T18:00:00.000Z'
+date: '2019-01-18T19:00:00.000Z'
 draft: false
 ---
 
@@ -48,9 +48,3 @@ Additional Requestも許可します。「Authorize codeclimate」を押下し�
 その際、「TEST REPORTER ID」が必要となりますが、下図のオレンジ部分から取得できます。
 
 ![Reporter ID](img/posts/build-env-codeclimate/reporter_id_codeclimate.png)
-
-
-# 関連記事
-
-実際にTravis CIと連携して利用した記事は[こちら](/dev-automation-and-ci-cd)。
-合わせてご覧いただくと、CI環境構築に役立つかと思います。

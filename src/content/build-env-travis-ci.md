@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Travis CI 環境構築'
-author: Yoshihisa Sato (yosi-q)
+author: 'Yoshihisa Sato (yosi-q)'
 tags: ['tool', 'quicktip']
 image: img/posts/build-env-travis-ci/header-image.png
 date: '2019-01-18T18:00:00.000Z'
@@ -58,14 +58,8 @@ Travis CIの設定は、`.travis.yml`に記載していくことになります�
 
 詳細はTravis CLIの[本家ReadMe](https://github.com/travis-ci/travis.rb#readme)をご覧ください。
 
-
 # その他
 
 上記ではTravis CLIを紹介しましたが、他にもさまざまなツールが用意されています。
 [本家Docs](https://docs.travis-ci.com/user/apps/)に紹介がありますので、合わせてご確認いただくと、
 好みのものが見つかるかもしれません。。
-
-# 関連記事
-
-実際にTravis CIを使用した記事は[こちら](/dev-automation-and-ci-cd)です。
-こちらでは、設定ファイルである`.travis.yml`についても内容を触れているので、合わせてご確認ください。

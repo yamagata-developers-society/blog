@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'ソフトウェア開発における自動化とCI/CD'
-author: Yoshihisa Sato (yosi-q)
+author: 'Yoshihisa Sato (yosi-q)'
 tags: ['meetup', 'quicktip']
 image: img/posts/dev-automation-and-ci-cd/header-image.jpg
 date: '2019-01-18T21:00:00.000Z'
@@ -115,7 +115,6 @@ addons:
 
 解説により書きっぷりは色々あるようですが、要はChromeDriverを入れて、実行できるようにするのがポイントです。。
 
-
 ### CodeClimateでテストカバレッジ確認する方法
 Travis CI上で実行したテストを元に、CodeClimateでテストカバレッジを確認するように設定します。
 
@@ -146,7 +145,6 @@ require 'simplecov'
 SimpleCov.start
 ```
 ※Gemfileもsimplecovがenvironment「test」で使用されるよう追加しましょう。
-
 
 ### Heroku環境にデプロイする
 
@@ -183,6 +181,3 @@ Please add the following to your .travis.yml file:
 ```
 
 ※この内容については、Travis CIの[本家Docs](https://docs.travis-ci.com/user/deployment/heroku/)で詳細を知ることができます。
-
-
-
