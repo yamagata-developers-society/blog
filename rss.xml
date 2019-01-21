@@ -1,4 +1,686 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Dec 2018 01:53:56 GMT</lastBuildDate><item><title><![CDATA[Build an App with Electron.js]]></title><description><![CDATA[Build an App with  Electron.js “If you can build a website, you can build a desktop app. Electron is a framework for creating native…]]></description><link>https://yamagata-developers-society.github.io/blog/build-app-with-electronjs/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/build-app-with-electronjs/</guid><pubDate>Sat, 01 Dec 2018 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Build an App with &lt;a href=&quot;https://electronjs.org/&quot;&gt;Electron.js&lt;/a&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Mon, 21 Jan 2019 13:22:47 GMT</lastBuildDate><item><title><![CDATA[ソフトウェア開発における自動化とCI/CD]]></title><description><![CDATA[こんにちは、yosi-qです。 2019年1月12日に行われたYamagata Developer’s Meetup Night!で「ソフトウェア開発における自動化とCI/CD…]]></description><link>https://yamagata-developers-society.github.io/blog/dev-automation-and-ci-cd/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/dev-automation-and-ci-cd/</guid><pubDate>Fri, 18 Jan 2019 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、yosi-qです。&lt;/p&gt;
+&lt;p&gt;2019年1月12日に行われたYamagata Developer’s Meetup Night!で「ソフトウェア開発における自動化とCI/CD」というタイトルで、下記のようなショートプレゼンテーションをしました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;さまざまなツールでサポートされる自動化が、「ソフトウェア品質」と「開発の効率化」に寄与するか&lt;/li&gt;
+&lt;li&gt;「継続的インテグレーション(CI)」と「継続的デリバリー(CD)」の手法・考え方の紹介&lt;/li&gt;
+&lt;li&gt;CI/CDを含めたデモ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;諸事情により、ショートプレゼンテーションで使用した資料そのものの公開は控えますが、
+お見せしたデモについて、特に環境構築についてまとめたいと思います。&lt;/p&gt;
+&lt;h1&gt;デモ概要&lt;/h1&gt;
+&lt;h2&gt;環境概要&lt;/h2&gt;
+&lt;p&gt;構成する環境は下記の通りです。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/environment_overview-36ac9a6886ec5d261a34f16e78bb53cd-52694.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAAB8UlEQVQoz42RT2sTURTF5/sI1oULl67cCOI3cOfCrZ9Ci1BFCxYKtZUGVIRYFFTaaCE1FpNmEiozzZ+ZhMwkk8zMm/cyM+/NvPfuc0gbEXTh4be6cLjn3KsJTPLpTHGuAGS9pSoVZfWVUvF83tV/ZJ6nGONcAIg8z8Y2ng7nOEizPBNCatyb0vIenP4UOI5O3ej2vVC33Rk/M80vB5VXpVLHNBXIaSSRbqtvRwgrcXAIrpMDaMCobDaUaRJv6lsTtrYdWAPPD3x/dtbppJTmxUaWBUQZ+4dH609TDtXHT7q1WpFOI2RujfwkIX3bcifOKAx6Fj85ke12t93WG43G8fH3LBcRkkPXaZkmCsOmYXQtS3CuMQoTF1LKxmMfRwlGSaOOq1XiODPXHRmGMRwOis4ISbUQgPotDSREgSBIFqCAuw4Z2BMUxC291azXZXFIKWJCff/cBDmVoccAISWlpv6SWNCfTPRe3w6RgyNEgcwvFqeYj3uxckeKCy0fDeOdzWR3K9nZpJ8/sMon+r6cvnubfdzLy69Z6QXb3UrfvITYB8mWoS+ia7TzFT+4RB5dIasr5Nk18vw62b5LNm7hjZvR+g28uoIfXsZrV+P9O0ntvszIwro0K1Vcgi1JFxSTfMn5nEKGCoqH/1nwH53/X78AAYxWKOMauJEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;環境概要&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/environment_overview-36ac9a6886ec5d261a34f16e78bb53cd-52694.png&quot;
+        srcset=&quot;/blog/static/environment_overview-36ac9a6886ec5d261a34f16e78bb53cd-0b089.png 293w,
+/blog/static/environment_overview-36ac9a6886ec5d261a34f16e78bb53cd-7b018.png 585w,
+/blog/static/environment_overview-36ac9a6886ec5d261a34f16e78bb53cd-52694.png 960w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;デモ環境を構成する上で、下記が必要となります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHubへの登録（Travis CI、CodeClimateへの登録は、GitHubへの関連づけで実施します。）&lt;/li&gt;
+&lt;li&gt;Herokuへの登録&lt;/li&gt;
+&lt;li&gt;ローカルPCにRuby on Railsの開発環境(デモで使用したのはRails 5.1.6.1)&lt;/li&gt;
+&lt;li&gt;Slackへの登録（メッセージ送信を省く場合は不要）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;デモシナリオ&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;画面表示される文言の日本語化対応を行う&lt;/strong&gt;というものです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;[Local] 文言箇所のみを変更してGit commit/pushを行う&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[CI] テストNG（既存のテストコードにより、表示すべき文字が異なるため）&lt;/li&gt;
+&lt;li&gt;[CI] Slackで結果通知&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Local] テストコードを変更してGit commit/pushを行う&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[CI] テスト正常終了&lt;/li&gt;
+&lt;li&gt;[CI] テストカバレッジ、プログラム品質OK&lt;/li&gt;
+&lt;li&gt;[CI] Heroku上のStage環境にデプロイ&lt;/li&gt;
+&lt;li&gt;[CI] Slackで結果通知&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Heroku] Production環境へのデプロイ実施&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;なお、デモで使用したコードは、下記から&lt;a href=&quot;https://github.com/yosi-q/ydmsample-201901&quot;&gt;Githubに公開しています&lt;/a&gt;が、 scaffoldでサクッと作ったBlogです。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# rails new ydmsample-201901
+# cd ydmsample-201901
+# rails generate scaffold blog title:string body:text&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;自動テストについて&lt;/h2&gt;
+&lt;p&gt;デモの中でのテストはRailsに含まれるテスト機能を使用します。
+今回のシナリオでは、出力メッセージの変更程度の内容であるため、単体テストレベルでは検知させず、
+&lt;strong&gt;Rails 5.1以降に導入されたSystemTestCase&lt;/strong&gt;による、chromedriverをつかったテストで検知します。&lt;/p&gt;
+&lt;p&gt;テストコードもscaffoldが一緒に作ってくれます。便利！
+ただし、一部プログラムに追記/変更が必要な部分がありますので、後ほど触れていきたいと思います。&lt;/p&gt;
+&lt;h1&gt;環境構築&lt;/h1&gt;
+&lt;h2&gt;個別機能の環境構築&lt;/h2&gt;
+&lt;p&gt;個別の外部サービスの構築方法は他のブログ記事として公開していきたいと思います。
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;/blog/build-env-travis-ci&quot;&gt;Travis CI&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHubリポジトリに入っているソフトウェアのビルドやテストを行うCIツール&lt;/li&gt;
+&lt;li&gt;公開リポジトリは無料で使用可能&lt;/li&gt;
+&lt;li&gt;デモではビルド結果をHeroku上にデプロイするよう設定します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;/blog/build-env-codeclimate&quot;&gt;CodeClimate - Quality&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gitリポジトリやファイルの単位で、コード品質を測定するCIツール（Github以外のサポートもあり）&lt;/li&gt;
+&lt;li&gt;公開リポジトリは無料で使用可能&lt;/li&gt;
+&lt;li&gt;テストカバレッジの測定にも対応しており、デモではこちらも合わせて使います。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Heroku上のPipeline機能 (※作成後、リンクを設定します)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Herokuは作成したアプリケーションを実行するPaaS環境として使用&lt;/li&gt;
+&lt;li&gt;さらにPipeline機能を使用し、CD部分をカバーします（StageからProductionへのデプロイ）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;各ツールを連携される際の考慮点&lt;/h2&gt;
+&lt;p&gt;Travis CIを中心に何をさせるか、どう連携するかの部分で考慮すべき部分を挙げます。
+結局のところ、&lt;code class=&quot;language-text&quot;&gt;.travis.yml&lt;/code&gt;をどのように設定するかという話になります。&lt;/p&gt;
+&lt;p&gt;最終的にデモ環境で使用した&lt;code class=&quot;language-text&quot;&gt;.travis.yml&lt;/code&gt;は&lt;a href=&quot;https://github.com/yosi-q/ydmsample-201901/blob/master/.travis.yml&quot;&gt;こちら&lt;/a&gt;から確認できます。&lt;/p&gt;
+&lt;h3&gt;Travis CIでRailsのテストを実行させる&lt;/h3&gt;
+&lt;p&gt;Travis CIはDockerコンテナを使って環境を都度環境構築・テストを実行しますが、
+SystemTestCase実行時に使用するchromedriverは存在しないようです。
+chromedriverをインストールする作業ということで、&lt;code class=&quot;language-text&quot;&gt;.travis.yml&lt;/code&gt;には下記のような記述を追加します。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;before_install:
+  - wget http://chromedriver.storage.googleapis.com/2.34/chromedriver_linux64.zip
+  - unzip chromedriver_linux64.zip
+  - sudo apt-get install libnss3
+  - sudo apt-get --only-upgrade install google-chrome-stable
+  - sudo cp chromedriver /usr/local/bin/.
+  - sudo chmod +x /usr/local/bin/chromedriver
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+  - sleep 3
+addons:
+  sources: google-chrome
+  apt:
+    packages: google-chrome-stable&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;before_install&lt;/code&gt;で、ChromeDriverを入れ、実行権限＆実行環境を整える&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;addons&lt;/code&gt;で、Google Chromeの安定板を取り入れている&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;解説により書きっぷりは色々あるようですが、要はChromeDriverを入れて、実行できるようにするのがポイントです。。&lt;/p&gt;
+&lt;h3&gt;CodeClimateでテストカバレッジ確認する方法&lt;/h3&gt;
+&lt;p&gt;Travis CI上で実行したテストを元に、CodeClimateでテストカバレッジを確認するように設定します。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;.travis-ci.yml&lt;/code&gt;では下記のように設定します。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;env:
+  global:
+    - CC_TEST_REPORTER_ID=[CodeClimateのREPORTER IDを設定]
+before_install:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 &amp;gt; ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;env&lt;/code&gt;では、CodeClimateのREPORTER IDを環境変数として定義&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;before_install&lt;/code&gt;では、CodeClimateに実行結果を連携するためのツールを入れ、環境を整えている&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;after_script&lt;/code&gt;(テスト実行箇所である&lt;code class=&quot;language-text&quot;&gt;script&lt;/code&gt;が完了したあと)に結果を連携する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また、結果を取得するために、RoRのテストヘルパー&lt;code class=&quot;language-text&quot;&gt;test_helper.rb&lt;/code&gt;の冒頭に下記を追加します。
+（これを入れ忘れると、カバレッジはとれません）&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;ruby&quot;&gt;&lt;pre class=&quot;language-ruby&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;simplecov&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token constant&quot;&gt;SimpleCov&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;start&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;※Gemfileもsimplecovがenvironment「test」で使用されるよう追加しましょう。&lt;/p&gt;
+&lt;h3&gt;Heroku環境にデプロイする&lt;/h3&gt;
+&lt;p&gt;Herokuがもともと持っている連携機能でもデプロイは自動で動きますが、
+今回はTravis CIがデプロイを行うように設定しました。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;.travis-ci.yml&lt;/code&gt;で下記のように設定します。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;deploy:
+  provider: heroku
+  api_key:
+    secure: [API Keyの暗号化文字列]
+  app: ydmsample-201901-stage #リリース対象のdyno
+  on:
+    repo: yosi-q/ydmsample-201901 #取得元Repos
+  run:
+    - bundle exec rake db:migrate #デプロイ後に実行するコマンド&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;API Keyの暗号化には&lt;code class=&quot;language-text&quot;&gt;travis&lt;/code&gt;コマンドを使用します。（導入方法は&lt;a href=&quot;/blog/build-env-travis-ci&quot;&gt;Travis CIの導入記事&lt;/a&gt;をご覧ください）&lt;/p&gt;
+&lt;p&gt;下記のようにherokuのAuth Tokenもコマンドに含めると意識せずに暗号化文字列が取得できます。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# heroku login
+# travis login
+# travis encrypt $(heroku auth:token) -r yosi-q/ydmsample-201901
+ ›   Warning: token will expire MM/DD/YYYY
+ ›   Use heroku authorizations:create to generate a long-term token
+Please add the following to your .travis.yml file:
+
+  secure: [API Keyの暗号化文字列]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;※この内容については、Travis CIの&lt;a href=&quot;https://docs.travis-ci.com/user/deployment/heroku/&quot;&gt;本家Docs&lt;/a&gt;で詳細を知ることができます。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CodeClimate 環境構築]]></title><description><![CDATA[こんにちは、yosi-qです。 この記事では、CodeClimateのセットアップ方法について説明していきます。 CodeClimate環境構築 Code ClimateのQualityチェックを導入します。 Code Climate Quality…]]></description><link>https://yamagata-developers-society.github.io/blog/build-env-codeclimate/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/build-env-codeclimate/</guid><pubDate>Fri, 18 Jan 2019 19:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、yosi-qです。&lt;/p&gt;
+&lt;p&gt;この記事では、CodeClimateのセットアップ方法について説明していきます。&lt;/p&gt;
+&lt;h2&gt;CodeClimate環境構築&lt;/h2&gt;
+&lt;p&gt;Code ClimateのQualityチェックを導入します。&lt;/p&gt;
+&lt;p&gt;Code Climate Qualityのログイン画面 ( &lt;a href=&quot;https://codeclimate.com/login/github/join&quot;&gt;https://codeclimate.com/login/github/join&lt;/a&gt; ) で「Sign up with GitHub」でサインアップします。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/signup_codeclimate-f0eac0c4adccc2a1d750763ab137b558-3d6d0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 676px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 94.67455621301775%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAAB+UlEQVQ4y6VUPW/aUBT1v8kv6BypQ6NsGdpIXfkBbSQQC0s9dCDq0K4MVdohUTKklSJFkTqwNGorRcmCMMZQsLEdPoSCsR1R28+nfg+ewQEqQo90Zfv5vuNz7rvXQrPZRKvVgqZpoPej0QgUYRiuHIQQtkeWZQi268C9d+G64/B9P05aNYIgYISSJEHABCHWB1dYqVQgnNtVpmjWJh5hd9YyI9xSPyPdvsDVvfHo2i0k3G0dY7P5EWK3OJZPk7AaEReQINzRDvEiIlW9wZQwXK2iPC9B+Ez9hIO7a7YQhCROsiyLheM4GA6HsG0b/X6fXek6J5lTmDK+wCZ/kocSod1uQ1EUNBoN1Go11Ot19qyqKnu3yLJUidqm6PyO1c3aoBgMBjAMgynq9XrodDowTXOpZUWujvtwrm0idLtd6LrOgk4QVcaniZPy3GBC+O3mB4RlJ1YoFCCKIrLZLDKZDNLpNHK5HPZevcZ+Ph8rI5O9t76N1NmHMeHD/uM1LJVKKJfLrNh0TulVUmTohh7v4aV6W7vA1omYJHxYGzqjnuex+Q78AH70HEyTYjLJMvHkex7PT/PLFS7tRRLlkGRu6uoAG8U3ePn13bzCRR/416SQSOWR9gtPf77HNre8TiBMujBHFo6rl9Pf1/+A15JibYVzf5yI1PM9/AUMba0NoYjwJAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Sign up CodeClimate&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/signup_codeclimate-f0eac0c4adccc2a1d750763ab137b558-3d6d0.png&quot;
+        srcset=&quot;/blog/static/signup_codeclimate-f0eac0c4adccc2a1d750763ab137b558-da7f8.png 293w,
+/blog/static/signup_codeclimate-f0eac0c4adccc2a1d750763ab137b558-2f94f.png 585w,
+/blog/static/signup_codeclimate-f0eac0c4adccc2a1d750763ab137b558-3d6d0.png 676w&quot;
+        sizes=&quot;(max-width: 676px) 100vw, 676px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;「Authorize codeclimate」でGithubと紐付けます。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/auth_codeclimate-3c157a317eeac6869af5ffe0a123c47c-7b4a0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 472px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 109.32203389830508%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsSAAALEgHS3X78AAAC/klEQVQ4y32VyW7TUBSG8zwsQQiJBS/ABipUMTwCLJiW7FnyEggQqoQKHSid1VKgILoAKpK0SewMTuLZcTzbP+fcxlFTnF7lz72Oz/18huuTUhQnyBVG8cQcJwnSJIPiqCgbdfh+iNdv5zD/YRFBGE3Y5ipNB8YEjMFjrvIRz368QPmwinfz7/Hy1Rsc1eriHoNPQ0t8kSuHxUmKLAPoIxSnKcKMPI5TNNsdHNcawubsPlYpOkXPYbYzQL0hCS/qkgy52aZrGQ25CYnE10qvjyTNikMOo2jiaYOhh7bSHavXV9HqKOgSpNPtQWq2oGr6hJdjDxlG6RJKyICNUo63YIgUjFKR5t6dBUZxBts9huO20GwpaEgSavUG2u02WuoAv1tD/GoOIKkeVTymhyYEzYTOjvgk5AyuX4PnK9B1B4ZpinAMw0RXM7Hys4yF/UN8L0uwLBue5594O4Kehgsgf/X6JgEcOI4Ni4C2TbNlIaPqFoY+AhQCOV/r2zuoUVUlWcbfSgXV42OUq1XyVKOKk9cEN+khLhUrSROR4zRLJ8TQOD+HUwc7yLeTkVKcOzi/4hwaoQ0lUNELdXRD7VyxXdHvvNePQpTYg0cHz3Fh5TqurM/i8tqtsW7s3cfd/Se4ufcAs18f0vopbn97jKsbd3BpbWZsd3F1Btc276FmN7koKQ76f7Dc2Maa/Bmr8u5Yi5UNLJQ3sFTdwlJlk9brWD7awqq0O2H3Sd7BRvMLbN89P4dDcwhN0aB1NKgdFbqiY6APpqecOlOJu0VAsQdRNFIoFMYRvCCA6w3pVRzSwXfhDF2x5t/98H8xSwD53bWoITgD3kgA16Pj4o6vWUEYj+UHESksFIWc0Dmz0aUG0NcMOnsGNN1ET9XorbHFPZ5Pd5RpEh5yDk3bgWU7YqNpOVAJyFA24haVFHSVIgkgd5e20qO+1yKvdOpz7Kku1uzxgMLlv4KznX0qUOSEC1MgzonnB6R8PlkHU+wFsCgXeefmonD4umHRbAjx+rw8/gNyeoELmzCtEwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Auth CodeClimate and Github&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/auth_codeclimate-3c157a317eeac6869af5ffe0a123c47c-7b4a0.png&quot;
+        srcset=&quot;/blog/static/auth_codeclimate-3c157a317eeac6869af5ffe0a123c47c-e9ae0.png 293w,
+/blog/static/auth_codeclimate-3c157a317eeac6869af5ffe0a123c47c-7b4a0.png 472w&quot;
+        sizes=&quot;(max-width: 472px) 100vw, 472px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Additional Requestも許可しましょう。「Authorize codeclimate」を押下します。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/additionalrequest_codeclimate-8f2e0cfb6e91a98c05cb2873f5f4dd8e-9bccd.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 464px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 125.86206896551724%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAAACXBIWXMAAAsSAAALEgHS3X78AAADdElEQVQ4y42VS48TRxDH56MRQY655BqJEJQLhxyRAso1XyE5QRASLAiQQAuHHHLIRknEI5FYk6zXXq+9u/aMH/PwvHt6Hn+qanbMLLEhbf2myz3VNdXVXdWGzgs0ZDpf9Tn1eVGgyEvYsQcvDRDHKW7f2cKfz1+CG+s1cxqMZrCNyjQKMqYLDVTA9y9+wI97d/H6RQePHj/GzVu3EYTR6uNtjLwoeQ7KqmYl06NC3ex0CVfXHr755190COCdfgPbMrylj/HEhDmd4YT6iTWFRfLCdlayZc3hOh4mpgWTxhzXo/E5prO5zBvT+MSciteG6/no9Q9wdHxCjEU+HB7J5G6vj97BAPtEfzBEd78n/weHIwyGI+lHR8foHxwKjresl/x/W9Xqq/eWi2bJWZYhSkxy14VJbo8nE5yMx7BtG6abYjhXGMwU3CinmSVtVknxPUszlmnNu6yw8J7DD6aYTGZicDg6llidzDwcjB1h5gQtX9Y3ndMu69Mzp8m6UgrsMZOmKXSWnqrSSaiYStZarYE9ZFsG78zPv+zAdhy83t0lOtjtvCE62KdNqc9bvjmuVe11GEVIVVYf7DRVZ5QKjovEpiAlJSvgc7mZ8t2SM8oKe2FjsVjAIS/Z0+ar67zZxMqg0hmm9lzOnWBZtMwQUZwgTgjqWWZPOXc+ajDLNfKSlp0oQaWZGAkpdgmlWhzFiAge/1hb7TJ/uWzR/HSV14ASv9JIiwyKyCuqQkTeoqzKuji4iY/Pfr+CT369iAs7Xwnndy7h098u49Kra7j813V88fKqyF///R2+fPWtvGMd1mX53M5FfP7HNwgU5XKkEtzpPcHNvQe41X2En4SHIm91t7G1t417+09xn7jX5f7Zqd7Dld4NmrvV30aSKRjFB3LZsRzMx1RVjmfSM6EdbNTn42VwMeWdVpwpeSNTtpAcRKHghwGWgS99wAeY3qfkTRuZR7YMPt0R7WYQxkIYJQLLcZLKu5gOfqbr6qw4EWjOJsTDhe3CpqLJtZEL7tIPpLYxtruER//b98YmxEN+1IYCMWpTZZ7OKGvIUEFpxTWOWXf3tDljcESVmku4yWV9bsMig3O6AhZknJf938uoWGswbQz6QUgTFRLKBkFlK5mVVJafoj9Iqsiglvu3XBsTP4gojj5ciiuHgD1e0sfbd/j7d/pb1HhodeKqwhsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Auth Additional Request CodeClimate&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/additionalrequest_codeclimate-8f2e0cfb6e91a98c05cb2873f5f4dd8e-9bccd.png&quot;
+        srcset=&quot;/blog/static/additionalrequest_codeclimate-8f2e0cfb6e91a98c05cb2873f5f4dd8e-cc0c1.png 293w,
+/blog/static/additionalrequest_codeclimate-8f2e0cfb6e91a98c05cb2873f5f4dd8e-9bccd.png 464w&quot;
+        sizes=&quot;(max-width: 464px) 100vw, 464px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;次の画面が出れば登録完了。下部の「Next」を押下し、リポジトリ選択に進みます。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/done_signup_codeclimate-a930914feebdcb260b2546398f4f1f8c-8ef6a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 997px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 67.00100300902709%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABnklEQVQ4y5VTyU7DQAzNvyKxiBv0yBex9FA+gjPiBGob2iZp9qWTNHsfttNBVZEKjPRke+L37JlxDDN2YeUR/EbBqzfwqg1cgl8rBCfAOZzrkb+IPTiliw9nCuPi4wGM8/d7wdX0CdfzMW7MCUbmM0afA25NxkR8/sY5l9NH4VwQzqYPuHsdw2j6DhoddkgVVQ0DhGmMeJPCj0P4UUhxInvsB0kkdlPkaNETtyUm4BPPgF67wYRBAHM2h21Z8F0Pq+USy8UC9sqCYzvkL7F2HJhzE3EU77kDOY4iGDsKDtF11GnfY7vdQuU58qIQKKUEOe0VFHNeS2BOvxeMjgV5VVUlpCzLYDs2kiQRXwsxdMy5Q4MnBOu6luSmadC2LWbJGlmaSccswHs651+CbFt6qDdrJveapClSghb6t2BV1ehJ0M1CFHkhZN0hWz465/5JsCxLIcgxyWd7CC6or+BXQb47/ZrqG2qwtM/FdLc9TcPxg/4Q5HHQBEZZlWiLEt126JyPLKO1H5ljrqGDww/H6yUxBcP87/Q/gEMuLy72BYu44DwsZWe6AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Done sign up for CodeClimate&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/done_signup_codeclimate-a930914feebdcb260b2546398f4f1f8c-8ef6a.png&quot;
+        srcset=&quot;/blog/static/done_signup_codeclimate-a930914feebdcb260b2546398f4f1f8c-1204c.png 293w,
+/blog/static/done_signup_codeclimate-a930914feebdcb260b2546398f4f1f8c-5efee.png 585w,
+/blog/static/done_signup_codeclimate-a930914feebdcb260b2546398f4f1f8c-8ef6a.png 997w&quot;
+        sizes=&quot;(max-width: 997px) 100vw, 997px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;公開リポジトリは無料で使えますので、「Free for open source. Forever.」の「Add a repository」を押下します。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/add_repos_codeclimate-746ad062fb774be17f6c48404e2b3259-25adb.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 635px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 37.16535433070866%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAAA4ElEQVQoz51Ryw6CMBDk/z/Di4kXDx78AU9GYmKMCRcPhkcLtAU0CBY6siWiJGqim0xnu93uTrtOWZbwPA95nuOdGWPQtu1o/wlN08ChJY5jcM4RRRGCILBgjMH3/eGM/DAMobXGJ6PGju4KpkJYCCV7lgJKKQjRM6knllIiyzIURWGZYuSTOrJeYdcxZwkuSXeRC8uKp1ZVVVWo63qER4yYvot4VPByq7BI91gkeyzTA+bJDpvihH/MPvl8u2LKXUyZixnfYhKtscqOfYJpvw7hFYNC8zLB5ygB3Wib8CvuAd0eOIUhoD8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Add repos CodeClimate&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/add_repos_codeclimate-746ad062fb774be17f6c48404e2b3259-25adb.png&quot;
+        srcset=&quot;/blog/static/add_repos_codeclimate-746ad062fb774be17f6c48404e2b3259-8370b.png 293w,
+/blog/static/add_repos_codeclimate-746ad062fb774be17f6c48404e2b3259-ad3ea.png 585w,
+/blog/static/add_repos_codeclimate-746ad062fb774be17f6c48404e2b3259-25adb.png 635w&quot;
+        sizes=&quot;(max-width: 635px) 100vw, 635px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Additional Requestも許可します。「Authorize codeclimate」を押下します。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/repos_access_codeclimate-3e3488ed9b0e151cd21fc9159361cecc-9560a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 462px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 151.73160173160173%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAACXBIWXMAAAsSAAALEgHS3X78AAAEQElEQVRIx61W247bVBTNz/QDQHwDvA4tSEi8AEKAhmmHUgkhxAsSKt+AEPBApb6gikqU0grUdjrTATpxrpNMMrlMnEzujhPbsRNfsth7O3bnWhDiSMv7+GSf5X07Zyfhej4YM9fDwl9AnY5wrXIbq+UfUTL7siYjCEWhWMLb776P91Yvo37QkLXZ3EXEk+DHnMiYED7wafVnrOS/w1t7N7FGpEz0S/0R7jY24M8CfPLZ50hnsth6so0vvrwOP1jIfoYQRi9C6C1wpXwL6/u38CGRvVO8KYQ/FH/CjdJteLaP1fWrMC0Lu4UiPlhbB/HFhIzYwrkXWpgat/Bm8QYu5r/HplaVNXHXC13+7cFDPNx4jK+/+Rb3f39w2uXIVNuZwZnPsXAXMMgCm+ZMNnNd+dic40wbJZxkFbvK0RXvloRiIT/4x3anix0lhUx+l9zZw04yhVQ2h1q9gVQ6S3HLIU3vyVQaWdLZ/uMv/Pk0Kev1hhq7nohM5RdnNhfwF9miw3YHT5OKECipDJR0Bp1uL/RmqRvphzxelBT3WGAjQnNqQx8bFIIp9ImBMYEJPD+IsxrnIEoKkwUUdJ/ixTFZVl0sj74F5Jfnh5ZEZBG8KIYeFe7UOYRld8nFLlRVRYNi0m630dUslLszVAiqRglbHP/MycGkCbZsYu1hYtahaQa6vR56/QElqYNOX0OzpwvafR2uG2aZiU8iJmSXJxMLjjOHYRgwTVOk53lH3A0RbTxJxNL3Q7cTnIA8lclgqCFP2cxQaZRKZUypFuPNeP4IKAnWdBoScpDPi41P2WTl41icgeCZy5yx8XhCCWljMBiiPxiQ+8651pwVv2Mx5MfI0KG2WlLIfGI0bUSxtDAxTFhUg3wZMGzb+ecss4UBFlKszwrVpQKewTBDwpB0SifEOdO6YCnjGNq0URsOoGsajPEYvV4fuq7/N5e5upVSDY+SOWxmilD2qnTcxmLVWQTnfSQm5LLZyO/jV6WAu8ldPN6tRLc9uRL8a3BxxTH8v4bcNj6xNp0ucsY+CmZVULRqhCr2RNZOrYeoxcibFbRmXfhegAT797HyFS7ceRkv3b+EF++9ihfurcj80tZlvP5kHSubq3ht6wre2L6Ki5tr8hvrRHoX7ryCj5Tr0ioSfBqaRge5fgmF4X6M3UEZSTWHnUYWSjMPRc3LPN0qHNNj8N6m0ZaTJYV93ui3++i06FpTD9FpdtCluT7Qn1/YXDZci3PPPQXX95aXqSvFHs69eF10Iukvb2ybrq0pHSlb+oMb9wiHYNG69A2ac99mXQa3hqiv8D6eC2gudaiNxmg0D1E7UEUOhiM5arzebLVRrtQxHOliAcep3mhiv3qASo3RIF1bOidzJfgrrMiLE7oQDHNKl4Il73y+2UpeZ0QNiaVFVrIu67Fns7knMnH0f8lJjOm2kW63lEOymOcn9Y92vb8BgFnZ0MMWat4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Auth repos CodeClimate&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/repos_access_codeclimate-3e3488ed9b0e151cd21fc9159361cecc-9560a.png&quot;
+        srcset=&quot;/blog/static/repos_access_codeclimate-3e3488ed9b0e151cd21fc9159361cecc-be82b.png 293w,
+/blog/static/repos_access_codeclimate-3e3488ed9b0e151cd21fc9159361cecc-9560a.png 462w&quot;
+        sizes=&quot;(max-width: 462px) 100vw, 462px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;一覧に選択可能なリポジトリが表示されます。「Add Repo」を押下します。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/add_check_repos_codeclimate-030c0ce32bc284cdcc3b0c927ec7e3d5-8ef6a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 997px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 48.345035105315944%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABaklEQVQoz3WS607DMAyF+6qM2y8YbwUDJPYwiG2sLRcB2npbmqzN2qY72KGBboClT7Zjx8eN6i3yFO9ZhLSUUGYDURWIlUBWKqhmQ2hIQll+cllr27/Sa8Q0I9VL5HUBbzC9wmBGTC9x+DjC8fwGp/NbnAd3GAZjDMMxzijm/KKLj+fXOCLcvYOOk9kIniQVycpthUwrfIgES7lCvBaIyPMXROorX+QZ1TIsOvLma0vZwbGHniVRjMn9A8K5j7eXVzz5AWaTKULfx3MQIqBzJqRzf/YIU9XYN2+73dqgMQ2SJIEQAmmWQkoJkQubs0/T1MbcI5VEFMd0ntu7PMNhN2zbFlrrHcqyRFVVtsY0TYO6rq3fxy31PdAYY5WzjN6FVNnHtIFS6ruRh7EAewfnzM5At6ohpU23Gas6c/V9462Lovh7Qy6u6b9aVxobUua8P6j/Rn34y1zvr4GmNQS9V9fs3u4/tr2+/sBP70z2oRw7V8wAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Add repos CodeClimate&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/add_check_repos_codeclimate-030c0ce32bc284cdcc3b0c927ec7e3d5-8ef6a.png&quot;
+        srcset=&quot;/blog/static/add_check_repos_codeclimate-030c0ce32bc284cdcc3b0c927ec7e3d5-1204c.png 293w,
+/blog/static/add_check_repos_codeclimate-030c0ce32bc284cdcc3b0c927ec7e3d5-5efee.png 585w,
+/blog/static/add_check_repos_codeclimate-030c0ce32bc284cdcc3b0c927ec7e3d5-8ef6a.png 997w&quot;
+        sizes=&quot;(max-width: 997px) 100vw, 997px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;設定としてはここまでで、Quality Checkは実施されるようになりましたが、&lt;strong&gt;テストカバレッジはテスト実行結果を連携する必要があります。&lt;/strong&gt;
+その際、「TEST REPORTER ID」が必要となりますが、下図のオレンジ部分から取得できます。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/reporter_id_codeclimate-a16b1e1fac3cfa6226760612bffb134e-8ef6a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 997px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 67.80341023069208%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABsklEQVQ4y5VT22rcMBD1/39FoQ2BPvQ50Me+9CEQlhBK2sLSXYf1ZeP1RVdL8uloFG/c7SZpBw4aS6Mzc0bjLM9zbLdbRvQjNpsN1us1yqqElBJaayil/oAQgs+U0hDDI/qu5bhMDAP6vueAgfwUpCAJuXhELVoYbTg4whjDsU3ToOs6xjD0OBwOfC9zU0C0aZp49c7BWgs7jlBGw4cQD/l8idnS97OfdU6zE552By1RVRXqukZRFJzg+eJ5BEoawYRUApbWOoVDTzKoDbEFJlZ7BiMpmP2ZjAmv9t/wubnHznZHUk29iBeizdlfw9wCJryTO/xUNQZvkmRn0CvBhN55/I8x4XQi2XoHJzVLbts0CvYF2TPiy8+KMhtS08PTa8dqP1UrqlRTStr3/gj/BtKjLF4wWjMqfKf501R5FOwWmP5J8qKh0UbqnyjX6Pa/IHVBKGkeSwhavd1jCobn7qURWlSYJHuTwxYXcNVH+N0l3PY9XP4BPr9AeHgH1/+A59wTTos5K9nW9F+u7tDe3EJVe4zBH+cuVYazRH8ThrQpNznqL18hrldwRP5av079uP4G5ZpEkdRyHqsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Reporter ID&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/reporter_id_codeclimate-a16b1e1fac3cfa6226760612bffb134e-8ef6a.png&quot;
+        srcset=&quot;/blog/static/reporter_id_codeclimate-a16b1e1fac3cfa6226760612bffb134e-1204c.png 293w,
+/blog/static/reporter_id_codeclimate-a16b1e1fac3cfa6226760612bffb134e-5efee.png 585w,
+/blog/static/reporter_id_codeclimate-a16b1e1fac3cfa6226760612bffb134e-8ef6a.png 997w&quot;
+        sizes=&quot;(max-width: 997px) 100vw, 997px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Travis CI 環境構築]]></title><description><![CDATA[こんにちは、yosi-qです。 この記事では、Travis CIのセットアップ方法について説明していきます。 Travis CI環境構築 Travis CI(  https://travis-ci.com/  )の「Sign in with Github…]]></description><link>https://yamagata-developers-society.github.io/blog/build-env-travis-ci/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/build-env-travis-ci/</guid><pubDate>Fri, 18 Jan 2019 18:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、yosi-qです。&lt;/p&gt;
+&lt;p&gt;この記事では、Travis CIのセットアップ方法について説明していきます。&lt;/p&gt;
+&lt;h1&gt;Travis CI環境構築&lt;/h1&gt;
+&lt;p&gt;Travis CI( &lt;a href=&quot;https://travis-ci.com/&quot;&gt;https://travis-ci.com/&lt;/a&gt; )の「Sign in with Github」から登録します。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/regist_travis-ci-854124a8552fd190c94fa22bfe7e65e5-9077b.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 855px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 55.906432748538016%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABzUlEQVQoz31S2Y7UMBDM//GA4EuQ0H4dAoR44g2kYVlp2bmy2jk2hxPHt5OiuzMzOwgJR6Xuju1y9VGklND1PZxzghADjDUIIcwxWT7Da6LvvNifpgkqaOxshSb3WJVrFCllBE+XYjohI4YofiAbQkLk/2kURCLPZMfMcYaPEcY7pGnEtixRWB+hrEdrHBoCW2W8wAsZPRiyEKc4YqcrPDQl6l4j8T7v+TmDzWaLorcBj53Gqu2wVb34pdJYU6xdEMVMdibcqyNuD7/xY7+FDR7We8mE1SvVoXCkUFsn6EmdNu4S8168Iox0ydU1No8PuCuXqE2DIRiMY0bOlD6VrnCkcGgHWGVgyJrWkG+hmg6GyC+EcU7f0yNHVeOpalB1R9xX9+ipMbwsiShaq/GrWWNRLQW39QqLekl1HaT4F3VE5lwQcHrUAzx1B3xYfsG+PwAUW5qK4uvuO95+vsEbwutP7wWvPr7Dt8NCDrnwkral5rEfT9PQOY2fhzvUQ0vNSZSRRWGoqEf6UZlO8GyUgIv9V/1O6TLpMFiCEaU8NoOz4NJJynxwTBNynDGecE12TSr//ayWcX6ErTRFDsT0D86X/wd+xMskzIPPhH8Ab4NNRX7CsvEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Sign in with Github&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/regist_travis-ci-854124a8552fd190c94fa22bfe7e65e5-9077b.png&quot;
+        srcset=&quot;/blog/static/regist_travis-ci-854124a8552fd190c94fa22bfe7e65e5-d27ad.png 293w,
+/blog/static/regist_travis-ci-854124a8552fd190c94fa22bfe7e65e5-8dcd0.png 585w,
+/blog/static/regist_travis-ci-854124a8552fd190c94fa22bfe7e65e5-9077b.png 855w&quot;
+        sizes=&quot;(max-width: 855px) 100vw, 855px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;「Authorize travis-pro」でGithubと紐付けます。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/link_travis-ci-3aacdec81c4cd296fd828e8f0777075f-8184f.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 518px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 134.55598455598457%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAYAAAB836/YAAAACXBIWXMAAAsSAAALEgHS3X78AAAD0klEQVRIx61VW28bRRT2H+GFR6SC+AW8VOIBUSpeeOYiVQWBQLwhVUIqUilC4gUJqeINVahcpAYqJWlKIaFJ0yRN3Tq7tnOzHTvOrtfrXd927Z2d/ThnnN1uXMfqAyN9e2ZnZ858Z74zZzOBCJHGMBCIMGpCSAzoHRIKoYzgtDu48s23uPTlZRwZppo7GAbJ+kzsZGQDNaFeLWJz9RaCkJyFgNbcxfLhptqEnf10/Wfc+PV3fHXlamqteNbhYDhUi/6e+QXffX4BPb+n3q8XZnB5/XvVv/jJp2g2m8Re4IMLH6Ld7SnmEx2yFfTRa7lwdisQoVRjoYgUuM3OL+D2wl+K5Q/XflRjPoWcOOROjLRTXs4OFaRU35gJt77no9f3VD9eEyMzSRR2clCtYWMzC71QhJYvoLizq6ymF7Bffso+JpKIwgMDEkNhKJRiPNahs7E5dFLVcdvo9vrKxv143jgyrGxISjIkhxqNLJLkiSBpMCRGPM7gviA241AORRjRbja8gUmMHJimCcdpwXR91F2BRkeoTZ6nCWKVYWad3h7crg6zYaN2WMfRkYGqYaNitHFPq2Axt4OtUg0uhctHoXhH0QkkDjmf+EYISguv34fv+/A9DwPfg9frUohhonJ68aS+csgDD7M5bO/uo1arYUvToGk6its7pGiektjG8Djh45Z2FNtOp6vOMcPye5RX/mCQWkDCRJxjghgPEJBwk1iNjymG3N0rVWARk0qljEKBcq5YQNMyUko/dXAa0z4lumLIKcFVo9Pt0qG7aFhNNMw67EYZMhw+t0OOYiQKPViIPgnhEdqdDtptSl7aoEVpxIWAN5qk7DMqi2NRlpZXsXB3CaU9HbnsfeT1x9imq1atVimFjmBZ1qks4/EupZOIr17yQXISB6qayrG1cgo7mU4briB9Cs+iG2JzeI4Dx7bRpbC5hZKvnJwa7snEpsc/j3TcuLOCm0vruPnvBmYIvy2uoWQ0E3bT2gmHHPJqoYTZhxpuP8pjflNX9s+1J9ipm6OJdFvCSE4FV9BjhwH+r8YXIRNRcah4day0slh3t7Dm5hLw+wZhXSE3ZkfYaG9h1X2MYq+kyppKm6/1a3jhj9fw6vx5nJl7Ey/PncNLs2/g7OK7eOf+Zzi//BHO3buIt1c+xuuL76s5Z2ZHeGXuLbx46yzee/AFIiqFGfba8l3sOweouIeEWoJctYBsWcOTg7xCtqxDqxVRTs3hNSWnCrPXJIbqrydOPROb6mO9SvWxZsA4NGEZFlpWa3qBHaq/vlA/+XFwDsaQsaJSTpwbiJH9Dzz6+sqTb4ABAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Auth Travis-CI and Github&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/link_travis-ci-3aacdec81c4cd296fd828e8f0777075f-8184f.png&quot;
+        srcset=&quot;/blog/static/link_travis-ci-3aacdec81c4cd296fd828e8f0777075f-f9d09.png 293w,
+/blog/static/link_travis-ci-3aacdec81c4cd296fd828e8f0777075f-8184f.png 518w&quot;
+        sizes=&quot;(max-width: 518px) 100vw, 518px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;ユーザの画面に遷移したのち、画面の「Activate」ボタンを押下します。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/activate_on_travis-ci-f360e1cd7106dbce4fb67c88e6c4b42e-62173.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 534px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 62.546816479400746%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABgUlEQVQ4y6VTy07DQAzsT/IRnLhz4g/4HI4c+QNOIKVp835tkubVJB3GphuFUoEQkUb2endn7bGzcasaRT+gbRqYskQ/DCiKAiX90+n0Z2zSpkVNwnmaMB6Paifayfp/wDzP2BiSCbKuh2F2OW3Sdki7Dt04Qj55+bdPzihhTZIDUfU9SpJJtgXJKtqehPbgNdg9m50SlsagyHPUVQXxDfWrxDKWZ5lqKZpa5BIn0jSF4bmK9yQupKphwWCWZ0S+XMquEMllgcQtUV3X6st+w6Z+apjy1ZiEUYr9fg/f99VGUQTP8xAEwQK7L3GxHaVp21btQNmU8N24eM3e4JQelf0u9OX6pwYp4e3zA26e7nD/8oj/fkromwh7w5JMjI7p9+x2cy5DIOtLX8qTUm25h8NBrRJGQYSYCP1AtdntdnAcRzUT33VdtXZP1tvtVvW0Gn9piici+x7iJEFChGG4vCaZSFZiBessj/yTRs7peB7+peT1UK4Hdt2Aa81Yn1kP9wcvNO06x/VClQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Activate on Travis-CI&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/activate_on_travis-ci-f360e1cd7106dbce4fb67c88e6c4b42e-62173.png&quot;
+        srcset=&quot;/blog/static/activate_on_travis-ci-f360e1cd7106dbce4fb67c88e6c4b42e-03680.png 293w,
+/blog/static/activate_on_travis-ci-f360e1cd7106dbce4fb67c88e6c4b42e-62173.png 534w&quot;
+        sizes=&quot;(max-width: 534px) 100vw, 534px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;「Approve &amp;#x26; Install」ボタンを押下し、CI実行のトリガーとなるGithub上のリポジトリ参照ができるようにします。
+この時、リポジトリ選択をすることができます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All repositories: すべての公開リポジトリが対象&lt;/li&gt;
+&lt;li&gt;Only select repositories: 選択した公開リポジトリが対象&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/install_travis-ci-a55ecef9b82c8283c6669a8b1bf0f30b-c8d37.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 470px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 154.8936170212766%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAfCAYAAADnTu3OAAAACXBIWXMAAAsSAAALEgHS3X78AAAD6UlEQVRIx41WS4/bVBTOr2PLjiVI7BAbdrBkzS9AolKXrCoBlXhVQiodNGopDNNOJ82rGRLHefmV6+e1r/1xzrGdyYQkGkufzrk3vt89b6eTZDn+h1QjbvSI9MhUNUjnvbiRh9A5tMkHWqjc4PLVGf65/B2hKREn2UnSzikyPqwq4PHDb/DDg68RAoh2CA+RHidsXA8zDTdQcDYhFBPIb/oE4RHT25czXdTkeYGU9Pp33WD/nD5soSSDXHv9posXf13g+m0fr66ucdXtodsbQkXJ0Th2eDNKtBCIvl1reOTqcu0iUBEcL4Djb2TvTpz30El1jqqqQLFHWVY1qlo/9hSU7bwwgqKBobLKiKvDm4vFApPpFMvlErPZTPTVaoX5fC6Y0prB7/H6YnCDX16+wY8vXmNkr9kUhPFEiImwgOaApzlJA02B50SwnjV6xsnJiu06IV1RSDZxRoky5A1brRtCIquMg1JPYTKGhSJr9V1YMLpGSUAxB8xCZJnbpDsSArGw0u/g2r/Bs58idM7hL54J1PpcECzPCH808kz2dHgJ5H062wN0F1U+BhvXYRdUFCLXPky+IRmgIIkyAqp4B82a9isTojQKZXGLysS1yzHF7mqsMBpPqMYGuO72MRiNEcUpxVXXoBgyEiotji0/uzXQ6k1S6hfynAOfiSwKDj4TUd8mCZHHgjCMZE9IuNR2cEsoGU6xpDLhshBJ5WNzydBaE/H+0xLsr7eEJeXdXiyp/iwioVq057BmNiySGxUetGZf33G5kMVssUKfYnczsTC6mVBM/xW5cn258JCbh11uCE89+y4e+10IC2MQRZG4a1HbzdhVa1avSWZHknDCQmpsbnDDDW4kwy04ISzZZUMod3C7rkQy6dbltMgkq67rwfcDKEqE5/m4bzjuWKjpUJhFGAxHmFoWbMrs2nHEdS6bMAzhOK4gCAJ4vi+X8jshherOWGtdTvKESsUWC/mA67pyiElcz6OxthICBo+11WotcGit6MLNRklDGJqT4nKSp+j1B+gNBtR2I/SHQ/RJ5yLnDmHL2FKllEifLmXdp32HLmdDON4NYd16NCNpDFGQuVdp+lZFdbdh7/FskxKZBC5NGJ+mRlCEIhmJSSWLnFG+vSyP4zbL1Hqf/P0l3j//FB/++Tk+eP4ZPnr5Bd47+xhfXT9ANfXgDt8hN+aeFhLhk/EzPOr9jO/7T/Do7U/4rv8rvu0+xvn0ApGr4FIC4iSVCcSFntAwyegbzHE7WNjgcssb8HDRleyVmv/L0Pgi8BiLG8nlEkWxrPe/hp2Ub+JZmNPtIlvU+0XzudxF++lknd+pQQ1CXP8BfLRVauZRLz4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Install Travis-CI&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/install_travis-ci-a55ecef9b82c8283c6669a8b1bf0f30b-c8d37.png&quot;
+        srcset=&quot;/blog/static/install_travis-ci-a55ecef9b82c8283c6669a8b1bf0f30b-ef9e9.png 293w,
+/blog/static/install_travis-ci-a55ecef9b82c8283c6669a8b1bf0f30b-c8d37.png 470w&quot;
+        sizes=&quot;(max-width: 470px) 100vw, 470px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Travis CIへのリポジトリ参照が完了すると、下記の画面になります。
+対象のリポジトリの左側にある「Settings」を押下し、設定を確認します。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/repos_list_on_travis-ci-3e7cfd401e00b7f09a472c1e7da2e88d-ab202.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 538px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 37.17472118959108%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAAAtklEQVQoz5VR7Q6DIBDj/d9z/5YJIuNL6FqmiVnc4i6pJUjvWjAuZdz8Al8KwkL2HjFGTNM0WNV7vwwTSsX9GRFrRVtXNHJvDYUDqtZfhGc1GiY2kbs5FzjC5oxHSijtLeonohDCSOCcg7UW8zwPlgGT+VnYwBM7C5lDGp2euVtpQuJP6LxRTB0YvMWubFboVPv/RFaZTKEeQrYFR2jSMeIvqHTf0oqNrKrpDm1ecXL837ZHVKIXBAYnqmnVNcMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Repos list on Travis-CI&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/repos_list_on_travis-ci-3e7cfd401e00b7f09a472c1e7da2e88d-ab202.png&quot;
+        srcset=&quot;/blog/static/repos_list_on_travis-ci-3e7cfd401e00b7f09a472c1e7da2e88d-1089f.png 293w,
+/blog/static/repos_list_on_travis-ci-3e7cfd401e00b7f09a472c1e7da2e88d-ab202.png 538w&quot;
+        sizes=&quot;(max-width: 538px) 100vw, 538px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;「Build pushed branches」がON担っていることを確認しましょう。
+この設定がONになっていれば、GithubへPushされたタイミングでCIが起動します。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-97d5a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1170px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.82684973302822%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABHklEQVQoz4VTC0vGMAzs//+RfoIiKN17fbeLubpI129o4UgJzeWS25TWmqZpqhiGgcZxrJjnmbZto3Vd/8W+71yr6fXxQirGRN4HyjlXGGNoWZZKCIzcyBpHH/qdtPsknOMojOOCUkqFGr0lGzzFFGsixkgBCIGC92Q4Zs7nnDhmktMToi6lROoxvNG8LRRzJM9FX8aSd45V+0sxTsnlpxGjJ5SjqjJ+yFlKPPLMRJYJUVTOh31xS9ArVn1y4x2uDCgUNYK7XAuMrfrOdW/sGszBTtvuMA2F7pxAzGjrVTsCRoQJq4dJ6df5Fli8NLoz6EKI6LBDa6sKoL8DMp44+yehKBC0qnCXCDJ80LjL6PhJnhWexf1He+f00/5Z+TcJg1/vCaQnWQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Setting Travis-CI&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-a66a3.png&quot;
+        srcset=&quot;/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-65e34.png 293w,
+/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-8d594.png 585w,
+/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-a66a3.png 1170w,
+/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-97d5a.png 1311w&quot;
+        sizes=&quot;(max-width: 1170px) 100vw, 1170px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;以上で、Travis CIの設定は完了です。&lt;/p&gt;
+&lt;h1&gt;Travis CLI&lt;/h1&gt;
+&lt;p&gt;Travis CIの設定は、&lt;code class=&quot;language-text&quot;&gt;.travis.yml&lt;/code&gt;に記載していくことになります。
+外部アプリとの連携時に、パスワードなど一般公開したくないものには暗号化をかけたいものです。
+そんな時に、Travis CLIを使うと、そんな希望を叶えてもらえます。&lt;/p&gt;
+&lt;p&gt;Rubyで開発されているので、Rubyの実行環境が必要ですが、  下記で簡単にインストールできます。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# gem install travis&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;詳細はTravis CLIの&lt;a href=&quot;https://github.com/travis-ci/travis.rb#readme&quot;&gt;本家ReadMe&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;h1&gt;その他&lt;/h1&gt;
+&lt;p&gt;上記ではTravis CLIを紹介しましたが、他にもさまざまなツールが用意されています。
+&lt;a href=&quot;https://docs.travis-ci.com/user/apps/&quot;&gt;本家Docs&lt;/a&gt;に紹介がありますので、合わせてご確認いただくと、
+好みのものが見つかるかもしれません。。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Build an App with Electron.js]]></title><description><![CDATA[Build an App with  Electron.js “If you can build a website, you can build a desktop app. Electron is a framework for creating native…]]></description><link>https://yamagata-developers-society.github.io/blog/build-app-with-electronjs/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/build-app-with-electronjs/</guid><pubDate>Sat, 01 Dec 2018 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Build an App with &lt;a href=&quot;https://electronjs.org/&quot;&gt;Electron.js&lt;/a&gt;&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“If you can build a website, you can build a desktop app. Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS.”&lt;/p&gt;
 &lt;/blockquote&gt;
