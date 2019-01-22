@@ -48,7 +48,7 @@ draft: false
 
 + [Heroku] Production環境へのデプロイ実施
 
-なお、デモで使用したコードは、下記から[Githubに公開しています](https://github.com/yosi-q/ydmsample-201901)が、 scaffoldでサクッと作ったBlogです。
+なお、デモで使用したコードは、[Githubに公開しています](https://github.com/yosi-q/ydmsample-201901)が、内容としては、scaffoldでサクッと作ったBlogです。
 ```
 # rails new ydmsample-201901
 # cd ydmsample-201901
@@ -77,7 +77,7 @@ draft: false
   - Gitリポジトリやファイルの単位で、コード品質を測定するCIツール（Github以外のサポートもあり）
   - 公開リポジトリは無料で使用可能
   - テストカバレッジの測定にも対応しており、デモではこちらも合わせて使います。
-- Heroku上のPipeline機能 (※作成後、リンクを設定します)
+- [Heroku上のPipeline機能](/build-env-heroku-pipeline)
   - Herokuは作成したアプリケーションを実行するPaaS環境として使用
   - さらにPipeline機能を使用し、CD部分をカバーします（StageからProductionへのデプロイ）
 
@@ -150,6 +150,7 @@ SimpleCov.start
 
 Herokuがもともと持っている連携機能でもデプロイは自動で動きますが、
 今回はTravis CIがデプロイを行うように設定しました。
+デプロイ先はStagingを対象にし、Productionへは「Promote」ボタンにより移行します。
 
 `.travis-ci.yml`で下記のように設定します。
 
