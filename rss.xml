@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Mon, 21 Jan 2019 13:22:47 GMT</lastBuildDate><item><title><![CDATA[ソフトウェア開発における自動化とCI/CD]]></title><description><![CDATA[こんにちは、yosi-qです。 2019年1月12日に行われたYamagata Developer’s Meetup Night!で「ソフトウェア開発における自動化とCI/CD…]]></description><link>https://yamagata-developers-society.github.io/blog/dev-automation-and-ci-cd/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/dev-automation-and-ci-cd/</guid><pubDate>Fri, 18 Jan 2019 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、yosi-qです。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Tue, 22 Jan 2019 13:06:47 GMT</lastBuildDate><item><title><![CDATA[ソフトウェア開発における自動化とCI/CD]]></title><description><![CDATA[こんにちは、yosi-qです。 2019年1月12日に行われたYamagata Developer’s Meetup Night!で「ソフトウェア開発における自動化とCI/CD…]]></description><link>https://yamagata-developers-society.github.io/blog/dev-automation-and-ci-cd/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/dev-automation-and-ci-cd/</guid><pubDate>Fri, 18 Jan 2019 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、yosi-qです。&lt;/p&gt;
 &lt;p&gt;2019年1月12日に行われたYamagata Developer’s Meetup Night!で「ソフトウェア開発における自動化とCI/CD」というタイトルで、下記のようなショートプレゼンテーションをしました。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;さまざまなツールでサポートされる自動化が、「ソフトウェア品質」と「開発の効率化」に寄与するか&lt;/li&gt;
@@ -73,7 +73,7 @@
 &lt;p&gt;[Heroku] Production環境へのデプロイ実施&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;なお、デモで使用したコードは、下記から&lt;a href=&quot;https://github.com/yosi-q/ydmsample-201901&quot;&gt;Githubに公開しています&lt;/a&gt;が、 scaffoldでサクッと作ったBlogです。&lt;/p&gt;
+&lt;p&gt;なお、デモで使用したコードは、&lt;a href=&quot;https://github.com/yosi-q/ydmsample-201901&quot;&gt;Githubに公開しています&lt;/a&gt;が、内容としては、scaffoldでサクッと作ったBlogです。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# rails new ydmsample-201901
 # cd ydmsample-201901
 # rails generate scaffold blog title:string body:text&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -105,7 +105,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Heroku上のPipeline機能 (※作成後、リンクを設定します)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/blog/build-env-heroku-pipeline&quot;&gt;Heroku上のPipeline機能&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Herokuは作成したアプリケーションを実行するPaaS環境として使用&lt;/li&gt;
 &lt;li&gt;さらにPipeline機能を使用し、CD部分をカバーします（StageからProductionへのデプロイ）&lt;/li&gt;
@@ -164,7 +164,8 @@ after_script:
 &lt;p&gt;※Gemfileもsimplecovがenvironment「test」で使用されるよう追加しましょう。&lt;/p&gt;
 &lt;h3&gt;Heroku環境にデプロイする&lt;/h3&gt;
 &lt;p&gt;Herokuがもともと持っている連携機能でもデプロイは自動で動きますが、
-今回はTravis CIがデプロイを行うように設定しました。&lt;/p&gt;
+今回はTravis CIがデプロイを行うように設定しました。
+デプロイ先はStagingを対象にし、Productionへは「Promote」ボタンにより移行します。&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;.travis-ci.yml&lt;/code&gt;で下記のように設定します。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;deploy:
   provider: heroku
@@ -185,7 +186,342 @@ after_script:
 Please add the following to your .travis.yml file:
 
   secure: [API Keyの暗号化文字列]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;※この内容については、Travis CIの&lt;a href=&quot;https://docs.travis-ci.com/user/deployment/heroku/&quot;&gt;本家Docs&lt;/a&gt;で詳細を知ることができます。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CodeClimate 環境構築]]></title><description><![CDATA[こんにちは、yosi-qです。 この記事では、CodeClimateのセットアップ方法について説明していきます。 CodeClimate環境構築 Code ClimateのQualityチェックを導入します。 Code Climate Quality…]]></description><link>https://yamagata-developers-society.github.io/blog/build-env-codeclimate/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/build-env-codeclimate/</guid><pubDate>Fri, 18 Jan 2019 19:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、yosi-qです。&lt;/p&gt;
+&lt;p&gt;※この内容については、Travis CIの&lt;a href=&quot;https://docs.travis-ci.com/user/deployment/heroku/&quot;&gt;本家Docs&lt;/a&gt;で詳細を知ることができます。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Heroku Pipeline 環境構築]]></title><description><![CDATA[こんにちは、yosi-qです。 この記事では、Heroku Pipelineのセットアップ方法について説明していきます。 そもそもPipelineとは？ 公式のDocs の冒頭では、下記のように挙げられています。（意訳） Pipeline…]]></description><link>https://yamagata-developers-society.github.io/blog/build-env-heroku-pipeline/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/build-env-heroku-pipeline/</guid><pubDate>Fri, 18 Jan 2019 20:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、yosi-qです。&lt;/p&gt;
+&lt;p&gt;この記事では、Heroku Pipelineのセットアップ方法について説明していきます。&lt;/p&gt;
+&lt;h2&gt;そもそもPipelineとは？&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://devcenter.heroku.com/articles/pipelines&quot;&gt;公式のDocs&lt;/a&gt;の冒頭では、下記のように挙げられています。（意訳）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Pipelineは、同じコードベースを共有しているHeroku appsのグループです。Pipelineと&gt; 関連づけられたそれぞれのappは、継続的デリバリー(CD)のワークフローにおける下記のステ&gt; ージに位置付けられます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Development&lt;/li&gt;
+&lt;li&gt;Review&lt;/li&gt;
+&lt;li&gt;Staging&lt;/li&gt;
+&lt;li&gt;Production&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;つまるところ、CDの各ステージにおける実行環境を作れると考えてもらえればよいのかなと思います。
+特に、環境感のアプリケーション移行の点で力を発揮してくれます。&lt;/p&gt;
+&lt;h2&gt;Heroku Pipeline環境構築&lt;/h2&gt;
+&lt;p&gt;まずはHeroku Pipelineを作ってみましょう。&lt;/p&gt;
+&lt;p&gt;Herokuのホーム画面で、 New &gt; Create New Pipeline をクリックします。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/create_heroku_pipeline-c80c180b8de44b203733a3a2b69b5af5-f7a2a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 785px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 22.29299363057325%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAAqUlEQVQY023PwQ7CIBRE0f7/17m2pis1VmvlgRQo0CtUjcZIcsKCeTA0Y39HXSx6dKSYSSnjfcT9EyJzTKswJ2LJppwJeUG7mV4mmv4gnPaK4WxQtwkRh/ql3zzKfIidERe5iudSCg1lvjE1NFrqXpuF0rK+vgrf4sq/1HOtDFY0ehBuxytGlQutCUzWl/p1IKxyfn5lWZb/KKvkx80GtW3Ru5Z71xG7lgdONjXe16QBgAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Create New Pipeline&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/create_heroku_pipeline-c80c180b8de44b203733a3a2b69b5af5-f7a2a.png&quot;
+        srcset=&quot;/blog/static/create_heroku_pipeline-c80c180b8de44b203733a3a2b69b5af5-5fe40.png 293w,
+/blog/static/create_heroku_pipeline-c80c180b8de44b203733a3a2b69b5af5-86509.png 585w,
+/blog/static/create_heroku_pipeline-c80c180b8de44b203733a3a2b69b5af5-f7a2a.png 785w&quot;
+        sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Pipelineの名前を指定します。「Pipeline name」に名前を指定しましょう。
+名前を指定したら、「Create Pipeline」ボタンでPipelineを作成します。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/create_heroku_pipeline_setting-6a2725eaf2aed62556a4f9ba29fbce61-f7a2a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 785px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 83.69426751592357%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAACI0lEQVQ4y5WT2ZLTMBBF8/9/wT/AO0XxxrA+BHgYQkGWieN41WbZ8uW2ZGccJkDh1KmOLel2t7p7VWYK1UmjKQyGPmAYArquh5vougGdf8RzT889sw1hRE8U9+W1waqgWJGTs0ZdWzSkWlCUGvm5RV6Qks5bd6FWHWqdKAV+Wzl6Fbo+2RjVZB29Nq0IlpGirOFcD0tmaxfvcmYlIQuDZwoUkrTFYsR/PeNIHbKaX05ZhYdDgexY4rA/M90WrTYxQqFVBm1roGiNdTDGMbIO2tj4LhryXARlURZkg+s8tLZJZEJrrikHZ30snJdsaHteVT8MTwUbpaGM4WUr/Hw4wTgXN7COzH6Mdv4NI8XG2Q5XaUfBwMVDccQ22+PHccf/OSrbQHn9T0xvsFMHaNpLhCKY1xVOVQlltfiSOCI+eHTD3xGxIaRIV3PuTcMeY1scTgU+3m/x6dsWH2hrZVPq7ITxFmNaE6YIx5j7jFywZVEEQ+Q9HQg3mQuzEEyXWXEiSk7EOath2RLe95HFjU922XxPe/EimOep96RtEo5VtzHCIYR4NmYxZRRCqv75QWHzOYPl6D0WheHud3tUVcMR8gmmKz237L84XrSeIyZO5Fm/2eHFs7c4H5tJcJw9A5N/zjXv0LLRVUJz6AWjkhXRObObKUuEX+8OePdyg9fP19h/L24e+P1wZKrw1aTIh836hC93O7x/dY9sV6VD4boDlvzJyS+vdi9zKpOimgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Create New Pipeline Setting&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/create_heroku_pipeline_setting-6a2725eaf2aed62556a4f9ba29fbce61-f7a2a.png&quot;
+        srcset=&quot;/blog/static/create_heroku_pipeline_setting-6a2725eaf2aed62556a4f9ba29fbce61-5fe40.png 293w,
+/blog/static/create_heroku_pipeline_setting-6a2725eaf2aed62556a4f9ba29fbce61-86509.png 585w,
+/blog/static/create_heroku_pipeline_setting-6a2725eaf2aed62556a4f9ba29fbce61-f7a2a.png 785w&quot;
+        sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+（Githubとの連携については、別の章で触れるとして、ここでは割愛します。）&lt;/p&gt;
+&lt;p&gt;Pipelineが出来上がると、下記の画面が表示されます。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/pipeline_created_at_first-aa350c5232d915822879ae5d50a3cbac-f7a2a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 785px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 54.52229299363057%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABmUlEQVQoz32SW2/UQAyF5///LB6RKiRA5YGWFxbokt3M/Z7kcDxptC1UjPTJE8fjOWNbmSnCXhKCKViXDeu6obUFpfY3aX1FX1baZdgRT3zpmFyGOp8sfv9yeKK9Xjzm2eNy9dAmwdi84w4KjL9hQ4WNO3MouNgEpa9UyENPPwymyeCqLWbtkHJ7W2V5TWZczh2RSY2NUFV+pAZZG1kovy8bXq7tP/y9VGsdejYwmhhLtaJQw/sAZ/2wIUYqSEgp0UYqyhAhwunrjMfPZ3y5O+H7wwTVWVxr3UimmUj2Yr0L8HxCSoVNaqi1QS6vsieBNU2s2+PHM+7fn/Dh3Tc8fPoJ5UKG9Zkq06hlqcszfdhMFZElcTyseYFlouvkqbqOmL6x00e5tg0ql8YGVD6lUE2FfA/oE+Tf/r3HpZe+4yzPyVlppKq8xYtKF2kT6+cHzkeSBvW5wyHucdqGV4hP4iRGSeuljgdW81lzHPU6fMfIrBzkhRQq05xVM4exX8aAr6wtE6bxlBu3p/zrLwdMHllTYZ/H3S8xfwCdb1UvgKLkkAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Created View&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/pipeline_created_at_first-aa350c5232d915822879ae5d50a3cbac-f7a2a.png&quot;
+        srcset=&quot;/blog/static/pipeline_created_at_first-aa350c5232d915822879ae5d50a3cbac-5fe40.png 293w,
+/blog/static/pipeline_created_at_first-aa350c5232d915822879ae5d50a3cbac-86509.png 585w,
+/blog/static/pipeline_created_at_first-aa350c5232d915822879ae5d50a3cbac-f7a2a.png 785w&quot;
+        sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;次に、各環境にappを設定します。&lt;/p&gt;
+&lt;p&gt;まずはStageから。
+「Add app…」ボタンを押すと、入力フィールドが出ます。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/set_stage_app-9b8709192b9838b5f732e65c7e342c67-f7a2a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 785px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 60.509554140127385%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABnklEQVQoz3WSy27bMBBF+f+/k3VRZFMURYsGCJBFkaKLGE1jWw+KL5EWdXuHlKVGqGUcUzMaXs6Dqjs69CcH24/I04ycZ8Q0YYyX/5IueWHClHON574hJBx1gHo7aBxfB7weepxPBk1jcCZd79EzYGUQRvRmQ9sI7Sot7WbwUF3robnh7bfG+azRdJpiBmFMzOhGpuM/K4l8tyIsgolGoDHzl+e5lCLMLCVPGdNUy5pRn3Vl7DsWv7JuhDEV51I5WbLL2IIycT4upBIbSpbXCrZKlKFgpy1Oxx4NS7Y+wLI3j58P+PLhJ+7vnvD90y/4mND2lu3xaBvLwyM8B+FDPciTQFtJNtYFGOvYA0sxz48JPx7+UPQFXz8+4+nbCyc6lzhteCsGwZZEOjmEtrGhZih/YkhDjQiTQUQjT0yRV+JSypfm51x7GpiV7ijCPSMzn5Zer4KRzjJV0rW2UEuIGEP1y3eZZkx1qgNLd+zl1ZZVYtQauGB436wJ73wSU/u1IUMR9n7ld84gAvFyU2AvtPervfNW4Eba1mtcSKv/Lxjmo2UMie0iAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Set Stage App&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/set_stage_app-9b8709192b9838b5f732e65c7e342c67-f7a2a.png&quot;
+        srcset=&quot;/blog/static/set_stage_app-9b8709192b9838b5f732e65c7e342c67-5fe40.png 293w,
+/blog/static/set_stage_app-9b8709192b9838b5f732e65c7e342c67-86509.png 585w,
+/blog/static/set_stage_app-9b8709192b9838b5f732e65c7e342c67-f7a2a.png 785w&quot;
+        sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+既存のAppを割り当てる場合は、既存のAPPの名前を入力すると指定できます。
+新規作成する場合は、「Create new app…」ボタンを押すと、右側に作成用のViewが現れ、流れで作成ができます。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/create_new_stage_app-d51e40db22fe3125224a9e62cd6a4a7d-f7a2a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 785px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 60.38216560509554%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAACPUlEQVQoz2VS226bQBTk/3+ifW37kjZVI7VKI6V9imPFYHMzYC524tgGHDAsLLfp2XVcuSnSaC/szp6ZOYo6WUBTF9D1AK7/KDH3VrDc5T8wnQis4hBf03bIDyWBoSgr9P2ArhvAmxbK+N7BeOxidDfHg+piMvXwoHnQdJ8QQDOOUGmdvOTIihK8bSUqziUamnddj55IFW3qY0YXxmOHiBxMZg5ddmFRRTZVdoLlLLFJYzxv19glG2zjZxzqAqyrwNoKOxZjVyVQ5uKwHcILH+EFJHexIslLeK/yXX8lR/Fvm++wzlZYpoEckzoBH2p0Q4eKiHnHoehWiJkZQDdDGHYkKxHVeeETvOgJi+UaLs11ejTZ54hJdlFzpCQ9yQukeYmat1Ku8FERBzWDfFNJLkk27AAGPfL9coIvH+7w8f0vfLsYUTAR4jTHLj1gE2dwVlvY0TMsQvxSoGAcJYWmiGp024duLTA1PRp9mPMItz91XF+puPp8j5sfKhySvt9nyAhJ+oKOgjj/hmGQaSu2eyScmtQ6VJ2Yz4jc8kJYixBzn+RHj9KGsmBoKgqBMVQVedf3Mt3T2BIUmaJH3rmhhEZtI2DOae0cIR4V64x670B9V9X8b1US/StorrxtD10GFLxpmUjakOyP/qWZIK6lb4w3qKihGaEWjS1SFYdPOKb8/55B4TFWS5+apiN5HVjJsXs6EHKsoz2S7QHKOck50fneibAkwo7IsrSU8jZhhptPBm4vDFy+G+H3Vx1/AJXJc1WSvRyJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Create Stage New App&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/create_new_stage_app-d51e40db22fe3125224a9e62cd6a4a7d-f7a2a.png&quot;
+        srcset=&quot;/blog/static/create_new_stage_app-d51e40db22fe3125224a9e62cd6a4a7d-5fe40.png 293w,
+/blog/static/create_new_stage_app-d51e40db22fe3125224a9e62cd6a4a7d-86509.png 585w,
+/blog/static/create_new_stage_app-d51e40db22fe3125224a9e62cd6a4a7d-f7a2a.png 785w&quot;
+        sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+当然「App name」がavailableなことを確認して、「Create App」ボタンを押すと作成できます。
+設定が済むと、こんな感じです。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/added_stage_app-7589749dcd0b6105bf1da70f6bb71e9f-f7a2a.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 785px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 60.25477707006369%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABYUlEQVQoz51SCW7DMAzL/785DMV6JL7vhKOPNl3TYcASEI5liyKlTPOXgbhYGBGwlg3ruiGmghByR8zwXH3s3ymvAwW5rP0+85RLOEuH6etT4nxSOH0IXC8at5vG9aqxCAchPZZnKA+hAoTukCY2CBtx4/6mSChmB8WL55MkmcS8SCbrpqoppao41P2GGAusi1CahKlaYoWN77ptzUpFfTbud6DHgDdn+/lkbCCzh5IBlsSB1ZxPvW9PMFSgbb9THflwVFpjk6L3ZTZYFvZt1jDW8TA9lFa71U4tLHVtj2v3K3Et7Hxs53X1IWHSbPJ8Udx4GGOZoEmSOL0VhUgpwzEhcjXWk9RyMKZhkYQwkMpCG9dUTl16GdbKsJxH9R1V6crfpBCeauRCEtXdlBFvhK+JvX8/e3iPxTHxCsXfyrD38THp3C2/IzwWOCr2Mb+NT3sw/0n6qvoYHwrvm9ek/+AbF+SnIEJa1t0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Added Stage App&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/added_stage_app-7589749dcd0b6105bf1da70f6bb71e9f-f7a2a.png&quot;
+        srcset=&quot;/blog/static/added_stage_app-7589749dcd0b6105bf1da70f6bb71e9f-5fe40.png 293w,
+/blog/static/added_stage_app-7589749dcd0b6105bf1da70f6bb71e9f-86509.png 585w,
+/blog/static/added_stage_app-7589749dcd0b6105bf1da70f6bb71e9f-f7a2a.png 785w&quot;
+        sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;同様にProductionも設定します。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 830px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 41.445783132530124%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABGUlEQVQoz42SWW7DMAxEdf9rFkXaxpa17/Z0qGwNko8aeDAlU9QMaWXOEULyFft+4CCtDZTSUeozlfut73cGc4VOXG5YfYb6/rT4OTmcPgzWxWNdPbQOMDY/sTm+XYHxD2yoF2KF5np1CcroBMcDy4+D3hzWzcL5OBWIov8gjnJpCLFANbGTGnYc03JtnTa4Ori+crxhfxsDyoUMS6l6iXC0VOpAYj/+ElOF5BmfYMW+ji85E6pUXvrChFwKD+ZJ7wNj7JPbgOzGYoZ5uSCENJ2II8nZr4PMLKoim7mcOJCzwflr40E/5d8fxnKB41CsjfAh0lGgoso+j1n4dqmoVNJMqRw5qRgvcebHG/K7PGJp/ri++4tl2fsFM2RvewDRwnEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Added Production App&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png&quot;
+        srcset=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-60c5b.png 293w,
+/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-7c836.png 585w,
+/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png 830w&quot;
+        sizes=&quot;(max-width: 830px) 100vw, 830px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Appの名前をクリックすれば、HerokuのAppの設定画面へ。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/app_setting_view-9adcfd9c53cb5ed67b82fc5ac1b127a7-18e02.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1135px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.44493392070484%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABdklEQVQoz4VS2XKDMAzk//+ynUlLCIfxIdvYoK5ESOChrWd25ENer1ZuxtazeQSOtHCKhVPaQVj7kDlQZi9zgCKAsyg5S73AYW9wiZu+8zyNgWdD3LWWzURsMB+HoPNRzuaoZIGeiG9YkEietZGdEGYwL7lyqSuXUnlZsNZYNR5727bxechS9tZVsOpc0MSU8XriYbL8dR94PV0UsgQVtawsec4TB8SYsVerEr1yIUAAQsgOkWckd8PMPYj7yfFgHFsfFRkK5VHjiD/w6K2f4DFB+fJUuyvdgGYpBV4g2QaeZq9KSFTgIUJDAhpTYYcQOjz82Y383RuOMb4UarkSgYYiSgnEdyTd2kHVHBDvhDTnopcroL6i3MOzq6+qsOJLJKjMqlBKfow7ZpSoJaOK38aZWAmlFOuCGq4+bG9IUwglL7lcLv+FRkoTdRaEIxSKysl6NCmoZ3ImOQfhf+NF6MJuusDMgdsvo3NCc8SWs4rj7+3xuv4BV1hcR9G+iqQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;App Setting&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/app_setting_view-9adcfd9c53cb5ed67b82fc5ac1b127a7-18e02.png&quot;
+        srcset=&quot;/blog/static/app_setting_view-9adcfd9c53cb5ed67b82fc5ac1b127a7-a9965.png 293w,
+/blog/static/app_setting_view-9adcfd9c53cb5ed67b82fc5ac1b127a7-28ef1.png 585w,
+/blog/static/app_setting_view-9adcfd9c53cb5ed67b82fc5ac1b127a7-18e02.png 1135w&quot;
+        sizes=&quot;(max-width: 1135px) 100vw, 1135px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+あとは通常のApp設定と同様、Add onをつけたりすれば良い感じです。&lt;/p&gt;
+&lt;p&gt;実際に動くコードが配置されていれば、Pipelineの「Promote to xxx…」(xxxはステージ。この場合はproduction＝本番出し)を押すことで、速やかにProductionへデプロイが行われます。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 830px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 41.445783132530124%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABGUlEQVQoz42SWW7DMAxEdf9rFkXaxpa17/Z0qGwNko8aeDAlU9QMaWXOEULyFft+4CCtDZTSUeozlfut73cGc4VOXG5YfYb6/rT4OTmcPgzWxWNdPbQOMDY/sTm+XYHxD2yoF2KF5np1CcroBMcDy4+D3hzWzcL5OBWIov8gjnJpCLFANbGTGnYc03JtnTa4Ori+crxhfxsDyoUMS6l6iXC0VOpAYj/+ElOF5BmfYMW+ji85E6pUXvrChFwKD+ZJ7wNj7JPbgOzGYoZ5uSCENJ2II8nZr4PMLKoim7mcOJCzwflr40E/5d8fxnKB41CsjfAh0lGgoso+j1n4dqmoVNJMqRw5qRgvcebHG/K7PGJp/ri++4tl2fsFM2RvewDRwnEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Promote to production&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png&quot;
+        srcset=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-60c5b.png 293w,
+/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-7c836.png 585w,
+/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png 830w&quot;
+        sizes=&quot;(max-width: 830px) 100vw, 830px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;そもそもHeroku Pipelineでできること&lt;/h2&gt;
+&lt;p&gt;Heroku自身、&lt;a href=&quot;https://devcenter.heroku.com/articles/heroku-ci&quot;&gt;CI機能&lt;/a&gt;を持っていますので、それに追従させるという手はあり。&lt;/p&gt;
+&lt;p&gt;Pipelineの新規作成時、Githubのリポジトリを指定すると、PullRequestやコミット単位でAppがデプロイさせることもできます。
+この場合、Development、またはReviewのステージができ、コミットしたタイミングでデプロイされるものを、StagingからProductionにリリースする形もできます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/blog/dev-automation-and-ci-cd&quot;&gt;この記事&lt;/a&gt;では、Travis CIを使ってStageにデプロイ、Productionへは「Promote」ボタンで流すという形の環境を構築しました。
+こちらもご参考いただければと思います。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CodeClimate 環境構築]]></title><description><![CDATA[こんにちは、yosi-qです。 この記事では、CodeClimateのセットアップ方法について説明していきます。 CodeClimate環境構築 Code ClimateのQualityチェックを導入します。 Code Climate Quality…]]></description><link>https://yamagata-developers-society.github.io/blog/build-env-codeclimate/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/build-env-codeclimate/</guid><pubDate>Fri, 18 Jan 2019 19:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、yosi-qです。&lt;/p&gt;
 &lt;p&gt;この記事では、CodeClimateのセットアップ方法について説明していきます。&lt;/p&gt;
 &lt;h2&gt;CodeClimate環境構築&lt;/h2&gt;
 &lt;p&gt;Code ClimateのQualityチェックを導入します。&lt;/p&gt;
