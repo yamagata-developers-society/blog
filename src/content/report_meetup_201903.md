@@ -9,7 +9,7 @@ draft: false
 
 # Yamagata Developer's Meetup Night! - March 2019
 
-2019年3月18日(土)に[coworking space too](https://www.coworking-too.com/)において、
+2019年3月18日(土)に[coworking space too](https://www.coworking-too.com/)において、  
 Yamagata Developer's Meetup Night! (2019年3月開催分）が開催されました。
 
 ## ショートプレゼンテーション
@@ -27,7 +27,7 @@ Yamagata Developer's Meetup Night! (2019年3月開催分）が開催されまし
 
 ### #2 What is Object Orientation? - Takahiro Sato
 
-「オブジェクト指向(Object Orientation)とは何か？」とても難しい質問です。。
+「オブジェクト指向(Object Orientation)とは何か？」とても難しい質問です。。  
 今回、佐藤さんはプログラミング経験のない初心者の方にもわかるようにとポイントを絞って説明してくれました。
 
 そもそもオブジェクトとは何か、主要な性質としてあげられる「カプセル化」「継承」「多態性（ポリモーフィズム）」などを
@@ -38,7 +38,7 @@ Yamagata Developer's Meetup Night! (2019年3月開催分）が開催されまし
 
 ### #3 インターネット通信の仕組み２ 〜BGPの役割〜 - 加藤待士
 
-前回からに引き続き、インターネット通信の仕組みについての発表。
+前回からに引き続き、インターネット通信の仕組みについての発表。  
 今回はISP(インターネットサービスプロバイダ)からインターネットに出ていくための仕組みとして、
 BGP(Border Gataway Protocol)についての説明でした。
 
