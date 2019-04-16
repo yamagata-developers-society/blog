@@ -3,6 +3,7 @@ layout: post
 title: "【開催報告】Yamagata Developer's Meetup Night! 2019年3月"
 author: 'Yoshihisa Sato (yosi-q)'
 tags: ['meetup']
+image: img/posts/ydm.jpg
 date: '2019-03-31T18:00:00.000Z'
 draft: false
 ---
@@ -65,6 +66,7 @@ BGPは、エッジルーターの経路情報を作るためのプロトコル�
 
 # 次回のMeetup開催について
 
-2019年4月は、GWなどを考慮して、通常の形とは変え、発表などはない[お花見](https://www.facebook.com/events/638101526634813/)となります。
-次回通常回となる2019年5月の開催は、2019年5月11日(土)に実施を予定しています。
-詳細は、[Coworking space tooのFacebookページ](https://www.facebook.com/as.works.2015/)などで公開予定です。
+今後のMeetupは、[Coworking space tooのFacebookページ](https://www.facebook.com/as.works.2015/)などで公開予定です。
+
+2019年4月は、GWなどを考慮して、通常の形とは変え、発表などはない[お花見](https://www.facebook.com/events/638101526634813/)となります。  
+次回通常回となる2019年5月の開催は、[2019年5月11日(土)](https://www.facebook.com/events/2127990203951328/)に実施を予定しています。
