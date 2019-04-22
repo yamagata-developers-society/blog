@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Tue, 22 Jan 2019 13:06:47 GMT</lastBuildDate><item><title><![CDATA[ソフトウェア開発における自動化とCI/CD]]></title><description><![CDATA[こんにちは、yosi-qです。 2019年1月12日に行われたYamagata Developer’s Meetup Night!で「ソフトウェア開発における自動化とCI/CD…]]></description><link>https://yamagata-developers-society.github.io/blog/dev-automation-and-ci-cd/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/dev-automation-and-ci-cd/</guid><pubDate>Fri, 18 Jan 2019 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、yosi-qです。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Apr 2019 13:27:01 GMT</lastBuildDate><item><title><![CDATA[【開催報告】Yamagata Developer's Meetup Night! 2019年3月]]></title><description><![CDATA[Yamagata Developer’s Meetup Night! - March 2019 2019 年 3 月 18 日(土)に coworking space too において、
+Yamagata Developer’s Meetup Night! (2019 年…]]></description><link>https://yamagata-developers-society.github.io/blog/report-meetup-201903/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/report-meetup-201903/</guid><pubDate>Sun, 31 Mar 2019 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Yamagata Developer’s Meetup Night! - March 2019&lt;/h1&gt;
+&lt;p&gt;2019 年 3 月 18 日(土)に&lt;a href=&quot;https://www.coworking-too.com/&quot;&gt;coworking space too&lt;/a&gt;において、
+Yamagata Developer’s Meetup Night! (2019 年 3 月開催分）が開催されました。&lt;/p&gt;
+&lt;h2&gt;ショートプレゼンテーション&lt;/h2&gt;
+&lt;h3&gt;#1 アプリ設計と基本的なモデリング手法 - 沖田真也&lt;/h3&gt;
+&lt;p&gt;モデリングといえば、業務の流れや構造を抽象化して全体像を把握するシステム技法の一つです。
+ソフトウェアやアプリケーションの開発において、必ず設計という作業が必要になりますが、
+様々な要因で迷いがちな設計をモデリングを使うことで楽になるよ！という点から話は始まり、
+ご自身の経験を踏まえて説明いただきました。&lt;/p&gt;
+&lt;p&gt;具体的に沖田さん自身がモデリングを生かしてどういったことに注意しているか、
+プログラミングの際に影響が出るポイントなどについても言及がありました。&lt;/p&gt;
+&lt;h3&gt;#2 What is Object Orientation? - Takahiro Sato&lt;/h3&gt;
+&lt;p&gt;「オブジェクト指向(Object Orientation)とは何か？」とても難しい質問です。。
+今回、佐藤さんはプログラミング経験のない初心者の方にもわかるようにとポイントを絞って説明してくれました。&lt;/p&gt;
+&lt;p&gt;そもそもオブジェクトとは何か、主要な性質としてあげられる「カプセル化」「継承」「多態性（ポリモーフィズム）」などを
+基本的な考え方と特徴について、生活のなかで身近なものに例えた説明が印象的でした。&lt;/p&gt;
+&lt;p&gt;また、YDS の Meetup では、エンジニアがもっと英語に触れる機会も持つべき！ということで、
+幹事の Elliott さんをはじめ、英語のプレゼンテーションを行う回があるのですが、今回は佐藤さんが発表は英語での発表となりました。&lt;/p&gt;
+&lt;h3&gt;#3 インターネット通信の仕組み２ 〜BGP の役割〜 - 加藤待士&lt;/h3&gt;
+&lt;p&gt;前回からに引き続き、インターネット通信の仕組みについての発表。
+今回は ISP(インターネットサービスプロバイダ)からインターネットに出ていくための仕組みとして、
+BGP(Border Gataway Protocol)についての説明でした。&lt;/p&gt;
+&lt;p&gt;インターネットはたくさんの独立したグループ(AS)で出来上がっており、各グループ間はエッジルーターで繋がっていますが、
+BGP は、エッジルーターの経路情報を作るためのプロトコルです。
+前回、インターネット通信を宅配便を例に説明されていたものを拡張する形での説明で、
+参加者の方々もイメージしやすい内容だったと思います。&lt;/p&gt;
+&lt;p&gt;発表の最後にネットワーク関連で加藤さんの発表テーマ案がいくつか挙がっていました。
+アプリだけではなく、インフラについても学べるいい機会となっています。今後の発表も楽しみです！&lt;/p&gt;
+&lt;h2&gt;懇親会&lt;/h2&gt;
+&lt;p&gt;多くの参加者が残り、さまざまなテーマで話が盛り上がりました。下記はその中の一部。。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;アプリケーション開発の経験についての共有（銀行システム、COBOL、Java フレームワーク…）&lt;/li&gt;
+&lt;li&gt;テレワークについて（テレワークのメリット・デメリット、テレワーカーの日常…）&lt;/li&gt;
+&lt;li&gt;学校の講義の話（現役大学生の講義事情と受講時の想い、学生時代の講義の話…）&lt;/li&gt;
+&lt;li&gt;システム会社における採用について（採用面接を担当したことのあるメンバーの経験談…）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;お酒も入れながら、いろいろなテーマで話が盛り上がり、時間がすぎるのはあっという間でした。&lt;/p&gt;
+&lt;h1&gt;次回の Meetup 開催について&lt;/h1&gt;
+&lt;p&gt;今後の Meetup は、&lt;a href=&quot;https://www.facebook.com/as.works.2015/&quot;&gt;Coworking space too の Facebook ページ&lt;/a&gt;などで公開予定です。&lt;/p&gt;
+&lt;p&gt;2019 年 4 月は、GW などを考慮して、通常の形とは変え、発表などはない&lt;a href=&quot;https://www.facebook.com/events/638101526634813/&quot;&gt;お花見&lt;/a&gt;となります。
+次回通常回となる 2019 年 5 月の開催は、&lt;a href=&quot;https://www.facebook.com/events/2127990203951328/&quot;&gt;2019 年 5 月 11 日(土)&lt;/a&gt;に実施を予定しています。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ソフトウェア開発における自動化とCI/CD]]></title><description><![CDATA[こんにちは、yosi-qです。 2019年1月12日に行われたYamagata Developer’s Meetup Night!で「ソフトウェア開発における自動化とCI/CD…]]></description><link>https://yamagata-developers-society.github.io/blog/dev-automation-and-ci-cd/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/dev-automation-and-ci-cd/</guid><pubDate>Fri, 18 Jan 2019 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは、yosi-qです。&lt;/p&gt;
 &lt;p&gt;2019年1月12日に行われたYamagata Developer’s Meetup Night!で「ソフトウェア開発における自動化とCI/CD」というタイトルで、下記のようなショートプレゼンテーションをしました。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;さまざまなツールでサポートされる自動化が、「ソフトウェア品質」と「開発の効率化」に寄与するか&lt;/li&gt;
