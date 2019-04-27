@@ -114,3 +114,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 .vscode
+
+.idea
+yarn.lock
