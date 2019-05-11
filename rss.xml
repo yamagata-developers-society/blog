@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Apr 2019 13:27:01 GMT</lastBuildDate><item><title><![CDATA[【開催報告】Yamagata Developer's Meetup Night! 2019年3月]]></title><description><![CDATA[Yamagata Developer’s Meetup Night! - March 2019 2019 年 3 月 18 日(土)に coworking space too において、
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Sat, 11 May 2019 13:27:39 GMT</lastBuildDate><item><title><![CDATA[YDMショートプレゼン「インターネット通信の仕組み」]]></title><description><![CDATA[加藤ですこんにちは。2/23（土）に、YDM (Yamagata Developer’s Meetup) Night…]]></description><link>https://yamagata-developers-society.github.io/blog/learn_ip_packets_for_beginners/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/learn_ip_packets_for_beginners/</guid><pubDate>Fri, 26 Apr 2019 05:00:00 GMT</pubDate><content:encoded>&lt;p&gt;加藤ですこんにちは。2/23（土）に、YDM (Yamagata Developer’s Meetup) Night!でショートプレゼンをしました。遅ればせながらその報告とプレゼン資料を記事にします。&lt;/p&gt;
+&lt;p&gt;今回はインターネット通信のパケットがルーターによって目的地に届く仕組みについて話しました。
+非エンジニアでも伝わるように&lt;del&gt;端折って&lt;/del&gt;シンプルにまとめてみました。&lt;/p&gt;
+&lt;h3&gt;Yamagata Developer’s Meetup Night!とは&lt;/h3&gt;
+&lt;p&gt;山形市七日町の&lt;a href=&quot;https://www.coworking-too.com/&quot;&gt;coworking space too&lt;/a&gt;で月１ペースで開催されている勉強会です。毎回３名程度が、それぞれのテーマを30分くらいでプレゼンします。
+取り上げられる話は多岐にわたり、フロントエンド、バックエンド、ネットワーク、開発手法、開発ツールなど、なんでもありの様相を呈しています。
+スピーカーの得意な話題やみんなが興味ありそうな話題が取り上げられます。&lt;/p&gt;
+&lt;p&gt;勉強会はエンジニアに閉じておらず、非エンジニアでも関心を持ってくださった方も参加されています。
+なので興味を持ってくださった方はどなたでもWelcomeです。&lt;/p&gt;
+&lt;h2&gt;ショートプレゼン「インターネット通信の仕組み」&lt;/h2&gt;
+&lt;p&gt;インターネットのパケット通信の仕組みをなるべくやさしく解説しました。パケット通信は宅配便の仕組みに似ているため、そのイメージと重ねて解説しています。よろしければプレゼン資料をご覧ください。&lt;/p&gt;
+&lt;p&gt;シンプルに解説するために大事でない部分を（大事な部分も！）だいぶ省いております。今回のパケット通信の話をベースにして、インターネットで使われている様々な技術・規約について話を展開していきたいと思っています。&lt;/p&gt;
+&lt;h3&gt;プレゼン資料&lt;/h3&gt;
+&lt;div&gt;
+          &lt;div
+            class=&quot;gatsby-resp-iframe-wrapper&quot;
+            style=&quot;padding-bottom: 81.5126050420168%; position: relative; height: 0; overflow: hidden;margin-bottom: 1rem&quot;
+          &gt;
+            &lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/ATGQjLzxVIpVWW&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          &quot; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/secret/ATGQjLzxVIpVWW&quot; title=&quot;Ydm 20190223 kato&quot; target=&quot;_blank&quot;&gt;Ydm 20190223 kato&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;//www.slideshare.net/ssuser0f342f&quot; target=&quot;_blank&quot;&gt;&amp;#x52A0;&amp;#x85E4;&amp;#x5F85;&amp;#x58EB;&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+&lt;h1&gt;次回の Meetup 開催について&lt;/h1&gt;
+&lt;p&gt;今後も Meetup は、月１ペースで開催される予定です。いろんな人に参加していただけると嬉しいです。予定については、&lt;a href=&quot;https://www.facebook.com/as.works.2015/&quot;&gt;Coworking space too の Facebook ページ&lt;/a&gt;などで公開予定です。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【開催報告】Yamagata Developer's Meetup Night! 2019年3月]]></title><description><![CDATA[Yamagata Developer’s Meetup Night! - March 2019 2019 年 3 月 18 日(土)に coworking space too において、
 Yamagata Developer’s Meetup Night! (2019 年…]]></description><link>https://yamagata-developers-society.github.io/blog/report-meetup-201903/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/report-meetup-201903/</guid><pubDate>Sun, 31 Mar 2019 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Yamagata Developer’s Meetup Night! - March 2019&lt;/h1&gt;
 &lt;p&gt;2019 年 3 月 18 日(土)に&lt;a href=&quot;https://www.coworking-too.com/&quot;&gt;coworking space too&lt;/a&gt;において、
 Yamagata Developer’s Meetup Night! (2019 年 3 月開催分）が開催されました。&lt;/p&gt;
