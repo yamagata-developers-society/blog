@@ -34,5 +34,5 @@ draft: false
 
 # 次回の Meetup 開催について
 
-今後も Meetup は、月１ペースで開催される予定です。いろんな人に参加していただけると嬉しいです。予定については、[Coworking space too の Facebook ページ](https://www.facebook.com/as.works.2015/)などで公開予定です。
+今後も Yamagata Developper Meetup は、月１ペースで開催される予定です。いろんな人に参加していただけると嬉しいです。予定については、[Coworking space too の Facebook ページ](https://www.facebook.com/as.works.2015/)などで公開予定です。
 
