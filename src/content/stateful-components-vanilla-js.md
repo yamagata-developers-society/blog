@@ -4,7 +4,7 @@ title: 'Stateful Components in Vanilla JS'
 author: 'Elliott Hindman'
 tags: ['JavaScript']
 image: img/posts/stateful-components-cover.jpg
-date: '2019-04-22T18:00:00.000Z'
+date: '2019-05-16T18:00:00.000Z'
 draft: false
 ---
 
