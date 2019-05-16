@@ -2,7 +2,7 @@
 
 Site: https://yamagata-developers-society.github.io/blog/
 
-This is the official homepage of Yamagata Developers Society
+Official homepage of Yamagata Developers Society
 
 ## Requirements
 
@@ -23,20 +23,31 @@ $ npm install && npm start
 
 ## Available Commands
 
-1. `$ npm start` or `$npm run dev` -- Alias command for `$ gatsby develop`. Builds development assets and starts local server at `http://localhost:8000/`
-1. `$ npm run build` -- Builds production assets **without** development server. Use [simple-server](https://github.com/steveklabnik/simple-server) to run local server with production assets. Note: `pathPrefix: '/blog',` is automatically added to production asset paths for deployment with github pages.
-1. `$ npm run clean` -- Removes public directory. Useful if you're having problems with changes not showing up. Use `$npm run fullclean` to remove `/public` and `.cache` folders.
-1. `$ npm run deploy` -- Reserved command for site administrators. Builds production assets and deploys to github pages via `gh-pages` branch.
+1. **npm start**
+
+- Alias command for `gatsby develop`. Builds development assets and starts local server at `http://localhost:8000/`
+
+2. **npm run build**
+
+- Builds production assets **without** development server. Use [simple-server](https://github.com/steveklabnik/simple-server) to run local server with production assets. Note: `pathPrefix: '/blog',` is automatically added to production asset paths for deployment with github pages.
+
+3. **npm run clean**
+
+- Removes public directory. Useful if you're having problems with changes not showing up. Use `npm run fullclean` to remove `/public` and `.cache` folders.
+
+4. **npm run deploy**
+
+- Reserved command for site administrators. Builds production assets and deploys to github pages via `gh-pages` branch.
 
 ## Adding articles
 
 I. Create a branch using the following branch name format:
 
 ```bash
-article/name_of_your_article
+article_name_of_your_article
 ```
 
-II. To create a new article, add a `.md` file to `/src/content/` folder. New posts require a frontmatter section. For example:
+II. To create a new article, add an `.md` file to `/src/content/` folder. New posts require a frontmatter section. For example:
 
 ```md
 ---
@@ -44,7 +55,7 @@ layout: post
 title: 'Learning XYZ'
 author: 'The Great Gatsby'
 tags: ['tutorial']
-image: img/cover01.jpg
+image: 'img/cover01.jpg'
 date: '2018-12-01T18:00:00.000Z'
 draft: false
 ---
@@ -65,7 +76,7 @@ $ npm run clean
 $ gatsby develop
 ```
 
-This will remove public directory.
+This will remove the public directory.
 
 A second option is to try removing the `.cache` folder:
 
