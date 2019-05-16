@@ -1,4 +1,161 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Sat, 11 May 2019 13:27:39 GMT</lastBuildDate><item><title><![CDATA[YDMショートプレゼン「インターネット通信の仕組み」]]></title><description><![CDATA[加藤ですこんにちは。2/23（土）に、YDM (Yamagata Developer’s Meetup) Night…]]></description><link>https://yamagata-developers-society.github.io/blog/learn_ip_packets_for_beginners/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/learn_ip_packets_for_beginners/</guid><pubDate>Fri, 26 Apr 2019 05:00:00 GMT</pubDate><content:encoded>&lt;p&gt;加藤ですこんにちは。2/23（土）に、YDM (Yamagata Developer’s Meetup) Night!でショートプレゼンをしました。遅ればせながらその報告とプレゼン資料を記事にします。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Thu, 16 May 2019 10:19:40 GMT</lastBuildDate><item><title><![CDATA[Stateful Components in Vanilla JS]]></title><description><![CDATA[Stateful Components in Vanilla JS Today I’d like to show you how you can apply some react concepts of stateful components with plain…]]></description><link>https://yamagata-developers-society.github.io/blog/stateful-components-vanilla-js/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/stateful-components-vanilla-js/</guid><pubDate>Thu, 16 May 2019 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Stateful Components in Vanilla JS&lt;/h1&gt;
+&lt;p&gt;Today I’d like to show you how you can apply some react concepts of stateful components with plain JavaScript.&lt;/p&gt;
+&lt;p&gt;I’d like to demonstrate to you that:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You can use the powerful built-in methods of JavaScript out-of-the-box to program like you would in react.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In other words, you don’t need to use the react library to apply the amazing concepts used by react in your JavaScript programming. And I think that your programming can benefit greatly from applying those methods with or without react!&lt;/p&gt;
+&lt;h2&gt;Demo&lt;/h2&gt;
+&lt;p&gt;To see the final version of what we are building, check out this &lt;a href=&quot;https://jsfiddle.net/jzft0o7r/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;JS Fiddle &lt;span role=&quot;img&quot; aria-label=&quot;Up-Right Arrow&quot;&gt;↗️&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Start&lt;/h2&gt;
+&lt;p&gt;Let’s start with a simple object, which will represent the initial “state” of our data:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  count&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;From here, I will create several methods, which I will divide into 2 categories:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Component functions&lt;/li&gt;
+&lt;li&gt;Render functions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We will use es6 template strings (See: &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Template Literals &lt;span role=&quot;img&quot; aria-label=&quot;Up-Right Arrow&quot;&gt;↗️&lt;/span&gt;&lt;/a&gt;) to construct our components, which can be fed data and react dynamically to user interaction.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Render functions&lt;/b&gt; will be called to render the component when the user triggers changes.&lt;/p&gt;
+&lt;p&gt;First let’s create our counter component, which is just a arrow function that returns a template string.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;counter&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;count&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; `&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;counter&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;$&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;count&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then let’s create a render function, which we can call to update the DOM, when a user triggers a change to the count.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token function-variable function&quot;&gt;renderCount&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;app&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerHTML &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;counter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;count&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Now, all we need is a method to update the count:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token function-variable function&quot;&gt;incrementCountUp&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; newCount &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;count &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;count &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; newCount&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then we can attach an event listener to a button click. When the user presses the button, the count will increment up by updating the value of &lt;code class=&quot;language-text&quot;&gt;state.count&lt;/code&gt;. After that, we can call the render method so we will instantly see the change rendered in the DOM:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; incCountBtn &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;[data-action=&apos;count-up&apos;]&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+incCountBtn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;incrementCountUp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;renderCount&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And with that, we have some stateful components created with plain-old vanilla JS!&lt;/p&gt;
+&lt;p&gt;&lt;span role=&quot;img&quot; aria-label=&quot;Soft Ice Cream&quot;&gt;🍦🍦🍦&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Bonus material&lt;/h2&gt;
+&lt;p&gt;Just like in React, we can utilize JS logic within our components to modify the frontend user experience.&lt;/p&gt;
+&lt;p&gt;For example, we can change the class name in use by checking the value of count:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;counter&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;count&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; className &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;text-error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;count &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    classname &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;text-success&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; `&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;counter&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;$&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;count&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And in our CSS:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sass&quot;&gt;&lt;pre class=&quot;language-sass&quot;&gt;&lt;code class=&quot;language-sass&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.text-error {&lt;/span&gt;
+&lt;span class=&quot;token property-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; indianred;&lt;/span&gt;
+&lt;span class=&quot;token selector&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token selector&quot;&gt;.text-success {&lt;/span&gt;
+&lt;span class=&quot;token property-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; green;&lt;/span&gt;
+&lt;span class=&quot;token selector&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Now, when we increment our count past 10, the color of the text will automaticall change, without having to do any extra state management or any wacky jQuery stuff that quickly spirals out of control.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;As you can see, it is very handy to program in JavaScript this way, using the powerful features built-in to the ES6 syntax. While this obviously has it’s shortcomings in terms of performance issues and problems with directly updating the &lt;code class=&quot;language-text&quot;&gt;state&lt;/code&gt; object — after all there is no &lt;code class=&quot;language-text&quot;&gt;setState&lt;/code&gt; method built into JavaScript at the moment — it is possible to create stateful components with plain JS.&lt;/p&gt;
+&lt;p&gt;What are the benefits?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;No dependency or large bundle for users to download&lt;/li&gt;
+&lt;li&gt;DOM manipulations and reactive components are completely possible&lt;/li&gt;
+&lt;li&gt;Simplifies the work of switching classes and updating contents&lt;/li&gt;
+&lt;li&gt;Separates functions into component and render functions to make code better organized and maintainble&lt;/li&gt;
+&lt;li&gt;Fun!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;Resources&lt;/h1&gt;
+&lt;h3&gt;Demo&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://jsfiddle.net/jzft0o7r/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;JS Fiddle &lt;span role=&quot;img&quot; aria-label=&quot;Up-Right Arrow&quot;&gt;↗️&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Source code&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// HTML
+
+&amp;lt;div class=&amp;quot;App__container&amp;quot; id=&amp;quot;app&amp;quot;&amp;gt;
+  &amp;lt;div&amp;gt;
+    Count: &amp;lt;span id=&amp;quot;display&amp;quot;&amp;gt;0&amp;lt;/span&amp;gt;
+  &amp;lt;/div&amp;gt;
+
+  &amp;lt;button onclick=&amp;quot;incCountUp()&amp;quot;&amp;gt;+Count&amp;lt;/button&amp;gt;
+&amp;lt;/div&amp;gt;
+
+// JS
+
+const display = document.getElementById(&amp;quot;display&amp;quot;);
+
+const state = {
+  count: 0,
+}
+
+// Components
+
+const counter = count =&amp;gt; {
+  let classname = &amp;quot;text-error&amp;quot;;
+
+  if (count &amp;gt;= 5) {
+  	classname = &amp;quot;text-success&amp;quot;;
+  }
+
+  return (
+    `&amp;lt;span class=&amp;quot;${classname}&amp;quot;&amp;gt;${count}&amp;lt;/span&amp;gt;`
+  );
+};
+
+// Render Methods
+
+function renderCount() {
+  display.innerHTML = counter(state.count);
+}
+
+// Update methods
+
+function incCountUp() {
+  let newCount = state.count + 1;
+  state.count = newCount;
+
+  renderCount();
+}
+
+renderCount();
+
+// CSS
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin-top: 0;
+}
+
+.App__container {
+  padding: 15px;
+}
+
+.Score {
+  font-size: 28px;
+}
+
+.text-error {
+  color: indianred;
+}
+
+.text-success {
+  color: green;
+  font-size: 40px;
+}
+``&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[YDMショートプレゼン「インターネット通信の仕組み」]]></title><description><![CDATA[加藤ですこんにちは。2/23（土）に、YDM (Yamagata Developer’s Meetup) Night…]]></description><link>https://yamagata-developers-society.github.io/blog/learn_ip_packets_for_beginners/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/learn_ip_packets_for_beginners/</guid><pubDate>Fri, 26 Apr 2019 05:00:00 GMT</pubDate><content:encoded>&lt;p&gt;加藤ですこんにちは。2/23（土）に、YDM (Yamagata Developer’s Meetup) Night!でショートプレゼンをしました。遅ればせながらその報告とプレゼン資料を記事にします。&lt;/p&gt;
 &lt;p&gt;今回はインターネット通信のパケットがルーターによって目的地に届く仕組みについて話しました。
 非エンジニアでも伝わるように&lt;del&gt;端折って&lt;/del&gt;シンプルにまとめてみました。&lt;/p&gt;
 &lt;h3&gt;Yamagata Developer’s Meetup Night!とは&lt;/h3&gt;
