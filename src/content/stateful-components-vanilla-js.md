@@ -14,9 +14,17 @@ Today I'd like to show you how you can apply some react concepts of stateful com
 
 I'd like to demonstrate to you that:
 
-> You don't need to use the react library to apply the amazing concepts used by react in your JavaScript programming.
+> You can use the powerful built-in methods of JavaScript out-of-the-box to program like you would in react.
 
-We will start with a simple object, which will represent the initial "state" of our data:
+In other words, you don't need to use the react library to apply the amazing concepts used by react in your JavaScript programming. And I think that your programming can benefit greatly from applying those methods with or without react!
+
+## Demo
+
+To see the final version of what we are building, check out this <a href="https://jsfiddle.net/jzft0o7r/" target="_blank" rel="noopener">JS Fiddle <span role="img" aria-label="Up-Right Arrow">↗️</span></a>
+
+## Start
+
+Let's start with a simple object, which will represent the initial "state" of our data:
 
 ```js
 const state = {
@@ -29,9 +37,9 @@ From here, I will create several methods, which I will divide into 2 categories:
 1. Component functions
 2. Render functions
 
-We will use es6 template strings to construct our components, which can be fed data and react dynamically to user interaction.
+We will use es6 template strings (See: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals" target="_blank" rel="noopener">Template Literals <span role="img" aria-label="Up-Right Arrow">↗️</span></a>) to construct our components, which can be fed data and react dynamically to user interaction.
 
-Render functions will be called to render the component when the user triggers changes.
+<b>Render functions</b> will be called to render the component when the user triggers changes.
 
 First let's create our counter component, which is just a arrow function that returns a template string.
 
@@ -68,6 +76,10 @@ incCountBtn.click(() => {
   renderCount();
 });
 ```
+
+And with that, we have some stateful components created with plain-old vanilla JS!
+
+<span role="img" aria-label="Soft Ice Cream">🍦🍦🍦</span>
 
 ## Bonus material
 
@@ -113,9 +125,13 @@ What are the benefits?
 4. Separates functions into component and render functions to make code better organized and maintainble
 5. Fun!
 
-## Resources
+# Resources
 
-JS FIDDLE: https://jsfiddle.net/jzft0o7r/
+### Demo
+
+<a href="https://jsfiddle.net/jzft0o7r/" target="_blank" rel="noopener">JS Fiddle <span role="img" aria-label="Up-Right Arrow">↗️</span></a>
+
+### Source code
 
 ```
 // HTML
