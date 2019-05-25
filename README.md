@@ -7,6 +7,7 @@ Official homepage of Yamagata Developers Society
 ## Requirements
 
 - [NodeJS](https://nodejs.org/en/) (Version 9 or greater recommended, built with 9.11.1)
+- npm (Version 6.9.0 or grater recommended, build with 6.9.0)
 - [GatsbyCLI](https://www.gatsbyjs.org/docs/)
 
 ```bash
@@ -17,7 +18,7 @@ $ npm install --global gatsby-cli
 
 ```bash
 $ git clone https://github.com/yamagata-developers-society/blog.git
-$ cd yds
+$ cd blog
 $ npm install && npm start
 ```
 
