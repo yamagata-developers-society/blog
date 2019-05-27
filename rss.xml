@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Fri, 17 May 2019 00:46:13 GMT</lastBuildDate><item><title><![CDATA[Stateful Components in Vanilla JS]]></title><description><![CDATA[Stateful Components in Vanilla JS Today I’d like to show you how you can create stateful componenents with vanilla JavaScript
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Mon, 27 May 2019 14:39:45 GMT</lastBuildDate><item><title><![CDATA[Stateful Components in Vanilla JS]]></title><description><![CDATA[Stateful Components in Vanilla JS Today I’d like to show you how you can create stateful componenents with vanilla JavaScript
  🍦 , and…]]></description><link>https://yamagata-developers-society.github.io/blog/stateful-components-vanilla-js/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/stateful-components-vanilla-js/</guid><pubDate>Thu, 16 May 2019 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Stateful Components in Vanilla JS&lt;/h1&gt;
 &lt;p&gt;Today I’d like to show you how you can create stateful componenents with vanilla JavaScript
 &lt;span role=&quot;img&quot; aria-label=&quot;Soft Ice Cream&quot;&gt;🍦&lt;/span&gt;, and demonstrate that:&lt;/p&gt;
@@ -239,7 +239,7 @@ BGP は、エッジルーターの経路情報を作るためのプロトコル�
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/environment_overview-36ac9a6886ec5d261a34f16e78bb53cd-52694.png&quot;
+    href=&quot;/blog/static/36ac9a6886ec5d261a34f16e78bb53cd/fdcfb/environment_overview.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -258,10 +258,10 @@ BGP は、エッジルーターの経路情報を作るためのプロトコル�
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;環境概要&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/environment_overview-36ac9a6886ec5d261a34f16e78bb53cd-52694.png&quot;
-        srcset=&quot;/blog/static/environment_overview-36ac9a6886ec5d261a34f16e78bb53cd-0b089.png 293w,
-/blog/static/environment_overview-36ac9a6886ec5d261a34f16e78bb53cd-7b018.png 585w,
-/blog/static/environment_overview-36ac9a6886ec5d261a34f16e78bb53cd-52694.png 960w&quot;
+        src=&quot;/blog/static/36ac9a6886ec5d261a34f16e78bb53cd/fdcfb/environment_overview.png&quot;
+        srcset=&quot;/blog/static/36ac9a6886ec5d261a34f16e78bb53cd/8bef6/environment_overview.png 293w,
+/blog/static/36ac9a6886ec5d261a34f16e78bb53cd/7b7df/environment_overview.png 585w,
+/blog/static/36ac9a6886ec5d261a34f16e78bb53cd/fdcfb/environment_overview.png 960w&quot;
         sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
       /&gt;
     &lt;/span&gt;
@@ -433,7 +433,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/create_heroku_pipeline-c80c180b8de44b203733a3a2b69b5af5-f7a2a.png&quot;
+    href=&quot;/blog/static/c80c180b8de44b203733a3a2b69b5af5/4b691/create_heroku_pipeline.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -452,10 +452,10 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Create New Pipeline&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/create_heroku_pipeline-c80c180b8de44b203733a3a2b69b5af5-f7a2a.png&quot;
-        srcset=&quot;/blog/static/create_heroku_pipeline-c80c180b8de44b203733a3a2b69b5af5-5fe40.png 293w,
-/blog/static/create_heroku_pipeline-c80c180b8de44b203733a3a2b69b5af5-86509.png 585w,
-/blog/static/create_heroku_pipeline-c80c180b8de44b203733a3a2b69b5af5-f7a2a.png 785w&quot;
+        src=&quot;/blog/static/c80c180b8de44b203733a3a2b69b5af5/4b691/create_heroku_pipeline.png&quot;
+        srcset=&quot;/blog/static/c80c180b8de44b203733a3a2b69b5af5/8bef6/create_heroku_pipeline.png 293w,
+/blog/static/c80c180b8de44b203733a3a2b69b5af5/7b7df/create_heroku_pipeline.png 585w,
+/blog/static/c80c180b8de44b203733a3a2b69b5af5/4b691/create_heroku_pipeline.png 785w&quot;
         sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
       /&gt;
     &lt;/span&gt;
@@ -468,7 +468,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/create_heroku_pipeline_setting-6a2725eaf2aed62556a4f9ba29fbce61-f7a2a.png&quot;
+    href=&quot;/blog/static/6a2725eaf2aed62556a4f9ba29fbce61/4b691/create_heroku_pipeline_setting.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -487,10 +487,10 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Create New Pipeline Setting&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/create_heroku_pipeline_setting-6a2725eaf2aed62556a4f9ba29fbce61-f7a2a.png&quot;
-        srcset=&quot;/blog/static/create_heroku_pipeline_setting-6a2725eaf2aed62556a4f9ba29fbce61-5fe40.png 293w,
-/blog/static/create_heroku_pipeline_setting-6a2725eaf2aed62556a4f9ba29fbce61-86509.png 585w,
-/blog/static/create_heroku_pipeline_setting-6a2725eaf2aed62556a4f9ba29fbce61-f7a2a.png 785w&quot;
+        src=&quot;/blog/static/6a2725eaf2aed62556a4f9ba29fbce61/4b691/create_heroku_pipeline_setting.png&quot;
+        srcset=&quot;/blog/static/6a2725eaf2aed62556a4f9ba29fbce61/8bef6/create_heroku_pipeline_setting.png 293w,
+/blog/static/6a2725eaf2aed62556a4f9ba29fbce61/7b7df/create_heroku_pipeline_setting.png 585w,
+/blog/static/6a2725eaf2aed62556a4f9ba29fbce61/4b691/create_heroku_pipeline_setting.png 785w&quot;
         sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
       /&gt;
     &lt;/span&gt;
@@ -503,7 +503,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/pipeline_created_at_first-aa350c5232d915822879ae5d50a3cbac-f7a2a.png&quot;
+    href=&quot;/blog/static/aa350c5232d915822879ae5d50a3cbac/4b691/pipeline_created_at_first.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -522,10 +522,10 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Created View&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/pipeline_created_at_first-aa350c5232d915822879ae5d50a3cbac-f7a2a.png&quot;
-        srcset=&quot;/blog/static/pipeline_created_at_first-aa350c5232d915822879ae5d50a3cbac-5fe40.png 293w,
-/blog/static/pipeline_created_at_first-aa350c5232d915822879ae5d50a3cbac-86509.png 585w,
-/blog/static/pipeline_created_at_first-aa350c5232d915822879ae5d50a3cbac-f7a2a.png 785w&quot;
+        src=&quot;/blog/static/aa350c5232d915822879ae5d50a3cbac/4b691/pipeline_created_at_first.png&quot;
+        srcset=&quot;/blog/static/aa350c5232d915822879ae5d50a3cbac/8bef6/pipeline_created_at_first.png 293w,
+/blog/static/aa350c5232d915822879ae5d50a3cbac/7b7df/pipeline_created_at_first.png 585w,
+/blog/static/aa350c5232d915822879ae5d50a3cbac/4b691/pipeline_created_at_first.png 785w&quot;
         sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
       /&gt;
     &lt;/span&gt;
@@ -539,7 +539,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/set_stage_app-9b8709192b9838b5f732e65c7e342c67-f7a2a.png&quot;
+    href=&quot;/blog/static/9b8709192b9838b5f732e65c7e342c67/4b691/set_stage_app.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -558,10 +558,10 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Set Stage App&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/set_stage_app-9b8709192b9838b5f732e65c7e342c67-f7a2a.png&quot;
-        srcset=&quot;/blog/static/set_stage_app-9b8709192b9838b5f732e65c7e342c67-5fe40.png 293w,
-/blog/static/set_stage_app-9b8709192b9838b5f732e65c7e342c67-86509.png 585w,
-/blog/static/set_stage_app-9b8709192b9838b5f732e65c7e342c67-f7a2a.png 785w&quot;
+        src=&quot;/blog/static/9b8709192b9838b5f732e65c7e342c67/4b691/set_stage_app.png&quot;
+        srcset=&quot;/blog/static/9b8709192b9838b5f732e65c7e342c67/8bef6/set_stage_app.png 293w,
+/blog/static/9b8709192b9838b5f732e65c7e342c67/7b7df/set_stage_app.png 585w,
+/blog/static/9b8709192b9838b5f732e65c7e342c67/4b691/set_stage_app.png 785w&quot;
         sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
       /&gt;
     &lt;/span&gt;
@@ -574,7 +574,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/create_new_stage_app-d51e40db22fe3125224a9e62cd6a4a7d-f7a2a.png&quot;
+    href=&quot;/blog/static/d51e40db22fe3125224a9e62cd6a4a7d/4b691/create_new_stage_app.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -593,10 +593,10 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Create Stage New App&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/create_new_stage_app-d51e40db22fe3125224a9e62cd6a4a7d-f7a2a.png&quot;
-        srcset=&quot;/blog/static/create_new_stage_app-d51e40db22fe3125224a9e62cd6a4a7d-5fe40.png 293w,
-/blog/static/create_new_stage_app-d51e40db22fe3125224a9e62cd6a4a7d-86509.png 585w,
-/blog/static/create_new_stage_app-d51e40db22fe3125224a9e62cd6a4a7d-f7a2a.png 785w&quot;
+        src=&quot;/blog/static/d51e40db22fe3125224a9e62cd6a4a7d/4b691/create_new_stage_app.png&quot;
+        srcset=&quot;/blog/static/d51e40db22fe3125224a9e62cd6a4a7d/8bef6/create_new_stage_app.png 293w,
+/blog/static/d51e40db22fe3125224a9e62cd6a4a7d/7b7df/create_new_stage_app.png 585w,
+/blog/static/d51e40db22fe3125224a9e62cd6a4a7d/4b691/create_new_stage_app.png 785w&quot;
         sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
       /&gt;
     &lt;/span&gt;
@@ -609,7 +609,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/added_stage_app-7589749dcd0b6105bf1da70f6bb71e9f-f7a2a.png&quot;
+    href=&quot;/blog/static/7589749dcd0b6105bf1da70f6bb71e9f/4b691/added_stage_app.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -628,10 +628,10 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Added Stage App&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/added_stage_app-7589749dcd0b6105bf1da70f6bb71e9f-f7a2a.png&quot;
-        srcset=&quot;/blog/static/added_stage_app-7589749dcd0b6105bf1da70f6bb71e9f-5fe40.png 293w,
-/blog/static/added_stage_app-7589749dcd0b6105bf1da70f6bb71e9f-86509.png 585w,
-/blog/static/added_stage_app-7589749dcd0b6105bf1da70f6bb71e9f-f7a2a.png 785w&quot;
+        src=&quot;/blog/static/7589749dcd0b6105bf1da70f6bb71e9f/4b691/added_stage_app.png&quot;
+        srcset=&quot;/blog/static/7589749dcd0b6105bf1da70f6bb71e9f/8bef6/added_stage_app.png 293w,
+/blog/static/7589749dcd0b6105bf1da70f6bb71e9f/7b7df/added_stage_app.png 585w,
+/blog/static/7589749dcd0b6105bf1da70f6bb71e9f/4b691/added_stage_app.png 785w&quot;
         sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
       /&gt;
     &lt;/span&gt;
@@ -643,7 +643,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png&quot;
+    href=&quot;/blog/static/0c2b778e491bb685022487ce741869a8/f68fa/added_prod_app.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -662,10 +662,10 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Added Production App&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png&quot;
-        srcset=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-60c5b.png 293w,
-/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-7c836.png 585w,
-/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png 830w&quot;
+        src=&quot;/blog/static/0c2b778e491bb685022487ce741869a8/f68fa/added_prod_app.png&quot;
+        srcset=&quot;/blog/static/0c2b778e491bb685022487ce741869a8/8bef6/added_prod_app.png 293w,
+/blog/static/0c2b778e491bb685022487ce741869a8/7b7df/added_prod_app.png 585w,
+/blog/static/0c2b778e491bb685022487ce741869a8/f68fa/added_prod_app.png 830w&quot;
         sizes=&quot;(max-width: 830px) 100vw, 830px&quot;
       /&gt;
     &lt;/span&gt;
@@ -677,7 +677,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/app_setting_view-9adcfd9c53cb5ed67b82fc5ac1b127a7-18e02.png&quot;
+    href=&quot;/blog/static/9adcfd9c53cb5ed67b82fc5ac1b127a7/90fcd/app_setting_view.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -696,10 +696,10 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;App Setting&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/app_setting_view-9adcfd9c53cb5ed67b82fc5ac1b127a7-18e02.png&quot;
-        srcset=&quot;/blog/static/app_setting_view-9adcfd9c53cb5ed67b82fc5ac1b127a7-a9965.png 293w,
-/blog/static/app_setting_view-9adcfd9c53cb5ed67b82fc5ac1b127a7-28ef1.png 585w,
-/blog/static/app_setting_view-9adcfd9c53cb5ed67b82fc5ac1b127a7-18e02.png 1135w&quot;
+        src=&quot;/blog/static/9adcfd9c53cb5ed67b82fc5ac1b127a7/90fcd/app_setting_view.png&quot;
+        srcset=&quot;/blog/static/9adcfd9c53cb5ed67b82fc5ac1b127a7/8bef6/app_setting_view.png 293w,
+/blog/static/9adcfd9c53cb5ed67b82fc5ac1b127a7/7b7df/app_setting_view.png 585w,
+/blog/static/9adcfd9c53cb5ed67b82fc5ac1b127a7/90fcd/app_setting_view.png 1135w&quot;
         sizes=&quot;(max-width: 1135px) 100vw, 1135px&quot;
       /&gt;
     &lt;/span&gt;
@@ -712,7 +712,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png&quot;
+    href=&quot;/blog/static/0c2b778e491bb685022487ce741869a8/f68fa/added_prod_app.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -731,10 +731,10 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Promote to production&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png&quot;
-        srcset=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-60c5b.png 293w,
-/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-7c836.png 585w,
-/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png 830w&quot;
+        src=&quot;/blog/static/0c2b778e491bb685022487ce741869a8/f68fa/added_prod_app.png&quot;
+        srcset=&quot;/blog/static/0c2b778e491bb685022487ce741869a8/8bef6/added_prod_app.png 293w,
+/blog/static/0c2b778e491bb685022487ce741869a8/7b7df/added_prod_app.png 585w,
+/blog/static/0c2b778e491bb685022487ce741869a8/f68fa/added_prod_app.png 830w&quot;
         sizes=&quot;(max-width: 830px) 100vw, 830px&quot;
       /&gt;
     &lt;/span&gt;
@@ -755,7 +755,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/signup_codeclimate-f0eac0c4adccc2a1d750763ab137b558-3d6d0.png&quot;
+    href=&quot;/blog/static/f0eac0c4adccc2a1d750763ab137b558/eb0e4/signup_codeclimate.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -774,10 +774,10 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Sign up CodeClimate&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/signup_codeclimate-f0eac0c4adccc2a1d750763ab137b558-3d6d0.png&quot;
-        srcset=&quot;/blog/static/signup_codeclimate-f0eac0c4adccc2a1d750763ab137b558-da7f8.png 293w,
-/blog/static/signup_codeclimate-f0eac0c4adccc2a1d750763ab137b558-2f94f.png 585w,
-/blog/static/signup_codeclimate-f0eac0c4adccc2a1d750763ab137b558-3d6d0.png 676w&quot;
+        src=&quot;/blog/static/f0eac0c4adccc2a1d750763ab137b558/eb0e4/signup_codeclimate.png&quot;
+        srcset=&quot;/blog/static/f0eac0c4adccc2a1d750763ab137b558/8bef6/signup_codeclimate.png 293w,
+/blog/static/f0eac0c4adccc2a1d750763ab137b558/7b7df/signup_codeclimate.png 585w,
+/blog/static/f0eac0c4adccc2a1d750763ab137b558/eb0e4/signup_codeclimate.png 676w&quot;
         sizes=&quot;(max-width: 676px) 100vw, 676px&quot;
       /&gt;
     &lt;/span&gt;
@@ -789,7 +789,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/auth_codeclimate-3c157a317eeac6869af5ffe0a123c47c-7b4a0.png&quot;
+    href=&quot;/blog/static/3c157a317eeac6869af5ffe0a123c47c/de418/auth_codeclimate.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -808,9 +808,9 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Auth CodeClimate and Github&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/auth_codeclimate-3c157a317eeac6869af5ffe0a123c47c-7b4a0.png&quot;
-        srcset=&quot;/blog/static/auth_codeclimate-3c157a317eeac6869af5ffe0a123c47c-e9ae0.png 293w,
-/blog/static/auth_codeclimate-3c157a317eeac6869af5ffe0a123c47c-7b4a0.png 472w&quot;
+        src=&quot;/blog/static/3c157a317eeac6869af5ffe0a123c47c/de418/auth_codeclimate.png&quot;
+        srcset=&quot;/blog/static/3c157a317eeac6869af5ffe0a123c47c/8bef6/auth_codeclimate.png 293w,
+/blog/static/3c157a317eeac6869af5ffe0a123c47c/de418/auth_codeclimate.png 472w&quot;
         sizes=&quot;(max-width: 472px) 100vw, 472px&quot;
       /&gt;
     &lt;/span&gt;
@@ -822,7 +822,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/additionalrequest_codeclimate-8f2e0cfb6e91a98c05cb2873f5f4dd8e-9bccd.png&quot;
+    href=&quot;/blog/static/8f2e0cfb6e91a98c05cb2873f5f4dd8e/a3bb9/additionalrequest_codeclimate.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -841,9 +841,9 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Auth Additional Request CodeClimate&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/additionalrequest_codeclimate-8f2e0cfb6e91a98c05cb2873f5f4dd8e-9bccd.png&quot;
-        srcset=&quot;/blog/static/additionalrequest_codeclimate-8f2e0cfb6e91a98c05cb2873f5f4dd8e-cc0c1.png 293w,
-/blog/static/additionalrequest_codeclimate-8f2e0cfb6e91a98c05cb2873f5f4dd8e-9bccd.png 464w&quot;
+        src=&quot;/blog/static/8f2e0cfb6e91a98c05cb2873f5f4dd8e/a3bb9/additionalrequest_codeclimate.png&quot;
+        srcset=&quot;/blog/static/8f2e0cfb6e91a98c05cb2873f5f4dd8e/8bef6/additionalrequest_codeclimate.png 293w,
+/blog/static/8f2e0cfb6e91a98c05cb2873f5f4dd8e/a3bb9/additionalrequest_codeclimate.png 464w&quot;
         sizes=&quot;(max-width: 464px) 100vw, 464px&quot;
       /&gt;
     &lt;/span&gt;
@@ -855,7 +855,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/done_signup_codeclimate-a930914feebdcb260b2546398f4f1f8c-8ef6a.png&quot;
+    href=&quot;/blog/static/a930914feebdcb260b2546398f4f1f8c/b718a/done_signup_codeclimate.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -874,10 +874,10 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Done sign up for CodeClimate&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/done_signup_codeclimate-a930914feebdcb260b2546398f4f1f8c-8ef6a.png&quot;
-        srcset=&quot;/blog/static/done_signup_codeclimate-a930914feebdcb260b2546398f4f1f8c-1204c.png 293w,
-/blog/static/done_signup_codeclimate-a930914feebdcb260b2546398f4f1f8c-5efee.png 585w,
-/blog/static/done_signup_codeclimate-a930914feebdcb260b2546398f4f1f8c-8ef6a.png 997w&quot;
+        src=&quot;/blog/static/a930914feebdcb260b2546398f4f1f8c/b718a/done_signup_codeclimate.png&quot;
+        srcset=&quot;/blog/static/a930914feebdcb260b2546398f4f1f8c/8bef6/done_signup_codeclimate.png 293w,
+/blog/static/a930914feebdcb260b2546398f4f1f8c/7b7df/done_signup_codeclimate.png 585w,
+/blog/static/a930914feebdcb260b2546398f4f1f8c/b718a/done_signup_codeclimate.png 997w&quot;
         sizes=&quot;(max-width: 997px) 100vw, 997px&quot;
       /&gt;
     &lt;/span&gt;
@@ -889,7 +889,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/add_repos_codeclimate-746ad062fb774be17f6c48404e2b3259-25adb.png&quot;
+    href=&quot;/blog/static/746ad062fb774be17f6c48404e2b3259/d5f0b/add_repos_codeclimate.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -908,10 +908,10 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Add repos CodeClimate&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/add_repos_codeclimate-746ad062fb774be17f6c48404e2b3259-25adb.png&quot;
-        srcset=&quot;/blog/static/add_repos_codeclimate-746ad062fb774be17f6c48404e2b3259-8370b.png 293w,
-/blog/static/add_repos_codeclimate-746ad062fb774be17f6c48404e2b3259-ad3ea.png 585w,
-/blog/static/add_repos_codeclimate-746ad062fb774be17f6c48404e2b3259-25adb.png 635w&quot;
+        src=&quot;/blog/static/746ad062fb774be17f6c48404e2b3259/d5f0b/add_repos_codeclimate.png&quot;
+        srcset=&quot;/blog/static/746ad062fb774be17f6c48404e2b3259/8bef6/add_repos_codeclimate.png 293w,
+/blog/static/746ad062fb774be17f6c48404e2b3259/7b7df/add_repos_codeclimate.png 585w,
+/blog/static/746ad062fb774be17f6c48404e2b3259/d5f0b/add_repos_codeclimate.png 635w&quot;
         sizes=&quot;(max-width: 635px) 100vw, 635px&quot;
       /&gt;
     &lt;/span&gt;
@@ -923,7 +923,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/repos_access_codeclimate-3e3488ed9b0e151cd21fc9159361cecc-9560a.png&quot;
+    href=&quot;/blog/static/3e3488ed9b0e151cd21fc9159361cecc/e8422/repos_access_codeclimate.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -942,9 +942,9 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Auth repos CodeClimate&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/repos_access_codeclimate-3e3488ed9b0e151cd21fc9159361cecc-9560a.png&quot;
-        srcset=&quot;/blog/static/repos_access_codeclimate-3e3488ed9b0e151cd21fc9159361cecc-be82b.png 293w,
-/blog/static/repos_access_codeclimate-3e3488ed9b0e151cd21fc9159361cecc-9560a.png 462w&quot;
+        src=&quot;/blog/static/3e3488ed9b0e151cd21fc9159361cecc/e8422/repos_access_codeclimate.png&quot;
+        srcset=&quot;/blog/static/3e3488ed9b0e151cd21fc9159361cecc/8bef6/repos_access_codeclimate.png 293w,
+/blog/static/3e3488ed9b0e151cd21fc9159361cecc/e8422/repos_access_codeclimate.png 462w&quot;
         sizes=&quot;(max-width: 462px) 100vw, 462px&quot;
       /&gt;
     &lt;/span&gt;
@@ -956,7 +956,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/add_check_repos_codeclimate-030c0ce32bc284cdcc3b0c927ec7e3d5-8ef6a.png&quot;
+    href=&quot;/blog/static/030c0ce32bc284cdcc3b0c927ec7e3d5/b718a/add_check_repos_codeclimate.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -975,10 +975,10 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Add repos CodeClimate&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/add_check_repos_codeclimate-030c0ce32bc284cdcc3b0c927ec7e3d5-8ef6a.png&quot;
-        srcset=&quot;/blog/static/add_check_repos_codeclimate-030c0ce32bc284cdcc3b0c927ec7e3d5-1204c.png 293w,
-/blog/static/add_check_repos_codeclimate-030c0ce32bc284cdcc3b0c927ec7e3d5-5efee.png 585w,
-/blog/static/add_check_repos_codeclimate-030c0ce32bc284cdcc3b0c927ec7e3d5-8ef6a.png 997w&quot;
+        src=&quot;/blog/static/030c0ce32bc284cdcc3b0c927ec7e3d5/b718a/add_check_repos_codeclimate.png&quot;
+        srcset=&quot;/blog/static/030c0ce32bc284cdcc3b0c927ec7e3d5/8bef6/add_check_repos_codeclimate.png 293w,
+/blog/static/030c0ce32bc284cdcc3b0c927ec7e3d5/7b7df/add_check_repos_codeclimate.png 585w,
+/blog/static/030c0ce32bc284cdcc3b0c927ec7e3d5/b718a/add_check_repos_codeclimate.png 997w&quot;
         sizes=&quot;(max-width: 997px) 100vw, 997px&quot;
       /&gt;
     &lt;/span&gt;
@@ -991,7 +991,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/reporter_id_codeclimate-a16b1e1fac3cfa6226760612bffb134e-8ef6a.png&quot;
+    href=&quot;/blog/static/a16b1e1fac3cfa6226760612bffb134e/b718a/reporter_id_codeclimate.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1010,10 +1010,10 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Reporter ID&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/reporter_id_codeclimate-a16b1e1fac3cfa6226760612bffb134e-8ef6a.png&quot;
-        srcset=&quot;/blog/static/reporter_id_codeclimate-a16b1e1fac3cfa6226760612bffb134e-1204c.png 293w,
-/blog/static/reporter_id_codeclimate-a16b1e1fac3cfa6226760612bffb134e-5efee.png 585w,
-/blog/static/reporter_id_codeclimate-a16b1e1fac3cfa6226760612bffb134e-8ef6a.png 997w&quot;
+        src=&quot;/blog/static/a16b1e1fac3cfa6226760612bffb134e/b718a/reporter_id_codeclimate.png&quot;
+        srcset=&quot;/blog/static/a16b1e1fac3cfa6226760612bffb134e/8bef6/reporter_id_codeclimate.png 293w,
+/blog/static/a16b1e1fac3cfa6226760612bffb134e/7b7df/reporter_id_codeclimate.png 585w,
+/blog/static/a16b1e1fac3cfa6226760612bffb134e/b718a/reporter_id_codeclimate.png 997w&quot;
         sizes=&quot;(max-width: 997px) 100vw, 997px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1027,7 +1027,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/regist_travis-ci-854124a8552fd190c94fa22bfe7e65e5-9077b.png&quot;
+    href=&quot;/blog/static/854124a8552fd190c94fa22bfe7e65e5/3f76c/regist_travis-ci.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1046,10 +1046,10 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Sign in with Github&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/regist_travis-ci-854124a8552fd190c94fa22bfe7e65e5-9077b.png&quot;
-        srcset=&quot;/blog/static/regist_travis-ci-854124a8552fd190c94fa22bfe7e65e5-d27ad.png 293w,
-/blog/static/regist_travis-ci-854124a8552fd190c94fa22bfe7e65e5-8dcd0.png 585w,
-/blog/static/regist_travis-ci-854124a8552fd190c94fa22bfe7e65e5-9077b.png 855w&quot;
+        src=&quot;/blog/static/854124a8552fd190c94fa22bfe7e65e5/3f76c/regist_travis-ci.png&quot;
+        srcset=&quot;/blog/static/854124a8552fd190c94fa22bfe7e65e5/8bef6/regist_travis-ci.png 293w,
+/blog/static/854124a8552fd190c94fa22bfe7e65e5/7b7df/regist_travis-ci.png 585w,
+/blog/static/854124a8552fd190c94fa22bfe7e65e5/3f76c/regist_travis-ci.png 855w&quot;
         sizes=&quot;(max-width: 855px) 100vw, 855px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1061,7 +1061,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/link_travis-ci-3aacdec81c4cd296fd828e8f0777075f-8184f.png&quot;
+    href=&quot;/blog/static/3aacdec81c4cd296fd828e8f0777075f/33abf/link_travis-ci.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1080,9 +1080,9 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Auth Travis-CI and Github&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/link_travis-ci-3aacdec81c4cd296fd828e8f0777075f-8184f.png&quot;
-        srcset=&quot;/blog/static/link_travis-ci-3aacdec81c4cd296fd828e8f0777075f-f9d09.png 293w,
-/blog/static/link_travis-ci-3aacdec81c4cd296fd828e8f0777075f-8184f.png 518w&quot;
+        src=&quot;/blog/static/3aacdec81c4cd296fd828e8f0777075f/33abf/link_travis-ci.png&quot;
+        srcset=&quot;/blog/static/3aacdec81c4cd296fd828e8f0777075f/8bef6/link_travis-ci.png 293w,
+/blog/static/3aacdec81c4cd296fd828e8f0777075f/33abf/link_travis-ci.png 518w&quot;
         sizes=&quot;(max-width: 518px) 100vw, 518px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1094,7 +1094,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/activate_on_travis-ci-f360e1cd7106dbce4fb67c88e6c4b42e-62173.png&quot;
+    href=&quot;/blog/static/f360e1cd7106dbce4fb67c88e6c4b42e/94996/activate_on_travis-ci.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1113,9 +1113,9 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Activate on Travis-CI&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/activate_on_travis-ci-f360e1cd7106dbce4fb67c88e6c4b42e-62173.png&quot;
-        srcset=&quot;/blog/static/activate_on_travis-ci-f360e1cd7106dbce4fb67c88e6c4b42e-03680.png 293w,
-/blog/static/activate_on_travis-ci-f360e1cd7106dbce4fb67c88e6c4b42e-62173.png 534w&quot;
+        src=&quot;/blog/static/f360e1cd7106dbce4fb67c88e6c4b42e/94996/activate_on_travis-ci.png&quot;
+        srcset=&quot;/blog/static/f360e1cd7106dbce4fb67c88e6c4b42e/8bef6/activate_on_travis-ci.png 293w,
+/blog/static/f360e1cd7106dbce4fb67c88e6c4b42e/94996/activate_on_travis-ci.png 534w&quot;
         sizes=&quot;(max-width: 534px) 100vw, 534px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1132,7 +1132,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/install_travis-ci-a55ecef9b82c8283c6669a8b1bf0f30b-c8d37.png&quot;
+    href=&quot;/blog/static/a55ecef9b82c8283c6669a8b1bf0f30b/6ebdb/install_travis-ci.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1151,9 +1151,9 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Install Travis-CI&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/install_travis-ci-a55ecef9b82c8283c6669a8b1bf0f30b-c8d37.png&quot;
-        srcset=&quot;/blog/static/install_travis-ci-a55ecef9b82c8283c6669a8b1bf0f30b-ef9e9.png 293w,
-/blog/static/install_travis-ci-a55ecef9b82c8283c6669a8b1bf0f30b-c8d37.png 470w&quot;
+        src=&quot;/blog/static/a55ecef9b82c8283c6669a8b1bf0f30b/6ebdb/install_travis-ci.png&quot;
+        srcset=&quot;/blog/static/a55ecef9b82c8283c6669a8b1bf0f30b/8bef6/install_travis-ci.png 293w,
+/blog/static/a55ecef9b82c8283c6669a8b1bf0f30b/6ebdb/install_travis-ci.png 470w&quot;
         sizes=&quot;(max-width: 470px) 100vw, 470px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1166,7 +1166,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/repos_list_on_travis-ci-3e7cfd401e00b7f09a472c1e7da2e88d-ab202.png&quot;
+    href=&quot;/blog/static/3e7cfd401e00b7f09a472c1e7da2e88d/6a465/repos_list_on_travis-ci.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1185,9 +1185,9 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Repos list on Travis-CI&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/repos_list_on_travis-ci-3e7cfd401e00b7f09a472c1e7da2e88d-ab202.png&quot;
-        srcset=&quot;/blog/static/repos_list_on_travis-ci-3e7cfd401e00b7f09a472c1e7da2e88d-1089f.png 293w,
-/blog/static/repos_list_on_travis-ci-3e7cfd401e00b7f09a472c1e7da2e88d-ab202.png 538w&quot;
+        src=&quot;/blog/static/3e7cfd401e00b7f09a472c1e7da2e88d/6a465/repos_list_on_travis-ci.png&quot;
+        srcset=&quot;/blog/static/3e7cfd401e00b7f09a472c1e7da2e88d/8bef6/repos_list_on_travis-ci.png 293w,
+/blog/static/3e7cfd401e00b7f09a472c1e7da2e88d/6a465/repos_list_on_travis-ci.png 538w&quot;
         sizes=&quot;(max-width: 538px) 100vw, 538px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1200,7 +1200,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-97d5a.png&quot;
+    href=&quot;/blog/static/43066cdea141fa5c0602894ec44012d5/63e5c/setting_travis-ci.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1219,11 +1219,11 @@ Please add the following to your .travis.yml file:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Setting Travis-CI&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-a66a3.png&quot;
-        srcset=&quot;/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-65e34.png 293w,
-/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-8d594.png 585w,
-/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-a66a3.png 1170w,
-/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-97d5a.png 1311w&quot;
+        src=&quot;/blog/static/43066cdea141fa5c0602894ec44012d5/3e398/setting_travis-ci.png&quot;
+        srcset=&quot;/blog/static/43066cdea141fa5c0602894ec44012d5/8bef6/setting_travis-ci.png 293w,
+/blog/static/43066cdea141fa5c0602894ec44012d5/7b7df/setting_travis-ci.png 585w,
+/blog/static/43066cdea141fa5c0602894ec44012d5/3e398/setting_travis-ci.png 1170w,
+/blog/static/43066cdea141fa5c0602894ec44012d5/63e5c/setting_travis-ci.png 1311w&quot;
         sizes=&quot;(max-width: 1170px) 100vw, 1170px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1250,7 +1250,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/electron-apps-4165220043bf6fd2c2b614c47936d7fa-ae198.jpg&quot;
+    href=&quot;/blog/static/4165220043bf6fd2c2b614c47936d7fa/908d7/electron-apps.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1262,17 +1262,17 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAenVzKmTED//xAAZEAACAwEAAAAAAAAAAAAAAAABAgAREhP/2gAIAQEAAQUCLIqctuCIjbl03c3/AP/EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQMBAT8BWIp//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/Aayv/8QAGxABAAIDAQEAAAAAAAAAAAAAAQAhAgMRMZH/2gAIAQEABj8CyXOia9hseB9jczOFMDkaPZ//xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhMXH/2gAIAQEAAT8hQ8N1TeNg5MZxcY4E0ofcyYiaJ+Wf/9oADAMBAAIAAwAAABAEL//EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQMBAT8Q4ICaX//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxDSzH//xAAcEAEAAgMAAwAAAAAAAAAAAAABACERMVFBgaH/2gAIAQEAAT8QNRVYq/o6qNqEmSlo7rOeeIuM57NPIANWJnTbAHCPRwlgogU6n//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAenVramTED//xAAZEAACAwEAAAAAAAAAAAAAAAABAgAREhP/2gAIAQEAAQUCLIqctuCIjbl03Y3/AP/EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQMBAT8BWIp//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/Aayv/8QAGxABAAIDAQEAAAAAAAAAAAAAAQAhAgMRMZH/2gAIAQEABj8CyXOia9hseB9jczOFMDkaPZ//xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhMXH/2gAIAQEAAT8hR8N1TeNg5MZxcY4E0ofcyYiaZ+Wf/9oADAMBAAIAAwAAABAkL//EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQMBAT8Q4ICaX//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxDSzH//xAAcEAEAAgMAAwAAAAAAAAAAAAABACERMVFBgaH/2gAIAQEAAT8QMRVYq/o6qIaDJkpaO6znniLjOezTyADVyZ02wBwj0cJcKIFOp//Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Apps build on Electron&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/electron-apps-4165220043bf6fd2c2b614c47936d7fa-ae198.jpg&quot;
-        srcset=&quot;/blog/static/electron-apps-4165220043bf6fd2c2b614c47936d7fa-82c04.jpg 293w,
-/blog/static/electron-apps-4165220043bf6fd2c2b614c47936d7fa-5511d.jpg 585w,
-/blog/static/electron-apps-4165220043bf6fd2c2b614c47936d7fa-ae198.jpg 1080w&quot;
+        src=&quot;/blog/static/4165220043bf6fd2c2b614c47936d7fa/908d7/electron-apps.jpg&quot;
+        srcset=&quot;/blog/static/4165220043bf6fd2c2b614c47936d7fa/8c376/electron-apps.jpg 293w,
+/blog/static/4165220043bf6fd2c2b614c47936d7fa/34012/electron-apps.jpg 585w,
+/blog/static/4165220043bf6fd2c2b614c47936d7fa/908d7/electron-apps.jpg 1080w&quot;
         sizes=&quot;(max-width: 1080px) 100vw, 1080px&quot;
       /&gt;
     &lt;/span&gt;
