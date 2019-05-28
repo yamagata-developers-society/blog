@@ -63,5 +63,13 @@ module.exports = {
         postCssPlugins: [require('postcss-color-function'), require('cssnano')()],
       },
     },
+    {
+      resolve: 'gatsby-plugin-gtag',
+      options: {
+        trackingId: 'UA-140937089-1', // google analytics tracking id
+        head: false, // Puts tracking script in the head instead of the body
+        anonymize: true, // enable ip anonymization
+      },
+    },
   ],
 };

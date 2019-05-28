@@ -113,6 +113,7 @@ const IndexPage: React.SFC<IndexProps> = props => {
         <meta name="twitter:site" content={`@${config.twitter.split('https://twitter.com/')[0]}`} />
         <meta property="og:image:width" content={width} />
         <meta property="og:image:height" content={height} />
+        <meta name="google-site-verification" content="VYMr-1LuAaJC6SzJkR1x_CRPTWZWJNMZYXCQh0YfRjI" />
         <link rel="shortcut icon" href={favicon} />;
       </Helmet>
       <Wrapper>
