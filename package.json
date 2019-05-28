@@ -13,7 +13,7 @@
     "dev": "gatsby develop",
     "build": "gatsby build",
     "predeploy": "npm run fullclean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -m '[skip ci] Updated'",
     "lint": "tslint -t stylish -p .",
     "lint:fix": "tslint -p tsconfig.json -t stylish --fix 'src/**/*.ts' 'test/**/*.ts'",
     "test": "echo \"Error: no test specified\" && exit 1"
