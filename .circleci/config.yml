@@ -1,0 +1,20 @@
+version: 2
+description: Publish YDS Blog
+jobs:
+  build:
+    docker:
+      - image: "circleci/node:9.11.1"
+    branches:
+      only: 
+        - dev
+    steps:
+      - add_ssh_keys:
+          fingerprints: 
+            - "72:6a:58:99:9a:1f:b2:10:63:7a:a9:61:50:ae:6e:a3"
+      - run: sudo npm install -g npm@6.9.0
+      - run: sudo npm install -g gatsby-cli
+      - checkout
+      - run: npm install
+      - run: git config --global user.email "yosi-q@yoshiemon.com"
+      - run: git config --global user.name "Yoshihisa Sato"
+      - run: npm run deploy
