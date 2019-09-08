@@ -6,11 +6,14 @@ Official homepage of Yamagata Developers Society
 
 ## Requirements
 
+**Recommended** install [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm)
+
 - [NodeJS](https://nodejs.org/en/) (Version 9 or greater recommended, built with 9.11.1)
 - npm (Version 6.9.0 or grater recommended, build with 6.9.0)
 - [GatsbyCLI](https://www.gatsbyjs.org/docs/)
 
 ```bash
+$ nvm install && nvm use
 $ npm install --global gatsby-cli
 ```
 
