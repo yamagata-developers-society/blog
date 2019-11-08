@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Mon, 09 Sep 2019 08:48:57 GMT</lastBuildDate><item><title><![CDATA[Stateful Components in Vanilla JS]]></title><description><![CDATA[Stateful Components in Vanilla JS Today I’d like to show you how you can create stateful componenents with vanilla JavaScript
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Fri, 08 Nov 2019 04:46:13 GMT</lastBuildDate><item><title><![CDATA[【開催報告】Yamagata Developer's Meetup Night! 2019年10月]]></title><description><![CDATA[Yamagata Developer’s Meetup Night! - October 2019 2019 年 10 月 19 日(土)に coworking space too で、
+Yamagata Developer’s Meetup Night! (2019 年 1…]]></description><link>https://yamagata-developers-society.github.io/blog/report-meetup-201910/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/report-meetup-201910/</guid><pubDate>Sat, 19 Oct 2019 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Yamagata Developer’s Meetup Night! - October 2019&lt;/h1&gt;
+&lt;p&gt;2019 年 10 月 19 日(土)に&lt;a href=&quot;https://www.coworking-too.com/&quot;&gt;coworking space too&lt;/a&gt;で、
+Yamagata Developer’s Meetup Night! (2019 年 10 月開催分）を開催しました。&lt;/p&gt;
+&lt;h2&gt;プレゼンテーション&lt;/h2&gt;
+&lt;h3&gt;#1 JavaScriptによるEnd-to-End セキュリティ - 加藤待士&lt;/h3&gt;
+&lt;p&gt;今回は、End-to-End(E2E)セキュリティの原則と必要性について説明いただきました。&lt;/p&gt;
+&lt;p&gt;近年、EUでGDPR(General Data Protection Regulation)が執行されユーザプライバシの保護がより厳格になり、また、データを取り扱う事業者のリスクを回避するために、E2Eセキュリティという技術が注目されています。
+E2Eセキュリティにより、ネットワークシステムの終端(送信者と受信者)毎で暗号化、復号化を行うことで、仮に経路途中で第三者にデータを盗まれたとしても、データを復号化できないので従来よりも安全にデータ交換が行える。&lt;/p&gt;
+&lt;p&gt;次回は、JavaScriptで実際にプログラムを書いて、E2Eセキュリティを体験できる内容になる様です。楽しみですね！&lt;/p&gt;
+&lt;h3&gt;#2 JavaScriptフレームワーク Vue.jsについて - 松田淳司&lt;/h3&gt;
+&lt;p&gt;Vue.jsについて実際のプロジェクトで使用してみての使用感を含めて、分かりやすく説明いただきました。&lt;/p&gt;
+&lt;p&gt;Vue.jsは学習コストが低く、プロジェクトにそれ程苦労せずに導入することができた。
+また、Vue.jsとjQueryの比較デモでは、Vue.jsで書いた場合は、JavaScript内にHTMLタグが出ることなくすっきりしてるよね？ということを見せていただきました。&lt;/p&gt;
+&lt;p&gt;Vue.jsは最高！jQueryはオワコン！という話を聞くことはありますが、jQueryは悪じゃないよ！使い分けが重要！という話が素敵でした。&lt;/p&gt;
+&lt;h3&gt;#3 今時のPHPアプリ・バックエンド開発 PHPバージョンアップ - 沖田真也&lt;/h3&gt;
+&lt;p&gt;みなさん5.X系のPHPを使っていませんか？もうサポートは切れています。
+最新のバージョンは7.3であり、よりプログラムを書きやすくなったことを説明いただきました。&lt;/p&gt;
+&lt;p&gt;5.X系から7.X系になることでパフォーマンスが向上しているにも関わらず、WordPressユーザの40%は5.X系を使用している様です。
+WordPress本体はPHPの最新バージョンを使用することを推奨していますが、複数のプラグインを使用して運用しているサイトでは難しいのが現状なのかもしれません。&lt;/p&gt;
+&lt;p&gt;沖田さんのプログラムは、PHPのバージョンがアップしても動作できることを意識して書いているそうです。&lt;/p&gt;
+&lt;h2&gt;懇親会&lt;/h2&gt;
+&lt;p&gt;みなさん、ピザを食べながら和気あいあいと懇談していました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TensorFlowで機械学習をするためのPCを買いたいので教えてほしい。&lt;/li&gt;
+&lt;li&gt;プログラムを初めたばかりで何から始めたら良いか。&lt;/li&gt;
+&lt;li&gt;Salesforceと連携したシステムを開発していくにあたり。&lt;/li&gt;
+&lt;li&gt;各自のニュース (パパになりました！など)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;次回の Meetup 開催について&lt;/h1&gt;
+&lt;p&gt;次回 2019 年 11月の開催は、&lt;a href=&quot;https://www.facebook.com/events/2849083045116081/&quot;&gt;2019 年 11 月 23 日(土)&lt;/a&gt;を予定しています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/as.works.2015/&quot;&gt;Coworking space too の Facebook ページ&lt;/a&gt;で次回の発表者などのお知らせがされます。&lt;/p&gt;
+&lt;p&gt;みなさんぜひご参加ください！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Stateful Components in Vanilla JS]]></title><description><![CDATA[Stateful Components in Vanilla JS Today I’d like to show you how you can create stateful componenents with vanilla JavaScript
  🍦 , and…]]></description><link>https://yamagata-developers-society.github.io/blog/stateful-components-vanilla-js/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/stateful-components-vanilla-js/</guid><pubDate>Thu, 16 May 2019 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Stateful Components in Vanilla JS&lt;/h1&gt;
 &lt;p&gt;Today I’d like to show you how you can create stateful componenents with vanilla JavaScript
 &lt;span role=&quot;img&quot; aria-label=&quot;Soft Ice Cream&quot;&gt;🍦&lt;/span&gt;, and demonstrate that:&lt;/p&gt;
