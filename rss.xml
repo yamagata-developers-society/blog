@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Fri, 08 Nov 2019 04:46:13 GMT</lastBuildDate><item><title><![CDATA[【開催報告】Yamagata Developer's Meetup Night! 2019年10月]]></title><description><![CDATA[Yamagata Developer’s Meetup Night! - October 2019 2019 年 10 月 19 日(土)に coworking space too で、
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 Nov 2019 05:49:37 GMT</lastBuildDate><item><title><![CDATA[【開催報告】Yamagata Developer's Meetup Night! 2019年11月]]></title><description><![CDATA[Yamagata Developer’s Meetup Night! - November 2019 2019 年 11 月 24 日(土)に coworking space too において、
+Yamagata Developer’s Meetup Night! (201…]]></description><link>https://yamagata-developers-society.github.io/blog/report-meetup-201911/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/report-meetup-201911/</guid><pubDate>Sun, 24 Nov 2019 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Yamagata Developer’s Meetup Night! - November 2019&lt;/h1&gt;
+&lt;p&gt;2019 年 11 月 24 日(土)に&lt;a href=&quot;https://www.coworking-too.com/&quot;&gt;coworking space too&lt;/a&gt;において、
+Yamagata Developer’s Meetup Night! (2019 年 11 月開催分）が開催されました。&lt;/p&gt;
+&lt;h2&gt;ショートプレゼンテーション&lt;/h2&gt;
+&lt;h3&gt;#1 Codesandbox で React と React Hooks と Recompose の使い方を紹介！ - Elliott Hindman&lt;/h3&gt;
+&lt;p&gt;以前のmeetupで、 &lt;a href=&quot;https://codesandbox.io/&quot;&gt;CodeSandbox&lt;/a&gt; を紹介していただいておりましたが、
+今回は CodeSandbox を実際に使いながら React を使った開発をライブコーディングで説明いただきました。
+また、発表は「英語に触れる機会をもっと多くつくるべき！」という Elliott さんの想いから、英語での発表でした。&lt;/p&gt;
+&lt;p&gt;CodeSandbox のプレビューを見ながら開発しながら改善されていく様子が見れ、使っていくイメージがとても持ちやすい発表でした。&lt;/p&gt;
+&lt;h3&gt;#2 Firebase、使ってみた - 佐藤由久&lt;/h3&gt;
+&lt;p&gt;前回の meetup 後の懇親会の中で、 Firebase 使ったことないけど気になる！という話から、
+Firebase に関する調査と簡単なデモの共有として発表しました。&lt;/p&gt;
+&lt;p&gt;どういったことができるのか、どんな人やどんなことをしようとしている人に向いているのか、実際のデモを含めた発表でした。&lt;/p&gt;
+&lt;h3&gt;#3 無料でここまでできる！ SEO が捗る Google 便利ツール活用術！ - 伊藤大貴&lt;/h3&gt;
+&lt;p&gt;これまでの meetup の中で、SEO 関連の発表をしてくださる伊藤さん。
+今回は、 SEO 対策でコンサルティングを受ける前に自分で実践したい人が使ってみるといいかもしれない、
+いくつかの無料ツールを説明いただきました。&lt;/p&gt;
+&lt;p&gt;このYDSブログのような実在するサイトのようなものを実例に取り上げていだだき、
+実践するにあたっての第一歩につながる発表でした。&lt;/p&gt;
+&lt;h2&gt;懇親会&lt;/h2&gt;
+&lt;p&gt;多くの参加者が残り、さまざまなテーマで話が盛り上がりました。下記はその中の一部。。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;「 Google App Script を使ってこんなことがしたいと思っているけど、できるもんでしょうか」という相談&lt;/li&gt;
+&lt;li&gt;英語の勉強法&lt;/li&gt;
+&lt;li&gt;情報教育についてのあれこれ&lt;/li&gt;
+&lt;li&gt;最近作ってみたアプリケーションの話&lt;/li&gt;
+&lt;li&gt;YDS でアドベントカレンダーをやろう！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;お酒も入れながら、いろいろなテーマで話が盛り上がり、時間がすぎるのはあっという間でした。&lt;/p&gt;
+&lt;h1&gt;次回の Meetup 開催について&lt;/h1&gt;
+&lt;p&gt;2019 年 12 月は、通常の形とは変え、発表などはない忘年会形式を検討しており、
+次回通常回は 2020 年 1 月の開催を予定しています。&lt;/p&gt;
+&lt;p&gt;今後の Meetup は、&lt;a href=&quot;https://www.facebook.com/as.works.2015/&quot;&gt;Coworking space too の Facebook ページ&lt;/a&gt;などで公開予定です。&lt;/p&gt;
+&lt;h1&gt;2019 年、 YDS でアドベントカレンダーやります！&lt;/h1&gt;
+&lt;p&gt;インターネット上などで、12 月 1 日〜 25 日までに、特定のテーマに沿って毎日ブログなどに記事を投稿していく、
+IT 界隈ではよく知られている企画であるアドベントカレンダーを、2019年は Yamagata Developers Society でも行います！&lt;/p&gt;
+&lt;p&gt;Meetup の中で発表される内容は、 Web を中心とした技術やナレッジ共有が多くありますが、参加者は必ずしも開発者ではありません。
+どんな人がこのコミュニティに参加しているのかなど、メンバーの雰囲気が伝わるイベントになればと思っています。&lt;/p&gt;
+&lt;p&gt;アドベントカレンダーはこちら: &lt;a href=&quot;https://adventar.org/calendars/4619&quot;&gt;https://adventar.org/calendars/4619&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;こちらの記事もお楽しみに！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【開催報告】Yamagata Developer's Meetup Night! 2019年10月]]></title><description><![CDATA[Yamagata Developer’s Meetup Night! - October 2019 2019 年 10 月 19 日(土)に coworking space too で、
 Yamagata Developer’s Meetup Night! (2019 年 1…]]></description><link>https://yamagata-developers-society.github.io/blog/report-meetup-201910/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/report-meetup-201910/</guid><pubDate>Sat, 19 Oct 2019 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Yamagata Developer’s Meetup Night! - October 2019&lt;/h1&gt;
 &lt;p&gt;2019 年 10 月 19 日(土)に&lt;a href=&quot;https://www.coworking-too.com/&quot;&gt;coworking space too&lt;/a&gt;で、
 Yamagata Developer’s Meetup Night! (2019 年 10 月開催分）を開催しました。&lt;/p&gt;
