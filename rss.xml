@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 Nov 2019 05:49:37 GMT</lastBuildDate><item><title><![CDATA[【開催報告】Yamagata Developer's Meetup Night! 2019年11月]]></title><description><![CDATA[Yamagata Developer’s Meetup Night! - November 2019 2019 年 11 月 24 日(土)に coworking space too において、
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Sun, 01 Dec 2019 02:08:07 GMT</lastBuildDate><item><title><![CDATA[Yamagata Developers Societyの魅力]]></title><description><![CDATA[この記事は、  Yamagata Developers Society Advent Calendar 2019  1日目の記事です。 こんにちは、yosi-qです。 2019年11月のYamagata Developers Society(YDS)のMeetup Night…]]></description><link>https://yamagata-developers-society.github.io/blog/fascination-of-ydm/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/fascination-of-ydm/</guid><pubDate>Sun, 01 Dec 2019 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は、 &lt;a href=&quot;https://adventar.org/calendars/4619&quot;&gt;Yamagata Developers Society Advent Calendar 2019&lt;/a&gt; 1日目の記事です。&lt;/p&gt;
+&lt;p&gt;こんにちは、yosi-qです。&lt;br&gt;
+2019年11月のYamagata Developers Society(YDS)のMeetup Night!の中で、Advent Calendarの企画を提案したところ、
+多くの人が賛成の声をあげてくれました。&lt;/p&gt;
+&lt;p&gt;今回はその1日目の記事ということで、私なりに Meetup Night! に参加したきっかけを振り返りつつ、YDSの魅力を考えてみたことを書いてみたいと思います。&lt;/p&gt;
+&lt;h1&gt;私について&lt;/h1&gt;
+&lt;p&gt;私は高校卒業後、盛岡や仙台で学生生活を過ごしたあと、就職を機に上京。SIer、ITコンサルティングファームで仕事をし、&lt;br&gt;
+2017年10月に東京から鶴岡にUターンしてきました。&lt;br&gt;
+現在もUターン前から所属しているITコンサルティングファームの社員として、山形からリモートワーク（テレワーク）で仕事をしています。&lt;br&gt;
+Uターンしてくる人の理由は様々かと思いますが、私の場合は、好きな地元のために何かしたい、といった単純な理由からでした。&lt;br&gt;
+特に、学生時代から現在まで学んできたITの知識が生かせればと思っており、試行錯誤中です。&lt;/p&gt;
+&lt;h1&gt;YDSとの出会い&lt;/h1&gt;
+&lt;p&gt;東京に住んでいる時に参加した山形への移住に関するイベントを通して、山形県内にもIT関連の仕事をする人がいることを感じていたものの、&lt;br&gt;
+実際にUターンしてからは、そういった人たちと出会う機会がほとんどなく、新しい人とのつながりに飢えていました。&lt;br&gt;
+また、ITと一言でいっても色々な分野があり、いまも日々進化しているわけで。学生時代から「気を抜いてるとおいていかれる」という感覚があります。&lt;br&gt;
+東京に住んでいる時は、自分が興味がある内容をやっている勉強会やイベントがあれば参加してみるなどしていましたが、&lt;br&gt;
+山形にUターンしてからは機会そのものが減り。これでも飢えていました。  &lt;/p&gt;
+&lt;p&gt;そんなモヤモヤがある中、Facebookに流れてきたオススメのイベントに「Yamagata Developer’s Meetup Night!」の文字。&lt;br&gt;
+イベントの詳細を見ると…&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yamagata Developers Society は、山形でWeb開発に関わっているエンジニア向けのグループです。
+プログラマー、SE、デザイナー、勉強中の人等が集い、互いのスキルアップや仕事での連携を目指す、オープンなMeet up を開催します。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;これこれ！参加したい！どんな人が出てるのかなぁ。。。これがYDSとの出会いでした。&lt;/p&gt;
+&lt;p&gt;実際に参加をしたのは、初めてイベント情報を目にしてから、おそらく半年以上経ってからだったと思います。&lt;br&gt;
+というのも、私が住んでいるのは鶴岡市。イベントをやっているのは山形市。&lt;br&gt;
+月山を超え、車で約2時間ぐらいはかかる上に、イベント開催は土曜の夜。
+まだまだ小さい子どももおり、気軽に参加とはなかなか行かない環境。。  &lt;/p&gt;
+&lt;p&gt;毎回とは行かないまでも、家族の協力があって、今は可能ならば日帰りでも参加するようになりました。&lt;br&gt;
+先にあげた”飢え”だけではなく、参加するたびに「また次も来たい！」と思える魅力が、このコミュニティにあるのだと思います。&lt;/p&gt;
+&lt;h1&gt;YDSの魅力&lt;/h1&gt;
+&lt;p&gt;私が感じるYDSの魅力を一言でいうとすれば、それは &lt;strong&gt;参加者の多様性&lt;/strong&gt; だと思います。  &lt;/p&gt;
+&lt;p&gt;どう多様なのか、いくつか例をあげてみると、、、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;年齢: 下は学生から、社会人として経験が豊富な方まで。&lt;br&gt;
+質疑応答、懇親会での話には経験に基づいた話で勉強させられることもあります。&lt;/li&gt;
+&lt;li&gt;性別: Meetupへの参加者でみると、男性が多めではありますが、女性参加者もいらっしゃます。&lt;br&gt;
+会場を提供いただいている コワーキングスペース tooのオーナーさんは女性で、いつも運営にご協力いただいています。&lt;/li&gt;
+&lt;li&gt;国籍: 参加者の中には外国人もいらっしゃいます。YDS幹事のElliottさんはアメリカ人。&lt;br&gt;
+日本語がすごく上手なのでコミュニケーションは日本語でできます。  &lt;/li&gt;
+&lt;li&gt;現住所: 山形・村山地域の方が多いですが、私を含め県内全域から、県外から参加されるかたもいらっしゃいます。&lt;/li&gt;
+&lt;li&gt;職業: プログラマ、SE、Webデザイナー、WebマーケターといったITに関わる仕事の方だけではなく、&lt;br&gt;
+大学生、ITに興味がある、自身の趣味をWebで発信するために勉強したい方なども参加されています。  &lt;/li&gt;
+&lt;li&gt;働き方: 会社員、自営業・フリーランス、私のようなリモートワーカーなど&lt;/li&gt;
+&lt;li&gt;発表内容: Meetupでは、ひとり20分程度の持ち時間で3名の方が発表されます。&lt;br&gt;
+内容はIT関連のものですが、プログラミング関連、Webデザイン、クラウド技術、SEO対策、Webメディア(YouTube)に関するものなど、さまざま。&lt;br&gt;
+技術者として英語に触れた方がいいよねということから、ネイティブスピーカーによる英語の発表、日本人による英語の発表があったりもします。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;懇親会では、こんな多様性のなかで、いろいろな話が生まれます。&lt;br&gt;
+仕事面で言えば、コミュニティ内で仕事の紹介や協業があったり、私の場合は参加者をリクルーティングして入社いただいたりする動きがあったりもします。&lt;br&gt;
+相談事が挙がればそれについて知っていることを共有しあう。&lt;br&gt;
+初めて参加された方にも声を掛ける人が自然と出てくるし、ITに限った話というわけでもない。&lt;br&gt;
+一人ひとりがお互いを知ろうとし、助け合う雰囲気も大きな魅力なのかもしれません。&lt;/p&gt;
+&lt;h1&gt;最後に&lt;/h1&gt;
+&lt;p&gt;今回、12月1日から25日までの間、Advent Calendarの企画に賛同してくれた方々からいくつかのブログを掲載いただける予定です。&lt;br&gt;
+どんな人が参加しているのかを知っていただくいい機会になるかと思いますので、多様なYDSメンバーのブログをぜひお楽しみください。  &lt;/p&gt;
+&lt;p&gt;今後も月1回ペースで Meetup も継続して行われていく予定です。&lt;br&gt;
+興味を持っていただいた方はぜひ Meetup Night! にご参加いただきたいと思います。&lt;br&gt;
+（席に限りがありますので、申し込みはお早めに！）&lt;/p&gt;
+&lt;p&gt;改めて感じたことを文字に起こしてみると、&lt;br&gt;
+これからもYDSのみなさんといろいろな話をしていきたいなと改めて思いました。&lt;br&gt;
+近い将来、YDSから新たなイノベーションが生まれる日がくるかもしれませんね。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【開催報告】Yamagata Developer's Meetup Night! 2019年11月]]></title><description><![CDATA[Yamagata Developer’s Meetup Night! - November 2019 2019 年 11 月 24 日(土)に coworking space too において、
 Yamagata Developer’s Meetup Night! (201…]]></description><link>https://yamagata-developers-society.github.io/blog/report-meetup-201911/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/report-meetup-201911/</guid><pubDate>Sun, 24 Nov 2019 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Yamagata Developer’s Meetup Night! - November 2019&lt;/h1&gt;
 &lt;p&gt;2019 年 11 月 24 日(土)に&lt;a href=&quot;https://www.coworking-too.com/&quot;&gt;coworking space too&lt;/a&gt;において、
 Yamagata Developer’s Meetup Night! (2019 年 11 月開催分）が開催されました。&lt;/p&gt;
