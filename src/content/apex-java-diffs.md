@@ -3,24 +3,25 @@ layout: post
 title: "Hello Apex"
 author: 'Takahiro Sato'
 tags: ['advent2019','meetup']
-image: 'img/posts/fascination-of-ydm/cover.jpg' TODO
+image: 'img/posts/apex-java-diffs/Salesforce_Logo_Web_2019.png'
 date: '2019-12-03T12:00:00.000Z'
 draft: false
 ---
 この記事は、 [Yamagata Developers Society Advent Calendar 2019](https://adventar.org/calendars/4619) 3日目の記事です。
 
 3日目から空気を読まずにプログラムの記事を書きますTakahiroです。
-最近は、今まで全く知らなかったSalesforce関係の知識を得る毎日を送っており、精進しております。
-さてさて、SalesforceというクラウドベースのCustomer Relationship Management(CRM)ですが、Apexというプログラム言語を用いてカスタマイズすることができます。
+最近は、今まで全く知らなかったSalesforce関係の知識を得たり勉強したり、日々精進しております。
+さてさて、SalesforceというクラウドベースのCustomer Relationship Management(CRM)ですが、Apexというプログラム言語を用いてカスタマイズすることができます。(※プログラムを書かなくてもカスタマイズはできます)
 ApexはJavaと似ていることから、公式でも[Apex クラスと Java クラスの違い](https://developer.salesforce.com/docs/atlas.ja-jp.apexcode.meta/apexcode/apex_classes_java_diffs.htm)と開発ガイドがあります。
 
-そんな訳で、今日は私の勉強も兼ねて、Apexを書いてみて「ほぉ」ってなった点をお伝えしたいと思います。
+そんな訳で、今日は私のJavaよりの脳の勉強も兼ねて、Apexを書いてみて「ほぉ」ってなった点をお伝えしたいと思います。
 
-## クラス定義で「ほぉ」となった点
+## 「ほぉ」となった点
 
-### 継承元のクラスは「abstract」か「virtual」にすべし
+### 継承元のクラスは必ず「virtual」を付けないと継承できない
 
-NGバージョン:
+Javaの感覚でこのように書くとエラーになります。
+
 ```
 public class BaseClass {
     public BaseClass() {
@@ -35,67 +36,225 @@ public class SampleClass extends BaseClass {
 }
 ```
 
-# YDSとの出会い
+Errorがでないようにするには、継承元クラスに「virtual」をつけないといけないです。
 
-東京に住んでいる時に参加した山形への移住に関するイベントを通して、山形県内にもIT関連の仕事をする人がいることを感じていたものの、  
-実際にUターンしてからは、そういった人たちと出会う機会がほとんどなく、新しい人とのつながりに飢えていました。  
-また、ITと一言でいっても色々な分野があり、いまも日々進化しているわけで。学生時代から「気を抜いてるとおいていかれる」という感覚があります。  
-東京に住んでいる時は、自分が興味がある内容をやっている勉強会やイベントがあれば参加してみるなどしていましたが、  
-山形にUターンしてからは機会そのものが減り。これでも飢えていました。  
+```
+public virtual class BaseClass {
+    public BaseClass() {
 
-そんなモヤモヤがある中、Facebookに流れてきたオススメのイベントに「Yamagata Developer's Meetup Night!」の文字。  
-イベントの詳細を見ると...
+    }
+}
 
-> Yamagata Developers Society は、山形でWeb開発に関わっているエンジニア向けのグループです。
-> プログラマー、SE、デザイナー、勉強中の人等が集い、互いのスキルアップや仕事での連携を目指す、オープンなMeet up を開催します。
+public class SampleClass extends BaseClass {
+    public SampleClass() {
 
-これこれ！参加したい！どんな人が出てるのかなぁ。。。これがYDSとの出会いでした。
+    }
+}
+```
 
-実際に参加をしたのは、初めてイベント情報を目にしてから、おそらく半年以上経ってからだったと思います。  
-というのも、私が住んでいるのは鶴岡市。イベントをやっているのは山形市。  
-月山を超え、車で約2時間ぐらいはかかる上に、イベント開催は土曜の夜。
-まだまだ小さい子どももおり、気軽に参加とはなかなか行かない環境。。  
+また、抽象クラスの場合は、いつも通りの感じで書けました。
 
-毎回とは行かないまでも、家族の協力があって、今は可能ならば日帰りでも参加するようになりました。  
-先にあげた"飢え"だけではなく、参加するたびに「また次も来たい！」と思える魅力が、このコミュニティにあるのだと思います。
+```
+public abstract class AbstractClass {
+    public AbstractClass() {
 
+    }
+}
 
-# YDSの魅力
+public class SampleClass extends AbstractClass {
+    public SampleClass() {
 
-私が感じるYDSの魅力を一言でいうとすれば、それは **参加者の多様性** だと思います。  
+    }
+}
+```
 
-どう多様なのか、いくつか例をあげてみると、、、
+virtualをつけたクラスは、抽象クラスではないので、インスタンスが作れます。
+むやみに意図としない派生クラスを作らせないルールが基本の様ですね。
 
-- 年齢: 下は学生から、社会人として経験が豊富な方まで。  
-　　　質疑応答、懇親会での話には経験に基づいた話で勉強させられることもあります。
-- 性別: Meetupへの参加者でみると、男性が多めではありますが、女性参加者もいらっしゃます。  
-　　　会場を提供いただいている コワーキングスペース tooのオーナーさんは女性で、いつも運営にご協力いただいています。
-- 国籍: 参加者の中には外国人もいらっしゃいます。YDS幹事のElliottさんはアメリカ人。  
-　　　日本語がすごく上手なのでコミュニケーションは日本語でできます。  
-- 現住所: 山形・村山地域の方が多いですが、私を含め県内全域から、県外から参加されるかたもいらっしゃいます。
-- 職業: プログラマ、SE、Webデザイナー、WebマーケターといったITに関わる仕事の方だけではなく、  
-　　　大学生、ITに興味がある、自身の趣味をWebで発信するために勉強したい方なども参加されています。  
-- 働き方: 会社員、自営業・フリーランス、私のようなリモートワーカーなど
-- 発表内容: Meetupでは、ひとり20分程度の持ち時間で3名の方が発表されます。  
-　　　内容はIT関連のものですが、プログラミング関連、Webデザイン、クラウド技術、SEO対策、Webメディア(YouTube)に関するものなど、さまざま。  
-　　　技術者として英語に触れた方がいいよねということから、ネイティブスピーカーによる英語の発表、日本人による英語の発表があったりもします。
+### 継承元クラスのメソッドが「virtual」でないと、継承先クラスのメソッドでoverrideできない
 
-懇親会では、こんな多様性のなかで、いろいろな話が生まれます。  
-仕事面で言えば、コミュニティ内で仕事の紹介や協業があったり、私の場合は参加者をリクルーティングして入社いただいたりする動きがあったりもします。  
-相談事が挙がればそれについて知っていることを共有しあう。  
-初めて参加された方にも声を掛ける人が自然と出てくるし、ITに限った話というわけでもない。  
-一人ひとりがお互いを知ろうとし、助け合う雰囲気も大きな魅力なのかもしれません。
+継承元のメソッドにvirtualがついていなく。継承先のメソッドが同名の場合、エラーになります。
 
+```
+public virtual class BaseClass {
+	public void doSomething() {
 
-# 最後に
+	}
 
-今回、12月1日から25日までの間、Advent Calendarの企画に賛同してくれた方々からいくつかのブログを掲載いただける予定です。  
-どんな人が参加しているのかを知っていただくいい機会になるかと思いますので、多様なYDSメンバーのブログをぜひお楽しみください。  
+	public void doSomething2() {
 
-今後も月1回ペースで Meetup も継続して行われていく予定です。  
-興味を持っていただいた方はぜひ Meetup Night! にご参加いただきたいと思います。  
-（席に限りがありますので、申し込みはお早めに！）
+	}
+}
 
-改めて感じたことを文字に起こしてみると、  
-これからもYDSのみなさんといろいろな話をしていきたいなと改めて思いました。  
-近い将来、YDSから新たなイノベーションが生まれる日がくるかもしれませんね。
+public class SampleClass extends BaseClass {
+	public void doSomething() { // Error
+
+	}
+
+	public override void doSomething2() {  // これもError
+
+	}
+}
+```
+
+以下のように継承元のメソッドにvirtualをつけるとoverrideできるようになります。
+
+```
+public virtual class BaseClass {
+	public virtual void doSomething() {
+
+	}
+}
+
+public class SampleClass extends BaseClass {
+	public override void doSomething() {
+
+	}
+}
+```
+
+ちなみに、abstractはいつもの動きです。
+
+```
+public abstract class AbstractClass {
+    public AbstractClass() {
+
+    }
+
+	public abstract void doSomething();
+}
+
+public class SampleClass extends AbstractClass {
+    public SampleClass() {
+
+    }
+
+	public override void doSomething() {
+
+	}
+}
+```
+
+クラス同様、意図しないoverrideを防ぐルールになっている様です。
+
+### 内部クラスにはstaticは付けられないがstaticのような動き
+
+内部クラスには、staticを付けなくても参照可能で、newできました。便利。
+
+```
+public class SampleClass {
+    public class InnerClass {
+        
+    }
+}
+
+SampleClass.InnerClass innerClass = new SampleClass.InnerClass();
+```
+
+また、内部クラスのstaticのクラス変数やメソッドは作れません。
+
+```
+public class SampleClass {
+    public class InnerClass {
+		public static Sting sample; // Error
+
+		public static void doSomething() { // Error
+
+		}
+    }
+}
+```
+
+以下のように内部クラスの中に内部クラスは作れません。（正直あんまり見たことない...)
+
+```
+public class SampleClass {
+    public class InnerClass {
+		public class InnerClass2 { // Error
+			
+		}
+    }
+}
+```
+
+### プロパティがありget/setのアクセサーがある
+
+C#にあるようなプロパティが使えます。
+
+```
+public class SampleClass {
+    public String name {get; set;}
+}
+
+SampleClass sampleClass = new SampleClass();
+sampleClass.name = 'sample';
+```
+
+また、get/setのアクセサーにはアクセス修飾子をつけることができ、
+クラス変数と同じようにprivateにより外からの書き込みを制御できます。
+
+```
+public class SampleClass {
+    public String name {get; private set;}
+}
+
+SampleClass sampleClass = new SampleClass();
+sampleClass.name = 'sample'; // Error
+```
+
+試しに、よくある形としてJson→オブジェクトをしてみました。
+
+```
+public class SampleClass {
+    public String name {get; private set;}
+}
+
+System.debug(Json.deserialize('{"name" : "sample"}', SampleClass.class));
+
+// Log => SampleClass:[name=sample]
+```
+
+Json#deserializeはnameがprivateで定義されてても、値をセットしてくれるのですね。ほぉ。
+
+### ここまでの知識でよくあるものを作る
+
+例えば、何度も呼び出されるものをシングルトンでもっておき、あるタイミングでリフレッシュされるものをApexで書くとこんな感じになると思われます。
+
+```
+public class SampleClass {
+    public static InnerClass innerClass;
+    private static final Integer EXPIRED_MINUTES = 5;
+
+	private SampleClass() {}
+
+    public static InnerClass getInstance() {
+        if (innerClass == null || innerClass.isExpired()) {
+            innerClass = new InnerClass(Datetime.now().addMinutes(EXPIRED_MINUTES));
+        }
+
+        return innerClass;
+    }
+
+    public class InnerClass {
+        public Datetime expiredTime {get; private set;} 
+
+        private InnerClass(Datetime expiredTime) {
+            this.expiredTime = expiredTime;
+        }
+
+		public Boolean isExpired() {
+			return expiredTime.getTime() < Datetime.now().getTime();
+		}
+    }
+}
+```
+
+## 最後に
+
+みなさまApexの勉強にお付き合いいただきありがとうございます。
+ほぼJavaっぽいけどJavaではない感じは伝わってきますね。
+私が大きく違うなと思った点は、Javaでは開発者が他の開発者が意図としない作りをしないように、
+自由にプログラムを書ける範囲を狭める制御をするのに対し、あらかじめSalesforceのApexでは
+意図としないプログラムを生み出させないルールが基本となっていると感じます。
+
+まだまだ分からないことだらけなので、勉強しなきゃ〜、、、
