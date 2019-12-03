@@ -1,4 +1,189 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Sun, 01 Dec 2019 02:08:07 GMT</lastBuildDate><item><title><![CDATA[Yamagata Developers Societyの魅力]]></title><description><![CDATA[この記事は、  Yamagata Developers Society Advent Calendar 2019  1日目の記事です。 こんにちは、yosi-qです。 2019年11月のYamagata Developers Society(YDS)のMeetup Night…]]></description><link>https://yamagata-developers-society.github.io/blog/fascination-of-ydm/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/fascination-of-ydm/</guid><pubDate>Sun, 01 Dec 2019 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は、 &lt;a href=&quot;https://adventar.org/calendars/4619&quot;&gt;Yamagata Developers Society Advent Calendar 2019&lt;/a&gt; 1日目の記事です。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Tue, 03 Dec 2019 01:00:06 GMT</lastBuildDate><item><title><![CDATA[Hello Apex]]></title><description><![CDATA[この記事は、  Yamagata Developers Society Advent Calendar 2019  3日目の記事です。 3日目から空気を読まずにプログラムの記事を書きますTakahiroです。
+最近は、今まで全く知らなかったSalesforce…]]></description><link>https://yamagata-developers-society.github.io/blog/apex-java-diffs/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/apex-java-diffs/</guid><pubDate>Tue, 03 Dec 2019 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は、 &lt;a href=&quot;https://adventar.org/calendars/4619&quot;&gt;Yamagata Developers Society Advent Calendar 2019&lt;/a&gt; 3日目の記事です。&lt;/p&gt;
+&lt;p&gt;3日目から空気を読まずにプログラムの記事を書きますTakahiroです。
+最近は、今まで全く知らなかったSalesforce関係の知識を得たり勉強したり、日々精進しております。
+さてさて、SalesforceというクラウドベースのCustomer Relationship Management(CRM)ですが、Apexというプログラム言語を用いてカスタマイズすることができます。(※プログラムを書かなくてもカスタマイズはできます)
+ApexはJavaと似ていることから、公式でも&lt;a href=&quot;https://developer.salesforce.com/docs/atlas.ja-jp.apexcode.meta/apexcode/apex_classes_java_diffs.htm&quot;&gt;Apex クラスと Java クラスの違い&lt;/a&gt;と開発ガイドがあります。&lt;/p&gt;
+&lt;p&gt;そんな訳で、今日は私のJavaよりの脳の勉強も兼ねて、Apexを書いてみて「ほぉ」ってなった点をお伝えしたいと思います。&lt;/p&gt;
+&lt;h2&gt;「ほぉ」となった点&lt;/h2&gt;
+&lt;h3&gt;継承元のクラスは必ず「virtual」を付けないと継承できない&lt;/h3&gt;
+&lt;p&gt;Javaの感覚でこのように書くとエラーになります。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;public class BaseClass {
+    public BaseClass() {
+
+    }
+}
+
+public class SampleClass extends BaseClass {
+    public SampleClass() {
+
+    }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Errorがでないようにするには、継承元クラスに「virtual」をつけないといけないです。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;public virtual class BaseClass {
+    public BaseClass() {
+
+    }
+}
+
+public class SampleClass extends BaseClass {
+    public SampleClass() {
+
+    }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;また、抽象クラスの場合は、いつも通りの感じで書けました。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;public abstract class AbstractClass {
+    public AbstractClass() {
+
+    }
+}
+
+public class SampleClass extends AbstractClass {
+    public SampleClass() {
+
+    }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;virtualをつけたクラスは、抽象クラスではないので、インスタンスが作れます。
+むやみに意図としない派生クラスを作らせないルールが基本の様ですね。&lt;/p&gt;
+&lt;h3&gt;継承元クラスのメソッドが「virtual」でないと、継承先クラスのメソッドでoverrideできない&lt;/h3&gt;
+&lt;p&gt;継承元のメソッドにvirtualがついていなく。継承先のメソッドが同名の場合、エラーになります。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;public virtual class BaseClass {
+	public void doSomething() {
+
+	}
+
+	public void doSomething2() {
+
+	}
+}
+
+public class SampleClass extends BaseClass {
+	public void doSomething() { // Error
+
+	}
+
+	public override void doSomething2() {  // これもError
+
+	}
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;以下のように継承元のメソッドにvirtualをつけるとoverrideできるようになります。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;public virtual class BaseClass {
+	public virtual void doSomething() {
+
+	}
+}
+
+public class SampleClass extends BaseClass {
+	public override void doSomething() {
+
+	}
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;ちなみに、abstractはいつもの動きです。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;public abstract class AbstractClass {
+    public AbstractClass() {
+
+    }
+
+	public abstract void doSomething();
+}
+
+public class SampleClass extends AbstractClass {
+    public SampleClass() {
+
+    }
+
+	public override void doSomething() {
+
+	}
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;クラス同様、意図しないoverrideを防ぐルールになっている様です。&lt;/p&gt;
+&lt;h3&gt;内部クラスにはstaticは付けられないがstaticのような動き&lt;/h3&gt;
+&lt;p&gt;内部クラスには、staticを付けなくても参照可能で、newできました。便利。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;public class SampleClass {
+    public class InnerClass {
+        
+    }
+}
+
+SampleClass.InnerClass innerClass = new SampleClass.InnerClass();&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;また、内部クラスのstaticのクラス変数やメソッドは作れません。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;public class SampleClass {
+    public class InnerClass {
+		public static Sting sample; // Error
+
+		public static void doSomething() { // Error
+
+		}
+    }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;以下のように内部クラスの中に内部クラスは作れません。（正直あんまり見たことない…)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;public class SampleClass {
+    public class InnerClass {
+		public class InnerClass2 { // Error
+			
+		}
+    }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;プロパティがありget/setのアクセサーがある&lt;/h3&gt;
+&lt;p&gt;C#にあるようなプロパティが使えます。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;public class SampleClass {
+    public String name {get; set;}
+}
+
+SampleClass sampleClass = new SampleClass();
+sampleClass.name = &amp;#39;sample&amp;#39;;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;また、get/setのアクセサーにはアクセス修飾子をつけることができ、
+クラス変数と同じようにprivateにより外からの書き込みを制御できます。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;public class SampleClass {
+    public String name {get; private set;}
+}
+
+SampleClass sampleClass = new SampleClass();
+sampleClass.name = &amp;#39;sample&amp;#39;; // Error&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;試しに、よくある形としてJson→オブジェクトをしてみました。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;public class SampleClass {
+    public String name {get; private set;}
+}
+
+System.debug(Json.deserialize(&amp;#39;{&amp;quot;name&amp;quot; : &amp;quot;sample&amp;quot;}&amp;#39;, SampleClass.class));
+
+// Log =&amp;gt; SampleClass:[name=sample]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Json#deserializeはnameがprivateで定義されてても、値をセットしてくれるのですね。ほぉ。&lt;/p&gt;
+&lt;h3&gt;ここまでの知識でよくあるものを作る&lt;/h3&gt;
+&lt;p&gt;例えば、何度も呼び出されるものをシングルトンでもっておき、あるタイミングでリフレッシュされるものをApexで書くとこんな感じになると思われます。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;public class SampleClass {
+    public static InnerClass innerClass;
+    private static final Integer EXPIRED_MINUTES = 5;
+
+	private SampleClass() {}
+
+    public static InnerClass getInstance() {
+        if (innerClass == null || innerClass.isExpired()) {
+            innerClass = new InnerClass(Datetime.now().addMinutes(EXPIRED_MINUTES));
+        }
+
+        return innerClass;
+    }
+
+    public class InnerClass {
+        public Datetime expiredTime {get; private set;} 
+
+        private InnerClass(Datetime expiredTime) {
+            this.expiredTime = expiredTime;
+        }
+
+		public Boolean isExpired() {
+			return expiredTime.getTime() &amp;lt; Datetime.now().getTime();
+		}
+    }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;最後に&lt;/h2&gt;
+&lt;p&gt;みなさまApexの勉強にお付き合いいただきありがとうございます。
+ほぼJavaっぽいけどJavaではない感じは伝わってきますね。
+私が大きく違うなと思った点は、Javaでは開発者が他の開発者が意図としない作りをしないように、
+自由にプログラムを書ける範囲を狭める制御をするのに対し、あらかじめSalesforceのApexでは
+意図としないプログラムを生み出させないルールが基本となっていると感じます。&lt;/p&gt;
+&lt;p&gt;まだまだ分からないことだらけなので、勉強しなきゃ〜、、、&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Yamagata Developers Societyの魅力]]></title><description><![CDATA[この記事は、  Yamagata Developers Society Advent Calendar 2019  1日目の記事です。 こんにちは、yosi-qです。 2019年11月のYamagata Developers Society(YDS)のMeetup Night…]]></description><link>https://yamagata-developers-society.github.io/blog/fascination-of-ydm/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/fascination-of-ydm/</guid><pubDate>Sun, 01 Dec 2019 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は、 &lt;a href=&quot;https://adventar.org/calendars/4619&quot;&gt;Yamagata Developers Society Advent Calendar 2019&lt;/a&gt; 1日目の記事です。&lt;/p&gt;
 &lt;p&gt;こんにちは、yosi-qです。&lt;br&gt;
 2019年11月のYamagata Developers Society(YDS)のMeetup Night!の中で、Advent Calendarの企画を提案したところ、
 多くの人が賛成の声をあげてくれました。&lt;/p&gt;
