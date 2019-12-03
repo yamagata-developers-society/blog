@@ -21,6 +21,7 @@ const PageTemplate = css`
     height: 0px;
     overflow: hidden;
     margin-bottom: 3.2rem;
+    background-color: #efefef;
   }
   .responsive-iframe iframe {
     position: absolute;
@@ -68,6 +69,24 @@ const About: React.SFC = () => (
                 </small>
               </p>
               <p>
+                <i>English follows Japanese</i>
+              </p>
+              <p>【 好きなこと、学びたいこと、どんどんやろう！】</p>
+              <p>
+                Yamagata Developers Society
+                は、山形でWeb開発に関わっているエンジニア向けのグループです。
+                dプログラマー、SE、デザイナー、勉強中の人等が集い、互いのスキルアップや仕事での連携を目指す、オープンなMeet
+                up を開催します。
+              </p>
+              <p>
+                持物は【学びたい言語・スキル】と【エンジニア魂】。そして、飲物！持参！
+                (珈琲・紅茶・冷たいお茶・少しのビールのご用意ございます)
+              </p>
+              <p>
+                おいしいものを食べたり飲んだりしながら、一緒に山形のWeb開発を一緒に盛り上げましょう！
+              </p>
+              <hr />
+              <p>
                 Yamagata Developer Society is a community for professionals and students alike. We
                 hold monthly developer meetups at{' '}
                 <a href="https://www.coworking-too.com/">coworking space too</a> in downtown
@@ -86,7 +105,7 @@ const About: React.SFC = () => (
                 welcome!
               </p>
               <p>
-                If you are looking for some other way to connect with us, you can find us on{' '}
+                If you are looking for some other way to connect with us, please find us on{' '}
                 <a href="https://twitter.com/yamagataDevSoc">Twitter</a>.
               </p>
             </div>
