@@ -26,7 +26,7 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'Yamagata Developers Society',
-  description: 'A community of professionals sharing knowledge',
+  description: '山形でWeb開発に関わっているエンジニア向けの勉強会',
   coverImage: 'img/common/yds-social-bg.jpg',
   logo: 'img/common/yds-logo.png',
   siteUrl: 'https://yamagata-developers-society.github.io/blog/',
