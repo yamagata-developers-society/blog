@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Wed, 04 Dec 2019 01:08:19 GMT</lastBuildDate><item><title><![CDATA[Hello Apex]]></title><description><![CDATA[この記事は、  Yamagata Developers Society Advent Calendar 2019  3日目の記事です。 3日目から空気を読まずにプログラムの記事を書きますTakahiroです。
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Wed, 04 Dec 2019 02:56:40 GMT</lastBuildDate><item><title><![CDATA[超初心者から見るYDSの魅力]]></title><description><![CDATA[はじめまして。Mei.Wと申します。 私は普段、他の仕事をしながら、こびとのイラストを描いてそれをSNSや web…]]></description><link>https://yamagata-developers-society.github.io/blog/fascination-of-ydm-from-beginner/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/fascination-of-ydm-from-beginner/</guid><pubDate>Wed, 04 Dec 2019 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;はじめまして。Mei.Wと申します。&lt;br&gt;
+私は普段、他の仕事をしながら、こびとのイラストを描いてそれをSNSや&lt;a href=&quot;https://kobitoya.mei-w.com/&quot;&gt;webサイト&lt;/a&gt;で発表したり、&lt;a href=&quot;https://kobitoyashop.mei-w.com/&quot;&gt;オンラインショップ&lt;/a&gt;でイラストを使った雑貨等を販売したりしています。&lt;br&gt;
+その活動の一環として、個人的にプログラミングを勉強中です。  &lt;/p&gt;
+&lt;p&gt;一応勉強中ですが、プログラミングやIT関連の知識は超初心者なので、YDSで行われるレベルの高い発表・会話についていけないこともしばしばあります。&lt;br&gt;
+正直、「こんなレベルで参加して申し訳ないな」とも思ってしまうのですが、それでもYDSに参加するのが楽しくて、初期のころからほぼ毎回参加しています。&lt;br&gt;
+今回はそんな超初心者でも参加したくなってしまうYDSの魅力を語らせていただきます。  &lt;/p&gt;
+&lt;h2&gt;初心者から見るYDSの魅力１. 初心者・初めての参加者も優しく歓迎してくれる！&lt;/h2&gt;
+&lt;p&gt;YDSは最初に数人の発表者が自分の専門分野・現在取り組んでいること・最近試してみたこと等のプレゼンテーションを行い、その後、フリートークタイムでそれぞれお喋りをします。&lt;/p&gt;
+&lt;p&gt;初心者・初めて参加する人が不安に思うのは、「プレゼンの内容が全然わからなかったらどうしよう」「（初めてだから/レベルが違いすぎて）他の人と全然話せず孤立するかもしれない…」ということじゃないかと思います。&lt;/p&gt;
+&lt;p&gt;まず、初心者や勉強中の方。&lt;br&gt;
+ご安心ください！YDSにはこれから勉強したいという方や勉強中の方も参加しています。&lt;br&gt;
+プレゼンも、レベルは高いですがみなさん比較的その方面に知識のない人でもわかりやすいようにまとめてくださっています。&lt;br&gt;
+また、常連の方もみなさん優しいので、わからないことを質問すると丁寧に教えてくれます（優しすぎて毎度教えてもらってばかりなのが心苦しいほどに…）。&lt;/p&gt;
+&lt;p&gt;初めて参加するという方。&lt;br&gt;
+私は初期のころからたくさんYDSに参加していますが、私の知る限り、初めての参加でも孤立していた方はいません。&lt;br&gt;
+プレゼンが終わってフリートークタイムになっても、初めて参加される方には誰かしら話しかけており、少なくとも私は初めてだからと孤立しているのを見たことがありません。&lt;br&gt;
+逆に、お話してみたいけど盛り上がってるから話しかけられないなぁ…ということもしばしば。&lt;/p&gt;
+&lt;p&gt;そんなわけで、YDSは初心者・初めての参加者にも優しいコミュニティです！&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/picture-b1c39ed99a3728da863eb148a7a55250-a5d9a.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 400px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABYBAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAABrdi86oFh/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAECAxIh/9oACAEBAAEFAs9+zsVDkSoU+f/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAAAAh/9oACAECAQE/AVf/xAAYEAACAwAAAAAAAAAAAAAAAAABERAgIf/aAAgBAQAGPwJJGmx//8QAGxABAQEAAgMAAAAAAAAAAAAAAREAEEFRgZH/2gAIAQEAAT8hBUo972+ahjtAwhITxxP/2gAMAwEAAgADAAAAELvv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/EDJC/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxB26Jj/xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhUWH/2gAIAQEAAT8QfE1IJjioCyqMAtzu+ywtb5nmQHZ8u//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;cafe.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/picture-b1c39ed99a3728da863eb148a7a55250-a5d9a.jpg&quot;
+        srcset=&quot;/blog/static/picture-b1c39ed99a3728da863eb148a7a55250-1e56e.jpg 293w,
+/blog/static/picture-b1c39ed99a3728da863eb148a7a55250-a5d9a.jpg 400w&quot;
+        sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;初心者から見るYDSの魅力２. いろんな分野の人がいる！&lt;/h2&gt;
+&lt;p&gt;YDSにはエンジニア、webデザイン、webマーケティング、ITなどいろいろな分野の方が参加しています。
+そのことが、YDSのプレゼンが比較的その方面に知識のない人でもわかりやすいような発表になっている理由の一因でもあると思われます。&lt;br&gt;
+特定の分野の専門家の方でも他の方面の知識はないということもあります（webデザインを専門としているけれどSEOについてはあまり詳しくない等）。そのため、プレゼンをする方は分野の違う人にもわかりやすいように話してくださるので、初心者も分野の違う人も新しい世界を知ることができるのです。&lt;/p&gt;
+&lt;p&gt;プレゼン後の質疑応答やフリートークタイムで、それぞれ違う分野を得意とする方々が刺激を受けあっている様子は見ているだけでもワクワクしますし、プレゼンやお話を通して全然知らなかったり興味のなかった分野に興味がわくこともあります。&lt;/p&gt;
+&lt;p&gt;そんな、いろんな分野の人が刺激しあえる場所であることが、YDSの2つ目の魅力です。  &lt;/p&gt;
+&lt;h2&gt;まとめ&lt;/h2&gt;
+&lt;p&gt;YDSの魅力はまだまだありますが、今回は特に、初心者による初心者視点の魅力を2つご紹介してみました。&lt;/p&gt;
+&lt;p&gt;他にも、完全に英語のみでのプレゼンがあって英語の勉強にもなるとか、フリートークタイムのアットホームな雰囲気とか、まだまだあるYDSの魅力は、他のブログか、実際に参加して感じていただけたらと思います。&lt;/p&gt;
+&lt;p&gt;とりあえず、今回は少しでも、初心者・初めての方の参加のハードルが下がれば良いな、と思って書かせていただきました。&lt;/p&gt;
+&lt;p&gt;※この記事は、&lt;a href=&quot;https://adventar.org/calendars/4619&quot;&gt;Yamagata Developers Society Advent Calendar 2019&lt;/a&gt; の記事の1つです。Advent CalendarではYDSに参加している様々な分野の方がブログを書いています。YDSの魅力の一部がわかりますので、是非読んでみてください！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello Apex]]></title><description><![CDATA[この記事は、  Yamagata Developers Society Advent Calendar 2019  3日目の記事です。 3日目から空気を読まずにプログラムの記事を書きますTakahiroです。
 最近は、今まで全く知らなかったSalesforce…]]></description><link>https://yamagata-developers-society.github.io/blog/apex-java-diffs/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/apex-java-diffs/</guid><pubDate>Tue, 03 Dec 2019 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は、 &lt;a href=&quot;https://adventar.org/calendars/4619&quot;&gt;Yamagata Developers Society Advent Calendar 2019&lt;/a&gt; 3日目の記事です。&lt;/p&gt;
 &lt;p&gt;3日目から空気を読まずにプログラムの記事を書きますTakahiroです。
 最近は、今まで全く知らなかったSalesforce関係の知識を得たり勉強したり、日々精進しております。
