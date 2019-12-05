@@ -30,3 +30,12 @@
   website: ''
   location: Japan
   profile_image: img/authors/takahiro-cover.jpg
+- id: Atsushi Matsuda
+  avatar: avatars/matsuda.jpg
+  bio: Web Application Engineer
+  twitter: ''
+  facebook: ''
+  website: ''
+  location: Japan
+  profile_image: img/authors/matsuda-cover.jpg
+
