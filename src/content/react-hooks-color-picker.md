@@ -181,7 +181,7 @@ Are you interested in learning programming or connecting with engineers in Yamag
 
 Come join us at Yamagata Developers Society. We have monthly meetups where you can learn about the latest technologies while making new friends.
 
-Please check our <a href="/about/">About page</a> for more information.
+Please check our <a href="/blog/about/">About page</a> for more information.
 
 ## Advent calendar
 
