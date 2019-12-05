@@ -8,7 +8,7 @@ date: '2019-12-06T12:00:00.000Z'
 draft: false
 ---
 
-この記事は、 [Yamagata Developers Society Advent Calendar 2019](https://adventar.org/calendars/4619) 5日目の記事です。
+この記事は、 [Yamagata Developers Society Advent Calendar 2019](https://adventar.org/calendars/4619) 6日目の記事です。
 
 はじめまして、松田です。  
 社会人3年目で、クラウド在庫管理ソフトの開発をしています。  
