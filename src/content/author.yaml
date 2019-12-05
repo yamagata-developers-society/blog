@@ -30,6 +30,14 @@
   website: ''
   location: Japan
   profile_image: img/authors/takahiro-cover.jpg
+- id: 'Mei.W'
+  avatar: avatars/mei_w.jpg
+  bio: 'こびと作家'
+  twitter: ''
+  facebook: ''
+  website: https://kobitoya.mei-w.com/
+  location: Japan
+  profile_image: img/authors/mei_w-cover.jpg
 - id: Atsushi Matsuda
   avatar: avatars/matsuda.jpg
   bio: Web Application Engineer
@@ -38,4 +46,4 @@
   website: ''
   location: Japan
   profile_image: img/authors/matsuda-cover.jpg
-
+  
