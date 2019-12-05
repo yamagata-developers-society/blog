@@ -1,6 +1,7 @@
 import { injectGlobal } from 'emotion';
 import { darken, lighten } from 'polished';
 import * as React from 'react';
+import '../global-styles/index.css';
 
 import { colors } from '../styles/colors';
 
