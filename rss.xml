@@ -1,4 +1,168 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Thu, 05 Dec 2019 01:25:35 GMT</lastBuildDate><item><title><![CDATA[React Hooks Color Picker]]></title><description><![CDATA[React Hooks Color Picker Today, I’ll show you how you can build your very own color picker using React Hooks. It is easy to build reusable…]]></description><link>https://yamagata-developers-society.github.io/blog/react-hooks-color-picker/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/react-hooks-color-picker/</guid><pubDate>Thu, 05 Dec 2019 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;React Hooks Color Picker&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Thu, 05 Dec 2019 16:20:44 GMT</lastBuildDate><item><title><![CDATA[ウェブデザイン技能検定1級受験記]]></title><description><![CDATA[この記事は、  Yamagata Developers Society Advent Calendar 2019  6日目の記事です。 はじめまして、松田です。 社会人3年目で、クラウド在庫管理ソフトの開発をしています。 主戦場はRuby on Rails…]]></description><link>https://yamagata-developers-society.github.io/blog/web-desing-skill-test/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/web-desing-skill-test/</guid><pubDate>Fri, 06 Dec 2019 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は、 &lt;a href=&quot;https://adventar.org/calendars/4619&quot;&gt;Yamagata Developers Society Advent Calendar 2019&lt;/a&gt; 6日目の記事です。&lt;/p&gt;
+&lt;p&gt;はじめまして、松田です。&lt;br&gt;
+社会人3年目で、クラウド在庫管理ソフトの開発をしています。&lt;br&gt;
+主戦場はRuby on Rails、たまにJavaScriptです。どうぞよろしくお願いします。 &lt;/p&gt;
+&lt;h1&gt;ウェブデザイン技能検定とは？&lt;/h1&gt;
+&lt;p&gt;ウェブサイト：&lt;a href=&quot;https://www.webdesign.gr.jp/&quot;&gt;https://www.webdesign.gr.jp/&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ウェブデザイン技能検定は、国家検定制度である技能検定制度の一つとして、厚生労働省より職業能力開発促進法第47条第１項の規定に基づき指定試験機関の指定を受け、特定非営利活動法人インターネットスキル認定普及協会（以下、当協会）が実施するものです。
+試験は実技および学科試験で実施され、関連国際標準規格等に基づきウェブデザインに関する知識・技能、実務能力等が問われます。１級の合格者には厚生労働大臣より、２級及び３級の合格者には当協会理事長より、ウェブデザイン技能士の合格証書が発行されます。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;つまりまとめるとこんな感じです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ウェブ系の国家資格（職業能力開発促進法に基づく）&lt;/li&gt;
+&lt;li&gt;1～3級まである&lt;/li&gt;
+&lt;li&gt;どの等級にも実技試験と学科試験がある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;今回はウェブデザイン技能検定の1級を受けてきたのでその報告です。&lt;/p&gt;
+&lt;h1&gt;ウェブデザイン技能検定1級について&lt;/h1&gt;
+&lt;p&gt;ウェブデザイン技能検定 試験概要：&lt;a href=&quot;https://www.webdesign.gr.jp/kentei/guide.html&quot;&gt;https://www.webdesign.gr.jp/kentei/guide.html&lt;/a&gt;&lt;br&gt;
+1級や2級を受ける場合は「受検資格」があるので、これをクリアしている必要があります。&lt;br&gt;
+1級の場合は以下のようです。  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;【実技試験】
+・1級の技能検定において、学科試験に合格した者（※1）
+【学科試験】
+・7年以上の実務経験（※2）を有する者
+・職業高校、短大、高専、高校専攻科、専修学校、各種学校卒業又は普通職業訓練修了（※3）後、5年以上の実務経験（※2）を有する者
+・大学（※3）卒業後、3年以上の実務経験（※2）を有する者
+・高度職業訓練修了（※3）後、1年以上の実務経験（※2）を有する者
+・2級の技能検定に合格した者であって、その後2年以上の実務経験（※2）を有する者&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;色々ありますが、7年以上の実務経験があれば間違いなく受けられます。&lt;br&gt;
+私は2級の技能検定に合格しているので、「2級の技能検定に合格した者であって、その後2年以上の実務経験（※2）を有する者」に該当します。&lt;br&gt;
+実技試験を受けるには、まず学科試験を受ける必要があります。  &lt;/p&gt;
+&lt;h1&gt;学科試験の受験対策&lt;/h1&gt;
+&lt;p&gt;ウェブデザイン技能検定の1級は、基本情報技術者などと違って対策本がありません。&lt;br&gt;
+ただし、過去問が3年分公表されているので、これを2回くらい解きました。&lt;br&gt;
+&lt;a href=&quot;https://www.webdesign.gr.jp/kentei/publication.html&quot;&gt;https://www.webdesign.gr.jp/kentei/publication.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;それでもまだまだわからないことが多いので、似たような資格の対策本を購入しました。&lt;br&gt;
+&lt;a href=&quot;https://www.amazon.co.jp/dp/479815461X/&quot;&gt;https://www.amazon.co.jp/dp/479815461X/&lt;/a&gt;&lt;br&gt;
+（HTML教科書 HTML5プロフェッショナル認定試験 レベル1 スピードマスター問題集 Ver2.0対応 株式会社富士通ラーニングメディア）&lt;br&gt;
+こちらは1回しか解いていないです(笑) もう少し解けば良かったと後悔…&lt;/p&gt;
+&lt;h1&gt;試験当日&lt;/h1&gt;
+&lt;p&gt;1級は東京だけで行われるので、山形から遠路はるばる向かう必要があります。&lt;br&gt;
+12:15に受付開始、12:30までに受付を済ませる必要があります。&lt;br&gt;
+13:00に受験がはじまり、15:00に終わりです。&lt;br&gt;
+受験者の方は30名くらいでした。  &lt;/p&gt;
+&lt;p&gt;▽会場のビル、東京駅八重洲口からすぐ
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/building-8201009a2228e1f67b522fbc7894387e-56b8e.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1170px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQDBQH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAAB6cec6VuSLaInwF//xAAbEAACAgMBAAAAAAAAAAAAAAABAgADEBESE//aAAgBAQABBQLfnUrRlJllmx3zGs6LnQJx/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGxAAAQQDAAAAAAAAAAAAAAAAAQAQESEyYXH/2gAIAQEABj8CG2yhCDQDSb6g/wD/xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMVFBgf/aAAgBAQABPyEGdkWRVzEL+LCOzQlTbs8dEvQv2GrcjO4E/9oADAMBAAIAAwAAABAz94L/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxAhP//EABcRAQEBAQAAAAAAAAAAAAAAAAEAEBH/2gAIAQIBAT8QW7Of/8QAHBABAQACAwEBAAAAAAAAAAAAAREAITFBUWGB/9oACAEBAAE/EFhp0PUxBTHl8wPAyENl5wJBSpK9szWItpNnr6/DIKp3tfw0HzOEK1fNZAVdZQ3n/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;会場の外観&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/building-8201009a2228e1f67b522fbc7894387e-27561.jpg&quot;
+        srcset=&quot;/blog/static/building-8201009a2228e1f67b522fbc7894387e-06456.jpg 293w,
+/blog/static/building-8201009a2228e1f67b522fbc7894387e-4b3e4.jpg 585w,
+/blog/static/building-8201009a2228e1f67b522fbc7894387e-27561.jpg 1170w,
+/blog/static/building-8201009a2228e1f67b522fbc7894387e-278c2.jpg 1755w,
+/blog/static/building-8201009a2228e1f67b522fbc7894387e-56b8e.jpg 2145w&quot;
+        sizes=&quot;(max-width: 1170px) 100vw, 1170px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;▽会議室を貸し切ってやるんですね〜
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/tkp-35141aac69e35470b9a067d06f58ea94-d69fb.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1170px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAbK4WWsqaxvxA80J/8QAHBAAAgEFAQAAAAAAAAAAAAAAAQIRAAMQEiET/9oACAEBAAEFAge8mtoLGMNbXW60L6NX/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQEg/9oACAEDAQE/AaOP/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAEQMQIREv/aAAgBAQAGPwLLplQpo2iz/8QAHRABAAMAAQUAAAAAAAAAAAAAAQARITEQYXGx0f/aAAgBAQABPyFKUuhtmTjnt04LbzZqcuVCX5Ce41YD4i78T//aAAwDAQACAAMAAAAQoBCB/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPxA7TUV//8QAFREBAQAAAAAAAAAAAAAAAAAAEAH/2gAIAQIBAT8QIf/EAB8QAQADAAIBBQAAAAAAAAAAAAEAESFBUTFhcaGx4f/aAAgBAQABPxDQAaHmmvpI2GiaKs8zVXtWBdYWfuPwlIBNq+dyIMic6EbehMCIt+hIwX4p/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;TKPカンファレンスセンター&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/tkp-35141aac69e35470b9a067d06f58ea94-27561.jpg&quot;
+        srcset=&quot;/blog/static/tkp-35141aac69e35470b9a067d06f58ea94-06456.jpg 293w,
+/blog/static/tkp-35141aac69e35470b9a067d06f58ea94-4b3e4.jpg 585w,
+/blog/static/tkp-35141aac69e35470b9a067d06f58ea94-27561.jpg 1170w,
+/blog/static/tkp-35141aac69e35470b9a067d06f58ea94-278c2.jpg 1755w,
+/blog/static/tkp-35141aac69e35470b9a067d06f58ea94-d69fb.jpg 2160w&quot;
+        sizes=&quot;(max-width: 1170px) 100vw, 1170px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;結果はいかに！？&lt;/h1&gt;
+&lt;p&gt;記事を書いた時点では結果はまだです。結果発表は12月下旬だったかな？
+手応えがないので、ポケモンでもやって気楽に過ごしていようかな？？？(現実逃&lt;/p&gt;
+&lt;h1&gt;おわりに&lt;/h1&gt;
+&lt;p&gt;私の場合は実務経験が浅いので、なんとか勉強でカバーしたいわけですが、社会人で &lt;strong&gt;仕事をやっているとそう簡単にはいかない&lt;/strong&gt; ですね…&lt;br&gt;
+それでもHTMLやJavaScriptを改めて勉強すると、 &lt;strong&gt;こんな仕様があったのか！&lt;/strong&gt; と思わぬ発見が得られるのでとても勉強になりました。&lt;br&gt;
+「ウェブデザイン」という言葉から意匠に関する知識を求められると思いますが、出題のほとんどが開発や運用についてです。&lt;br&gt;
+もしPHPやJavaScriptの実務経験がある方は受験されると良いと思います。&lt;br&gt;
+それではまた、冬も本番になってきたようなのでお体に気をつけてお過ごしください😀&lt;/p&gt;
+&lt;h1&gt;おまけ&lt;/h1&gt;
+&lt;p&gt;▽宇都宮みんみんの餃子。ちょっと寄り道♪
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/minmin-8c4593859a746936f4209d77f940e9d0-d69fb.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1170px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAMEAQIF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgQB/9oADAMBAAIQAxAAAAGCW1kPjLjaZNxT0QLv/8QAGhAAAwADAQAAAAAAAAAAAAAAAQIDABARIf/aAAgBAQABBQKcQVaRWfuc0wTsGLLZyNf/xAAaEQACAgMAAAAAAAAAAAAAAAAAEQECEDNh/9oACAEDAQE/AeigrsWP/8QAFxEAAwEAAAAAAAAAAAAAAAAAERIgIf/aAAgBAgEBPwFtEf/EAB0QAAEEAgMAAAAAAAAAAAAAACEAARBBAhExYXH/2gAIAQEABj8CAHO1WTx5JpN3H//EAB8QAQACAQMFAAAAAAAAAAAAAAEAESExUXEQQWGBof/aAAgBAQABPyGwCzg9XqI/gm0cHmXcd9E2u411iIh8oUB5dP/aAAwDAQACAAMAAAAQBCgD/8QAGhEAAgIDAAAAAAAAAAAAAAAAAREAEFFhof/aAAgBAwEBPxBoIswEDXIA1Ov/xAAZEQEAAgMAAAAAAAAAAAAAAAABACEQEVH/2gAIAQIBAT8QFcRHsSt4/8QAHRABAAIDAAMBAAAAAAAAAAAAARExACFBEFFhkf/aAAgBAQABPxARBJtDYDnJcLixs2BuZyhBCA1ydFhPxzNygFnQXi0n2ipyfwxAWn33lRRD0Hzx/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;餃子おいしかった〜&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/minmin-8c4593859a746936f4209d77f940e9d0-27561.jpg&quot;
+        srcset=&quot;/blog/static/minmin-8c4593859a746936f4209d77f940e9d0-06456.jpg 293w,
+/blog/static/minmin-8c4593859a746936f4209d77f940e9d0-4b3e4.jpg 585w,
+/blog/static/minmin-8c4593859a746936f4209d77f940e9d0-27561.jpg 1170w,
+/blog/static/minmin-8c4593859a746936f4209d77f940e9d0-278c2.jpg 1755w,
+/blog/static/minmin-8c4593859a746936f4209d77f940e9d0-d69fb.jpg 2160w&quot;
+        sizes=&quot;(max-width: 1170px) 100vw, 1170px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[React Hooks Color Picker]]></title><description><![CDATA[React Hooks Color Picker Today, I’ll show you how you can build your very own color picker using React Hooks. It is easy to build reusable…]]></description><link>https://yamagata-developers-society.github.io/blog/react-hooks-color-picker/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/react-hooks-color-picker/</guid><pubDate>Thu, 05 Dec 2019 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;React Hooks Color Picker&lt;/h1&gt;
 &lt;p&gt;Today, I’ll show you how you can build your very own color picker using React Hooks.&lt;/p&gt;
 &lt;p&gt;It is easy to build reusable, stateful components with React Hooks, which respond immediately to user interaction and are completely reusable.&lt;/p&gt;
 &lt;p&gt;Before diving in, let’s take a second to review how to use the &lt;code class=&quot;language-text&quot;&gt;useState&lt;/code&gt; hook, since it will be the main ingredient in completing our project.&lt;/p&gt;
