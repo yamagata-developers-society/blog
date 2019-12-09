@@ -1,4 +1,181 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Thu, 05 Dec 2019 16:20:44 GMT</lastBuildDate><item><title><![CDATA[ウェブデザイン技能検定1級受験記]]></title><description><![CDATA[この記事は、  Yamagata Developers Society Advent Calendar 2019  6日目の記事です。 はじめまして、松田です。 社会人3年目で、クラウド在庫管理ソフトの開発をしています。 主戦場はRuby on Rails…]]></description><link>https://yamagata-developers-society.github.io/blog/web-desing-skill-test/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/web-desing-skill-test/</guid><pubDate>Fri, 06 Dec 2019 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は、 &lt;a href=&quot;https://adventar.org/calendars/4619&quot;&gt;Yamagata Developers Society Advent Calendar 2019&lt;/a&gt; 6日目の記事です。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Mon, 09 Dec 2019 04:37:24 GMT</lastBuildDate><item><title><![CDATA[SORACOM LTE-M Buttonを使ったおもちゃ]]></title><description><![CDATA[この記事は、  Yamagata Developers Society Advent Calendar 2019  9日目の記事です。 YDSがほぼ毎月開催している YDS Developer Meetup Night! の2019年5月の会で、 
+「IoT 10…]]></description><link>https://yamagata-developers-society.github.io/blog/iot-101-meetup-201905/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/iot-101-meetup-201905/</guid><pubDate>Mon, 09 Dec 2019 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は、 &lt;a href=&quot;https://adventar.org/calendars/4619&quot;&gt;Yamagata Developers Society Advent Calendar 2019&lt;/a&gt; 9日目の記事です。&lt;/p&gt;
+&lt;p&gt;YDSがほぼ毎月開催している YDS Developer Meetup Night! の2019年5月の会で、
+「IoT 101」というタイトルで、IoTに関する発表を行いました。&lt;br&gt;
+発表では、IoTの概要と、デモとして用意した SORACOM LTE-M Button powered by AWS を使ったおもちゃを実際に使ってもらう形式でした。&lt;/p&gt;
+&lt;p&gt;今回のブログでは、デモシステムの概要について説明していきたいと思います。&lt;br&gt;
+(すっかり共有が遅くなってしまい、申し訳ない。。。)&lt;/p&gt;
+&lt;h2&gt;デモシステムの概要&lt;/h2&gt;
+&lt;p&gt;SORACOM LTE-M Button powered by AWS を使って、アンケートをとります。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/question-753a947c47d383eb7f1cd837433688e7-52694.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACU0lEQVQoz22SS0+TQRSG+RMmXn6BMcSw04WGhUv1H7jQhQt2IgIWokjamBhDRI1G5A6NEBWiRuViSRBpv94BodpLWmor7UdLL7S29Po4LYUU9E3eOTPJ5Ml7Zk5NsVhkT6veMF45jhxNsuzeLJ9XPCHMThmTM4jjdxR/OIE7GMfhj+ALxYkld6hWTWlJZ3KEt9Mk0lni2QKB7R02k5kDF2fMPka+OJhc9JT9XvrFlEXmk9GPWuNkcNbOkHAZmMnlkSPbhIQjDjeyc51Nj5+dzC40ny/SNfGdWy8l7o2auD++jKJnngblKG09GjrVVhQDBtqEy8BisUAsHiMpy6DVwrcFWLIQ8MukU3n+CPCjN1ZUY0uoXlnomrTR1P2Bi1cVXO8c5sHrFTpHzWXXVL9hSYVKjcS3UHU8pfHyQ+rPnqHu/AVOnqrlWqMK5fgad4aMKMcESG3h7rBJJDeXXUlYPOCSopEoN5ubuHSunpPHjlNbd5oTR49wpeE23R89Io2AjJjoGNmFdVT2+8DqmkgkCAaDGA1GZuc0mK1WftrW0Es6FrU65rUmtiIxZix+WvokkfIQcE97wFwuRyqVIpvNijdMEw6F0K36mDGuM613MSU50P8Iop5zlT+iBDzQ8mFgPp8nEAiwsbGB3W7H5XLh8fqRTEssSibW7G6yYjKmTT5aeqV94H8TVkNLRkzAuhjk/ikbPe/MPH8r8WT8Ky8mtCgHNNx4/JnmZ7O09S78CzyctFCpNm+U1n4D7YNG0aIeRb9Ea5+OdrHvGDaIXzaIaiyn/AsD5e4jNUPpgAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;質問&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/question-753a947c47d383eb7f1cd837433688e7-52694.png&quot;
+        srcset=&quot;/blog/static/question-753a947c47d383eb7f1cd837433688e7-0b089.png 293w,
+/blog/static/question-753a947c47d383eb7f1cd837433688e7-7b018.png 585w,
+/blog/static/question-753a947c47d383eb7f1cd837433688e7-52694.png 960w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;アンケート結果は、全員回答後にボタンを2回押すことで、Raspberry piに繋いだLEDパネルで何パーセントの人がYesと答えたか表示します。&lt;br&gt;
+(デバッグも兼ねて、全体回答数, Yes回答数, No回答数を最後に表示するようにしています。)&lt;/p&gt;
+&lt;p&gt;実際に動くと、こんな感じ。&lt;/p&gt;
+&lt;div&gt;
+          &lt;div
+            class=&quot;gatsby-resp-iframe-wrapper&quot;
+            style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden;margin-bottom: 1rem&quot;
+          &gt;
+            &lt;iframe src=&quot;https://www.youtube.com/embed/2dePh2b9rsY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen style=&quot;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          &quot;&gt;&lt;/iframe&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+&lt;h2&gt;デモシステムの構成&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/SystemOverview-42a183dc2c9b1921cca9ba1c1791d401-1e6f3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1024px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 43.9453125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAABy0lEQVQoz01RTU8UQRCdH+dJuOzVOxcM6kEw4eARLxyMMTEhhgseBKNG12jAiAFdoksUN7q4M4CyO8x0z1fP7Hx19/SXtYoJL3Wql1f16pWlzQS/avosTJQQRikpRHMOLo3hnt2MejUXtK4opfV/cM4tqRSIU6WOuUgb8ZaMMxhxDl1UNSUui4ewQ0pJGVdaK6WbRmCMrfn5m9Ot1uWp6Y9bm9iY5aF/WtWC0SAMSUIQ9hdfzDzuPowCksc4HnyRjErJYQBC2Fq6s3TtxvWrc3N7nQ7sao/OqFTAUcbAd0ziW2uzTz89AoomXtnfHTk/ut+GJ24zEZsL0FoXjOsLnaIo6JgZaTgMCqM0QEmMV9fj2UX396lnbbx+0u5sehXLhRhSds+PPN6ArFZaaENIsnv0yol6gouec0AbClS3i9Y3frquZ00ttO4+X2mH2Ycw8ovy/gj13TNC0s8k84va990rDy4tv7yNPHyMnbwe/zUEqUmEkLW6tvJu603ftr8fHhZleRInkOrAtvf293EQZONs5+v7I9epyioiYZqRqqr+HTgR72xvO/agLktGKSSkoJRKkmScwcvE5OaKgWf4MOjzPIcO6MuyDILgD8Jg4ImJHMkQAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;システム構成&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/SystemOverview-42a183dc2c9b1921cca9ba1c1791d401-1e6f3.png&quot;
+        srcset=&quot;/blog/static/SystemOverview-42a183dc2c9b1921cca9ba1c1791d401-28404.png 293w,
+/blog/static/SystemOverview-42a183dc2c9b1921cca9ba1c1791d401-d7dd0.png 585w,
+/blog/static/SystemOverview-42a183dc2c9b1921cca9ba1c1791d401-1e6f3.png 1024w&quot;
+        sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;SORACOM LTE-M Button側&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;SORACOM LTE-M Buttonは、AWS IoT 1-Clickとのマッピングが簡単にできるようになっています。&lt;/li&gt;
+&lt;li&gt;IoT 1-Clickがイベント検知すると、AWS Lambdaの関数を呼び出し、Dynamo DBにイベント情報を保管します。&lt;/li&gt;
+&lt;li&gt;イベントが集計表示のものの場合、MQTTトピックに集計結果を送信します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Rasoberry pi側&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Raspberry piは、SORACOM Airを使った通信用SIMを接続。&lt;/li&gt;
+&lt;li&gt;Raspberry piは、AWS IoT Coreにデパイスを登録するとともに、SORACOM Beamを使って、AWS IoT CoreのMQTTトピックを受け取れるように設定する。&lt;/li&gt;
+&lt;li&gt;MQTTトピックから集計結果を受信し、LTEパネルに結果を表示する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;細かい設定やらコードやら&lt;/h2&gt;
+&lt;p&gt;以下にいくつかまとめましたので、詳細知りたい方はご参照ください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHubに使用しているコード類は保管してあります。&lt;br&gt;
+&lt;a href=&quot;https://github.com/yosi-q/ydmsample-201905&quot;&gt;https://github.com/yosi-q/ydmsample-201905&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;SORACOM LTE-M Buttonのセットアップ、AWSに関連する設定の一部はこちらに整理しています。&lt;br&gt;
+&lt;a href=&quot;https://qiita.com/yosi-q/items/1fb58a734f511a1716c5&quot;&gt;https://qiita.com/yosi-q/items/1fb58a734f511a1716c5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;発表で特に触れなかったのですが、本当であればIoTデバイスはAWS IoT CoreでShadowを使うことで、状態遷移(結果表示中とかなんとか)なども管理した方がいいのですが、&lt;br&gt;
+今回のデモでは結果通知されるMQTTトピックだけを監視する形で簡略化しています。&lt;/p&gt;
+&lt;h2&gt;発表内容の概要&lt;/h2&gt;
+&lt;p&gt;以下は、デモ以外のことも興味がある人向けの内容です。&lt;/p&gt;
+&lt;h3&gt;IoT実現における課題&lt;/h3&gt;
+&lt;p&gt;IoT実現において、いくつか課題がありますが、発表の中では、特に以下の課題に触れました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;セキュリティ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;インターネット上のセキュアな通信に関する点&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;限られたリソース&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;容量の小さいCPU、メモリ、ハードディスクなど&lt;/li&gt;
+&lt;li&gt;電力供給&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;端末管理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;どのモノ(thing)からの通信か&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;いずれも項目単体で解決できるものではなく、それぞれのトレードオフを考慮しながら検討が必要なものです。&lt;/p&gt;
+&lt;h3&gt;デモシステムにおける課題の考慮点&lt;/h3&gt;
+&lt;p&gt;限られたリソースという点について、今回のデモシステムでは、下記のような点を意識した構成としています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;クラウドにおける集中処理による解決&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;モノ側のそれぞれの処理はシンプルに。(ボタンはどう押されたかを通知する、Raspberry piは集計結果を表示するだけの仕組み)&lt;/li&gt;
+&lt;li&gt;データの集計処理や結果の蓄積はAWS上のLambda, DynamoDBに任せる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;MQTTによる通信&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;データ量が小さい通信プロトコルの使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SORACOM Beamの利用&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MQTT-MQTTS変換をすることで、暗号化にかかるリソース消費を抑える&lt;/li&gt;
+&lt;li&gt;同時にセキュアさもカバー&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;計算リソースの消費を抑えることで電力消費を抑える&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;他にも、デモシステムでは下記をカバーしていることにもなります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Raspberry piの通信にSORACOM Airを使うことで、端末管理が容易になる(SIM=デバイス)&lt;/li&gt;
+&lt;li&gt;ボタンの通信で使用しているLTE-MはLPWA(=Low Power Wide Area)の一つで、少ない消費電力で通信を可能にしている&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;もっぱら、SORACOMの機能のおかげでカバーできてる点が多いわけで、&lt;br&gt;
+SORACOMサマサマ感ある。。&lt;/p&gt;
+&lt;h2&gt;最後に&lt;/h2&gt;
+&lt;p&gt;IoT、いろんな形でシステムが作られていますが、&lt;br&gt;
+いざ自分が考えるとなると、単純なことをさせるデバイス（今回で言えばボタン）の活かし方を考えるのって実は結構難しい。&lt;br&gt;
+いいアイディアが浮かんだら、また何か作ってみたいなと思ってはいますが、
+自分の頭のカタさが悔しいです。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ウェブデザイン技能検定1級受験記]]></title><description><![CDATA[この記事は、  Yamagata Developers Society Advent Calendar 2019  6日目の記事です。 はじめまして、松田です。 社会人3年目で、クラウド在庫管理ソフトの開発をしています。 主戦場はRuby on Rails…]]></description><link>https://yamagata-developers-society.github.io/blog/web-desing-skill-test/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/web-desing-skill-test/</guid><pubDate>Fri, 06 Dec 2019 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は、 &lt;a href=&quot;https://adventar.org/calendars/4619&quot;&gt;Yamagata Developers Society Advent Calendar 2019&lt;/a&gt; 6日目の記事です。&lt;/p&gt;
 &lt;p&gt;はじめまして、松田です。&lt;br&gt;
 社会人3年目で、クラウド在庫管理ソフトの開発をしています。&lt;br&gt;
 主戦場はRuby on Rails、たまにJavaScriptです。どうぞよろしくお願いします。 &lt;/p&gt;
