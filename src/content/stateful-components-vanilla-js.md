@@ -104,7 +104,7 @@ And in our CSS:
 
 ```sass
 .text-error {
-  color: indianred;
+  color: red;
 }
 
 .text-success {
@@ -205,7 +205,7 @@ ol {
 }
 
 .text-error {
-  color: indianred;
+  color: red;
 }
 
 .text-success {

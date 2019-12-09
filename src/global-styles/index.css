@@ -7,7 +7,7 @@
 p code[class*='language-text'] {
   background: #263238;
   font-size: 88%;
-  word-break: keep-all;
+  white-space: pre;
   padding: 0 5px 2px;
 }
 
