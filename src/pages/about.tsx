@@ -61,6 +61,7 @@ const About: React.SFC = () => (
                   webkitallowfullscreen
                   mozallowfullscreen
                   allowfullscreen
+                  class="loading-element shimmer-animation"
                 />
               </div>
               <p>

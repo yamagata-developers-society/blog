@@ -96,7 +96,7 @@ const currentColor = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
 
 Next, let's create a range input component, since it will be reused 3 times.
 
-```js
+```jsx
 const RangeInput = ({ label, value, max = 100, onChange }) => {
   return (
     <div>
@@ -117,18 +117,19 @@ const RangeInput = ({ label, value, max = 100, onChange }) => {
 
 I set `max = 100` by default, since for two of the range sliders, 100 is the max. For hue, on the other hand, the max value will go to 360, so we can pass props as such to define this one:
 
-```js
+```jsx
 <RangeInput label="Hue" value={hue} onChange={setHue} max={360} />
 ```
 
 The other inputs will look like this:
 
-```js
+```jsx
 <RangeInput
   label="Saturation"
   value={saturation}
   onChange={setSaturation}
 />
+
 <RangeInput
   label="Brightness"
   value={lightness}
@@ -153,7 +154,7 @@ For more information about how to use styled-components, see <a href="https://ww
 
 We can then pass the current color through props, and the background color of this component will automatically update when the value of hue, saturation or brightness changes.
 
-```js
+```jsx
 <ColorBox currentColor={currentColor} />
 ```
 
@@ -167,13 +168,16 @@ Of course, `useState` is not the only React Hook out there. To go further with y
 
 Below you will find a working demo to compare your code to. Feel free to fork the project and continue building and customizing as you learn more about React and React Hooks!
 
-<iframe
-  src="https://codesandbox.io/embed/cool-burnell-t4lef?fontsize=14&hidenavigation=1&theme=dark"
-  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-  title="cool-burnell-t4lef"
-  allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
-  sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
-></iframe>
+<p>
+  <iframe
+    src="https://codesandbox.io/embed/cool-burnell-t4lef?fontsize=14&hidenavigation=1&theme=dark"
+    style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+    title="cool-burnell-t4lef"
+    allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
+    sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+    class="loading-element shimmer-animation"
+  ></iframe>
+</p>
 
 ## Yamagata Developers Society
 
