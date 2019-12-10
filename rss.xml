@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Tue, 10 Dec 2019 01:18:40 GMT</lastBuildDate><item><title><![CDATA[SORACOM LTE-M Buttonを使ったおもちゃ]]></title><description><![CDATA[この記事は、  Yamagata Developers Society Advent Calendar 2019  9日目の記事です。 YDSがほぼ毎月開催している YDS Developer Meetup Night! の2019年5月の会で、 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Tue, 10 Dec 2019 03:29:04 GMT</lastBuildDate><item><title><![CDATA[SORACOM LTE-M Buttonを使ったおもちゃ]]></title><description><![CDATA[この記事は、  Yamagata Developers Society Advent Calendar 2019  9日目の記事です。 YDSがほぼ毎月開催している YDS Developer Meetup Night! の2019年5月の会で、 
 「IoT 10…]]></description><link>https://yamagata-developers-society.github.io/blog/iot-101-meetup-201905/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/iot-101-meetup-201905/</guid><pubDate>Mon, 09 Dec 2019 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は、 &lt;a href=&quot;https://adventar.org/calendars/4619&quot;&gt;Yamagata Developers Society Advent Calendar 2019&lt;/a&gt; 9日目の記事です。&lt;/p&gt;
 &lt;p&gt;YDSがほぼ毎月開催している YDS Developer Meetup Night! の2019年5月の会で、
 「IoT 101」というタイトルで、IoTに関する発表を行いました。&lt;br&gt;
@@ -10,7 +10,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/question-753a947c47d383eb7f1cd837433688e7-52694.png&quot;
+    href=&quot;/blog/static/question-cc210e06592ab264813e2f66ac9d6245-52694.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -22,17 +22,17 @@
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACU0lEQVQoz22SS0+TQRSG+RMmXn6BMcSw04WGhUv1H7jQhQt2IgIWokjamBhDRI1G5A6NEBWiRuViSRBpv94BodpLWmor7UdLL7S29Po4LYUU9E3eOTPJ5Ml7Zk5NsVhkT6veMF45jhxNsuzeLJ9XPCHMThmTM4jjdxR/OIE7GMfhj+ALxYkld6hWTWlJZ3KEt9Mk0lni2QKB7R02k5kDF2fMPka+OJhc9JT9XvrFlEXmk9GPWuNkcNbOkHAZmMnlkSPbhIQjDjeyc51Nj5+dzC40ny/SNfGdWy8l7o2auD++jKJnngblKG09GjrVVhQDBtqEy8BisUAsHiMpy6DVwrcFWLIQ8MukU3n+CPCjN1ZUY0uoXlnomrTR1P2Bi1cVXO8c5sHrFTpHzWXXVL9hSYVKjcS3UHU8pfHyQ+rPnqHu/AVOnqrlWqMK5fgad4aMKMcESG3h7rBJJDeXXUlYPOCSopEoN5ubuHSunpPHjlNbd5oTR49wpeE23R89Io2AjJjoGNmFdVT2+8DqmkgkCAaDGA1GZuc0mK1WftrW0Es6FrU65rUmtiIxZix+WvokkfIQcE97wFwuRyqVIpvNijdMEw6F0K36mDGuM613MSU50P8Iop5zlT+iBDzQ8mFgPp8nEAiwsbGB3W7H5XLh8fqRTEssSibW7G6yYjKmTT5aeqV94H8TVkNLRkzAuhjk/ikbPe/MPH8r8WT8Ky8mtCgHNNx4/JnmZ7O09S78CzyctFCpNm+U1n4D7YNG0aIeRb9Ea5+OdrHvGDaIXzaIaiyn/AsD5e4jNUPpgAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAACEUlEQVQoz32Q22oTURSG5y0EsQ8gFMVe9qag4J3oE3ihF17ola22JVHTNCkilGKhFGpDmkMjRDFVEZsYUoptMofs2MYmpZkkk6OZSSYdJjM5zNndEaVC9edfm82Cb/2LhRimdF3PVthys8Nw3TTVypTb30ssKDQBSefqXI0VijQPP9VWhxMHxm8hsAayynb6Ql/mJY3uSC1R1nVzomFEQM0fI0Px0ka89AGtbn5jPidrgS3SE815o7kTWFZU5lhgOeGYpBiy1KLqA0mCfVXTF0IHj1cx+zp4HkxbVrfvO/3WVzF7YM+yRkAj5s4a3+G7zaaBJoz4rr6/96PKdEVF7PcX3qQcAeAMgPmN7MTLjzfuWO/N+l68TcNx0IhxSrq5Lse352aWxm/NXx0dHRm7fnH40t3xOWcw89SDO15DLGXzJWf8ABo5jf162+32xNSjm2PXhi8MXR65MnT+3O0HlsVPlAOmmcwf/5UMJQgiTdM4jkeiUQKAw8wBmojvxNHtBGA5PpKqT7mw2fXU2bCiKL1eT5Kkfq/HsiyaqX1JliIYGcZI4ogJbBXgnez/glVVbTQaMDyfzxcLRapSx8D+LgYyR5Qkq+FkdfI/yVCapqmqZuhameHd4cOV92D5HbYU/LoSSjjdsYeLm5PLUatr52z4hDcvl61w0278iYewrmEWNzbtQq1uzOYlnnlxm4+A8E8TuBQV+wUwjQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;質問&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/question-753a947c47d383eb7f1cd837433688e7-52694.png&quot;
-        srcset=&quot;/blog/static/question-753a947c47d383eb7f1cd837433688e7-0b089.png 293w,
-/blog/static/question-753a947c47d383eb7f1cd837433688e7-7b018.png 585w,
-/blog/static/question-753a947c47d383eb7f1cd837433688e7-52694.png 960w&quot;
+        src=&quot;/blog/static/question-cc210e06592ab264813e2f66ac9d6245-52694.png&quot;
+        srcset=&quot;/blog/static/question-cc210e06592ab264813e2f66ac9d6245-0b089.png 293w,
+/blog/static/question-cc210e06592ab264813e2f66ac9d6245-7b018.png 585w,
+/blog/static/question-cc210e06592ab264813e2f66ac9d6245-52694.png 960w&quot;
         sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
       /&gt;
     &lt;/span&gt;
@@ -61,7 +61,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/SystemOverview-42a183dc2c9b1921cca9ba1c1791d401-1e6f3.png&quot;
+    href=&quot;/blog/static/SystemOverview-75c62812ea8a8bfe4d2eb9ad21b05fd1-1e6f3.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -80,10 +80,10 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;システム構成&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/SystemOverview-42a183dc2c9b1921cca9ba1c1791d401-1e6f3.png&quot;
-        srcset=&quot;/blog/static/SystemOverview-42a183dc2c9b1921cca9ba1c1791d401-28404.png 293w,
-/blog/static/SystemOverview-42a183dc2c9b1921cca9ba1c1791d401-d7dd0.png 585w,
-/blog/static/SystemOverview-42a183dc2c9b1921cca9ba1c1791d401-1e6f3.png 1024w&quot;
+        src=&quot;/blog/static/SystemOverview-75c62812ea8a8bfe4d2eb9ad21b05fd1-1e6f3.png&quot;
+        srcset=&quot;/blog/static/SystemOverview-75c62812ea8a8bfe4d2eb9ad21b05fd1-28404.png 293w,
+/blog/static/SystemOverview-75c62812ea8a8bfe4d2eb9ad21b05fd1-d7dd0.png 585w,
+/blog/static/SystemOverview-75c62812ea8a8bfe4d2eb9ad21b05fd1-1e6f3.png 1024w&quot;
         sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;
       /&gt;
     &lt;/span&gt;
@@ -175,10 +175,12 @@ SORACOMサマサマ感ある。。&lt;/p&gt;
 &lt;p&gt;IoT、いろんな形でシステムが作られていますが、&lt;br&gt;
 いざ自分が考えるとなると、単純なことをさせるデバイス（今回で言えばボタン）の活かし方を考えるのって実は結構難しい。&lt;br&gt;
 いいアイディアが浮かんだら、また何か作ってみたいなと思ってはいますが、
-自分の頭のカタさが悔しいです。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ウェブデザイン技能検定1級受験記]]></title><description><![CDATA[この記事は、  Yamagata Developers Society Advent Calendar 2019  6日目の記事です。 はじめまして、松田です。 社会人3年目で、クラウド在庫管理ソフトの開発をしています。 主戦場はRuby on Rails…]]></description><link>https://yamagata-developers-society.github.io/blog/web-desing-skill-test/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/web-desing-skill-test/</guid><pubDate>Fri, 06 Dec 2019 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は、 &lt;a href=&quot;https://adventar.org/calendars/4619&quot;&gt;Yamagata Developers Society Advent Calendar 2019&lt;/a&gt; 6日目の記事です。&lt;/p&gt;
-&lt;p&gt;はじめまして、松田です。&lt;br&gt;
-社会人3年目で、クラウド在庫管理ソフトの開発をしています。&lt;br&gt;
-主戦場はRuby on Rails、たまにJavaScriptです。どうぞよろしくお願いします。 &lt;/p&gt;
+自分の頭のカタさが悔しいです。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ウェブデザイン技能検定1級受験記]]></title><description><![CDATA[この記事は、  Yamagata Developers Society Advent Calendar 2019  6日目の記事です。 はじめまして、松田です。
+社会人3年目で、クラウド在庫管理ソフトの開発をしています。
+主戦場はRuby on Rails…]]></description><link>https://yamagata-developers-society.github.io/blog/web-desing-skill-test/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/web-desing-skill-test/</guid><pubDate>Fri, 06 Dec 2019 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;この記事は、 &lt;a href=&quot;https://adventar.org/calendars/4619&quot;&gt;Yamagata Developers Society Advent Calendar 2019&lt;/a&gt; 6日目の記事です。&lt;/p&gt;
+&lt;p&gt;はじめまして、松田です。
+社会人3年目で、クラウド在庫管理ソフトの開発をしています。
+主戦場はRuby on Rails、たまにJavaScriptです。どうぞよろしくお願いします。&lt;/p&gt;
 &lt;h1&gt;ウェブデザイン技能検定とは？&lt;/h1&gt;
 &lt;p&gt;ウェブサイト：&lt;a href=&quot;https://www.webdesign.gr.jp/&quot;&gt;https://www.webdesign.gr.jp/&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -193,9 +195,9 @@ SORACOMサマサマ感ある。。&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;今回はウェブデザイン技能検定の1級を受けてきたのでその報告です。&lt;/p&gt;
 &lt;h1&gt;ウェブデザイン技能検定1級について&lt;/h1&gt;
-&lt;p&gt;ウェブデザイン技能検定 試験概要：&lt;a href=&quot;https://www.webdesign.gr.jp/kentei/guide.html&quot;&gt;https://www.webdesign.gr.jp/kentei/guide.html&lt;/a&gt;&lt;br&gt;
-1級や2級を受ける場合は「受検資格」があるので、これをクリアしている必要があります。&lt;br&gt;
-1級の場合は以下のようです。  &lt;/p&gt;
+&lt;p&gt;ウェブデザイン技能検定 試験概要：&lt;a href=&quot;https://www.webdesign.gr.jp/kentei/guide.html&quot;&gt;https://www.webdesign.gr.jp/kentei/guide.html&lt;/a&gt;
+1級や2級を受ける場合は「受検資格」があるので、これをクリアしている必要があります。
+1級の場合は以下のようです。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;【実技試験】
 ・1級の技能検定において、学科試験に合格した者（※1）
@@ -206,27 +208,27 @@ SORACOMサマサマ感ある。。&lt;/p&gt;
 ・高度職業訓練修了（※3）後、1年以上の実務経験（※2）を有する者
 ・2級の技能検定に合格した者であって、その後2年以上の実務経験（※2）を有する者&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;色々ありますが、7年以上の実務経験があれば間違いなく受けられます。&lt;br&gt;
-私は2級の技能検定に合格しているので、「2級の技能検定に合格した者であって、その後2年以上の実務経験（※2）を有する者」に該当します。&lt;br&gt;
-実技試験を受けるには、まず学科試験を受ける必要があります。  &lt;/p&gt;
+&lt;p&gt;色々ありますが、7年以上の実務経験があれば間違いなく受けられます。
+私は2級の技能検定に合格しているので、「2級の技能検定に合格した者であって、その後2年以上の実務経験（※2）を有する者」に該当します。
+実技試験を受けるには、まず学科試験を受ける必要があります。&lt;/p&gt;
 &lt;h1&gt;学科試験の受験対策&lt;/h1&gt;
-&lt;p&gt;ウェブデザイン技能検定の1級は、基本情報技術者などと違って対策本がありません。&lt;br&gt;
-ただし、過去問が3年分公表されているので、これを2回くらい解きました。&lt;br&gt;
+&lt;p&gt;ウェブデザイン技能検定の1級は、基本情報技術者などと違って対策本がありません。
+ただし、過去問が3年分公表されているので、これを2回くらい解きました。
 &lt;a href=&quot;https://www.webdesign.gr.jp/kentei/publication.html&quot;&gt;https://www.webdesign.gr.jp/kentei/publication.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;それでもまだまだわからないことが多いので、似たような資格の対策本を購入しました。&lt;br&gt;
-&lt;a href=&quot;https://www.amazon.co.jp/dp/479815461X/&quot;&gt;https://www.amazon.co.jp/dp/479815461X/&lt;/a&gt;&lt;br&gt;
-（HTML教科書 HTML5プロフェッショナル認定試験 レベル1 スピードマスター問題集 Ver2.0対応 株式会社富士通ラーニングメディア）&lt;br&gt;
+&lt;p&gt;それでもまだまだわからないことが多いので、似たような資格の対策本を購入しました。
+&lt;a href=&quot;https://www.amazon.co.jp/dp/479815461X/&quot;&gt;https://www.amazon.co.jp/dp/479815461X/&lt;/a&gt;
+（HTML教科書 HTML5プロフェッショナル認定試験 レベル1 スピードマスター問題集 Ver2.0対応 株式会社富士通ラーニングメディア）
 こちらは1回しか解いていないです(笑) もう少し解けば良かったと後悔…&lt;/p&gt;
 &lt;h1&gt;試験当日&lt;/h1&gt;
-&lt;p&gt;1級は東京だけで行われるので、山形から遠路はるばる向かう必要があります。&lt;br&gt;
-12:15に受付開始、12:30までに受付を済ませる必要があります。&lt;br&gt;
-13:00に受験がはじまり、15:00に終わりです。&lt;br&gt;
-受験者の方は30名くらいでした。  &lt;/p&gt;
+&lt;p&gt;1級は東京だけで行われるので、山形から遠路はるばる向かう必要があります。
+12:15に受付開始、12:30までに受付を済ませる必要があります。
+13:00に受験がはじまり、15:00に終わりです。
+受験者の方は30名くらいでした。&lt;/p&gt;
 &lt;p&gt;▽会場のビル、東京駅八重洲口からすぐ
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/building-8201009a2228e1f67b522fbc7894387e-56b8e.jpg&quot;
+    href=&quot;/blog/static/building-cce56655962c2c29d3759f2ae8e2f10d-56b8e.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -238,19 +240,19 @@ SORACOMサマサマ感ある。。&lt;/p&gt;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQDBQH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAAB6cec6VuSLaInwF//xAAbEAACAgMBAAAAAAAAAAAAAAABAgADEBESE//aAAgBAQABBQLfnUrRlJllmx3zGs6LnQJx/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGxAAAQQDAAAAAAAAAAAAAAAAAQAQESEyYXH/2gAIAQEABj8CG2yhCDQDSb6g/wD/xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMVFBgf/aAAgBAQABPyEGdkWRVzEL+LCOzQlTbs8dEvQv2GrcjO4E/9oADAMBAAIAAwAAABAz94L/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxAhP//EABcRAQEBAQAAAAAAAAAAAAAAAAEAEBH/2gAIAQIBAT8QW7Of/8QAHBABAQACAwEBAAAAAAAAAAAAAREAITFBUWGB/9oACAEBAAE/EFhp0PUxBTHl8wPAyENl5wJBSpK9szWItpNnr6/DIKp3tfw0HzOEK1fNZAVdZQ3n/9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQDBQH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAAB6cec6VuSLaInwF//xAAbEAACAgMBAAAAAAAAAAAAAAABAgADEBESE//aAAgBAQABBQLfnUrRlJllmx3zGs6LnQJx/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGxAAAQQDAAAAAAAAAAAAAAAAAQAQESEyYXH/2gAIAQEABj8CG2yhCDQDSb6g/wD/xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMVFBYf/aAAgBAQABPyEGdkWRVzELp8sI7NCVNuzx0S9C/YatyM7hP//aAAwDAQACAAMAAAAQM/8Agv/EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ECE//8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAQEf/aAAgBAgEBPxBbs5//xAAcEAEBAAIDAQEAAAAAAAAAAAABEQAhMUFRYYH/2gAIAQEAAT8QeGnQ9TEFKPL5geDIQ2XnAkFKkr2zNYi2kqevr8yCqd7X8NB8zhCtXzWQFXBTef/Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;会場の外観&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/building-8201009a2228e1f67b522fbc7894387e-27561.jpg&quot;
-        srcset=&quot;/blog/static/building-8201009a2228e1f67b522fbc7894387e-06456.jpg 293w,
-/blog/static/building-8201009a2228e1f67b522fbc7894387e-4b3e4.jpg 585w,
-/blog/static/building-8201009a2228e1f67b522fbc7894387e-27561.jpg 1170w,
-/blog/static/building-8201009a2228e1f67b522fbc7894387e-278c2.jpg 1755w,
-/blog/static/building-8201009a2228e1f67b522fbc7894387e-56b8e.jpg 2145w&quot;
+        src=&quot;/blog/static/building-cce56655962c2c29d3759f2ae8e2f10d-27561.jpg&quot;
+        srcset=&quot;/blog/static/building-cce56655962c2c29d3759f2ae8e2f10d-06456.jpg 293w,
+/blog/static/building-cce56655962c2c29d3759f2ae8e2f10d-4b3e4.jpg 585w,
+/blog/static/building-cce56655962c2c29d3759f2ae8e2f10d-27561.jpg 1170w,
+/blog/static/building-cce56655962c2c29d3759f2ae8e2f10d-278c2.jpg 1755w,
+/blog/static/building-cce56655962c2c29d3759f2ae8e2f10d-56b8e.jpg 2145w&quot;
         sizes=&quot;(max-width: 1170px) 100vw, 1170px&quot;
       /&gt;
     &lt;/span&gt;
@@ -262,7 +264,7 @@ SORACOMサマサマ感ある。。&lt;/p&gt;
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/tkp-35141aac69e35470b9a067d06f58ea94-d69fb.jpg&quot;
+    href=&quot;/blog/static/tkp-597b3a75ec2e7ef71edf65e5ff5dfa8b-d69fb.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -274,19 +276,19 @@ SORACOMサマサマ感ある。。&lt;/p&gt;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAbK4WWsqaxvxA80J/8QAHBAAAgEFAQAAAAAAAAAAAAAAAQIRAAMQEiET/9oACAEBAAEFAge8mtoLGMNbXW60L6NX/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQEg/9oACAEDAQE/AaOP/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAEQMQIREv/aAAgBAQAGPwLLplQpo2iz/8QAHRABAAMAAQUAAAAAAAAAAAAAAQARITEQYXGx0f/aAAgBAQABPyFKUuhtmTjnt04LbzZqcuVCX5Ce41YD4i78T//aAAwDAQACAAMAAAAQoBCB/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPxA7TUV//8QAFREBAQAAAAAAAAAAAAAAAAAAEAH/2gAIAQIBAT8QIf/EAB8QAQADAAIBBQAAAAAAAAAAAAEAESFBUTFhcaGx4f/aAAgBAQABPxDQAaHmmvpI2GiaKs8zVXtWBdYWfuPwlIBNq+dyIMic6EbehMCIt+hIwX4p/9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAbK4WWsqaxuxg80J/8QAHBAAAgEFAQAAAAAAAAAAAAAAAQIRAAMQEiET/9oACAEBAAEFAge8mtoLGMNbXW60L6NX/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQEg/9oACAEDAQE/AaOP/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAEQMQIREv/aAAgBAQAGPwLLplQpo2iz/8QAHRABAAMAAQUAAAAAAAAAAAAAAQARITEQYXGx0f/aAAgBAQABPyFKUuhtmTjnt04LbzZqcuVCX5Ce41YD4i78T//aAAwDAQACAAMAAAAQoBiB/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPxA7TUV//8QAFREBAQAAAAAAAAAAAAAAAAAAEAH/2gAIAQIBAT8QIf/EACAQAQADAAIABwAAAAAAAAAAAAEAESFBUTFhcaGxweH/2gAIAQEAAT8Q0AGh4018JGw0TRVnmaq9qwLrCz9R+EpAJtXzuRBlROdCNvQ+5gRFvyJGC+1P/9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;TKPカンファレンスセンター&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/tkp-35141aac69e35470b9a067d06f58ea94-27561.jpg&quot;
-        srcset=&quot;/blog/static/tkp-35141aac69e35470b9a067d06f58ea94-06456.jpg 293w,
-/blog/static/tkp-35141aac69e35470b9a067d06f58ea94-4b3e4.jpg 585w,
-/blog/static/tkp-35141aac69e35470b9a067d06f58ea94-27561.jpg 1170w,
-/blog/static/tkp-35141aac69e35470b9a067d06f58ea94-278c2.jpg 1755w,
-/blog/static/tkp-35141aac69e35470b9a067d06f58ea94-d69fb.jpg 2160w&quot;
+        src=&quot;/blog/static/tkp-597b3a75ec2e7ef71edf65e5ff5dfa8b-27561.jpg&quot;
+        srcset=&quot;/blog/static/tkp-597b3a75ec2e7ef71edf65e5ff5dfa8b-06456.jpg 293w,
+/blog/static/tkp-597b3a75ec2e7ef71edf65e5ff5dfa8b-4b3e4.jpg 585w,
+/blog/static/tkp-597b3a75ec2e7ef71edf65e5ff5dfa8b-27561.jpg 1170w,
+/blog/static/tkp-597b3a75ec2e7ef71edf65e5ff5dfa8b-278c2.jpg 1755w,
+/blog/static/tkp-597b3a75ec2e7ef71edf65e5ff5dfa8b-d69fb.jpg 2160w&quot;
         sizes=&quot;(max-width: 1170px) 100vw, 1170px&quot;
       /&gt;
     &lt;/span&gt;
@@ -298,17 +300,17 @@ SORACOMサマサマ感ある。。&lt;/p&gt;
 &lt;p&gt;記事を書いた時点では結果はまだです。結果発表は12月下旬だったかな？
 手応えがないので、ポケモンでもやって気楽に過ごしていようかな？？？(現実逃&lt;/p&gt;
 &lt;h1&gt;おわりに&lt;/h1&gt;
-&lt;p&gt;私の場合は実務経験が浅いので、なんとか勉強でカバーしたいわけですが、社会人で &lt;strong&gt;仕事をやっているとそう簡単にはいかない&lt;/strong&gt; ですね…&lt;br&gt;
-それでもHTMLやJavaScriptを改めて勉強すると、 &lt;strong&gt;こんな仕様があったのか！&lt;/strong&gt; と思わぬ発見が得られるのでとても勉強になりました。&lt;br&gt;
-「ウェブデザイン」という言葉から意匠に関する知識を求められると思いますが、出題のほとんどが開発や運用についてです。&lt;br&gt;
-もしPHPやJavaScriptの実務経験がある方は受験されると良いと思います。&lt;br&gt;
+&lt;p&gt;私の場合は実務経験が浅いので、なんとか勉強でカバーしたいわけですが、社会人で &lt;strong&gt;仕事をやっているとそう簡単にはいかない&lt;/strong&gt; ですね…
+それでもHTMLやJavaScriptを改めて勉強すると、 &lt;strong&gt;こんな仕様があったのか！&lt;/strong&gt; と思わぬ発見が得られるのでとても勉強になりました。
+「ウェブデザイン」という言葉から意匠に関する知識を求められると思いますが、出題のほとんどが開発や運用についてです。
+もしPHPやJavaScriptの実務経験がある方は受験されると良いと思います。
 それではまた、冬も本番になってきたようなのでお体に気をつけてお過ごしください😀&lt;/p&gt;
 &lt;h1&gt;おまけ&lt;/h1&gt;
 &lt;p&gt;▽宇都宮みんみんの餃子。ちょっと寄り道♪
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/minmin-8c4593859a746936f4209d77f940e9d0-d69fb.jpg&quot;
+    href=&quot;/blog/static/minmin-e1228c1f3cb651545f3f60052cb3562f-d69fb.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -327,12 +329,12 @@ SORACOMサマサマ感ある。。&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;餃子おいしかった〜&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/minmin-8c4593859a746936f4209d77f940e9d0-27561.jpg&quot;
-        srcset=&quot;/blog/static/minmin-8c4593859a746936f4209d77f940e9d0-06456.jpg 293w,
-/blog/static/minmin-8c4593859a746936f4209d77f940e9d0-4b3e4.jpg 585w,
-/blog/static/minmin-8c4593859a746936f4209d77f940e9d0-27561.jpg 1170w,
-/blog/static/minmin-8c4593859a746936f4209d77f940e9d0-278c2.jpg 1755w,
-/blog/static/minmin-8c4593859a746936f4209d77f940e9d0-d69fb.jpg 2160w&quot;
+        src=&quot;/blog/static/minmin-e1228c1f3cb651545f3f60052cb3562f-27561.jpg&quot;
+        srcset=&quot;/blog/static/minmin-e1228c1f3cb651545f3f60052cb3562f-06456.jpg 293w,
+/blog/static/minmin-e1228c1f3cb651545f3f60052cb3562f-4b3e4.jpg 585w,
+/blog/static/minmin-e1228c1f3cb651545f3f60052cb3562f-27561.jpg 1170w,
+/blog/static/minmin-e1228c1f3cb651545f3f60052cb3562f-278c2.jpg 1755w,
+/blog/static/minmin-e1228c1f3cb651545f3f60052cb3562f-d69fb.jpg 2160w&quot;
         sizes=&quot;(max-width: 1170px) 100vw, 1170px&quot;
       /&gt;
     &lt;/span&gt;
@@ -485,7 +487,7 @@ Below that, there will be three range sliders to adjust the &lt;code class=&quot
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/picture-b1c39ed99a3728da863eb148a7a55250-a5d9a.jpg&quot;
+    href=&quot;/blog/static/picture-954698fd4e56ec169a938619fcecaa67-a5d9a.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -497,16 +499,16 @@ Below that, there will be three range sliders to adjust the &lt;code class=&quot
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABYBAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAABrdi86oFh/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAECAxIh/9oACAEBAAEFAs9+zsVDkSoU+f/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAAAAh/9oACAECAQE/AVf/xAAYEAACAwAAAAAAAAAAAAAAAAABERAgIf/aAAgBAQAGPwJJGmx//8QAGxABAQEAAgMAAAAAAAAAAAAAAREAEEFRgZH/2gAIAQEAAT8hBUo972+ahjtAwhITxxP/2gAMAwEAAgADAAAAELvv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/EDJC/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxB26Jj/xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhUWH/2gAIAQEAAT8QfE1IJjioCyqMAtzu+ywtb5nmQHZ8u//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAa3YvOqBYL//xAAZEAADAQEBAAAAAAAAAAAAAAAAAQIDEiH/2gAIAQEAAQUCz37OxUOBKhT5/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAIAQIBAT8BV//EABgQAAIDAAAAAAAAAAAAAAAAAAERECAh/9oACAEBAAY/AkkabH//xAAbEAEBAQACAwAAAAAAAAAAAAABEQAQQVGBkf/aAAgBAQABPyEFSj3vb5qGK0DCEhPHE//aAAwDAQACAAMAAAAQu/8A/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/EDJC/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxB26Jj/xAAaEAEBAQEBAQEAAAAAAAAAAAABEQAhUWFx/9oACAEBAAE/EHxNSCY4qAsqjALczvvzLC1vmeZAdny7/9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;cafe.jpg&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/picture-b1c39ed99a3728da863eb148a7a55250-a5d9a.jpg&quot;
-        srcset=&quot;/blog/static/picture-b1c39ed99a3728da863eb148a7a55250-1e56e.jpg 293w,
-/blog/static/picture-b1c39ed99a3728da863eb148a7a55250-a5d9a.jpg 400w&quot;
+        src=&quot;/blog/static/picture-954698fd4e56ec169a938619fcecaa67-a5d9a.jpg&quot;
+        srcset=&quot;/blog/static/picture-954698fd4e56ec169a938619fcecaa67-1e56e.jpg 293w,
+/blog/static/picture-954698fd4e56ec169a938619fcecaa67-a5d9a.jpg 400w&quot;
         sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1083,7 +1085,7 @@ BGP は、エッジルーターの経路情報を作るためのプロトコル�
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/environment_overview-36ac9a6886ec5d261a34f16e78bb53cd-52694.png&quot;
+    href=&quot;/blog/static/environment_overview-a6ccc0cb6a303318e4b56f6e4c392be4-52694.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1095,17 +1097,17 @@ BGP は、エッジルーターの経路情報を作るためのプロトコル�
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAAB8UlEQVQoz42RT2sTURTF5/sI1oULl67cCOI3cOfCrZ9Ci1BFCxYKtZUGVIRYFFTaaCE1FpNmEiozzZ+ZhMwkk8zMm/cyM+/NvPfuc0gbEXTh4be6cLjn3KsJTPLpTHGuAGS9pSoVZfWVUvF83tV/ZJ6nGONcAIg8z8Y2ng7nOEizPBNCatyb0vIenP4UOI5O3ej2vVC33Rk/M80vB5VXpVLHNBXIaSSRbqtvRwgrcXAIrpMDaMCobDaUaRJv6lsTtrYdWAPPD3x/dtbppJTmxUaWBUQZ+4dH609TDtXHT7q1WpFOI2RujfwkIX3bcifOKAx6Fj85ke12t93WG43G8fH3LBcRkkPXaZkmCsOmYXQtS3CuMQoTF1LKxmMfRwlGSaOOq1XiODPXHRmGMRwOis4ISbUQgPotDSREgSBIFqCAuw4Z2BMUxC291azXZXFIKWJCff/cBDmVoccAISWlpv6SWNCfTPRe3w6RgyNEgcwvFqeYj3uxckeKCy0fDeOdzWR3K9nZpJ8/sMon+r6cvnubfdzLy69Z6QXb3UrfvITYB8mWoS+ia7TzFT+4RB5dIasr5Nk18vw62b5LNm7hjZvR+g28uoIfXsZrV+P9O0ntvszIwro0K1Vcgi1JFxSTfMn5nEKGCoqH/1nwH53/X78AAYxWKOMauJEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAAB70lEQVQoz42RT2sTURTF5/sI1oULl67cCOI3cOfCbT+FFqGKFiwUaisNqAixKKi00UJqLCbNJFRmmj8zCZlJJpmZN+9lZt7/9xxiI4IuPPxWFw73nHsNARGbzjTnWinZaOlKRTt9rXU6R13zOw0CTQjnQinBOB27cDpAMMopo0JIgwdTXN5XZz8ETJMzP7l9LzZdf8bPbfvzYeVlqdSxba3kNJHAdPXXYwC1ODxSvseUMhTFstnQto2CaeiMyfpO5AyCMArD2Xmnk2PMGKOERkhbB0fHG09yrqqPHndrtSKdgdDcGYVZhvqu40+8URz1HH56KtvtbrttNhqNk5NvlIkEyKHvtWwbxHHTsrqOIzg3CFYTX+WYjMchTDIIskYdVqvI82a+P7IsazgcFJ0BkHohpfRvGUqqJBIIyAIQcd9DA3cCorRltpr1uiwOKUWKcBj+MimGZRwQlQAtpaH/kljQn0zMXt+NgQcTgBWaXyzOIR/3Uu2PNBcGGw3T3a1sbzvb3cKf3pPKR/yunL99Qz/ss/IrUnpO9rbz1y9UGipJlqEvohu48wXev4QeXkFrK+jpNfTsOtq5izZvwc2bycYNuLYCH1yG61fTgztZbVVStLAuzVoXlyBL8gXFhC5gyzlWFBQUD/+z4D86/79+Av+mViaoQQXuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;環境概要&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/environment_overview-36ac9a6886ec5d261a34f16e78bb53cd-52694.png&quot;
-        srcset=&quot;/blog/static/environment_overview-36ac9a6886ec5d261a34f16e78bb53cd-0b089.png 293w,
-/blog/static/environment_overview-36ac9a6886ec5d261a34f16e78bb53cd-7b018.png 585w,
-/blog/static/environment_overview-36ac9a6886ec5d261a34f16e78bb53cd-52694.png 960w&quot;
+        src=&quot;/blog/static/environment_overview-a6ccc0cb6a303318e4b56f6e4c392be4-52694.png&quot;
+        srcset=&quot;/blog/static/environment_overview-a6ccc0cb6a303318e4b56f6e4c392be4-0b089.png 293w,
+/blog/static/environment_overview-a6ccc0cb6a303318e4b56f6e4c392be4-7b018.png 585w,
+/blog/static/environment_overview-a6ccc0cb6a303318e4b56f6e4c392be4-52694.png 960w&quot;
         sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1277,7 +1279,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/create_heroku_pipeline-c80c180b8de44b203733a3a2b69b5af5-f7a2a.png&quot;
+    href=&quot;/blog/static/create_heroku_pipeline-90880a6feed2352bd80eccdb4d9c86bd-f7a2a.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1289,17 +1291,17 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 22.29299363057325%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAAqUlEQVQY023PwQ7CIBRE0f7/17m2pis1VmvlgRQo0CtUjcZIcsKCeTA0Y39HXSx6dKSYSSnjfcT9EyJzTKswJ2LJppwJeUG7mV4mmv4gnPaK4WxQtwkRh/ql3zzKfIidERe5iudSCg1lvjE1NFrqXpuF0rK+vgrf4sq/1HOtDFY0ehBuxytGlQutCUzWl/p1IKxyfn5lWZb/KKvkx80GtW3Ru5Z71xG7lgdONjXe16QBgAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 22.29299363057325%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAIAAAABPYjBAAAACXBIWXMAAAsSAAALEgHS3X78AAAAlklEQVQI123OuRLCMAwEUP//36UmQxpgIJct+ZJk2eCkoIrmdbs7I7N/gluTt1lLVW3EJdOfZj5IqR2XXmlam9TmSWbMZn7h+wHrEsBlRALIDqgDPLgTeILAHaaCWTfk2dLmsvE93qP3RFRYKote4JMoWoyAuDj33LyNJnlOkfpHIsJ9XVvX2vfiqu7D4G4jjmOYpnIffwvQ5oR4zz7HAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Create New Pipeline&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/create_heroku_pipeline-c80c180b8de44b203733a3a2b69b5af5-f7a2a.png&quot;
-        srcset=&quot;/blog/static/create_heroku_pipeline-c80c180b8de44b203733a3a2b69b5af5-5fe40.png 293w,
-/blog/static/create_heroku_pipeline-c80c180b8de44b203733a3a2b69b5af5-86509.png 585w,
-/blog/static/create_heroku_pipeline-c80c180b8de44b203733a3a2b69b5af5-f7a2a.png 785w&quot;
+        src=&quot;/blog/static/create_heroku_pipeline-90880a6feed2352bd80eccdb4d9c86bd-f7a2a.png&quot;
+        srcset=&quot;/blog/static/create_heroku_pipeline-90880a6feed2352bd80eccdb4d9c86bd-5fe40.png 293w,
+/blog/static/create_heroku_pipeline-90880a6feed2352bd80eccdb4d9c86bd-86509.png 585w,
+/blog/static/create_heroku_pipeline-90880a6feed2352bd80eccdb4d9c86bd-f7a2a.png 785w&quot;
         sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1312,7 +1314,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/create_heroku_pipeline_setting-6a2725eaf2aed62556a4f9ba29fbce61-f7a2a.png&quot;
+    href=&quot;/blog/static/create_heroku_pipeline_setting-b9ff3aad5afe9b21a16a026e3abd9ea7-f7a2a.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1324,17 +1326,17 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 83.69426751592357%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAACI0lEQVQ4y5WT2ZLTMBBF8/9/wT/AO0XxxrA+BHgYQkGWieN41WbZ8uW2ZGccJkDh1KmOLel2t7p7VWYK1UmjKQyGPmAYArquh5vougGdf8RzT889sw1hRE8U9+W1waqgWJGTs0ZdWzSkWlCUGvm5RV6Qks5bd6FWHWqdKAV+Wzl6Fbo+2RjVZB29Nq0IlpGirOFcD0tmaxfvcmYlIQuDZwoUkrTFYsR/PeNIHbKaX05ZhYdDgexY4rA/M90WrTYxQqFVBm1roGiNdTDGMbIO2tj4LhryXARlURZkg+s8tLZJZEJrrikHZ30snJdsaHteVT8MTwUbpaGM4WUr/Hw4wTgXN7COzH6Mdv4NI8XG2Q5XaUfBwMVDccQ22+PHccf/OSrbQHn9T0xvsFMHaNpLhCKY1xVOVQlltfiSOCI+eHTD3xGxIaRIV3PuTcMeY1scTgU+3m/x6dsWH2hrZVPq7ITxFmNaE6YIx5j7jFywZVEEQ+Q9HQg3mQuzEEyXWXEiSk7EOath2RLe95HFjU922XxPe/EimOep96RtEo5VtzHCIYR4NmYxZRRCqv75QWHzOYPl6D0WheHud3tUVcMR8gmmKz237L84XrSeIyZO5Fm/2eHFs7c4H5tJcJw9A5N/zjXv0LLRVUJz6AWjkhXRObObKUuEX+8OePdyg9fP19h/L24e+P1wZKrw1aTIh836hC93O7x/dY9sV6VD4boDlvzJyS+vdi9zKpOimgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 83.69426751592357%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAAAsSAAALEgHS3X78AAAB10lEQVQ4y41S227UMBDN//8G/wDvCPGEViwPUJAoi+gmaeLEdjzjux3GTrbbiqp0dGKNI52ZM2fc8AHFqJfZxJBSys5H6wooqUiEEAt8zDFlipAyuMQW03AGnCGf9CLtslgpTcFiZqHZpNisGAepnIQKJHipvUDHwTZ26xDS3ipQ20DJopBNgk2cc0l/dtgL6rXJNUhz9Kmecc3rf2NjNVs2DqLv5nK2s5AAqKnzAgholNIARlunjTXbaRxRiLiTrSt/kT7vUVsFugCN1laDtcZH8ixEOksS4yZuJytE0EYC3vUjlaefxdd1R1ppD1fky2CVvOaOD+eh+3Pf9pwJUuoRPGLQ/0IH0+K9DnYnU5NJCiYEjVau1Gcl+4JL/llgMJHUbGQKpVBw2Y3z8fb85fZ8/HknsdSmMlf11zFy0f5A3qwnS4zzBO085U8GvWBz7onbktMjg2lcaA2hxvqK2MmMXpNUtCSCNg6MrXsp4h5Q/V/nHk5fB4PuSm7bTojFWk9wzjtLtjpEW671PXq/lVpvPrXv3hzmQT2auSyzeEGiSbkBR7U1EGxJFFUJz8umkj8O/ef3p49vb7rTvGl54VWnWBvtslP+/W38fmiPH36NrXyZ/Dj+AliV3ifpGVorAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Create New Pipeline Setting&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/create_heroku_pipeline_setting-6a2725eaf2aed62556a4f9ba29fbce61-f7a2a.png&quot;
-        srcset=&quot;/blog/static/create_heroku_pipeline_setting-6a2725eaf2aed62556a4f9ba29fbce61-5fe40.png 293w,
-/blog/static/create_heroku_pipeline_setting-6a2725eaf2aed62556a4f9ba29fbce61-86509.png 585w,
-/blog/static/create_heroku_pipeline_setting-6a2725eaf2aed62556a4f9ba29fbce61-f7a2a.png 785w&quot;
+        src=&quot;/blog/static/create_heroku_pipeline_setting-b9ff3aad5afe9b21a16a026e3abd9ea7-f7a2a.png&quot;
+        srcset=&quot;/blog/static/create_heroku_pipeline_setting-b9ff3aad5afe9b21a16a026e3abd9ea7-5fe40.png 293w,
+/blog/static/create_heroku_pipeline_setting-b9ff3aad5afe9b21a16a026e3abd9ea7-86509.png 585w,
+/blog/static/create_heroku_pipeline_setting-b9ff3aad5afe9b21a16a026e3abd9ea7-f7a2a.png 785w&quot;
         sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1347,7 +1349,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/pipeline_created_at_first-aa350c5232d915822879ae5d50a3cbac-f7a2a.png&quot;
+    href=&quot;/blog/static/pipeline_created_at_first-f4aff78d09ce3ad1b948adda41b6b62c-f7a2a.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1359,17 +1361,17 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 54.52229299363057%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABmUlEQVQoz32SW2/UQAyF5///LB6RKiRA5YGWFxbokt3M/Z7kcDxptC1UjPTJE8fjOWNbmSnCXhKCKViXDeu6obUFpfY3aX1FX1baZdgRT3zpmFyGOp8sfv9yeKK9Xjzm2eNy9dAmwdi84w4KjL9hQ4WNO3MouNgEpa9UyENPPwymyeCqLWbtkHJ7W2V5TWZczh2RSY2NUFV+pAZZG1kovy8bXq7tP/y9VGsdejYwmhhLtaJQw/sAZ/2wIUYqSEgp0UYqyhAhwunrjMfPZ3y5O+H7wwTVWVxr3UimmUj2Yr0L8HxCSoVNaqi1QS6vsieBNU2s2+PHM+7fn/Dh3Tc8fPoJ5UKG9Zkq06hlqcszfdhMFZElcTyseYFlouvkqbqOmL6x00e5tg0ql8YGVD6lUE2FfA/oE+Tf/r3HpZe+4yzPyVlppKq8xYtKF2kT6+cHzkeSBvW5wyHucdqGV4hP4iRGSeuljgdW81lzHPU6fMfIrBzkhRQq05xVM4exX8aAr6wtE6bxlBu3p/zrLwdMHllTYZ/H3S8xfwCdb1UvgKLkkAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 54.52229299363057%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABb0lEQVQoz42STZMUIQyG+f8/y5sHPfhRZZWjF2fVcXoaAiEkAXp9md21vFhl6ukUIUC/CYR0FdqESec8juPR+1QbwHzoC31M4P0Ya83R51G0b7mFy5muP8rPB7ptJe58u5WUhLKmvyC2ZypwEt/ZNmoh7pKpXR5o29IeU0y5qav1f6LdtFexRBIcsTjEQNGYc4zj8b8tuPe4U4qUElGmGCMz51yYK0yWNQxaa6bDtZ9P+9cPl09vzt9O19DHSDljZ4xrN3zJtWRpojjXzOHxQSAXFbbTu18fX5/fvvry+f33kEvL3NK9cvMJVrd9NVzEM2ukmoverpBimBzrTpahxtC0i1it2sSwG916pq22rWwzANWrkSv0NYPFzYNBDzeC1NpQ7x5LLjWzFBZcNbJVVjYS/yEXAUgFHNb76H3ClygUq/sKR5+2XkvH45lzmnq8cdqroqS5DMuWbAi4s0Tewyf8KdQ7+I9Uq2z6MoMqfgM2G3rXVPUR4wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Created View&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/pipeline_created_at_first-aa350c5232d915822879ae5d50a3cbac-f7a2a.png&quot;
-        srcset=&quot;/blog/static/pipeline_created_at_first-aa350c5232d915822879ae5d50a3cbac-5fe40.png 293w,
-/blog/static/pipeline_created_at_first-aa350c5232d915822879ae5d50a3cbac-86509.png 585w,
-/blog/static/pipeline_created_at_first-aa350c5232d915822879ae5d50a3cbac-f7a2a.png 785w&quot;
+        src=&quot;/blog/static/pipeline_created_at_first-f4aff78d09ce3ad1b948adda41b6b62c-f7a2a.png&quot;
+        srcset=&quot;/blog/static/pipeline_created_at_first-f4aff78d09ce3ad1b948adda41b6b62c-5fe40.png 293w,
+/blog/static/pipeline_created_at_first-f4aff78d09ce3ad1b948adda41b6b62c-86509.png 585w,
+/blog/static/pipeline_created_at_first-f4aff78d09ce3ad1b948adda41b6b62c-f7a2a.png 785w&quot;
         sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1383,7 +1385,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/set_stage_app-9b8709192b9838b5f732e65c7e342c67-f7a2a.png&quot;
+    href=&quot;/blog/static/set_stage_app-4864d40180ddfe54c90c669da27ade1d-f7a2a.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1395,17 +1397,17 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 60.509554140127385%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABnklEQVQoz3WSy27bMBBF+f+/k3VRZFMURYsGCJBFkaKLGE1jWw+KL5EWdXuHlKVGqGUcUzMaXs6Dqjs69CcH24/I04ycZ8Q0YYyX/5IueWHClHON574hJBx1gHo7aBxfB7weepxPBk1jcCZd79EzYGUQRvRmQ9sI7Sot7WbwUF3robnh7bfG+azRdJpiBmFMzOhGpuM/K4l8tyIsgolGoDHzl+e5lCLMLCVPGdNUy5pRn3Vl7DsWv7JuhDEV51I5WbLL2IIycT4upBIbSpbXCrZKlKFgpy1Oxx4NS7Y+wLI3j58P+PLhJ+7vnvD90y/4mND2lu3xaBvLwyM8B+FDPciTQFtJNtYFGOvYA0sxz48JPx7+UPQFXz8+4+nbCyc6lzhteCsGwZZEOjmEtrGhZih/YkhDjQiTQUQjT0yRV+JSypfm51x7GpiV7ijCPSMzn5Zer4KRzjJV0rW2UEuIGEP1y3eZZkx1qgNLd+zl1ZZVYtQauGB436wJ73wSU/u1IUMR9n7ld84gAvFyU2AvtPervfNW4Eba1mtcSKv/Lxjmo2UMie0iAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 60.509554140127385%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAABcUlEQVQoz52Ry2pbMRCG9f6vk3UJZFECTSElkE1Lu0iKMbZ8JI1Gc9HFGR075qy6qPg0SL80N8mFA4ZjyZFHG6OfRTtLW6krc62tT2qvbfQ+pI1Eeojk9u/xsIPde/BH8Cc4egiBQqSQ+ApwBIlZQpaEhkZUD+wTuXAqKfF+l7xPS0ghAnH9TL5hI4o0LJKAnEojlGElj6G1qVr1Z6utrxWeN8P0LTYcogBwBkHUS4abhzljUUtSiubEVpF8Zpb1psvIS4TjIXgfsZDFenn8++3L74e71+evf0jqEnJMZfG5FCHWQmoLsxbL2USknDGBmUKl/vyxf3l8e7r/9fr9zXpB5JRLBAwJQ8Ql5gQFkESqs/+ATBYbkE2CmUCoqtTa+rDT3nvrnUnigpCmz1Ran842RZTZGtZwygaRECkbXNc+q+i0EAsCq1wVc7Gydd3Md85AxryqzbDjwvWKxZK69lxv4uz5xuUbt8q/cZd3+z8+AJBltTppEOqMAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Set Stage App&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/set_stage_app-9b8709192b9838b5f732e65c7e342c67-f7a2a.png&quot;
-        srcset=&quot;/blog/static/set_stage_app-9b8709192b9838b5f732e65c7e342c67-5fe40.png 293w,
-/blog/static/set_stage_app-9b8709192b9838b5f732e65c7e342c67-86509.png 585w,
-/blog/static/set_stage_app-9b8709192b9838b5f732e65c7e342c67-f7a2a.png 785w&quot;
+        src=&quot;/blog/static/set_stage_app-4864d40180ddfe54c90c669da27ade1d-f7a2a.png&quot;
+        srcset=&quot;/blog/static/set_stage_app-4864d40180ddfe54c90c669da27ade1d-5fe40.png 293w,
+/blog/static/set_stage_app-4864d40180ddfe54c90c669da27ade1d-86509.png 585w,
+/blog/static/set_stage_app-4864d40180ddfe54c90c669da27ade1d-f7a2a.png 785w&quot;
         sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1418,7 +1420,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/create_new_stage_app-d51e40db22fe3125224a9e62cd6a4a7d-f7a2a.png&quot;
+    href=&quot;/blog/static/create_new_stage_app-1672adb97a43921dd78d204a66479662-f7a2a.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1430,17 +1432,17 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 60.38216560509554%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAACPUlEQVQoz2VS226bQBTk/3+ifW37kjZVI7VKI6V9imPFYHMzYC524tgGHDAsLLfp2XVcuSnSaC/szp6ZOYo6WUBTF9D1AK7/KDH3VrDc5T8wnQis4hBf03bIDyWBoSgr9P2ArhvAmxbK+N7BeOxidDfHg+piMvXwoHnQdJ8QQDOOUGmdvOTIihK8bSUqziUamnddj55IFW3qY0YXxmOHiBxMZg5ddmFRRTZVdoLlLLFJYzxv19glG2zjZxzqAqyrwNoKOxZjVyVQ5uKwHcILH+EFJHexIslLeK/yXX8lR/Fvm++wzlZYpoEckzoBH2p0Q4eKiHnHoehWiJkZQDdDGHYkKxHVeeETvOgJi+UaLs11ejTZ54hJdlFzpCQ9yQukeYmat1Ku8FERBzWDfFNJLkk27AAGPfL9coIvH+7w8f0vfLsYUTAR4jTHLj1gE2dwVlvY0TMsQvxSoGAcJYWmiGp024duLTA1PRp9mPMItz91XF+puPp8j5sfKhySvt9nyAhJ+oKOgjj/hmGQaSu2eyScmtQ6VJ2Yz4jc8kJYixBzn+RHj9KGsmBoKgqBMVQVedf3Mt3T2BIUmaJH3rmhhEZtI2DOae0cIR4V64x670B9V9X8b1US/StorrxtD10GFLxpmUjakOyP/qWZIK6lb4w3qKihGaEWjS1SFYdPOKb8/55B4TFWS5+apiN5HVjJsXs6EHKsoz2S7QHKOck50fneibAkwo7IsrSU8jZhhptPBm4vDFy+G+H3Vx1/AJXJc1WSvRyJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 60.38216560509554%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAACBElEQVQoz12S226cMBCGef+HqNTLKldpqipqpUTK3nWzSWDXBgPmYNjsgQWWgzEGDB02SRV19AkN4N/zz9ia8eIZho9QSP0tDV5tGhN3xnIjwLSZEN00TX2vqqqp6obzVqlpUKOUvbZaOU8rd7m0n3X3ZU2fDWqgYI0D44KO/excFTWXfd/2vZCylbIbIJQaRm298Tc4eHoCpasjx0CUOJHtxm+AhUOe7pN9kh6Pp0PV1s0gml4kIk1EptlgjzAabl3w7MUA9V9dfzsTzI0k5WlXxFEW7os4b7NulMM0iEFIJTVkhcgMkBliwuY+nYiynRft/HhP2SsmYZqXp3PJpcx5k5Z1VvG2GxRsALYRCdeYvugO2DbtALb4daPffPtz9XXx8/rRctkpK5O8PpxKJz6S6GBG+6So60Y2QmpQChMfEw9ZFBLLYYs7dHer314/3v/WwXmeF8W5TPPz0PfTR4zTpMZRI26EiL82PWwHkGxAT0PLC4nPKNtCZV43nWibRggh5xkriBGmDcxi4kK3ITyNNTU2nuWEAAFgBDYrK17zVrTdW8XxA8hn24RG9gVshdgK/r3CL+gCzvmYFjn0yVsuZHs5cEAOg3ZZ8c77xfr0BdsMBjOqsZ9vhhJcnnZVsiv37JwdKxCzz6v/A8S8aYdeFVkDrg+suL8yH67x9y/LxQ/0F09khUuspkQkAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Create Stage New App&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/create_new_stage_app-d51e40db22fe3125224a9e62cd6a4a7d-f7a2a.png&quot;
-        srcset=&quot;/blog/static/create_new_stage_app-d51e40db22fe3125224a9e62cd6a4a7d-5fe40.png 293w,
-/blog/static/create_new_stage_app-d51e40db22fe3125224a9e62cd6a4a7d-86509.png 585w,
-/blog/static/create_new_stage_app-d51e40db22fe3125224a9e62cd6a4a7d-f7a2a.png 785w&quot;
+        src=&quot;/blog/static/create_new_stage_app-1672adb97a43921dd78d204a66479662-f7a2a.png&quot;
+        srcset=&quot;/blog/static/create_new_stage_app-1672adb97a43921dd78d204a66479662-5fe40.png 293w,
+/blog/static/create_new_stage_app-1672adb97a43921dd78d204a66479662-86509.png 585w,
+/blog/static/create_new_stage_app-1672adb97a43921dd78d204a66479662-f7a2a.png 785w&quot;
         sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1453,7 +1455,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/added_stage_app-7589749dcd0b6105bf1da70f6bb71e9f-f7a2a.png&quot;
+    href=&quot;/blog/static/added_stage_app-aee013d05c6674541e040619552636ff-f7a2a.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1465,17 +1467,17 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 60.25477707006369%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABYUlEQVQoz51SCW7DMAzL/785DMV6JL7vhKOPNl3TYcASEI5liyKlTPOXgbhYGBGwlg3ruiGmghByR8zwXH3s3ymvAwW5rP0+85RLOEuH6etT4nxSOH0IXC8at5vG9aqxCAchPZZnKA+hAoTukCY2CBtx4/6mSChmB8WL55MkmcS8SCbrpqoppao41P2GGAusi1CahKlaYoWN77ptzUpFfTbud6DHgDdn+/lkbCCzh5IBlsSB1ZxPvW9PMFSgbb9THflwVFpjk6L3ZTZYFvZt1jDW8TA9lFa71U4tLHVtj2v3K3Et7Hxs53X1IWHSbPJ8Udx4GGOZoEmSOL0VhUgpwzEhcjXWk9RyMKZhkYQwkMpCG9dUTl16GdbKsJxH9R1V6crfpBCeauRCEtXdlBFvhK+JvX8/e3iPxTHxCsXfyrD38THp3C2/IzwWOCr2Mb+NT3sw/0n6qvoYHwrvm9ek/+AbF+SnIEJa1t0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 60.25477707006369%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAABKklEQVQoz52R6W4EIQiAff/HbNJjr1FBBLymOLPd3V4/WvKFAAoCuuWQwolSlNHH6KuWLto2qkjd7dp6aV2rGaP3oW0A10Nkd3iG4yu8PIXzCS8Lns/oQw6RJyA7ESWgGjFppMmCcgF20WcEOb7BZYElQLCLWrW0OzqZQW03KCsgu6KNqYwxuy61Geu6jrGOTT/KDD5g4ogUk9jjRMXGy1L5AcoFSaaOwh8r2DHXIYpfUvDoPSbrRku1xVgLWnPWlG3gjMh+ITtkKZkLsZo229mbywlZOSUCQC3bCL3XUpnNa4kEkCJQAPKQfEwRCa2AVrc1U28tWck7MjfXN2HR6AnBWqt75Jqc+dOcj9hXq16ByGRfMbc9XTtyv6X9UEi/Rv6Q/B237e2fye/kr7kOBYEjtAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Added Stage App&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/added_stage_app-7589749dcd0b6105bf1da70f6bb71e9f-f7a2a.png&quot;
-        srcset=&quot;/blog/static/added_stage_app-7589749dcd0b6105bf1da70f6bb71e9f-5fe40.png 293w,
-/blog/static/added_stage_app-7589749dcd0b6105bf1da70f6bb71e9f-86509.png 585w,
-/blog/static/added_stage_app-7589749dcd0b6105bf1da70f6bb71e9f-f7a2a.png 785w&quot;
+        src=&quot;/blog/static/added_stage_app-aee013d05c6674541e040619552636ff-f7a2a.png&quot;
+        srcset=&quot;/blog/static/added_stage_app-aee013d05c6674541e040619552636ff-5fe40.png 293w,
+/blog/static/added_stage_app-aee013d05c6674541e040619552636ff-86509.png 585w,
+/blog/static/added_stage_app-aee013d05c6674541e040619552636ff-f7a2a.png 785w&quot;
         sizes=&quot;(max-width: 785px) 100vw, 785px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1487,7 +1489,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png&quot;
+    href=&quot;/blog/static/added_prod_app-9dadff594722b48376e055d58616d068-fa7b5.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1499,17 +1501,17 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 41.445783132530124%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABGUlEQVQoz42SWW7DMAxEdf9rFkXaxpa17/Z0qGwNko8aeDAlU9QMaWXOEULyFft+4CCtDZTSUeozlfut73cGc4VOXG5YfYb6/rT4OTmcPgzWxWNdPbQOMDY/sTm+XYHxD2yoF2KF5np1CcroBMcDy4+D3hzWzcL5OBWIov8gjnJpCLFANbGTGnYc03JtnTa4Ori+crxhfxsDyoUMS6l6iXC0VOpAYj/+ElOF5BmfYMW+ji85E6pUXvrChFwKD+ZJ7wNj7JPbgOzGYoZ5uSCENJ2II8nZr4PMLKoim7mcOJCzwflr40E/5d8fxnKB41CsjfAh0lGgoso+j1n4dqmoVNJMqRw5qRgvcebHG/K7PGJp/ri++4tl2fsFM2RvewDRwnEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 41.445783132530124%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsSAAALEgHS3X78AAAA8UlEQVQY03WP2XLDIAxF+f/v7LSp67AJJLG616ZN0odqzoMYATrX+C8OOzOVOeacR2ujlP6H2lsfizFmH7ONGaVZUrO9x+1GH2/e3pO1ZF32US70B9JAJaSTmEsAXF0q9ygmOKao+0bOResCJcbyWhf9P0Ra5mJq6SoQmXAq9VSD/C+rrv44nv11RBlKsBK7ZyJFPJb6IHONGdocgjjLLO11KtoMnL3LoppZz3lHDQA3LQ2hos8imhLX2qC1OKd4nBH9Fuwe9k8fPJ1mq+bEF/g6Bk6ZIyWR8siMl6LVYLtAI1fmivDY9kRX0xe4yS/g+A13udDSEctvMQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Added Production App&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png&quot;
-        srcset=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-60c5b.png 293w,
-/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-7c836.png 585w,
-/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png 830w&quot;
+        src=&quot;/blog/static/added_prod_app-9dadff594722b48376e055d58616d068-fa7b5.png&quot;
+        srcset=&quot;/blog/static/added_prod_app-9dadff594722b48376e055d58616d068-60c5b.png 293w,
+/blog/static/added_prod_app-9dadff594722b48376e055d58616d068-7c836.png 585w,
+/blog/static/added_prod_app-9dadff594722b48376e055d58616d068-fa7b5.png 830w&quot;
         sizes=&quot;(max-width: 830px) 100vw, 830px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1521,7 +1523,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/app_setting_view-9adcfd9c53cb5ed67b82fc5ac1b127a7-18e02.png&quot;
+    href=&quot;/blog/static/app_setting_view-1b6d1080716e9b1401b121407a236aa1-18e02.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1533,17 +1535,17 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.44493392070484%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABdklEQVQoz4VS2XKDMAzk//+ynUlLCIfxIdvYoK5ESOChrWd25ENer1ZuxtazeQSOtHCKhVPaQVj7kDlQZi9zgCKAsyg5S73AYW9wiZu+8zyNgWdD3LWWzURsMB+HoPNRzuaoZIGeiG9YkEietZGdEGYwL7lyqSuXUnlZsNZYNR5727bxechS9tZVsOpc0MSU8XriYbL8dR94PV0UsgQVtawsec4TB8SYsVerEr1yIUAAQsgOkWckd8PMPYj7yfFgHFsfFRkK5VHjiD/w6K2f4DFB+fJUuyvdgGYpBV4g2QaeZq9KSFTgIUJDAhpTYYcQOjz82Y383RuOMb4UarkSgYYiSgnEdyTd2kHVHBDvhDTnopcroL6i3MOzq6+qsOJLJKjMqlBKfow7ZpSoJaOK38aZWAmlFOuCGq4+bG9IUwglL7lcLv+FRkoTdRaEIxSKysl6NCmoZ3ImOQfhf+NF6MJuusDMgdsvo3NCc8SWs4rj7+3xuv4BV1hcR9G+iqQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 57.44493392070484%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABQklEQVQoz4VR2W7EIAzk//+yqrRHk3CDjQ3ZDsmq2750rQlxEM4cGHvPfq1M0lgbd4BISpFSn6gs1DrAMlgHS8eauG+JzbZk70oItNyS9zWE6mxF42wJkSvJAX2CNSUOvsRIKbMRVpXex8Aj2k+oDsWn9LHvj1+Fr33fB3Zn8zAMVcTWpcvdYvc81HU0qOyDWGKuhRvhl2AY4zwAPtVuqEkqjBOLDZtP9kDKU1WTXolDrh/37bK6CgOqTwmTfDdQWKi5WFwoFQwzHqnIqTRQYThV/vyy180z0w/zWYa4pUL3LUA2xIgorKLBPJrTIfxrP4z+LSM6MjXcB8hXlxYbVxtDmrJh8/FvTWYYBvmZ1pln104VGt4NIxV4jplcyC5O+FQQIdJpom+GoQ03kStjANn4UG5XP4cbLL+Yoeu43teK9zfhD4I1wHyI6AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;App Setting&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/app_setting_view-9adcfd9c53cb5ed67b82fc5ac1b127a7-18e02.png&quot;
-        srcset=&quot;/blog/static/app_setting_view-9adcfd9c53cb5ed67b82fc5ac1b127a7-a9965.png 293w,
-/blog/static/app_setting_view-9adcfd9c53cb5ed67b82fc5ac1b127a7-28ef1.png 585w,
-/blog/static/app_setting_view-9adcfd9c53cb5ed67b82fc5ac1b127a7-18e02.png 1135w&quot;
+        src=&quot;/blog/static/app_setting_view-1b6d1080716e9b1401b121407a236aa1-18e02.png&quot;
+        srcset=&quot;/blog/static/app_setting_view-1b6d1080716e9b1401b121407a236aa1-a9965.png 293w,
+/blog/static/app_setting_view-1b6d1080716e9b1401b121407a236aa1-28ef1.png 585w,
+/blog/static/app_setting_view-1b6d1080716e9b1401b121407a236aa1-18e02.png 1135w&quot;
         sizes=&quot;(max-width: 1135px) 100vw, 1135px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1556,7 +1558,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png&quot;
+    href=&quot;/blog/static/added_prod_app-9dadff594722b48376e055d58616d068-fa7b5.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1568,17 +1570,17 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 41.445783132530124%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABGUlEQVQoz42SWW7DMAxEdf9rFkXaxpa17/Z0qGwNko8aeDAlU9QMaWXOEULyFft+4CCtDZTSUeozlfut73cGc4VOXG5YfYb6/rT4OTmcPgzWxWNdPbQOMDY/sTm+XYHxD2yoF2KF5np1CcroBMcDy4+D3hzWzcL5OBWIov8gjnJpCLFANbGTGnYc03JtnTa4Ori+crxhfxsDyoUMS6l6iXC0VOpAYj/+ElOF5BmfYMW+ji85E6pUXvrChFwKD+ZJ7wNj7JPbgOzGYoZ5uSCENJ2II8nZr4PMLKoim7mcOJCzwflr40E/5d8fxnKB41CsjfAh0lGgoso+j1n4dqmoVNJMqRw5qRgvcebHG/K7PGJp/ri++4tl2fsFM2RvewDRwnEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 41.445783132530124%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsSAAALEgHS3X78AAAA8UlEQVQY03WP2XLDIAxF+f/v7LSp67AJJLG616ZN0odqzoMYATrX+C8OOzOVOeacR2ujlP6H2lsfizFmH7ONGaVZUrO9x+1GH2/e3pO1ZF32US70B9JAJaSTmEsAXF0q9ygmOKao+0bOResCJcbyWhf9P0Ra5mJq6SoQmXAq9VSD/C+rrv44nv11RBlKsBK7ZyJFPJb6IHONGdocgjjLLO11KtoMnL3LoppZz3lHDQA3LQ2hos8imhLX2qC1OKd4nBH9Fuwe9k8fPJ1mq+bEF/g6Bk6ZIyWR8siMl6LVYLtAI1fmivDY9kRX0xe4yS/g+A13udDSEctvMQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Promote to production&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png&quot;
-        srcset=&quot;/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-60c5b.png 293w,
-/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-7c836.png 585w,
-/blog/static/added_prod_app-0c2b778e491bb685022487ce741869a8-fa7b5.png 830w&quot;
+        src=&quot;/blog/static/added_prod_app-9dadff594722b48376e055d58616d068-fa7b5.png&quot;
+        srcset=&quot;/blog/static/added_prod_app-9dadff594722b48376e055d58616d068-60c5b.png 293w,
+/blog/static/added_prod_app-9dadff594722b48376e055d58616d068-7c836.png 585w,
+/blog/static/added_prod_app-9dadff594722b48376e055d58616d068-fa7b5.png 830w&quot;
         sizes=&quot;(max-width: 830px) 100vw, 830px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1599,7 +1601,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/signup_codeclimate-f0eac0c4adccc2a1d750763ab137b558-3d6d0.png&quot;
+    href=&quot;/blog/static/signup_codeclimate-639ebe0873e8df74d97d72875e9e4492-3d6d0.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1611,17 +1613,17 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 94.67455621301775%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAAB+UlEQVQ4y6VUPW/aUBT1v8kv6BypQ6NsGdpIXfkBbSQQC0s9dCDq0K4MVdohUTKklSJFkTqwNGorRcmCMMZQsLEdPoSCsR1R28+nfg+ewQEqQo90Zfv5vuNz7rvXQrPZRKvVgqZpoPej0QgUYRiuHIQQtkeWZQi268C9d+G64/B9P05aNYIgYISSJEHABCHWB1dYqVQgnNtVpmjWJh5hd9YyI9xSPyPdvsDVvfHo2i0k3G0dY7P5EWK3OJZPk7AaEReQINzRDvEiIlW9wZQwXK2iPC9B+Ez9hIO7a7YQhCROsiyLheM4GA6HsG0b/X6fXek6J5lTmDK+wCZ/kocSod1uQ1EUNBoN1Go11Ot19qyqKnu3yLJUidqm6PyO1c3aoBgMBjAMgynq9XrodDowTXOpZUWujvtwrm0idLtd6LrOgk4QVcaniZPy3GBC+O3mB4RlJ1YoFCCKIrLZLDKZDNLpNHK5HPZevcZ+Ph8rI5O9t76N1NmHMeHD/uM1LJVKKJfLrNh0TulVUmTohh7v4aV6W7vA1omYJHxYGzqjnuex+Q78AH70HEyTYjLJMvHkex7PT/PLFS7tRRLlkGRu6uoAG8U3ePn13bzCRR/416SQSOWR9gtPf77HNre8TiBMujBHFo6rl9Pf1/+A15JibYVzf5yI1PM9/AUMba0NoYjwJAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 94.67455621301775%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAIAAAAf7rriAAAACXBIWXMAAAsSAAALEgHS3X78AAABnUlEQVQ4y52TO0vDUBiG82/8CY4OgpfNQQrOuluwpYMdNJvBRddCoQ5iO0hBUBFEBykiVJdKkpLGXNumoZfcapsmqZ+Jpi2J0vYdDsmXvOf9zjnPQViWFQSB53l46Pf7wynkOA6MJEkiqq4bhtHtdmG0LMuZQrZtgxnHcWQ4u7xkgiCQa61sOtac5jX2bE+6LX5Wv6uzmiN8dolJo/Kja3b8z0GFmDf484iQ+zDb8G5Plz0yr7CZdPt13KmqqqIosPmapum63mq1YISiHz4yb1fzHbs3vuB6vU5RFMMwlUqFpml45jhOkqQQ871BBxuG5FqtBsnNZrPRaMB0wTWXAZLgJsuyLLoC5oA84A+Swe//4EFy91aYgMSrplIpFEUTiUQ8Ho/FYsn9ZHQ3imHYzym4WbypbF+dhhAGIaVSCeiDVQHABEngVFkQRa9H2+0ZpW5Wc4fheA4m5QPoOd8VcfEJ27w8Qv46xsnScJySnWJm4eFgK3+M/E9CUBB+wb0sP5+s59CZb5U3pdDrZMuFea6k9dsU4swly7HNgfkFiII0g0kBLaYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Sign up CodeClimate&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/signup_codeclimate-f0eac0c4adccc2a1d750763ab137b558-3d6d0.png&quot;
-        srcset=&quot;/blog/static/signup_codeclimate-f0eac0c4adccc2a1d750763ab137b558-da7f8.png 293w,
-/blog/static/signup_codeclimate-f0eac0c4adccc2a1d750763ab137b558-2f94f.png 585w,
-/blog/static/signup_codeclimate-f0eac0c4adccc2a1d750763ab137b558-3d6d0.png 676w&quot;
+        src=&quot;/blog/static/signup_codeclimate-639ebe0873e8df74d97d72875e9e4492-3d6d0.png&quot;
+        srcset=&quot;/blog/static/signup_codeclimate-639ebe0873e8df74d97d72875e9e4492-da7f8.png 293w,
+/blog/static/signup_codeclimate-639ebe0873e8df74d97d72875e9e4492-2f94f.png 585w,
+/blog/static/signup_codeclimate-639ebe0873e8df74d97d72875e9e4492-3d6d0.png 676w&quot;
         sizes=&quot;(max-width: 676px) 100vw, 676px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1633,7 +1635,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/auth_codeclimate-3c157a317eeac6869af5ffe0a123c47c-7b4a0.png&quot;
+    href=&quot;/blog/static/auth_codeclimate-f064f5c9e2ae2f2420979aa2ca3b9037-7b4a0.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1645,16 +1647,16 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 109.32203389830508%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsSAAALEgHS3X78AAAC/klEQVQ4y32VyW7TUBSG8zwsQQiJBS/ABipUMTwCLJiW7FnyEggQqoQKHSid1VKgILoAKpK0SewMTuLZcTzbP+fcxlFTnF7lz72Oz/18huuTUhQnyBVG8cQcJwnSJIPiqCgbdfh+iNdv5zD/YRFBGE3Y5ipNB8YEjMFjrvIRz368QPmwinfz7/Hy1Rsc1eriHoNPQ0t8kSuHxUmKLAPoIxSnKcKMPI5TNNsdHNcawubsPlYpOkXPYbYzQL0hCS/qkgy52aZrGQ25CYnE10qvjyTNikMOo2jiaYOhh7bSHavXV9HqKOgSpNPtQWq2oGr6hJdjDxlG6RJKyICNUo63YIgUjFKR5t6dBUZxBts9huO20GwpaEgSavUG2u02WuoAv1tD/GoOIKkeVTymhyYEzYTOjvgk5AyuX4PnK9B1B4ZpinAMw0RXM7Hys4yF/UN8L0uwLBue5594O4Kehgsgf/X6JgEcOI4Ni4C2TbNlIaPqFoY+AhQCOV/r2zuoUVUlWcbfSgXV42OUq1XyVKOKk9cEN+khLhUrSROR4zRLJ8TQOD+HUwc7yLeTkVKcOzi/4hwaoQ0lUNELdXRD7VyxXdHvvNePQpTYg0cHz3Fh5TqurM/i8tqtsW7s3cfd/Se4ufcAs18f0vopbn97jKsbd3BpbWZsd3F1Btc276FmN7koKQ76f7Dc2Maa/Bmr8u5Yi5UNLJQ3sFTdwlJlk9brWD7awqq0O2H3Sd7BRvMLbN89P4dDcwhN0aB1NKgdFbqiY6APpqecOlOJu0VAsQdRNFIoFMYRvCCA6w3pVRzSwXfhDF2x5t/98H8xSwD53bWoITgD3kgA16Pj4o6vWUEYj+UHESksFIWc0Dmz0aUG0NcMOnsGNN1ET9XorbHFPZ5Pd5RpEh5yDk3bgWU7YqNpOVAJyFA24haVFHSVIgkgd5e20qO+1yKvdOpz7Kku1uzxgMLlv4KznX0qUOSEC1MgzonnB6R8PlkHU+wFsCgXeefmonD4umHRbAjx+rw8/gNyeoELmzCtEwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 109.32203389830508%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAIAAABPIytRAAAACXBIWXMAAAsSAAALEgHS3X78AAACoUlEQVQ4y4WUyW7TQBjH/Txc2Q5IvAAXdlTgDeAC5cQLcOItEAiBKrF0AZqmRW0pVVVVQlQkaVNvaRKv4/E2Y3ts/k6UKHVT+PTTeDzz7Z6xlKRZhTTLUpGJrOj6ZsOVWczfvp/7tLDEeJpmYlJTqljyJE1SKKVFUbxrLj7fednYb819+Pjq9ZuD9hEWBwpnGMN3XhRDEJ/n8CRUTYdlJkRFWZqMiW2PBm1ZgaqsqKrWOTpSZFWTVVXR9G7PECKvRsb7kCQTQRh3ur3jkr5hWpj3+ybM4Mi0HaSVJBOReVkikkOLRBlaiOKk5HlZAkSUaadjYCjBkoZtGujIS1EU5NvpdHTT/62Hv7RAMWNRtj/LBzLpFKtIOw9ZO2Jd26GuS0zbdhy3b5Gvu83P2/s7TdXzvCiKi1NSGuOzGAZxXOr7lBBCKYU2QhX/k9IYX6a2tn4oy2jpn2azdXjYaLVM24IbmxDXI0EU4sSIIq8wSDtJJ5ozmsAlyhxQiLMjo/U29zrM6HJrhDlgNGfmMTMndkt63I4TLhVZ8XTvxbkv1y6v3L1Yuz3k+uaj+9uzN348vrf15MH2s5mfs1fqMxdqt7B1qXbn/PLNq/WHbU+XcAn2zP0l5XtN21zWNoYstOrzzfriwepia3W+sbJ0sLasbox3v2nrq/oWZcHJmkcSkdDpOXbXBpiETljk02rmPGEJj1MWYUwwMhQTstiPQhoGXuDTEARYifgJWJJIuKV+GBMa0CAEfhh5fjCcgPGxj3lShXGc7cwltG9YpuUAy3b7eLgeFl3inf5VjGE8KY2J5wOouh6FHeyxhwtU3qF/G+MmHfcMWdUNy+4ZJqIapo0ROVd+OlMjp3hUGJY0ybj4MWiWNO0HKNAwJG87BCNwXDI1+F8U9MwHOQhsswAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Auth CodeClimate and Github&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/auth_codeclimate-3c157a317eeac6869af5ffe0a123c47c-7b4a0.png&quot;
-        srcset=&quot;/blog/static/auth_codeclimate-3c157a317eeac6869af5ffe0a123c47c-e9ae0.png 293w,
-/blog/static/auth_codeclimate-3c157a317eeac6869af5ffe0a123c47c-7b4a0.png 472w&quot;
+        src=&quot;/blog/static/auth_codeclimate-f064f5c9e2ae2f2420979aa2ca3b9037-7b4a0.png&quot;
+        srcset=&quot;/blog/static/auth_codeclimate-f064f5c9e2ae2f2420979aa2ca3b9037-e9ae0.png 293w,
+/blog/static/auth_codeclimate-f064f5c9e2ae2f2420979aa2ca3b9037-7b4a0.png 472w&quot;
         sizes=&quot;(max-width: 472px) 100vw, 472px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1666,7 +1668,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/additionalrequest_codeclimate-8f2e0cfb6e91a98c05cb2873f5f4dd8e-9bccd.png&quot;
+    href=&quot;/blog/static/additionalrequest_codeclimate-0cd8ded1bbe04c3c352898b9a9c1370d-9bccd.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1678,16 +1680,16 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 125.86206896551724%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAAACXBIWXMAAAsSAAALEgHS3X78AAADdElEQVQ4y42VS48TRxDH56MRQY655BqJEJQLhxyRAso1XyE5QRASLAiQQAuHHHLIRknEI5FYk6zXXq+9u/aMH/PwvHt6Hn+qanbMLLEhbf2myz3VNdXVXdWGzgs0ZDpf9Tn1eVGgyEvYsQcvDRDHKW7f2cKfz1+CG+s1cxqMZrCNyjQKMqYLDVTA9y9+wI97d/H6RQePHj/GzVu3EYTR6uNtjLwoeQ7KqmYl06NC3ex0CVfXHr755190COCdfgPbMrylj/HEhDmd4YT6iTWFRfLCdlayZc3hOh4mpgWTxhzXo/E5prO5zBvT+MSciteG6/no9Q9wdHxCjEU+HB7J5G6vj97BAPtEfzBEd78n/weHIwyGI+lHR8foHxwKjresl/x/W9Xqq/eWi2bJWZYhSkxy14VJbo8nE5yMx7BtG6abYjhXGMwU3CinmSVtVknxPUszlmnNu6yw8J7DD6aYTGZicDg6llidzDwcjB1h5gQtX9Y3ndMu69Mzp8m6UgrsMZOmKXSWnqrSSaiYStZarYE9ZFsG78zPv+zAdhy83t0lOtjtvCE62KdNqc9bvjmuVe11GEVIVVYf7DRVZ5QKjovEpiAlJSvgc7mZ8t2SM8oKe2FjsVjAIS/Z0+ar67zZxMqg0hmm9lzOnWBZtMwQUZwgTgjqWWZPOXc+ajDLNfKSlp0oQaWZGAkpdgmlWhzFiAge/1hb7TJ/uWzR/HSV14ASv9JIiwyKyCuqQkTeoqzKuji4iY/Pfr+CT369iAs7Xwnndy7h098u49Kra7j813V88fKqyF///R2+fPWtvGMd1mX53M5FfP7HNwgU5XKkEtzpPcHNvQe41X2En4SHIm91t7G1t417+09xn7jX5f7Zqd7Dld4NmrvV30aSKRjFB3LZsRzMx1RVjmfSM6EdbNTn42VwMeWdVpwpeSNTtpAcRKHghwGWgS99wAeY3qfkTRuZR7YMPt0R7WYQxkIYJQLLcZLKu5gOfqbr6qw4EWjOJsTDhe3CpqLJtZEL7tIPpLYxtruER//b98YmxEN+1IYCMWpTZZ7OKGvIUEFpxTWOWXf3tDljcESVmku4yWV9bsMig3O6AhZknJf938uoWGswbQz6QUgTFRLKBkFlK5mVVJafoj9Iqsiglvu3XBsTP4gojj5ciiuHgD1e0sfbd/j7d/pb1HhodeKqwhsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 125.86206896551724%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAIAAAC+dZmEAAAACXBIWXMAAAsSAAALEgHS3X78AAAC/UlEQVQ4y42UyW/TQBTG/b8hUbhx4YqAVkLiwBUJEEf+BThVgBAtYlERcODABcqiiAKlhbpZmzaO9/E29ize+CaGKGob4OkX6zl+n+ebN+PRZF4cIgcFonJpQFicpuzByurHVquuayHz2UoN97NwAWEpC4nSW63bd/SVzdbWk7W15bv344RCMFusFWWJuqqqq7pukrL6fefxMJBJlrIfO/r2z53ZMgSEWhBGxtg0LXtkmGPTMm3H9cnYsi3bMU3b9wM8HauE4B/LdlFpmBYqYUQjQdjudIf7B8P90W6n1x/soVpvd9vd/m631+0P9N1Ou9vrDfYU/b294X6n2wcQankxsV0fH2oGTTLJG9sNEGpCiDQbJwmBScMwRiPD930z4AOX9xwe0LyuSkzvaEg0TEjuBq0osY2xmvZguG9a1oEd9Ay/ZxCHxHM81WqpZD5ZG7ReCDkJzrkU/I/rct50INTQtNdv3nq+/21z69v3rc3v25tb23q7E8dY1XzesJRSzoWGMTPGp40pywrAC57BU1lWxwY61uww6Xme63k+IRgf27L+v1BiLqXtu5OdoEgSmmYIhivA/P8mhjlRSiiUhjFoI7QhTRNK8SLG2J91rmbBH6phqttVmdew+/sKRCVFlYs656XICsEKLqt8lrwqlJiw6MyHyyfeXlh4t3hyXXHq/dLixvWlLzfOfb56ceP6pa83L2xcO/1+aWF9EZxaXzrx7vzZT1diTjUqsoft58s7T+7qT6es6i8Uuy8fAf3lo/are/qz6dPlncernReZ4BpcH22GZ3nOyLEOLMdwHMMNvXBOt4VkkmeSN9cmiWgS0ThIIhJHYRzjNhXsEFwIjQlJMxbTFCQ0A0hSxtOMZ3gxjo4JKDuKGhn7wyMhCaMgjMMowYcKfBIiP3rCTeGNmARK5pEA4Kzwg7AoK2xN8C+xzIcHhmHapu1ajgex4xGfBLD9F+VULCPsKMaZEJgk4xKoBB96c57OA2KpzujD9qKYNi3wg8jDL6b5cYP/AmUPd7+D2yDIAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Auth Additional Request CodeClimate&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/additionalrequest_codeclimate-8f2e0cfb6e91a98c05cb2873f5f4dd8e-9bccd.png&quot;
-        srcset=&quot;/blog/static/additionalrequest_codeclimate-8f2e0cfb6e91a98c05cb2873f5f4dd8e-cc0c1.png 293w,
-/blog/static/additionalrequest_codeclimate-8f2e0cfb6e91a98c05cb2873f5f4dd8e-9bccd.png 464w&quot;
+        src=&quot;/blog/static/additionalrequest_codeclimate-0cd8ded1bbe04c3c352898b9a9c1370d-9bccd.png&quot;
+        srcset=&quot;/blog/static/additionalrequest_codeclimate-0cd8ded1bbe04c3c352898b9a9c1370d-cc0c1.png 293w,
+/blog/static/additionalrequest_codeclimate-0cd8ded1bbe04c3c352898b9a9c1370d-9bccd.png 464w&quot;
         sizes=&quot;(max-width: 464px) 100vw, 464px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1699,7 +1701,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/done_signup_codeclimate-a930914feebdcb260b2546398f4f1f8c-8ef6a.png&quot;
+    href=&quot;/blog/static/done_signup_codeclimate-aaf4380717e0d6e5b9c3cbb659fab295-8ef6a.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1711,17 +1713,17 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 67.00100300902709%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABnklEQVQ4y5VTyU7DQAzNvyKxiBv0yBex9FA+gjPiBGob2iZp9qWTNHsfttNBVZEKjPRke+L37JlxDDN2YeUR/EbBqzfwqg1cgl8rBCfAOZzrkb+IPTiliw9nCuPi4wGM8/d7wdX0CdfzMW7MCUbmM0afA25NxkR8/sY5l9NH4VwQzqYPuHsdw2j6DhoddkgVVQ0DhGmMeJPCj0P4UUhxInvsB0kkdlPkaNETtyUm4BPPgF67wYRBAHM2h21Z8F0Pq+USy8UC9sqCYzvkL7F2HJhzE3EU77kDOY4iGDsKDtF11GnfY7vdQuU58qIQKKUEOe0VFHNeS2BOvxeMjgV5VVUlpCzLYDs2kiQRXwsxdMy5Q4MnBOu6luSmadC2LWbJGlmaSccswHs651+CbFt6qDdrJveapClSghb6t2BV1ehJ0M1CFHkhZN0hWz465/5JsCxLIcgxyWd7CC6or+BXQb47/ZrqG2qwtM/FdLc9TcPxg/4Q5HHQBEZZlWiLEt126JyPLKO1H5ljrqGDww/H6yUxBcP87/Q/gEMuLy72BYu44DwsZWe6AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 67.00100300902709%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAABYUlEQVQoz42RXU+DMBSG+bkmarzSeecvWtTE7TfotV5NGbDxMVhLKR+j0AK+0I1siTN7OTk57XmfnqYYS7ZxcxrVWVilOrZ1/mfsDXXqxKFfbhb+j3HzPb0+xK35fGe93ttvE3v26MwnzgzFQ7+cI6MFQ+9cTK/M6dPniyHbBqHapulanqUR2RIWxzyJKEHQhNEkRkEYRc6KHDbZqK7rtpQY3aC2bZEBWubSc90oDN3VeuU43toNPH/trDZ+YC8tRuPRHMfxHtZqBpVlmRdFseuVD9Ir3T0LCyFgTTn3Ap8xlvJUkxDnHHVVVWdh9OCr61rK2mQBAAzEiVJKtC6DqwpP8uWahJAkSXAENi+FhahUI0NOh1roycj6iP9gmIaX2omyFwqdQaI4himlJzAm5EfCc+HHZlkGTF9Bv/Y46QRWSomDSlHKQqhdBRL7DT6l9MzRfAKP0pYPZr0ndndGuOYvwdXe8dtRX1AAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Done sign up for CodeClimate&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/done_signup_codeclimate-a930914feebdcb260b2546398f4f1f8c-8ef6a.png&quot;
-        srcset=&quot;/blog/static/done_signup_codeclimate-a930914feebdcb260b2546398f4f1f8c-1204c.png 293w,
-/blog/static/done_signup_codeclimate-a930914feebdcb260b2546398f4f1f8c-5efee.png 585w,
-/blog/static/done_signup_codeclimate-a930914feebdcb260b2546398f4f1f8c-8ef6a.png 997w&quot;
+        src=&quot;/blog/static/done_signup_codeclimate-aaf4380717e0d6e5b9c3cbb659fab295-8ef6a.png&quot;
+        srcset=&quot;/blog/static/done_signup_codeclimate-aaf4380717e0d6e5b9c3cbb659fab295-1204c.png 293w,
+/blog/static/done_signup_codeclimate-aaf4380717e0d6e5b9c3cbb659fab295-5efee.png 585w,
+/blog/static/done_signup_codeclimate-aaf4380717e0d6e5b9c3cbb659fab295-8ef6a.png 997w&quot;
         sizes=&quot;(max-width: 997px) 100vw, 997px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1733,7 +1735,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/add_repos_codeclimate-746ad062fb774be17f6c48404e2b3259-25adb.png&quot;
+    href=&quot;/blog/static/add_repos_codeclimate-c1c0c8e13daebb6b613f05c771bbb9f5-25adb.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1745,17 +1747,17 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 37.16535433070866%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAAA4ElEQVQoz51Ryw6CMBDk/z/Di4kXDx78AU9GYmKMCRcPhkcLtAU0CBY6siWiJGqim0xnu93uTrtOWZbwPA95nuOdGWPQtu1o/wlN08ChJY5jcM4RRRGCILBgjMH3/eGM/DAMobXGJ6PGju4KpkJYCCV7lgJKKQjRM6knllIiyzIURWGZYuSTOrJeYdcxZwkuSXeRC8uKp1ZVVVWo63qER4yYvot4VPByq7BI91gkeyzTA+bJDpvihH/MPvl8u2LKXUyZixnfYhKtscqOfYJpvw7hFYNC8zLB5ygB3Wib8CvuAd0eOIUhoD8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 37.16535433070866%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAAsSAAALEgHS3X78AAAAxklEQVQY042QTQ6CMBCFvf813LAwcaGJN3Bj/EkMhp0LEWhtoVAS2lJap9QAxhj9Fq8vM3mZzsyapomiqCxLa60xxk7ous4b887QnWmtMcYIoTRN7z3g4zj2RTBJkiil7AevMMkpoZQWudM8Z4zBC1pVVdEDnnMOv/NFP7wPt22ZkZoUFaagDBOYKaVUPXKCEAJ2BB0n161ckXBNwg29LB/nPb+5Ja2xv3BhrkSAjgE6LPBpnu227OoapjPfGcPDSYfD6r95Ah9ZkxcLuFY3AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Add repos CodeClimate&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/add_repos_codeclimate-746ad062fb774be17f6c48404e2b3259-25adb.png&quot;
-        srcset=&quot;/blog/static/add_repos_codeclimate-746ad062fb774be17f6c48404e2b3259-8370b.png 293w,
-/blog/static/add_repos_codeclimate-746ad062fb774be17f6c48404e2b3259-ad3ea.png 585w,
-/blog/static/add_repos_codeclimate-746ad062fb774be17f6c48404e2b3259-25adb.png 635w&quot;
+        src=&quot;/blog/static/add_repos_codeclimate-c1c0c8e13daebb6b613f05c771bbb9f5-25adb.png&quot;
+        srcset=&quot;/blog/static/add_repos_codeclimate-c1c0c8e13daebb6b613f05c771bbb9f5-8370b.png 293w,
+/blog/static/add_repos_codeclimate-c1c0c8e13daebb6b613f05c771bbb9f5-ad3ea.png 585w,
+/blog/static/add_repos_codeclimate-c1c0c8e13daebb6b613f05c771bbb9f5-25adb.png 635w&quot;
         sizes=&quot;(max-width: 635px) 100vw, 635px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1767,7 +1769,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/repos_access_codeclimate-3e3488ed9b0e151cd21fc9159361cecc-9560a.png&quot;
+    href=&quot;/blog/static/repos_access_codeclimate-8ad5c39f48fbfbe74793986945bf5b26-9560a.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1779,16 +1781,16 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 151.73160173160173%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAACXBIWXMAAAsSAAALEgHS3X78AAAEQElEQVRIx61W247bVBTNz/QDQHwDvA4tSEi8AEKAhmmHUgkhxAsSKt+AEPBApb6gikqU0grUdjrTATpxrpNMMrlMnEzujhPbsRNfsth7O3bnWhDiSMv7+GSf5X07Zyfhej4YM9fDwl9AnY5wrXIbq+UfUTL7siYjCEWhWMLb776P91Yvo37QkLXZ3EXEk+DHnMiYED7wafVnrOS/w1t7N7FGpEz0S/0R7jY24M8CfPLZ50hnsth6so0vvrwOP1jIfoYQRi9C6C1wpXwL6/u38CGRvVO8KYQ/FH/CjdJteLaP1fWrMC0Lu4UiPlhbB/HFhIzYwrkXWpgat/Bm8QYu5r/HplaVNXHXC13+7cFDPNx4jK+/+Rb3f39w2uXIVNuZwZnPsXAXMMgCm+ZMNnNd+dic40wbJZxkFbvK0RXvloRiIT/4x3anix0lhUx+l9zZw04yhVQ2h1q9gVQ6S3HLIU3vyVQaWdLZ/uMv/Pk0Kev1hhq7nohM5RdnNhfwF9miw3YHT5OKECipDJR0Bp1uL/RmqRvphzxelBT3WGAjQnNqQx8bFIIp9ImBMYEJPD+IsxrnIEoKkwUUdJ/ixTFZVl0sj74F5Jfnh5ZEZBG8KIYeFe7UOYRld8nFLlRVRYNi0m630dUslLszVAiqRglbHP/MycGkCbZsYu1hYtahaQa6vR56/QElqYNOX0OzpwvafR2uG2aZiU8iJmSXJxMLjjOHYRgwTVOk53lH3A0RbTxJxNL3Q7cTnIA8lclgqCFP2cxQaZRKZUypFuPNeP4IKAnWdBoScpDPi41P2WTl41icgeCZy5yx8XhCCWljMBiiPxiQ+8651pwVv2Mx5MfI0KG2WlLIfGI0bUSxtDAxTFhUg3wZMGzb+ecss4UBFlKszwrVpQKewTBDwpB0SifEOdO6YCnjGNq0URsOoGsajPEYvV4fuq7/N5e5upVSDY+SOWxmilD2qnTcxmLVWQTnfSQm5LLZyO/jV6WAu8ldPN6tRLc9uRL8a3BxxTH8v4bcNj6xNp0ucsY+CmZVULRqhCr2RNZOrYeoxcibFbRmXfhegAT797HyFS7ceRkv3b+EF++9ihfurcj80tZlvP5kHSubq3ht6wre2L6Ki5tr8hvrRHoX7ryCj5Tr0ioSfBqaRge5fgmF4X6M3UEZSTWHnUYWSjMPRc3LPN0qHNNj8N6m0ZaTJYV93ui3++i06FpTD9FpdtCluT7Qn1/YXDZci3PPPQXX95aXqSvFHs69eF10Iukvb2ybrq0pHSlb+oMb9wiHYNG69A2ac99mXQa3hqiv8D6eC2gudaiNxmg0D1E7UEUOhiM5arzebLVRrtQxHOliAcep3mhiv3qASo3RIF1bOidzJfgrrMiLE7oQDHNKl4Il73y+2UpeZ0QNiaVFVrIu67Fns7knMnH0f8lJjOm2kW63lEOymOcn9Y92vb8BgFnZ0MMWat4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 151.73160173160173%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAIAAACjcKk8AAAACXBIWXMAAAsSAAALEgHS3X78AAADuElEQVQ4y41UWYvbVhT2r8l7QvMb8jrTIaUvhdBCITPNmCFPpZQ+FEL6G0oXaGmeMjQPKY1TwpB4ZgiJV3mTd0sjy7IsWft+pX5abCbjuOnh+Fp3+e757rnnfjnPD+Cu70dBxJjy/f6Tg+5jWhfQJWEYBCSKomar88WX+3e/yg/HE3Rdz09RufTPScDfDJ7uNn6+Qz/K946jMPp7/KrAFIkbfv3td5VarXh69v2DH0i4AU4jH3aPD3vH+93Hn3ceRST6rf3n790nvhXs5480TatTjbsH+feCwTKqqdxnnT9uN389lYfoEpLRfnHy8uWr4o8//fLPi5P30LZsx3Y94hPdMC3XDYPQ8XzQiffFj5B4I+QgDNORDJzMhVN+9rZcoRrNTpuulGs1qjEcjSvVerVGpU41Wuev37wpVSq1+njCpORXtD3fcT0ER+v5PjfFXlWq2cZSOD+bW7brJLO2416KnCAvO0bBfalqmmGiVVQNANBLAescuSltQqL0PGEYxZa2K8NgkCD94B0HwZwfhJY9NS1hygssyzIMy/P8TDJ6M7c/c1jJXW151YDP4S5Uk9aMsSRpM0EQ5iKSx89lVlAuhOVUVBBhKxgJUjUTp9I03TAMFIOfrQ7XtDcNB4nBSGCzTS8kiWq2anWK7vZM04z+03AQ07RiMH6XcpXNkaQq1r5pGW2QVBV1OuVFcSGKom3b0f+zLPJSVxiW46Y8UiXJsh6fHI0Z58AwLMveDsZdpQlIbhL1FScvxpkJ3rRtZyttwCzDkBcLRZY0VRHmc3mpbGToqmdghCrTw5MSVay1Sp3+cqkg4NYrukIbV1VsDZ5XO4Vy+7Q9JB/CvAPeVkAfBvvJmTlbaOmDjjGC0+aYRpt4Z+V0Or7ytjHknDkJSA5yc7/y8NrTWx8V9m4Udq8Xdm4+39s7u/fJeX7n9OD22eGn50cfn97D7PVnOzee7d4s7F3769ZR+QHKN458ofOUSLekfurNRa/EUG8n9TLbKDON0oSqcq3Wope51KcWXVbn48igvnmeOS8KnDBl+NmFIHBzWVxue1V+iBSvKxliB2XIuiQIEvFLtWJd6kkba5jluKaFKnLX+oQPIxmBpKGLBXAIk5WM2Ek39RwkVpLj2h6NmQnLiZKMddJSYTm+NxhJ8jKW14CMJmx/OO6PJoPhBAugngDm0u1101J1A4qHVo/fKgEdVDg8lTsvIChzTY+rPZZRPAHXy2WKiScRaxreBiSCqJoB0VQ1XVF1sMCHsxJW75La/gtin4dc2sWEKgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Auth repos CodeClimate&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/repos_access_codeclimate-3e3488ed9b0e151cd21fc9159361cecc-9560a.png&quot;
-        srcset=&quot;/blog/static/repos_access_codeclimate-3e3488ed9b0e151cd21fc9159361cecc-be82b.png 293w,
-/blog/static/repos_access_codeclimate-3e3488ed9b0e151cd21fc9159361cecc-9560a.png 462w&quot;
+        src=&quot;/blog/static/repos_access_codeclimate-8ad5c39f48fbfbe74793986945bf5b26-9560a.png&quot;
+        srcset=&quot;/blog/static/repos_access_codeclimate-8ad5c39f48fbfbe74793986945bf5b26-be82b.png 293w,
+/blog/static/repos_access_codeclimate-8ad5c39f48fbfbe74793986945bf5b26-9560a.png 462w&quot;
         sizes=&quot;(max-width: 462px) 100vw, 462px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1800,7 +1802,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/add_check_repos_codeclimate-030c0ce32bc284cdcc3b0c927ec7e3d5-8ef6a.png&quot;
+    href=&quot;/blog/static/add_check_repos_codeclimate-909154e771f109c81be69994ebb87ec9-8ef6a.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1812,17 +1814,17 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 48.345035105315944%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABaklEQVQoz3WS607DMAyF+6qM2y8YbwUDJPYwiG2sLRcB2npbmqzN2qY72KGBboClT7Zjx8eN6i3yFO9ZhLSUUGYDURWIlUBWKqhmQ2hIQll+cllr27/Sa8Q0I9VL5HUBbzC9wmBGTC9x+DjC8fwGp/NbnAd3GAZjDMMxzijm/KKLj+fXOCLcvYOOk9kIniQVycpthUwrfIgES7lCvBaIyPMXROorX+QZ1TIsOvLma0vZwbGHniVRjMn9A8K5j7eXVzz5AWaTKULfx3MQIqBzJqRzf/YIU9XYN2+73dqgMQ2SJIEQAmmWQkoJkQubs0/T1MbcI5VEFMd0ntu7PMNhN2zbFlrrHcqyRFVVtsY0TYO6rq3fxy31PdAYY5WzjN6FVNnHtIFS6ruRh7EAewfnzM5At6ohpU23Gas6c/V9462Lovh7Qy6u6b9aVxobUua8P6j/Rn34y1zvr4GmNQS9V9fs3u4/tr2+/sBP70z2oRw7V8wAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 48.345035105315944%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAABMElEQVQoz31P2U7DMBDMtxYqnjg+i7ZI9Gc4miYp4lDVxHZ8xmcStjGBlgpGo/F6NeNdJ1uGP0iJGs6DoVaVkuJGcK9HGuENFGwgeIiWJcNI75hTyWR1O1nNQM/S2TRbXGR3V/nyplheF8vL/D7WUJyv59P1YjB/cZrOExEsULYOntxSXIoaSQa6Y6QSFCm246TkNSgQVoj+fSTYpO/7rutAUVk9PTxu8vz99W2TF+nzqsjyl2IDGpmla29df4AkHt57hBCllBDCOWcjMMbQBBVCVFUFnd/htm211sYYPaBpGmstrAP9EIJzzh/jOBwCwriua5gJCitIKeN3wOpGxDq++xOGSwje6v1k549+dQhYRCl1MrnrlDPKaesdOP4KDzMCGE4m73tDt/sP0fwd/gSIVTBOy8PdkQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Add repos CodeClimate&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/add_check_repos_codeclimate-030c0ce32bc284cdcc3b0c927ec7e3d5-8ef6a.png&quot;
-        srcset=&quot;/blog/static/add_check_repos_codeclimate-030c0ce32bc284cdcc3b0c927ec7e3d5-1204c.png 293w,
-/blog/static/add_check_repos_codeclimate-030c0ce32bc284cdcc3b0c927ec7e3d5-5efee.png 585w,
-/blog/static/add_check_repos_codeclimate-030c0ce32bc284cdcc3b0c927ec7e3d5-8ef6a.png 997w&quot;
+        src=&quot;/blog/static/add_check_repos_codeclimate-909154e771f109c81be69994ebb87ec9-8ef6a.png&quot;
+        srcset=&quot;/blog/static/add_check_repos_codeclimate-909154e771f109c81be69994ebb87ec9-1204c.png 293w,
+/blog/static/add_check_repos_codeclimate-909154e771f109c81be69994ebb87ec9-5efee.png 585w,
+/blog/static/add_check_repos_codeclimate-909154e771f109c81be69994ebb87ec9-8ef6a.png 997w&quot;
         sizes=&quot;(max-width: 997px) 100vw, 997px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1835,7 +1837,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/reporter_id_codeclimate-a16b1e1fac3cfa6226760612bffb134e-8ef6a.png&quot;
+    href=&quot;/blog/static/reporter_id_codeclimate-356c155af05d269eaf1c5a9a5ff4fba6-8ef6a.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1847,17 +1849,17 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 67.80341023069208%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABsklEQVQ4y5VT22rcMBD1/39FoQ2BPvQ50Me+9CEQlhBK2sLSXYf1ZeP1RVdL8uloFG/c7SZpBw4aS6Mzc0bjLM9zbLdbRvQjNpsN1us1yqqElBJaayil/oAQgs+U0hDDI/qu5bhMDAP6vueAgfwUpCAJuXhELVoYbTg4whjDsU3ToOs6xjD0OBwOfC9zU0C0aZp49c7BWgs7jlBGw4cQD/l8idnS97OfdU6zE552By1RVRXqukZRFJzg+eJ5BEoawYRUApbWOoVDTzKoDbEFJlZ7BiMpmP2ZjAmv9t/wubnHznZHUk29iBeizdlfw9wCJryTO/xUNQZvkmRn0CvBhN55/I8x4XQi2XoHJzVLbts0CvYF2TPiy8+KMhtS08PTa8dqP1UrqlRTStr3/gj/BtKjLF4wWjMqfKf501R5FOwWmP5J8qKh0UbqnyjX6Pa/IHVBKGkeSwhavd1jCobn7qURWlSYJHuTwxYXcNVH+N0l3PY9XP4BPr9AeHgH1/+A59wTTos5K9nW9F+u7tDe3EJVe4zBH+cuVYazRH8ThrQpNznqL18hrldwRP5av079uP4G5ZpEkdRyHqsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 67.80341023069208%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsSAAALEgHS3X78AAABY0lEQVQoz4WSTU/DMAyG8///BBJiEifOHLhxQkJIgAAxOBS1aF3T73w3ToqTsrKNwR4lkuPE9hsnJNslTdMkSYqikFKqLXDJORdCoFfwuu87pTThjDPGeCTsSSmUzHhVik4rPQfjbtM0XYSxHm08Sax34wawYIwZhkEZDVv+HbyfTdKB9sERXFzJgtKyLNd5DgDx5J+E4BFChSlbZ1XLOtaHW5jIEJmNyfab4uSyermqlyvTxxQeb4In0HaRqcie/RP8JPJ3STloXDCrmRQYPGk+CsFU88I4C0Lzvm/aFjs8iTzIpI4MLhRxUcmbpBfFPUMVfiPb7QMRF0uS7/7HltWDfOWVhpDP4svF4f+RPT8fTot/YZ301YdQuVBrqQs0wNDRGX80GExm1gtLz2G1gPQUMhxnLjuxbOn8+FsE2f43A63Y/XN79yhpaZ0PfbF2PCp7ejqRftLrG3H7YGm99xMP8gUOaC67UWeXVAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Reporter ID&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/reporter_id_codeclimate-a16b1e1fac3cfa6226760612bffb134e-8ef6a.png&quot;
-        srcset=&quot;/blog/static/reporter_id_codeclimate-a16b1e1fac3cfa6226760612bffb134e-1204c.png 293w,
-/blog/static/reporter_id_codeclimate-a16b1e1fac3cfa6226760612bffb134e-5efee.png 585w,
-/blog/static/reporter_id_codeclimate-a16b1e1fac3cfa6226760612bffb134e-8ef6a.png 997w&quot;
+        src=&quot;/blog/static/reporter_id_codeclimate-356c155af05d269eaf1c5a9a5ff4fba6-8ef6a.png&quot;
+        srcset=&quot;/blog/static/reporter_id_codeclimate-356c155af05d269eaf1c5a9a5ff4fba6-1204c.png 293w,
+/blog/static/reporter_id_codeclimate-356c155af05d269eaf1c5a9a5ff4fba6-5efee.png 585w,
+/blog/static/reporter_id_codeclimate-356c155af05d269eaf1c5a9a5ff4fba6-8ef6a.png 997w&quot;
         sizes=&quot;(max-width: 997px) 100vw, 997px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1871,7 +1873,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/regist_travis-ci-854124a8552fd190c94fa22bfe7e65e5-9077b.png&quot;
+    href=&quot;/blog/static/regist_travis-ci-eb9a75f93ebdf5f0bfa85e2c69053177-9077b.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1883,17 +1885,17 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 55.906432748538016%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABzUlEQVQoz31S2Y7UMBDM//GA4EuQ0H4dAoR44g2kYVlp2bmy2jk2hxPHt5OiuzMzOwgJR6Xuju1y9VGklND1PZxzghADjDUIIcwxWT7Da6LvvNifpgkqaOxshSb3WJVrFCllBE+XYjohI4YofiAbQkLk/2kURCLPZMfMcYaPEcY7pGnEtixRWB+hrEdrHBoCW2W8wAsZPRiyEKc4YqcrPDQl6l4j8T7v+TmDzWaLorcBj53Gqu2wVb34pdJYU6xdEMVMdibcqyNuD7/xY7+FDR7We8mE1SvVoXCkUFsn6EmdNu4S8168Iox0ydU1No8PuCuXqE2DIRiMY0bOlD6VrnCkcGgHWGVgyJrWkG+hmg6GyC+EcU7f0yNHVeOpalB1R9xX9+ipMbwsiShaq/GrWWNRLQW39QqLekl1HaT4F3VE5lwQcHrUAzx1B3xYfsG+PwAUW5qK4uvuO95+vsEbwutP7wWvPr7Dt8NCDrnwkral5rEfT9PQOY2fhzvUQ0vNSZSRRWGoqEf6UZlO8GyUgIv9V/1O6TLpMFiCEaU8NoOz4NJJynxwTBNynDGecE12TSr//ayWcX6ErTRFDsT0D86X/wd+xMskzIPPhH8Ab4NNRX7CsvEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 55.906432748538016%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABlklEQVQoz21Sy27bMBDU5/XQx58UCNrPK9xDLj0WRZr6YKi27MKxLFF87y6XlLpUYKBBKgwWC5IzO0OxYWZrLSAKUkoxRiICAKk55+XlNy+LSf4cBpXd7+OhYc5EiVMWZM4psTRSVwi9CORMznPJM3NBTpEwL3N3PDaRWEfUAVXA2qxAqkyByGaen9zQqqNybtXNiaqjw6FrHNAf4/eT7bQ9WX8y7qCtLPKNzDxfTP/rsvtx6SCRpCOSxaK1aWRIAAxAPmJYIc0afx0i5rnAOHandntqVVA+xVJqHNFoIKKbXNDeKecnL41WJkZIqdz4GSn1Rp1HNdjrbtg5cmI7AjRTdFt1+Dm2D2P7qPbS6OglJ92YgAlqijLn5Wz6zf7+yfZLWQCwuT9///D18/vNp7ebu3ebuzdfPn67PMieTHvOHKNccHUh1YJ/7LfKTwlzCLEJiFevx2AEQzDXYORH821s5VPl+xB9CJmLyHkQy1Rti17h5RnzWvmftC8kAEWFULRIrlkutXl97r+Qd8LrWFrj1NeC9BfAdHMHDlrP3QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Sign in with Github&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/regist_travis-ci-854124a8552fd190c94fa22bfe7e65e5-9077b.png&quot;
-        srcset=&quot;/blog/static/regist_travis-ci-854124a8552fd190c94fa22bfe7e65e5-d27ad.png 293w,
-/blog/static/regist_travis-ci-854124a8552fd190c94fa22bfe7e65e5-8dcd0.png 585w,
-/blog/static/regist_travis-ci-854124a8552fd190c94fa22bfe7e65e5-9077b.png 855w&quot;
+        src=&quot;/blog/static/regist_travis-ci-eb9a75f93ebdf5f0bfa85e2c69053177-9077b.png&quot;
+        srcset=&quot;/blog/static/regist_travis-ci-eb9a75f93ebdf5f0bfa85e2c69053177-d27ad.png 293w,
+/blog/static/regist_travis-ci-eb9a75f93ebdf5f0bfa85e2c69053177-8dcd0.png 585w,
+/blog/static/regist_travis-ci-eb9a75f93ebdf5f0bfa85e2c69053177-9077b.png 855w&quot;
         sizes=&quot;(max-width: 855px) 100vw, 855px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1905,7 +1907,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/link_travis-ci-3aacdec81c4cd296fd828e8f0777075f-8184f.png&quot;
+    href=&quot;/blog/static/link_travis-ci-d8126dfaa8e97c409f2c9deb8d132923-8184f.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1917,16 +1919,16 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 134.55598455598457%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAYAAAB836/YAAAACXBIWXMAAAsSAAALEgHS3X78AAAD0klEQVRIx61VW28bRRT2H+GFR6SC+AW8VOIBUSpeeOYiVQWBQLwhVUIqUilC4gUJqeINVahcpAYqJWlKIaFJ0yRN3Tq7tnOzHTvOrtfrXd927Z2d/ThnnN1uXMfqAyN9e2ZnZ858Z74zZzOBCJHGMBCIMGpCSAzoHRIKoYzgtDu48s23uPTlZRwZppo7GAbJ+kzsZGQDNaFeLWJz9RaCkJyFgNbcxfLhptqEnf10/Wfc+PV3fHXlamqteNbhYDhUi/6e+QXffX4BPb+n3q8XZnB5/XvVv/jJp2g2m8Re4IMLH6Ld7SnmEx2yFfTRa7lwdisQoVRjoYgUuM3OL+D2wl+K5Q/XflRjPoWcOOROjLRTXs4OFaRU35gJt77no9f3VD9eEyMzSRR2clCtYWMzC71QhJYvoLizq6ymF7Bffso+JpKIwgMDEkNhKJRiPNahs7E5dFLVcdvo9vrKxv143jgyrGxISjIkhxqNLJLkiSBpMCRGPM7gviA241AORRjRbja8gUmMHJimCcdpwXR91F2BRkeoTZ6nCWKVYWad3h7crg6zYaN2WMfRkYGqYaNitHFPq2Axt4OtUg0uhctHoXhH0QkkDjmf+EYISguv34fv+/A9DwPfg9frUohhonJ68aS+csgDD7M5bO/uo1arYUvToGk6its7pGiektjG8Djh45Z2FNtOp6vOMcPye5RX/mCQWkDCRJxjghgPEJBwk1iNjymG3N0rVWARk0qljEKBcq5YQNMyUko/dXAa0z4lumLIKcFVo9Pt0qG7aFhNNMw67EYZMhw+t0OOYiQKPViIPgnhEdqdDtptSl7aoEVpxIWAN5qk7DMqi2NRlpZXsXB3CaU9HbnsfeT1x9imq1atVimFjmBZ1qks4/EupZOIr17yQXISB6qayrG1cgo7mU4briB9Cs+iG2JzeI4Dx7bRpbC5hZKvnJwa7snEpsc/j3TcuLOCm0vruPnvBmYIvy2uoWQ0E3bT2gmHHPJqoYTZhxpuP8pjflNX9s+1J9ipm6OJdFvCSE4FV9BjhwH+r8YXIRNRcah4day0slh3t7Dm5hLw+wZhXSE3ZkfYaG9h1X2MYq+kyppKm6/1a3jhj9fw6vx5nJl7Ey/PncNLs2/g7OK7eOf+Zzi//BHO3buIt1c+xuuL76s5Z2ZHeGXuLbx46yzee/AFIiqFGfba8l3sOweouIeEWoJctYBsWcOTg7xCtqxDqxVRTs3hNSWnCrPXJIbqrydOPROb6mO9SvWxZsA4NGEZFlpWa3qBHaq/vlA/+XFwDsaQsaJSTpwbiJH9Dzz6+sqTb4ABAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 134.55598455598457%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAIAAADzvTiPAAAACXBIWXMAAAsSAAALEgHS3X78AAADS0lEQVQ4y4VUS2/TQBDuX0HiDALxDzhUXFBVuHDmIUQBIbiChFRU1CIkLiChHoGKlwQqrzZVaWnpM1HaNA/HSUOS5uHYjh8b20ls79rMbto0pWkYjezZ2f12vp2Z3T7HxZ3qeZ7v+y7GtoM94hEQz1c1/fHY0wcPh4WKCLO247YW97Vh4IKJciG1sfbNxa5P/EQ1s1QKg3Nk9MmrNxPvPnwcHhltIw+Am7YD6+Ym3z+7d91qWGBP8JOPQs/BGLpzt1Qum6Z57cYtZJiYeF0iu55XVzVlO+ti4sDQJa6DAfztR2Bm9ufribcvXo7DEML8C2Z4DDCPnpmAggmHx+zkVr1hWnUwOtcfBLsUXCiUwhubHJ9KJPlUOsMl+QSXzObyLmN3AAzRwAVEmrYLfMBGhlVVdU2vaToc0IIvM+qwgK3EbQUwUPMw8QmrEiW9JzDGtF50Cgyagg51AAzepq00mpKqaqIoaZom6baAcNUgnRsdFkgGgH3D2tYNTpTUYqksCJViRclX0O94/lc0HcsWkY5qhtkdDKQZB2JZVp1Jo1GvmxAXs5zTnmu1XRcw/MKRWDrzp1gsxuKJeIJLpdNxLllVFNu2uxKGvYAL7Au0CQRrNu2W12PpgapQF2vYXmeG359cvqqo+fxOkuf5FF+Voft75QoiQDwaGayKKBmGqSMkyYoslTU5j91mbzDtFZZt0qApopmq1QwEqTUMKJiiKAihnrQxpb24vDY7v5jLcNHIKsdtpdLbhUJBEARZrh4V2TBZwuDy7LqI43lwKzEh+7XxjpC9JiHEqCFZFIGnzujWEIJpQlqviN9V95tkLpx4O7P0aWH900Lw82Lww/x6tlJthf1PqeBer/HZqXBiJsIFNun3azCaFuhbBf2P6Y3oonCPGNjt1Qk9hNUZ+zsNYUWLhPR4UI+1NYQODINoV0Motqpv8VaWtDpsjBs/9uXsmcCFU9MDp6cHTkyd71+4fGn13uDyzYGloYsrt88tXj05PdDSU4HB49/7r6zfh+e1DzbQmiinF3dQua3xIh/JJ6KFZLTAgREvpTpnc3pJshQoU5/b7cyKpJShTUoVsSzKFVmV1cPNvptth75MdqdimktC1WNK8D8LHCruX2G34p2H4fh6AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Auth Travis-CI and Github&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/link_travis-ci-3aacdec81c4cd296fd828e8f0777075f-8184f.png&quot;
-        srcset=&quot;/blog/static/link_travis-ci-3aacdec81c4cd296fd828e8f0777075f-f9d09.png 293w,
-/blog/static/link_travis-ci-3aacdec81c4cd296fd828e8f0777075f-8184f.png 518w&quot;
+        src=&quot;/blog/static/link_travis-ci-d8126dfaa8e97c409f2c9deb8d132923-8184f.png&quot;
+        srcset=&quot;/blog/static/link_travis-ci-d8126dfaa8e97c409f2c9deb8d132923-f9d09.png 293w,
+/blog/static/link_travis-ci-d8126dfaa8e97c409f2c9deb8d132923-8184f.png 518w&quot;
         sizes=&quot;(max-width: 518px) 100vw, 518px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1938,7 +1940,7 @@ Please add the following to your .travis.yml file:
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/activate_on_travis-ci-f360e1cd7106dbce4fb67c88e6c4b42e-62173.png&quot;
+    href=&quot;/blog/static/activate_on_travis-ci-2f8dd25393da79355d245d53e8a27fcc-62173.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1950,16 +1952,16 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 62.546816479400746%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABgUlEQVQ4y6VTy07DQAzsT/IRnLhz4g/4HI4c+QNOIKVp835tkubVJB3GphuFUoEQkUb2endn7bGzcasaRT+gbRqYskQ/DCiKAiX90+n0Z2zSpkVNwnmaMB6Paifayfp/wDzP2BiSCbKuh2F2OW3Sdki7Dt04Qj55+bdPzihhTZIDUfU9SpJJtgXJKtqehPbgNdg9m50SlsagyHPUVQXxDfWrxDKWZ5lqKZpa5BIn0jSF4bmK9yQupKphwWCWZ0S+XMquEMllgcQtUV3X6st+w6Z+apjy1ZiEUYr9fg/f99VGUQTP8xAEwQK7L3GxHaVp21btQNmU8N24eM3e4JQelf0u9OX6pwYp4e3zA26e7nD/8oj/fkromwh7w5JMjI7p9+x2cy5DIOtLX8qTUm25h8NBrRJGQYSYCP1AtdntdnAcRzUT33VdtXZP1tvtVvW0Gn9piici+x7iJEFChGG4vCaZSFZiBessj/yTRs7peB7+peT1UK4Hdt2Aa81Yn1kP9wcvNO06x/VClQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 62.546816479400746%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAABT0lEQVQoz41SS1LEIBDNHT2EKw/gxiN4HLcuvYErrTJf8iWEfIAQMj7AzFBTZc28SroeTTf9uiFKx6lXalmWYRiUUoyxgfN93093IOqWZVRq37ZNr7vZjNab1ma7DRSIGKopRYVEXSplK0QnhdD6ZlljTDSpFR+XkgsJCb0QHOq13gOYA2fuSTQw1lM6cg4CcPzUAiPoA8DTti2cnNuQP9lYYwPbcOHvKPXbdumc9kTngR3HEfHg8zzb5L6lXd02VZPnOSlIlmV1XRdFUR6wfkLggRUH0JlN/mbJZ/f1M2ThMMKr+u/abM+P7y8Pb0/PH6827nTX9V6SCatyVpasdmIkXosM4BWCwHrB4NM0wVrZJSkrUqJbdIWG4zhGnyBpmsKi4cwhSRJwPwsMEjVscuHQOGADR0LPuZovCI7odV21w0V2+ABC+FFdTe7qzfwC82DrP1raosIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Activate on Travis-CI&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/activate_on_travis-ci-f360e1cd7106dbce4fb67c88e6c4b42e-62173.png&quot;
-        srcset=&quot;/blog/static/activate_on_travis-ci-f360e1cd7106dbce4fb67c88e6c4b42e-03680.png 293w,
-/blog/static/activate_on_travis-ci-f360e1cd7106dbce4fb67c88e6c4b42e-62173.png 534w&quot;
+        src=&quot;/blog/static/activate_on_travis-ci-2f8dd25393da79355d245d53e8a27fcc-62173.png&quot;
+        srcset=&quot;/blog/static/activate_on_travis-ci-2f8dd25393da79355d245d53e8a27fcc-03680.png 293w,
+/blog/static/activate_on_travis-ci-2f8dd25393da79355d245d53e8a27fcc-62173.png 534w&quot;
         sizes=&quot;(max-width: 534px) 100vw, 534px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1976,7 +1978,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/install_travis-ci-a55ecef9b82c8283c6669a8b1bf0f30b-c8d37.png&quot;
+    href=&quot;/blog/static/install_travis-ci-78d6c7d9cdf031d98515c98651075d68-c8d37.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1988,16 +1990,16 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 154.8936170212766%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAfCAYAAADnTu3OAAAACXBIWXMAAAsSAAALEgHS3X78AAAD6UlEQVRIx41WS4/bVBTOr2PLjiVI7BAbdrBkzS9AolKXrCoBlXhVQiodNGopDNNOJ82rGRLHefmV6+e1r/1xzrGdyYQkGkufzrk3vt89b6eTZDn+h1QjbvSI9MhUNUjnvbiRh9A5tMkHWqjc4PLVGf65/B2hKREn2UnSzikyPqwq4PHDb/DDg68RAoh2CA+RHidsXA8zDTdQcDYhFBPIb/oE4RHT25czXdTkeYGU9Pp33WD/nD5soSSDXHv9posXf13g+m0fr66ucdXtodsbQkXJ0Th2eDNKtBCIvl1reOTqcu0iUBEcL4Djb2TvTpz30El1jqqqQLFHWVY1qlo/9hSU7bwwgqKBobLKiKvDm4vFApPpFMvlErPZTPTVaoX5fC6Y0prB7/H6YnCDX16+wY8vXmNkr9kUhPFEiImwgOaApzlJA02B50SwnjV6xsnJiu06IV1RSDZxRoky5A1brRtCIquMg1JPYTKGhSJr9V1YMLpGSUAxB8xCZJnbpDsSArGw0u/g2r/Bs58idM7hL54J1PpcECzPCH808kz2dHgJ5H062wN0F1U+BhvXYRdUFCLXPky+IRmgIIkyAqp4B82a9isTojQKZXGLysS1yzHF7mqsMBpPqMYGuO72MRiNEcUpxVXXoBgyEiotji0/uzXQ6k1S6hfynAOfiSwKDj4TUd8mCZHHgjCMZE9IuNR2cEsoGU6xpDLhshBJ5WNzydBaE/H+0xLsr7eEJeXdXiyp/iwioVq057BmNiySGxUetGZf33G5kMVssUKfYnczsTC6mVBM/xW5cn258JCbh11uCE89+y4e+10IC2MQRZG4a1HbzdhVa1avSWZHknDCQmpsbnDDDW4kwy04ISzZZUMod3C7rkQy6dbltMgkq67rwfcDKEqE5/m4bzjuWKjpUJhFGAxHmFoWbMrs2nHEdS6bMAzhOK4gCAJ4vi+X8jshherOWGtdTvKESsUWC/mA67pyiElcz6OxthICBo+11WotcGit6MLNRklDGJqT4nKSp+j1B+gNBtR2I/SHQ/RJ5yLnDmHL2FKllEifLmXdp32HLmdDON4NYd16NCNpDFGQuVdp+lZFdbdh7/FskxKZBC5NGJ+mRlCEIhmJSSWLnFG+vSyP4zbL1Hqf/P0l3j//FB/++Tk+eP4ZPnr5Bd47+xhfXT9ANfXgDt8hN+aeFhLhk/EzPOr9jO/7T/Do7U/4rv8rvu0+xvn0ApGr4FIC4iSVCcSFntAwyegbzHE7WNjgcssb8HDRleyVmv/L0Pgi8BiLG8nlEkWxrPe/hp2Ub+JZmNPtIlvU+0XzudxF++lknd+pQQ1CXP8BfLRVauZRLz4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 154.8936170212766%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAfCAIAAABoLHqZAAAACXBIWXMAAAsSAAALEgHS3X78AAADRUlEQVQ4y51US4/cRBCe/8eVGzeExCniwgmOnLkjoQjuHEAEgYKIIiBLEq0WJmyyMzs7rx3b48fYHtvtR3f1i6/tXYnNbsIuNZ9KZU9/3dVfVXnUcroRDRe1Mg6deNOa0c1/dKKS+sXfT8bj35gyzRv4N5ObljNrf/j6y+/vf1Fbi8c7nUyMU1aUWVExfse0OyE5qUZQRwrxHchQ6Phkcvjn+GQ6O341eTk5nc7mrG6v7zIaVjdXkRdVkuYFa7J9CeQl69cQcCFKL+GICzLGWGvNpWntHl8zpbVUAxSglBEkR1KqKI48z4uTJNhuN56XJEkYOfN7i+I4CsO/ztYPj179dHi8CHfW6rrZYAtHFlCFE0mNgAtJEl4NcQ8XtEJWrSgbzsllphQ5MpxVmSFfc18LX3FPiT7ooSnQwsFQYFVkdQxvaAsKTnUnG7HKto/z8Nc6fV7ET/bR7yx9WqVPi/igTA7K+AAvq/SZYC8szaw4tTSxtMapI6THmlqKQslKUglvTWNNfQkXGw0wo6pLlLi1S7vl8uWKLVeb6en8ZDKbL1Z103WdcOCEWrStgB7X9b8QDBERCSFkb0Pcdl0Da1tW15xzlPIq7IVgOAjliVAT+DgOQxf2hLfZBVkbE0bxxvPhgzD0gzDYRhVjQ/O8jTykvY2S+XJ17gXL9Wa5Pl+eb3bZXt+S/D/MkZVCrzWeH6A3gy1yDjz3ENzqzrJvc+fQ+lL1kEK47tM32TA8/1Jbcgic53lRFCjMvihQqlulDTIT9Xy+8Hx/G4a7NAsCVyzGWJplQFGUe2dFmmbY+vW0W+qwPstzrHC+KMBBIig7CNgu3u2SHSx1fMaqqkIj4VZ92tTNzuaz+fxssQAQYCm6y92C1RUqztjexQxvsCuAeznyUCqjDeZYYjsJ3bTR5lZ3BpmpJqMil+VeVgCCVnXQVV4KfB3QuxeM1L3xZ+8+++j9o0/eO/z4g6NP3/njw8+nX1l/ny1WWPEfaj9aH3w3+/nB2aNvTx8+mP3yzfTH5/64zito1eCDKwQXmFB0DUK61p7YXfagHnhByo1k2+HXW1fXTe0GtL1CxsR3JFriA4aYE2Yb3zjXfkht+NwOMXpvQCfoH0bM7m7tTKOLAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Install Travis-CI&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/install_travis-ci-a55ecef9b82c8283c6669a8b1bf0f30b-c8d37.png&quot;
-        srcset=&quot;/blog/static/install_travis-ci-a55ecef9b82c8283c6669a8b1bf0f30b-ef9e9.png 293w,
-/blog/static/install_travis-ci-a55ecef9b82c8283c6669a8b1bf0f30b-c8d37.png 470w&quot;
+        src=&quot;/blog/static/install_travis-ci-78d6c7d9cdf031d98515c98651075d68-c8d37.png&quot;
+        srcset=&quot;/blog/static/install_travis-ci-78d6c7d9cdf031d98515c98651075d68-ef9e9.png 293w,
+/blog/static/install_travis-ci-78d6c7d9cdf031d98515c98651075d68-c8d37.png 470w&quot;
         sizes=&quot;(max-width: 470px) 100vw, 470px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2010,7 +2012,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/repos_list_on_travis-ci-3e7cfd401e00b7f09a472c1e7da2e88d-ab202.png&quot;
+    href=&quot;/blog/static/repos_list_on_travis-ci-2163d343d63dfae67734836f42884b07-ab202.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2022,16 +2024,16 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 37.17472118959108%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAAAtklEQVQoz5VR7Q6DIBDj/d9z/5YJIuNL6FqmiVnc4i6pJUjvWjAuZdz8Al8KwkL2HjFGTNM0WNV7vwwTSsX9GRFrRVtXNHJvDYUDqtZfhGc1GiY2kbs5FzjC5oxHSijtLeonohDCSOCcg7UW8zwPlgGT+VnYwBM7C5lDGp2euVtpQuJP6LxRTB0YvMWubFboVPv/RFaZTKEeQrYFR2jSMeIvqHTf0oqNrKrpDm1ecXL837ZHVKIXBAYnqmnVNcMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 37.17472118959108%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAAsSAAALEgHS3X78AAAAmklEQVQY042P2w4CIRBD+f//9NHALoPQYYa1i9kHxURPoFzS0BI24CaSVUuRLFJrizHWWo93xgIvw6P3O729DzM3G+5d1bhZrOtzoZkxdsc5EhAb1MfqK6WklLZJzpnKgAAzAaS10qjIAFQ/oniktV/YxN0Dp8/C9tLeFfin9vlnJonIfsGnjl+oKptTA0O4YKJL4a/Qw/KMeQKJuJzCLSMPSwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Repos list on Travis-CI&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/repos_list_on_travis-ci-3e7cfd401e00b7f09a472c1e7da2e88d-ab202.png&quot;
-        srcset=&quot;/blog/static/repos_list_on_travis-ci-3e7cfd401e00b7f09a472c1e7da2e88d-1089f.png 293w,
-/blog/static/repos_list_on_travis-ci-3e7cfd401e00b7f09a472c1e7da2e88d-ab202.png 538w&quot;
+        src=&quot;/blog/static/repos_list_on_travis-ci-2163d343d63dfae67734836f42884b07-ab202.png&quot;
+        srcset=&quot;/blog/static/repos_list_on_travis-ci-2163d343d63dfae67734836f42884b07-1089f.png 293w,
+/blog/static/repos_list_on_travis-ci-2163d343d63dfae67734836f42884b07-ab202.png 538w&quot;
         sizes=&quot;(max-width: 538px) 100vw, 538px&quot;
       /&gt;
     &lt;/span&gt;
@@ -2044,7 +2046,7 @@ Please add the following to your .travis.yml file:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-97d5a.png&quot;
+    href=&quot;/blog/static/setting_travis-ci-25e5f9e747c0bb52879a7e8edaef4578-97d5a.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2056,18 +2058,18 @@ Please add the following to your .travis.yml file:
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 56.82684973302822%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABHklEQVQoz4VTC0vGMAzs//+RfoIiKN17fbeLubpI129o4UgJzeWS25TWmqZpqhiGgcZxrJjnmbZto3Vd/8W+71yr6fXxQirGRN4HyjlXGGNoWZZKCIzcyBpHH/qdtPsknOMojOOCUkqFGr0lGzzFFGsixkgBCIGC92Q4Zs7nnDhmktMToi6lROoxvNG8LRRzJM9FX8aSd45V+0sxTsnlpxGjJ5SjqjJ+yFlKPPLMRJYJUVTOh31xS9ArVn1y4x2uDCgUNYK7XAuMrfrOdW/sGszBTtvuMA2F7pxAzGjrVTsCRoQJq4dJ6df5Fli8NLoz6EKI6LBDa6sKoL8DMp44+yehKBC0qnCXCDJ80LjL6PhJnhWexf1He+f00/5Z+TcJg1/vCaQnWQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 56.82684973302822%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAAA60lEQVQoz4WS247CMAxE8/8fufCAVkI0JW1uzs3ZIYEqpaA9D1HsesaOVSGn6d6Y57lflFIarC/0qvcYY2Ypz6cfEWMiCiU/sNYuy6IacPLW/06Xia61VmauAwUwizs5FymliDA2QsOGgO+55MKlHkBZTkmc5WUxa8ox5HyzjryHcuwDU2RQfbQQcODClWsqRRFB/SbuM79lnuKxQju3OkfYwUAPt+ds94SxRzFy1jw4jg0LaHjPTmxD1EQp5778DTT5f2zYu4Y/gLaw6OfnzmhRBtBzDKHEi5BEJUIp5U7sIG7j8Xe2HwaL+AOBfYW6n4bWRgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Setting Travis-CI&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-a66a3.png&quot;
-        srcset=&quot;/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-65e34.png 293w,
-/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-8d594.png 585w,
-/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-a66a3.png 1170w,
-/blog/static/setting_travis-ci-43066cdea141fa5c0602894ec44012d5-97d5a.png 1311w&quot;
+        src=&quot;/blog/static/setting_travis-ci-25e5f9e747c0bb52879a7e8edaef4578-a66a3.png&quot;
+        srcset=&quot;/blog/static/setting_travis-ci-25e5f9e747c0bb52879a7e8edaef4578-65e34.png 293w,
+/blog/static/setting_travis-ci-25e5f9e747c0bb52879a7e8edaef4578-8d594.png 585w,
+/blog/static/setting_travis-ci-25e5f9e747c0bb52879a7e8edaef4578-a66a3.png 1170w,
+/blog/static/setting_travis-ci-25e5f9e747c0bb52879a7e8edaef4578-97d5a.png 1311w&quot;
         sizes=&quot;(max-width: 1170px) 100vw, 1170px&quot;
       /&gt;
     &lt;/span&gt;
