@@ -1,7 +1,6 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 import styled, { css } from 'react-emotion';
-
 import Footer from '../components/Footer';
 import SiteNav from '../components/header/SiteNav';
 import PostCard from '../components/PostCard';
@@ -84,7 +83,6 @@ interface AuthorTemplateProps {
       };
     };
     allMarkdownRemark: {
-      totalCount: number;
       edges: {
         node: PageContext;
       }[];
@@ -112,7 +110,19 @@ interface AuthorTemplateProps {
 
 const Author: React.SFC<AuthorTemplateProps> = props => {
   const author = props.data.authorYaml;
-  const { edges, totalCount } = props.data.allMarkdownRemark;
+  const { edges } = props.data.allMarkdownRemark;
+
+  const authorPostCount = edges.reduce((totalCount, edge) => {
+    const { author: postAuthor } = edge.node.frontmatter;
+
+    if (postAuthor && postAuthor.id == author.id) {
+      totalCount++;
+    }
+
+    return totalCount;
+  }, 0);
+
+  const twitterHandle = config.twitter ? `@${config.twitter.split('https://twitter.com/')[0]}` : '';
 
   return (
     <IndexLayout>
@@ -130,11 +140,8 @@ const Author: React.SFC<AuthorTemplateProps> = props => {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={`${author.id} - ${config.title}`} />
         <meta name="twitter:url" content={config.siteUrl + props.pathContext.slug} />
-        <meta name="twitter:site" content={`@${config.twitter.split('https://twitter.com/')[0]}`} />
-        <meta
-          name="twitter:creator"
-          content={`@${config.twitter.split('https://twitter.com/')[0]}`}
-        />
+        <meta name="twitter:site" content={twitterHandle} />
+        <meta name="twitter:creator" content={twitterHandle} />
       </Helmet>
       <Wrapper>
         <header
@@ -162,9 +169,9 @@ const Author: React.SFC<AuthorTemplateProps> = props => {
                   </div>
                 )}
                 <div className={`${HiddenMobile}`}>
-                  {totalCount > 1 && `${totalCount} posts`}
-                  {totalCount === 1 && `1 post`}
-                  {totalCount === 0 && `No posts`} <Bull>•</Bull>
+                  {authorPostCount > 1 && `${authorPostCount} posts`}
+                  {authorPostCount === 1 && `1 post`}
+                  {authorPostCount === 0 && `No posts`} <Bull>•</Bull>
                 </div>
                 {author.website && (
                   <div>
@@ -267,7 +274,6 @@ export const pageQuery = graphql`
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
-      totalCount
       edges {
         node {
           excerpt
