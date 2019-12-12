@@ -10,9 +10,9 @@ draft: false
 
 # React Hooks Slide In Modal
 
-Continuing our studies of React Hooks, today I'll show you how to build a slide-in modal, which is useful for anything for a simple notification to a settings screen for a user.
+Continuing our studies of React Hooks, today I'll show you how to build a slide-in modal, which is useful for anything from a notification or popup to a settings screen for a user.
 
-If you missed the last article, please be sure to check out <a href="/react-hooks-color-picker">How to build a color picker using React Hooks</a>.
+If you missed my last article, please be sure to check out <a href="/react-hooks-color-picker">How to build a color picker using React Hooks</a>.
 
 ## What we're building
 
@@ -20,7 +20,7 @@ If you missed the last article, please be sure to check out <a href="/react-hook
 
 In order to build this component we will use the `useState` hook like before.
 
-We can use this hook not only for toggling the display of our slide in modal, but also for the background overlay. And we can use the same hook to conditionally set class names, which we can then use for simple CSS transition animations.
+We can use this hook not only for toggling the display of our slide-in modal, but also for the background overlay. And we can use the same hook to conditionally set class names, which we can then use for simple CSS transition animations.
 
 ## Set our state
 
@@ -51,7 +51,7 @@ I will keep the styling for the modal fairly simple:
 
 I set the initial position to `bottom: -150vh`, so that by default the modal is positioned 150% of the view height out of frame.
 
-I also set a simple transition effect, `transition: bottom 0.3s ease-out;` so that there will be a slide in animation when the modal is triggered.
+I also set a simple transition effect, `transition: bottom 0.3s ease-out;` so that there will be a slide-in animation when the modal is triggered.
 
 ## Conditional rendering
 
@@ -63,7 +63,7 @@ There are two ways we can go about this. The first is most basic:
 }
 ```
 
-This is concept in React known as "conditional rendering". If the value of `displayModal` is set to true, then the element will display on the page.
+This is a concept in React known as "conditional rendering". If the value of `displayModal` is set to true, then the element will display on the page.
 
 It is very useful for many different situations. However, one limitation to this approach is that we can't animate the component as it display state is toggled on and off.
 
@@ -74,7 +74,7 @@ To do this, the most basic way is using conditional rendering of classes. I will
 <div className={`Modal ${displayModal ? 'Show' : ''}`}>...modal content</div>
 ```
 
-Applying the same concept above, we will conditionally render the classname `Show` if `displayModal` is true.
+Applying the same concept as above, we will conditionally render the classname `Show` if `displayModal` is `true`.
 
 From here, all we need to do is add this to our css:
 
@@ -84,11 +84,11 @@ From here, all we need to do is add this to our css:
 }
 ```
 
-And with that we have a nearly complete slide in modal.
+And with that we have a nearly complete slide-in modal!
 
 ## Overlay
 
-What modal would be complete without a background overlay to partially block the content of the page?
+What modal would be complete without a background overlay to partially block the content of the page while it is open?
 
 We will use the exact same concepts as above. Let's start with the css:
 
@@ -109,7 +109,7 @@ We will use the exact same concepts as above. Let's start with the css:
 }
 ```
 
-And the markup will use the same conditional rendering of classnames as the modal:
+And the markup will use the same conditional rendering of class names as the modal:
 
 ```jsx
 <div className={`Overlay ${displayModal ? 'Show' : ''}`} />
@@ -129,9 +129,9 @@ Let's create a button with a click handler which will toggle our displayModal st
 
 We simply use the `onClick` attribute, and our `setDisplayModal()` updater function.
 
-To close the modal we can create two more click handlers:
+To close the modal, we can create two more click handlers:
 
-The first will be a close icon:
+The first will be a close icon within the modal:
 
 ```jsx
 <button className="Close" onClick={() => setDisplayModal(!displayModal)}>
@@ -150,11 +150,15 @@ We can set another on the overlay component so that when a user clicks on the ba
 
 ## Summary
 
-It's hard to believe how easy it is to create reusable compoenents like this. If you want, it would be really simple to create a slide right, slide left or slide in from top modal using the same logic.
+It's hard to believe how easy it is to create reusable compoenents like this using React Hooks and basic CSS styling.
+
+And you can probably imagine how easy it would be modify this so that the modal slides in from the right, left or top of the page!
 
 In fact, you would really only have to update the css a little if you wanted to do something like that.
 
-If you wanted to make a component where you could pass a prop like `left`, `right`, `top`, or `bottom` to determine which side it would come in from, how would you do it? Try to figure it out on your own using the concepts we've covered in the last 2 lessons!
+Another way to take this project furuther is to modify the component so that you could pass a prop like `left`, `right`, `top`, or `bottom` to determine which side the modal would come in from.
+
+If you wanted to do that, how would you go about it? Try to figure it out on your own using the concepts we've covered in the last 2 lessons!
 
 ## Source code
 
