@@ -3,7 +3,7 @@ layout: post
 title: 'React Hooks Color Picker'
 author: 'Elliott Hindman'
 tags: ['advent2019', 'React', 'React Hooks', 'JavaScript']
-image: img/posts/react-hooks-color-picker/post-hero.jpg
+image: img/posts/react-hooks-color-picker/banner.jpg
 date: '2019-12-05T18:00:00.000Z'
 draft: false
 ---
@@ -71,7 +71,7 @@ So, with that quick crash course about the `useState` Hook, let's get started co
 
 ## What we're building
 
-<img src="img/posts/react-hooks-color-picker/demo-screenshot.jpg" alt="Color picker preview">
+<img src="img/posts/react-hooks-color-picker/preview-1.jpg" alt="Color picker preview">
 
 This will be a very simple demonstration. At the top, we'll have a `ColorBox` component, which will show the current color and change dynamically with user interaction.
 Below that, there will be three range sliders to adjust the `hue`, `saturation` and `brightness` of the `currentColor`.
@@ -178,6 +178,8 @@ Below you will find a working demo to compare your code to. Feel free to fork th
     class="loading-element shimmer-animation"
   ></iframe>
 </p>
+
+[![Edit cool-burnell-t4lef](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/cool-burnell-t4lef?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Yamagata Developers Society
 
