@@ -8,8 +8,6 @@ date: '2019-12-13T18:00:00.000Z'
 draft: false
 ---
 
-# React Hooks Slide In Modal
-
 Continuing our studies of React Hooks, today I'll show you how to build a slide-in modal, which is useful for anything from a notification or popup to a settings display for users.
 
 If you missed my last article, please be sure to check out <a href="/blog/react-hooks-color-picker">How to build a color picker using React Hooks</a>.

@@ -8,8 +8,6 @@ date: '2019-12-05T18:00:00.000Z'
 draft: false
 ---
 
-# React Hooks Color Picker
-
 Today, I'll show you how you can build your very own color picker using React Hooks.
 
 It is easy to build reusable, stateful components with React Hooks, which respond immediately to user interaction and are completely reusable.
