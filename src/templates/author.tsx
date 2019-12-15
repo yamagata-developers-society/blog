@@ -90,7 +90,7 @@ interface AuthorTemplateProps {
     authorYaml: {
       id: string;
       website?: string;
-      twitter?: string;
+      twitterHandle?: string;
       facebook?: string;
       location?: string;
       profile_image?: {
@@ -183,10 +183,10 @@ const Author: React.SFC<AuthorTemplateProps> = props => {
                     </a>
                   </div>
                 )}
-                {author.twitter && (
+                {author.twitterHandle && (
                   <a
                     className={`${SocialLink} social-link-tw`}
-                    href={`https://twitter.com/${author.twitter}`}
+                    href={`https://twitter.com/${author.twitterHandle}`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -248,7 +248,7 @@ export const pageQuery = graphql`
     authorYaml(id: { eq: $author }) {
       id
       website
-      twitter
+      twitterHandle
       bio
       facebook
       location
