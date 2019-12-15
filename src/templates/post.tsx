@@ -226,7 +226,7 @@ const PageTemplate: React.SFC<PageTemplateProps> = props => {
         {post.frontmatter.image && (
           <meta
             property="og:image"
-            content={config.siteUrl + post.frontmatter.image.childImageSharp.fluid.src}
+            content={config.siteRootUrl + post.frontmatter.image.childImageSharp.fluid.src}
           />
         )}
         <meta property="article:published_time" content={post.frontmatter.date} />
@@ -245,7 +245,7 @@ const PageTemplate: React.SFC<PageTemplateProps> = props => {
         {post.frontmatter.image && (
           <meta
             name="twitter:image"
-            content={config.siteUrl + post.frontmatter.image.childImageSharp.fluid.src}
+            content={config.siteRootUrl + post.frontmatter.image.childImageSharp.fluid.src}
           />
         )}
         <meta name="twitter:label1" content="Written by" />

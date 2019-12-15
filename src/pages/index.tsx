@@ -92,7 +92,7 @@ export interface IndexProps {
 }
 
 const IndexPage: React.SFC<IndexProps> = props => {
-  const socialShareBg = config.siteUrl + props.data.social_bg.childImageSharp.fluid.src;
+  const socialShareBg = config.siteRootUrl + props.data.social_bg.childImageSharp.fluid.src;
   const width = props.data.header.childImageSharp.fluid.sizes.split(', ')[1].split('px')[0];
   const height = String(Number(width) / props.data.header.childImageSharp.fluid.aspectRatio);
 

@@ -4,6 +4,10 @@ export interface WebsiteConfig {
   coverImage: string;
   logo: string;
   /**
+   * blog root path, no ending slash!
+   */
+  siteRootUrl: string;
+  /**
    * blog full path, no ending slash!
    */
   siteUrl: string;
@@ -30,11 +34,12 @@ const config: WebsiteConfig = {
   description: '山形でWeb開発に関わっているエンジニア向けの勉強会',
   coverImage: 'img/common/yds-social-bg.jpg',
   logo: 'img/common/yds-logo.png',
-  siteUrl: 'https://yamagata-developers-society.github.io/blog/',
+  siteRootUrl: 'https://yamagata-developers-society.github.io',
+  siteUrl: 'https://yamagata-developers-society.github.io/blog',
   facebook: 'https://www.facebook.com/pg/as.works.2015/events/',
   twitter: 'https://twitter.com/yamagataDevSoc/',
-  twitterHandle: '@yamagataDevSoc',
   github: 'https://github.com/yamagata-developers-society/',
+  twitterHandle: '@yamagataDevSoc',
   showSubscribe: false,
   mailchimpAction: '',
   mailchimpName: '',
