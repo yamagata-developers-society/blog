@@ -34,8 +34,8 @@ const config: WebsiteConfig = {
   description: '山形でWeb開発に関わっているエンジニア向けの勉強会',
   coverImage: 'img/common/yds-social-bg.jpg',
   logo: 'img/common/yds-logo.png',
-  siteRootUrl: 'https://yamagata-developers-society.github.io',
-  siteUrl: 'https://yamagata-developers-society.github.io/blog',
+  siteRootUrl: 'https://yamagata-developers-society.github.io', // no ending slash!
+  siteUrl: 'https://yamagata-developers-society.github.io/blog', // no ending slash!
   facebook: 'https://www.facebook.com/pg/as.works.2015/events/',
   twitter: 'https://twitter.com/yamagataDevSoc/',
   github: 'https://github.com/yamagata-developers-society/',
