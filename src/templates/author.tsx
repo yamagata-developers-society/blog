@@ -122,8 +122,6 @@ const Author: React.SFC<AuthorTemplateProps> = props => {
     return totalCount;
   }, 0);
 
-  const twitterHandle = config.twitter ? `@${config.twitter.split('https://twitter.com/')[0]}` : '';
-
   return (
     <IndexLayout>
       <Helmet>
@@ -140,8 +138,8 @@ const Author: React.SFC<AuthorTemplateProps> = props => {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={`${author.id} - ${config.title}`} />
         <meta name="twitter:url" content={config.siteUrl + props.pathContext.slug} />
-        <meta name="twitter:site" content={twitterHandle} />
-        <meta name="twitter:creator" content={twitterHandle} />
+        <meta name="twitter:site" content={config.twitterHandle} />
+        <meta name="twitter:creator" content={config.twitterHandle} />
       </Helmet>
       <Wrapper>
         <header

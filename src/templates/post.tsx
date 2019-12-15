@@ -224,7 +224,10 @@ const PageTemplate: React.SFC<PageTemplateProps> = props => {
         <meta property="og:description" content={post.excerpt} />
         <meta property="og:url" content={config.siteUrl + props.pathContext.slug} />
         {post.frontmatter.image && (
-          <meta property="og:image" content={post.frontmatter.image.childImageSharp.fluid.src} />
+          <meta
+            property="og:image"
+            content={config.siteUrl + post.frontmatter.image.childImageSharp.fluid.src}
+          />
         )}
         <meta property="article:published_time" content={post.frontmatter.date} />
         {/* not sure if modified time possible */}
@@ -240,17 +243,17 @@ const PageTemplate: React.SFC<PageTemplateProps> = props => {
         <meta name="twitter:description" content={post.excerpt} />
         <meta name="twitter:url" content={config.siteUrl + props.pathContext.slug} />
         {post.frontmatter.image && (
-          <meta name="twitter:image" content={post.frontmatter.image.childImageSharp.fluid.src} />
+          <meta
+            name="twitter:image"
+            content={config.siteUrl + post.frontmatter.image.childImageSharp.fluid.src}
+          />
         )}
         <meta name="twitter:label1" content="Written by" />
         <meta name="twitter:data1" content={post.frontmatter.author.id} />
         <meta name="twitter:label2" content="Filed under" />
         {post.frontmatter.tags && <meta name="twitter:data2" content={post.frontmatter.tags[0]} />}
-        <meta name="twitter:site" content={`@${config.twitter.split('https://twitter.com/')[0]}`} />
-        <meta
-          name="twitter:creator"
-          content={`@${config.twitter.split('https://twitter.com/')[0]}`}
-        />
+        <meta name="twitter:site" content={config.twitterHandle} />
+        <meta name="twitter:creator" content={config.twitterHandle} />
         {width && <meta property="og:image:width" content={width} />}
         {height && <meta property="og:image:height" content={height} />}
       </Helmet>

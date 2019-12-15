@@ -52,17 +52,16 @@ const About: React.SFC = () => (
 
           <PostFullContent className="post-full-content">
             <div className="post-content">
-              <div className={`responsive-iframe`}>
+              <div className="responsive-iframe">
                 <iframe
+                  className="loading-element shimmer-animation"
                   src="https://player.vimeo.com/video/303992016"
                   width="640"
                   height="360"
-                  frameborder="0"
-                  webkitallowfullscreen
-                  mozallowfullscreen
-                  allowfullscreen
-                  class="loading-element shimmer-animation"
-                />
+                  frameBorder="0"
+                  allow="autoplay; fullscreen"
+                  allowFullScreen
+                ></iframe>
               </div>
               <p>
                 <small>

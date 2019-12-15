@@ -7,9 +7,10 @@ export interface WebsiteConfig {
    * blog full path, no ending slash!
    */
   siteUrl: string;
-  facebook?: string;
-  twitter?: string;
-  github?: string;
+  facebook: string;
+  twitter: string;
+  twitterHandle: string;
+  github: string;
   /**
    * hide or show all email subscribe boxes
    */
@@ -24,18 +25,27 @@ export interface WebsiteConfig {
   mailchimpName?: string;
 }
 
-const config: WebsiteConfig = {
+export const config: WebsiteConfig = {
   title: 'Yamagata Developers Society',
   description: '山形でWeb開発に関わっているエンジニア向けの勉強会',
   coverImage: 'img/common/yds-social-bg.jpg',
   logo: 'img/common/yds-logo.png',
   siteUrl: 'https://yamagata-developers-society.github.io/blog/',
   facebook: 'https://www.facebook.com/pg/as.works.2015/events/',
-  twitter: 'https://twitter.com/yamagataDevSoc',
-  github: 'https://github.com/yamagata-developers-society',
+  twitter: 'https://twitter.com/yamagataDevSoc/',
+  twitterHandle: '@yamagataDevSoc',
+  github: 'https://github.com/yamagata-developers-society/',
   showSubscribe: false,
-  mailchimpAction: '#mailchimpAction',
-  mailchimpName: '#mailchimpName',
+  mailchimpAction: '',
+  mailchimpName: '',
+};
+
+export interface Defaults {
+  twitterHandle: string;
+}
+
+export const defaults: Defaults = {
+  twitterHandle: `@${config.twitter.split('https://twitter.com/')[0]}`,
 };
 
 export default config;
