@@ -25,7 +25,7 @@ export interface WebsiteConfig {
   mailchimpName?: string;
 }
 
-export const config: WebsiteConfig = {
+const config: WebsiteConfig = {
   title: 'Yamagata Developers Society',
   description: '山形でWeb開発に関わっているエンジニア向けの勉強会',
   coverImage: 'img/common/yds-social-bg.jpg',
@@ -38,14 +38,6 @@ export const config: WebsiteConfig = {
   showSubscribe: false,
   mailchimpAction: '',
   mailchimpName: '',
-};
-
-export interface Defaults {
-  twitterHandle: string;
-}
-
-export const defaults: Defaults = {
-  twitterHandle: `@${config.twitter.split('https://twitter.com/')[0]}`,
 };
 
 export default config;
