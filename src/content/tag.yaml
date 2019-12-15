@@ -12,7 +12,7 @@
   image: img/common/blog-cover.jpg
 - id: tool
   description: Useful tools
-  image: img/common/ImageSharp.jpg
+  image: img/common/blog-cover.jpg
 - id: advent2019
   description: Yamagata Developers Society Advent Calendar 2019 - https://adventar.org/calendars/4619
   image: img/common/blog-cover.jpg
