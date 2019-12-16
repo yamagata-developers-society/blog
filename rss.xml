@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Fri, 13 Dec 2019 01:08:18 GMT</lastBuildDate><item><title><![CDATA[React Hooks Slide In Modal]]></title><description><![CDATA[React Hooks Slide In Modal Continuing our studies of React Hooks, today I’ll show you how to build a slide-in modal, which is useful for…]]></description><link>https://yamagata-developers-society.github.io/blog/react-hooks-slide-in-modal/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/react-hooks-slide-in-modal/</guid><pubDate>Fri, 13 Dec 2019 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;React Hooks Slide In Modal&lt;/h1&gt;
-&lt;p&gt;Continuing our studies of React Hooks, today I’ll show you how to build a slide-in modal, which is useful for anything from a notification or popup to a settings display for users.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Mon, 16 Dec 2019 14:06:40 GMT</lastBuildDate><item><title><![CDATA[React Hooks Slide In Modal]]></title><description><![CDATA[Continuing our studies of React Hooks, today I’ll show you how to build a slide-in modal, which is useful for anything from a notification…]]></description><link>https://yamagata-developers-society.github.io/blog/react-hooks-slide-in-modal/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/react-hooks-slide-in-modal/</guid><pubDate>Fri, 13 Dec 2019 18:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Continuing our studies of React Hooks, today I’ll show you how to build a slide-in modal, which is useful for anything from a notification or popup to a settings display for users.&lt;/p&gt;
 &lt;p&gt;If you missed my last article, please be sure to check out &lt;a href=&quot;/blog/react-hooks-color-picker&quot;&gt;How to build a color picker using React Hooks&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;What we’re building&lt;/h2&gt;
 &lt;p&gt;
@@ -457,8 +456,7 @@ SORACOMサマサマ感ある。。&lt;/p&gt;
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[React Hooks Color Picker]]></title><description><![CDATA[React Hooks Color Picker Today, I’ll show you how you can build your very own color picker using React Hooks. It is easy to build reusable…]]></description><link>https://yamagata-developers-society.github.io/blog/react-hooks-color-picker/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/react-hooks-color-picker/</guid><pubDate>Thu, 05 Dec 2019 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;React Hooks Color Picker&lt;/h1&gt;
-&lt;p&gt;Today, I’ll show you how you can build your very own color picker using React Hooks.&lt;/p&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[React Hooks Color Picker]]></title><description><![CDATA[Today, I’ll show you how you can build your very own color picker using React Hooks. It is easy to build reusable, stateful components with…]]></description><link>https://yamagata-developers-society.github.io/blog/react-hooks-color-picker/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/react-hooks-color-picker/</guid><pubDate>Thu, 05 Dec 2019 18:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Today, I’ll show you how you can build your very own color picker using React Hooks.&lt;/p&gt;
 &lt;p&gt;It is easy to build reusable, stateful components with React Hooks, which respond immediately to user interaction and are completely reusable.&lt;/p&gt;
 &lt;p&gt;Before diving in, let’s take a second to review how to use the &lt;code class=&quot;language-text&quot;&gt;useState&lt;/code&gt; hook, since it will be the main ingredient in completing our project.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -961,9 +959,8 @@ WordPress本体はPHPの最新バージョンを使用することを推奨し�
 &lt;h1&gt;次回の Meetup 開催について&lt;/h1&gt;
 &lt;p&gt;次回 2019 年 11月の開催は、&lt;a href=&quot;https://www.facebook.com/events/2849083045116081/&quot;&gt;2019 年 11 月 23 日(土)&lt;/a&gt;を予定しています。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.facebook.com/as.works.2015/&quot;&gt;Coworking space too の Facebook ページ&lt;/a&gt;で次回の発表者などのお知らせがされます。&lt;/p&gt;
-&lt;p&gt;みなさんぜひご参加ください！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Stateful Components in Vanilla JS]]></title><description><![CDATA[Stateful Components in Vanilla JS Today I’d like to show you how you can create stateful componenents with vanilla JavaScript
- 🍦 , and…]]></description><link>https://yamagata-developers-society.github.io/blog/stateful-components-vanilla-js/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/stateful-components-vanilla-js/</guid><pubDate>Thu, 16 May 2019 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Stateful Components in Vanilla JS&lt;/h1&gt;
-&lt;p&gt;Today I’d like to show you how you can create stateful componenents with vanilla JavaScript
+&lt;p&gt;みなさんぜひご参加ください！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Stateful Components in Vanilla JS]]></title><description><![CDATA[Today I’d like to show you how you can create stateful componenents with vanilla JavaScript
+ 🍦 , and demonstrate that: You don’t need to…]]></description><link>https://yamagata-developers-society.github.io/blog/stateful-components-vanilla-js/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/stateful-components-vanilla-js/</guid><pubDate>Thu, 16 May 2019 18:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Today I’d like to show you how you can create stateful componenents with vanilla JavaScript
 &lt;span role=&quot;img&quot; aria-label=&quot;Soft Ice Cream&quot;&gt;🍦&lt;/span&gt;, and demonstrate that:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;You don’t need to download any library to apply the amazing concepts used by React.js in your JavaScript programming.&lt;/p&gt;
@@ -1039,58 +1036,49 @@ incCountBtn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;spa
 &lt;h3&gt;Demo&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://jsfiddle.net/jzft0o7r/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;JS Fiddle &lt;span role=&quot;img&quot; aria-label=&quot;Up-Right Arrow&quot;&gt;↗️&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Source code&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// HTML
+&lt;p&gt;HTML&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;App__container&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;app&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Count: &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;span&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;display&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;0&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;span&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
 
-&amp;lt;div class=&amp;quot;App__container&amp;quot; id=&amp;quot;app&amp;quot;&amp;gt;
-  &amp;lt;div&amp;gt;
-    Count: &amp;lt;span id=&amp;quot;display&amp;quot;&amp;gt;0&amp;lt;/span&amp;gt;
-  &amp;lt;/div&amp;gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;onclick&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;incCountUp()&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;+Count&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;JS&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; display &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;display&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-  &amp;lt;button onclick=&amp;quot;incCountUp()&amp;quot;&amp;gt;+Count&amp;lt;/button&amp;gt;
-&amp;lt;/div&amp;gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  count&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-// JS
+&lt;span class=&quot;token comment&quot;&gt;// Components&lt;/span&gt;
 
-const display = document.getElementById(&amp;quot;display&amp;quot;);
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;counter&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; count &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; classname &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;text-error&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-const state = {
-  count: 0,
-}
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;count &lt;span class=&quot;token operator&quot;&gt;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    classname &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;text-success&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-// Components
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`&amp;lt;span class=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;classname&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;count&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&amp;lt;/span&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-const counter = count =&amp;gt; {
-  let classname = &amp;quot;text-error&amp;quot;;
+&lt;span class=&quot;token comment&quot;&gt;// Render Methods&lt;/span&gt;
 
-  if (count &amp;gt;= 5) {
-  	classname = &amp;quot;text-success&amp;quot;;
-  }
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;renderCount&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  display&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerHTML &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;counter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;count&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-  return (
-    `&amp;lt;span class=&amp;quot;${classname}&amp;quot;&amp;gt;${count}&amp;lt;/span&amp;gt;`
-  );
-};
+&lt;span class=&quot;token comment&quot;&gt;// Update methods&lt;/span&gt;
 
-// Render Methods
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;incCountUp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; newCount &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;count &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;count &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; newCount&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-function renderCount() {
-  display.innerHTML = counter(state.count);
-}
+  &lt;span class=&quot;token function&quot;&gt;renderCount&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-// Update methods
-
-function incCountUp() {
-  let newCount = state.count + 1;
-  state.count = newCount;
-
-  renderCount();
-}
-
-renderCount();
-
-// CSS
-
-h1,
+&lt;span class=&quot;token function&quot;&gt;renderCount&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;CSS&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;h1,
 h2,
 h3,
 h4,
@@ -1098,27 +1086,26 @@ h5,
 h6,
 p,
 ul,
-ol {
-  margin-top: 0;
-}
+ol&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;margin-top&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-.App__container {
-  padding: 15px;
-}
+&lt;span class=&quot;token selector&quot;&gt;.App__container&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 15px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-.Score {
-  font-size: 28px;
-}
+&lt;span class=&quot;token selector&quot;&gt;.Score&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 28px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-.text-error {
-  color: red;
-}
+&lt;span class=&quot;token selector&quot;&gt;.text-error&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; red&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-.text-success {
-  color: green;
-  font-size: 40px;
-}
-``&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[YDMショートプレゼン「インターネット通信の仕組み」]]></title><description><![CDATA[加藤ですこんにちは。2/23（土）に、YDM (Yamagata Developer’s Meetup) Night…]]></description><link>https://yamagata-developers-society.github.io/blog/learn_ip_packets_for_beginners/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/learn_ip_packets_for_beginners/</guid><pubDate>Fri, 26 Apr 2019 05:00:00 GMT</pubDate><content:encoded>&lt;p&gt;加藤ですこんにちは。2/23（土）に、YDM (Yamagata Developer’s Meetup) Night!でショートプレゼンをしました。遅ればせながらその報告とプレゼン資料を記事にします。&lt;/p&gt;
+&lt;span class=&quot;token selector&quot;&gt;.text-success&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; green&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 40px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[YDMショートプレゼン「インターネット通信の仕組み」]]></title><description><![CDATA[加藤ですこんにちは。2/23（土）に、YDM (Yamagata Developer’s Meetup) Night…]]></description><link>https://yamagata-developers-society.github.io/blog/learn_ip_packets_for_beginners/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/learn_ip_packets_for_beginners/</guid><pubDate>Fri, 26 Apr 2019 05:00:00 GMT</pubDate><content:encoded>&lt;p&gt;加藤ですこんにちは。2/23（土）に、YDM (Yamagata Developer’s Meetup) Night!でショートプレゼンをしました。遅ればせながらその報告とプレゼン資料を記事にします。&lt;/p&gt;
 &lt;p&gt;今回はインターネット通信のパケットがルーターによって目的地に届く仕組みについて話しました。
 非エンジニアでも伝わるように&lt;del&gt;端折って&lt;/del&gt;シンプルにまとめてみました。&lt;/p&gt;
 &lt;h3&gt;Yamagata Developer’s Meetup Night!とは&lt;/h3&gt;
