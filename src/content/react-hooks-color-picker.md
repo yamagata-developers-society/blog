@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 'React Hooks Color Picker'
-author: 'Elliott Hindman'
-tags: ['advent2019', 'React', 'React Hooks', 'JavaScript']
+author: Elliott Hindman
+tags: ['advent2019', 'react', 'react hooks', 'javascript']
 image: img/posts/react-hooks-color-picker/banner.jpg
 date: '2019-12-05T18:00:00.000Z'
 draft: false

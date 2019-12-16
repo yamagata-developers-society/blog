@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 'Stateful Components in Vanilla JS'
-author: 'Elliott Hindman'
-tags: ['JavaScript']
+author: Elliott Hindman
+tags: ['javascript']
 image: img/posts/stateful-components-cover.jpg
 date: '2019-05-16T18:00:00.000Z'
 draft: false
