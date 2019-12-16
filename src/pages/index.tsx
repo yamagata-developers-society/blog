@@ -21,6 +21,7 @@ import {
   SiteTitle,
 } from '../styles/shared';
 import { PageContext } from '../templates/post';
+// @ts-ignore next line
 import favicon from '../favicon.ico';
 
 const HomePosts = css`
@@ -91,8 +92,10 @@ export interface IndexProps {
 }
 
 const IndexPage: React.SFC<IndexProps> = props => {
+  const socialShareBg = config.siteRootUrl + props.data.social_bg.childImageSharp.fluid.src;
   const width = props.data.header.childImageSharp.fluid.sizes.split(', ')[1].split('px')[0];
   const height = String(Number(width) / props.data.header.childImageSharp.fluid.aspectRatio);
+
   return (
     <IndexLayout className={`${HomePosts}`}>
       <Helmet>
@@ -103,17 +106,20 @@ const IndexPage: React.SFC<IndexProps> = props => {
         <meta property="og:title" content={config.title} />
         <meta property="og:description" content={config.description} />
         <meta property="og:url" content={config.siteUrl} />
-        <meta property="og:image" content={props.data.social_bg.childImageSharp.fluid.src} />
+        <meta property="og:image" content={socialShareBg} />
         <meta property="article:publisher" content={config.facebook} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={config.title} />
         <meta name="twitter:description" content={config.description} />
         <meta name="twitter:url" content={config.siteUrl} />
-        <meta name="twitter:image" content={props.data.social_bg.childImageSharp.fluid.src} />
-        <meta name="twitter:site" content={`@${config.twitter.split('https://twitter.com/')[0]}`} />
+        <meta name="twitter:image" content={socialShareBg} />
+        <meta name="twitter:site" content={config.twitterHandle} />
         <meta property="og:image:width" content={width} />
         <meta property="og:image:height" content={height} />
-        <meta name="google-site-verification" content="VYMr-1LuAaJC6SzJkR1x_CRPTWZWJNMZYXCQh0YfRjI" />
+        <meta
+          name="google-site-verification"
+          content="VYMr-1LuAaJC6SzJkR1x_CRPTWZWJNMZYXCQh0YfRjI"
+        />
         <link rel="shortcut icon" href={favicon} />;
       </Helmet>
       <Wrapper>

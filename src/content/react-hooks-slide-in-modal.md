@@ -1,14 +1,12 @@
 ---
 layout: post
 title: 'React Hooks Slide In Modal'
-author: 'Elliott Hindman'
-tags: ['advent2019', 'React', 'React Hooks', 'JavaScript']
+author: Elliott Hindman
+tags: ['advent2019', 'react', 'react hooks', 'javascript']
 image: 'img/posts/react-hooks-slide-in-modal/banner.jpg'
 date: '2019-12-13T18:00:00.000Z'
 draft: false
 ---
-
-# React Hooks Slide In Modal
 
 Continuing our studies of React Hooks, today I'll show you how to build a slide-in modal, which is useful for anything from a notification or popup to a settings display for users.
 

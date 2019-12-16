@@ -1,7 +1,7 @@
 - id: Elliott Hindman
   avatar: avatars/elliott01.png
   bio: Software Engineer
-  twitter: https://twitter.com/yamagataDevSoc
+  twitterHandle: yamagataDevSoc
   facebook: ''
   website: https://elliottcreates.com
   location: Japan
@@ -9,7 +9,7 @@
 - id: 'Yoshihisa Sato (yosi-q)'
   avatar: avatars/yosi-q.jpg
   bio: Cloud IT Consultant
-  twitter: umekichi1984
+  twitterHandle: umekichi1984
   facebook: yoshiq
   website: http://yosi-q.me
   location: Japan
@@ -17,7 +17,7 @@
 - id: Michihito Kato
   avatar: avatars/kato.jpg
   bio: Software Developer
-  twitter: mitihitok
+  twitterHandle: mitihitok
   facebook: mitihitok
   website: https://turtlesoft.mixh.jp
   location: Japan
@@ -25,7 +25,7 @@
 - id: Takahiro Sato
   avatar: avatars/takahiro.png
   bio: Software Engineer
-  twitter: ''
+  twitterHandle: ''
   facebook: ''
   website: ''
   location: Japan
@@ -33,7 +33,7 @@
 - id: 'Mei.W'
   avatar: avatars/mei_w.jpg
   bio: 'こびと作家'
-  twitter: ''
+  twitterHandle: ''
   facebook: ''
   website: https://kobitoya.mei-w.com/
   location: Japan
@@ -41,7 +41,7 @@
 - id: Atsushi Matsuda
   avatar: avatars/matsuda.jpg
   bio: Web Application Engineer
-  twitter: ''
+  twitterHandle: ''
   facebook: ''
   website: ''
   location: Japan

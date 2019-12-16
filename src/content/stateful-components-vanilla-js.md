@@ -1,14 +1,12 @@
 ---
 layout: post
 title: 'Stateful Components in Vanilla JS'
-author: 'Elliott Hindman'
-tags: ['JavaScript']
+author: Elliott Hindman
+tags: ['javascript']
 image: img/posts/stateful-components-cover.jpg
 date: '2019-05-16T18:00:00.000Z'
 draft: false
 ---
-
-# Stateful Components in Vanilla JS
 
 Today I'd like to show you how you can create stateful componenents with vanilla JavaScript
 <span role="img" aria-label="Soft Ice Cream">🍦</span>, and demonstrate that:
@@ -132,37 +130,35 @@ What are the benefits?
 
 ### Source code
 
-```
-// HTML
+HTML
 
+```html
 <div class="App__container" id="app">
-  <div>
-    Count: <span id="display">0</span>
-  </div>
+  <div>Count: <span id="display">0</span></div>
 
   <button onclick="incCountUp()">+Count</button>
 </div>
+```
 
-// JS
+JS
 
-const display = document.getElementById("display");
+```js
+const display = document.getElementById('display');
 
 const state = {
   count: 0,
-}
+};
 
 // Components
 
 const counter = count => {
-  let classname = "text-error";
+  let classname = 'text-error';
 
   if (count >= 5) {
-  	classname = "text-success";
+    classname = 'text-success';
   }
 
-  return (
-    `<span class="${classname}">${count}</span>`
-  );
+  return `<span class="${classname}">${count}</span>`;
 };
 
 // Render Methods
@@ -181,9 +177,11 @@ function incCountUp() {
 }
 
 renderCount();
+```
 
-// CSS
+CSS
 
+```css
 h1,
 h2,
 h3,
@@ -212,5 +210,4 @@ ol {
   color: green;
   font-size: 40px;
 }
-``
 ```

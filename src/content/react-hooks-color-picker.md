@@ -1,14 +1,12 @@
 ---
 layout: post
 title: 'React Hooks Color Picker'
-author: 'Elliott Hindman'
-tags: ['advent2019', 'React', 'React Hooks', 'JavaScript']
+author: Elliott Hindman
+tags: ['advent2019', 'react', 'react hooks', 'javascript']
 image: img/posts/react-hooks-color-picker/banner.jpg
 date: '2019-12-05T18:00:00.000Z'
 draft: false
 ---
-
-# React Hooks Color Picker
 
 Today, I'll show you how you can build your very own color picker using React Hooks.
 

@@ -70,11 +70,11 @@ const AuthorProfileBioImage = css`
 `;
 
 interface AuthorTemplateProps {
-  pathContext: {
-    slug: string;
-  };
   pageContext: {
     author: string;
+  };
+  location: {
+    pathname: string;
   };
   data: {
     logo: {
@@ -90,7 +90,7 @@ interface AuthorTemplateProps {
     authorYaml: {
       id: string;
       website?: string;
-      twitter?: string;
+      twitterHandle?: string;
       facebook?: string;
       location?: string;
       profile_image?: {
@@ -122,7 +122,8 @@ const Author: React.SFC<AuthorTemplateProps> = props => {
     return totalCount;
   }, 0);
 
-  const twitterHandle = config.twitter ? `@${config.twitter.split('https://twitter.com/')[0]}` : '';
+  const shareUrl = config.siteUrl + props.location.pathname;
+  const authorHasLinks = author.website || author.twitterHandle || author.facebook;
 
   return (
     <IndexLayout>
@@ -134,14 +135,14 @@ const Author: React.SFC<AuthorTemplateProps> = props => {
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="profile" />
         <meta property="og:title" content={`${author.id} - ${config.title}`} />
-        <meta property="og:url" content={config.siteUrl + props.pathContext.slug} />
+        <meta property="og:url" content={shareUrl} />
         <meta property="article:publisher" content="https://www.facebook.com/ghost" />
         <meta property="article:author" content="https://www.facebook.com/ghost" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={`${author.id} - ${config.title}`} />
-        <meta name="twitter:url" content={config.siteUrl + props.pathContext.slug} />
-        <meta name="twitter:site" content={twitterHandle} />
-        <meta name="twitter:creator" content={twitterHandle} />
+        <meta name="twitter:url" content={shareUrl} />
+        <meta name="twitter:site" content={config.twitterHandle} />
+        <meta name="twitter:creator" content={config.twitterHandle} />
       </Helmet>
       <Wrapper>
         <header
@@ -171,8 +172,9 @@ const Author: React.SFC<AuthorTemplateProps> = props => {
                 <div className={`${HiddenMobile}`}>
                   {authorPostCount > 1 && `${authorPostCount} posts`}
                   {authorPostCount === 1 && `1 post`}
-                  {authorPostCount === 0 && `No posts`} <Bull>•</Bull>
+                  {authorPostCount === 0 && `No posts`}
                 </div>
+                {authorHasLinks && <Bull>&bull;</Bull>}
                 {author.website && (
                   <div>
                     <a
@@ -185,10 +187,10 @@ const Author: React.SFC<AuthorTemplateProps> = props => {
                     </a>
                   </div>
                 )}
-                {author.twitter && (
+                {author.twitterHandle && (
                   <a
                     className={`${SocialLink} social-link-tw`}
-                    href={`https://twitter.com/${author.twitter}`}
+                    href={`https://twitter.com/${author.twitterHandle}`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -250,7 +252,7 @@ export const pageQuery = graphql`
     authorYaml(id: { eq: $author }) {
       id
       website
-      twitter
+      twitterHandle
       bio
       facebook
       location

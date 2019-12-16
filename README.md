@@ -58,7 +58,7 @@ II. To create a new article, add an `.md` file to `/src/content/` folder. New po
 layout: post
 title: 'Learning XYZ'
 author: 'The Great Gatsby'
-tags: ['tutorial']
+tags: ['tutorial'] // lowercase and comma-separated
 image: 'img/cover01.jpg'
 date: '2018-12-01T18:00:00.000Z'
 draft: false

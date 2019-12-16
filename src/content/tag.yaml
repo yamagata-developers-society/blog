@@ -16,3 +16,12 @@
 - id: advent2019
   description: Yamagata Developers Society Advent Calendar 2019 - https://adventar.org/calendars/4619
   image: img/common/blog-cover.jpg
+- id: react
+  description: React patterns, tips and tricks
+  image: img/tags/blog-cover.jpg
+- id: react hooks
+  description: All about React Hooks
+  image: img/tags/blog-cover.jpg
+- id: javascript
+  description: JavaScript patterns, tips and tricks
+  image: img/tags/blog-cover.jpg

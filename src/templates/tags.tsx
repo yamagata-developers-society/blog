@@ -22,11 +22,11 @@ import Helmet from 'react-helmet';
 import config from '../website-config';
 
 interface TagTemplateProps {
-  pathContext: {
-    slug: string;
-  };
   pageContext: {
     tag: string;
+  };
+  location: {
+    pathname: string;
   };
   data: {
     allTagYaml: {
@@ -57,6 +57,7 @@ const Tags: React.SFC<TagTemplateProps> = props => {
   const tagData = props.data.allTagYaml.edges.find(
     n => n.node.id.toLowerCase() === tag.toLowerCase(),
   );
+  const shareUrl = config.siteUrl + props.location.pathname;
 
   return (
     <IndexLayout>
@@ -68,12 +69,12 @@ const Tags: React.SFC<TagTemplateProps> = props => {
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={`${tag} - ${config.title}`} />
-        <meta property="og:url" content={config.siteUrl + props.pathContext.slug} />
+        <meta property="og:url" content={shareUrl} />
         <meta property="article:publisher" content={config.facebook} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`${tag} - ${config.title}`} />
-        <meta name="twitter:url" content={config.siteUrl + props.pathContext.slug} />
-        <meta name="twitter:site" content={`@${config.twitter.split('https://twitter.com/')[0]}`} />
+        <meta name="twitter:url" content={shareUrl} />
+        <meta name="twitter:site" content={config.twitterHandle} />
       </Helmet>
       <Wrapper>
         <header
