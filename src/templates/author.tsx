@@ -73,10 +73,8 @@ interface AuthorTemplateProps {
   pageContext: {
     author: string;
   };
-  pageResources: {
-    page: {
-      path: string;
-    };
+  location: {
+    pathname: string;
   };
   data: {
     logo: {
@@ -124,6 +122,8 @@ const Author: React.SFC<AuthorTemplateProps> = props => {
     return totalCount;
   }, 0);
 
+  const shareUrl = config.siteUrl + props.location.pathname;
+
   return (
     <IndexLayout>
       <Helmet>
@@ -134,12 +134,12 @@ const Author: React.SFC<AuthorTemplateProps> = props => {
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="profile" />
         <meta property="og:title" content={`${author.id} - ${config.title}`} />
-        <meta property="og:url" content={config.siteUrl + props.pageResources.page.path} />
+        <meta property="og:url" content={shareUrl} />
         <meta property="article:publisher" content="https://www.facebook.com/ghost" />
         <meta property="article:author" content="https://www.facebook.com/ghost" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={`${author.id} - ${config.title}`} />
-        <meta name="twitter:url" content={config.siteUrl + props.pageResources.page.path} />
+        <meta name="twitter:url" content={shareUrl} />
         <meta name="twitter:site" content={config.twitterHandle} />
         <meta name="twitter:creator" content={config.twitterHandle} />
       </Helmet>
