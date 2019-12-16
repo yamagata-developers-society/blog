@@ -144,7 +144,7 @@ const IndexPage: React.SFC<IndexProps> = props => {
               </SiteTitle>
               <SiteDescription>{config.description}</SiteDescription>
             </SiteHeaderContent>
-            <SiteNav isHome={true} />
+            <SiteNav isHome={true} page="home" />
           </div>
         </header>
         <main id="site-main" className={`${SiteMain} ${outer}`}>

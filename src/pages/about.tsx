@@ -41,7 +41,7 @@ const About: React.SFC = () => (
     <Wrapper className={`${PageTemplate}`}>
       <header className={`${SiteHeader} ${outer}`}>
         <div className={`${inner}`}>
-          <SiteNav />
+          <SiteNav page="about" />
         </div>
       </header>
       <main id="site-main" className={`site-main ${SiteMain} ${outer}`}>

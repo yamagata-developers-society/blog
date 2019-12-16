@@ -72,6 +72,14 @@ const NavStyles = css`
     text-decoration: none;
     opacity: 1;
   }
+
+  li.nav-current a:after {
+    background-color: #fff;
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+  }
 `;
 
 const SiteNavRight = styled.div`
@@ -113,6 +121,7 @@ const SubscribeButton = styled.a`
 
 interface SiteNavProps {
   isHome?: boolean;
+  page?: string;
 }
 
 interface SiteNaveState {
@@ -133,20 +142,21 @@ class SiteNav extends React.Component<SiteNavProps, SiteNaveState> {
   };
 
   render() {
-    const { isHome = false } = this.props;
+    const { isHome = false, page = '' } = this.props;
+
     return (
       <nav className={`${isHome ? HomeNavRaise : ''} ${SiteNavStyles}`}>
         <SiteNavLeft>
           {!isHome && <SiteNavLogo />}
           <ul className={`${NavStyles}`} role="menu">
             {/* TODO: mark current nav item - add class nav-current */}
-            <li role="menuitem">
+            <li className={`${page === 'home' ? 'nav-current' : ''}`} role="menuitem">
               <Link to="/">Home</Link>
             </li>
-            <li role="menuitem">
+            <li className={`${page === 'about' ? 'nav-current' : ''}`} role="menuitem">
               <Link to="/about">About</Link>
             </li>
-            <li role="menuitem">
+            <li className={`${page === 'tags' ? 'nav-current' : ''}`} role="menuitem">
               <Link to="/tags/news/">News</Link>
             </li>
           </ul>
