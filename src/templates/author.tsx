@@ -123,6 +123,7 @@ const Author: React.SFC<AuthorTemplateProps> = props => {
   }, 0);
 
   const shareUrl = config.siteUrl + props.location.pathname;
+  const authorHasLinks = author.website || author.twitterHandle || author.facebook;
 
   return (
     <IndexLayout>
@@ -171,8 +172,9 @@ const Author: React.SFC<AuthorTemplateProps> = props => {
                 <div className={`${HiddenMobile}`}>
                   {authorPostCount > 1 && `${authorPostCount} posts`}
                   {authorPostCount === 1 && `1 post`}
-                  {authorPostCount === 0 && `No posts`} <Bull>•</Bull>
+                  {authorPostCount === 0 && `No posts`}
                 </div>
+                {authorHasLinks && <Bull>&bull;</Bull>}
                 {author.website && (
                   <div>
                     <a
