@@ -38,7 +38,6 @@ const SiteNavLeft = styled.div`
   padding-bottom: 80px;
   letter-spacing: 0.4px;
   white-space: nowrap;
-
   -ms-overflow-scrolling: touch;
 
   @media (max-width: 700px) {
