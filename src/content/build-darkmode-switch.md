@@ -10,7 +10,7 @@ draft: false
 
 Let's learn how to build a darkmode switch using localstorage, React and React Hooks.
 
-If you missed my last article, please be sure to check out <a href="/blog/react-hooks-slide-in-modal">How to build a slide-in modal with React Hooks</a>.
+If you missed my last article, please be sure to check out <a href="/blog/react-hooks-slide-in-modal">How to Build a React Hooks Slide In Modal</a>.
 
 ## What we're building
 
@@ -18,7 +18,7 @@ If you missed my last article, please be sure to check out <a href="/blog/react-
 
 ## Setting up
 
-Navigate to [codesandbox.io](https://codesandbox.io/) and create a react sandbox. From the left side panel, click on 'Add dependency' and then add 'styled-components'.
+Navigate to [codesandbox.io](https://codesandbox.io/) and create a React sandbox. From the left side panel, click on 'Add dependency' and then add 'styled-components'.
 
 At the top of the `app.js`, import `styled` and `useState`, as follows:
 
@@ -27,11 +27,11 @@ import React, { useState } from 'react';
 import styled, { css } from 'styled-components';
 ```
 
-We will utilze `useState` React Hook, as well as `styled` and the `css` function from `styled-components`.
+We will utilze the `useState` React Hook, as well as `styled` and the `css` helper from `styled-components`.
 
 ## Create your components
 
-Next, let's create our first components:
+Next, let's create our components:
 
 ```jsx
 const Card = styled.div`
@@ -63,9 +63,9 @@ We can use these components as such:
 
 ## Add state
 
-Next, we can pass a `darkmode` prop to the `<AppWrapper>` component, which we will use to toggle darkmode on and off.
+Next, we can pass a `darkmode` prop to the `<AppWrapper />` component, which we will use to toggle darkmode on and off.
 
-To do this, first we need to add state. For now, we can set the default value to `false`:
+To do this, first we need to add state using React Hooks. For now, we can set the default value to `false`:
 
 ```jsx
 const [darkmode, setDarkmode] = useState(false);
@@ -77,7 +77,7 @@ Then in our component we can pass the darkmode prop here:
 <AppWrapper darkmode={darkmode}>
 ```
 
-To make this work, we'll also need to add some conditional styles. Update your `AppWrapper` component like this:
+To make this work, we'll also need to add some conditional styles. Update your `<AppWrapper />` component like this:
 
 ```jsx
 const AppWrapper = styled.div`
@@ -100,13 +100,13 @@ const AppWrapper = styled.div`
 
 Basically we are saying that when `darkmode` is set to `true`, we will apply the styles that are in between the `css` block.
 
-Styled components also allows us to refer to components directly by adding `${ComponentName} { }`. This way, when `darkmode` is on, the background of the `<Card />` component will also be updated.
+`styled-components` also allows us to refer to components directly by adding `${ComponentName}`. This way, when `darkmode` is on, the background of the `<Card />` component will also be updated.
 
 ## CSS variables
 
 On a sidenote, you probably noticed that we are using `var(--some-variable-name)` in our code. What is up with that?
 
-This is a draft feature in the new CSS which is supported by most major browsers except Internet Explorer. In order to use these variables, you need to define them in the `styles.css` file like this:
+This is a draft feature in the newest version of CSS which is supported by most major browsers except Internet Explorer. In order to use these variables, you need to define them in the `styles.css` file like this:
 
 ```css
 :root {
@@ -124,13 +124,13 @@ This is a draft feature in the new CSS which is supported by most major browsers
 }
 ```
 
-Then you can use them wherever you want using the `var(--your-variable-name)`.
+Then you can use them wherever you want using the `var(--some-variable-name)`.
 
 Check out the [MDN web docs about CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/var) for more info about how this works.
 
 ## Adding the toggle switch
 
-Instead of spending time creating our own css toggle switch, let's use one that is already built. Check out [w3schools - How to build a css switch](https://www.w3schools.com/howto/howto_css_switch.asp). All you need to do is copy and paste the css into your `styles.css` file, and add the following markup:
+Instead of spending time creating our own css toggle switch, let's use one that is already built. Check out [w3schools on how to build a css switch](https://www.w3schools.com/howto/howto_css_switch.asp). All you need to do is copy and paste the css into your `styles.css` file, and add the following markup:
 
 ```jsx
 <label className="switch">
@@ -139,15 +139,19 @@ Instead of spending time creating our own css toggle switch, let's use one that 
 </label>
 ```
 
-We will add the `onChange` function and `checked` logic in the next, final step.
+We will add the `onChange` function and `checked` logic in the final step.
 
 ## Add local storage and toggle function
 
-Last, we will add our change handler. Like so:
+Last, we will add our change handler and make use of `localstorage` to save the value of this setting. Like so:
 
 ```jsx
 <label className="switch">
-  <input type="checkbox" onChange={handleToggleDarkmode} checked={darkmode} />
+  <input 
+    type="checkbox" 
+    onChange={handleToggleDarkmode} 
+    checked={darkmode} 
+  />
   <span className="slider round" />
 </label>
 ```
@@ -163,7 +167,7 @@ const handleToggleDarkmode = () => {
 };
 ```
 
-Remember, `setDarkmode` is the update handler we defined in our use state statement:
+Remember, `setDarkmode` is the update handler we defined in our `useState` statement:
 
 ```jsx
 const [darkmode, setDarkmode] = useState(false);
@@ -175,6 +179,8 @@ const [darkmode, setDarkmode] = useState(false);
 const fetchLSItem = (itemName) => window.localStorage.getItem(itemName);
 const setLSItem = (itemName, value) => window.localStorage.setItem(itemName, value);
 ```
+
+> Note: normally we would want to check if `window` and `localstorage` are defined before calling these methods, but for simplicity, we are ignoring that here.
 
 Using these two methods, we can get the value of the saved `localstorage` item, and also update it by name.
 
@@ -194,6 +200,12 @@ This will use the `fetchLSItem` helper method to get the stored value of `darkmo
 Please note that localstorage saves values as strings, so even though we are storing `true` and `false` for the `darkmode` value, it is actually being converted to a string when it is stored.
 
 By using `const initDarkmodeSetting = fetchLSItem('darkmode') === 'true';`, we are able to convert this back to a `boolean` value.
+
+## Conclusion
+
+And there you have it! A simple implementation of a darkmode switch that utilizes `localstorage` to save a user's preference.
+
+As you can see, it is quite simple to implement this popular user feature. Please check the sections below for additional resources, links and access to the source code for this project.
 
 ## Additional Resources
 
