@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Sat, 25 Apr 2020 08:58:58 GMT</lastBuildDate><item><title><![CDATA[Build a Darkmode Switch]]></title><description><![CDATA[Let’s learn how to build a darkmode switch using localstorage, React and React Hooks. If you missed my last article, please be sure to check…]]></description><link>https://yamagata-developers-society.github.io/blog/build-darkmode-switch/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/build-darkmode-switch/</guid><pubDate>Sat, 25 Apr 2020 18:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Let’s learn how to build a darkmode switch using localstorage, React and React Hooks.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Thu, 30 Apr 2020 05:07:03 GMT</lastBuildDate><item><title><![CDATA[【開催報告】Yamagata Developer's Online Meetup! 2020年04月]]></title><description><![CDATA[Yamagata Developer’s Online Meetup! - April 2020 2020 年 04 月 26 日(土)に Yamagata Developer’s Online Meetup! (2002 年…]]></description><link>https://yamagata-developers-society.github.io/blog/report-meetup-202004/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/report-meetup-202004/</guid><pubDate>Sun, 26 Apr 2020 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Yamagata Developer’s Online Meetup! - April 2020&lt;/h1&gt;
+&lt;p&gt;2020 年 04 月 26 日(土)に Yamagata Developer’s Online Meetup! (2002 年 4 月開催分）が開催されました。  &lt;/p&gt;
+&lt;h2&gt;リモート形式での開催&lt;/h2&gt;
+&lt;p&gt;これまでの meetup は、コワーキングスペース too を会場に Yamagata Developer’s Meetup Night! として実施してきましたが、
+今回はコロナウィルス感染防止のため、リモート形式での開催となりました。&lt;br&gt;
+これまで数人がリモートから参加するなどは実施したことはあったものの、全員がリモートの形は初開催ということで、
+最初にツールの説明や、グランドルールなどを確認してからスタートしました。&lt;/p&gt;
+&lt;h3&gt;Web会議ツール 「j-mee」&lt;/h3&gt;
+&lt;p&gt;今回の Online Meetup では、株式会社ゼタントが提供している「&lt;a href=&quot;https://j-mee.zettant.com/&quot;&gt;j-mee&lt;/a&gt;」を利用して実施しました。&lt;br&gt;
+提供社のメンバーである加藤さんより、j-meeの概要と簡単な使い方などの説明をいただき、全員でツールの使用感を確認しました。&lt;/p&gt;
+&lt;p&gt;j-mee は、オープンソースの &lt;a href=&quot;https://github.com/jitsi&quot;&gt;Jitsui&lt;/a&gt; を採用しており、
+PCであればブラウザを通して会議の開催、プレゼンテーション資料の共有などができます。  &lt;/p&gt;
+&lt;h2&gt;ショートプレゼンテーション&lt;/h2&gt;
+&lt;h3&gt;#1 React.jp を使って「 Darkmode Switcher 」を作ろう！ - Elliott Hindman&lt;/h3&gt;
+&lt;p&gt;Yamagata Developer Society幹事である Elliott さんからは、これまでライブコーディングで React.js を使った開発を何度も説明いただき、
+React.js, React Hooks, Styled Components など、過去の発表からの積み重ねの内容にもなっているので、復習にもなっています。&lt;br&gt;
+今回も &lt;a href=&quot;https://codesandbox.io/&quot;&gt;CodeSandbox&lt;/a&gt; を実際に使いながら、英語での発表していただきました。 &lt;/p&gt;
+&lt;p&gt;今回のテーマは「 Darkmord Switcher 」ということで、Webサイトをブラウザで参照する際にダークモードで見せるスイッチを実装する内容でした。&lt;br&gt;
+これまでの発表で出ている React.js, React Hook, Styled Component に加え、 CSS 変数 (カスタムプロパティ), HTML5 の Local Strage を活用します。&lt;/p&gt;
+&lt;p&gt;いつも通り、 CodeSandbox のプレビューを見ながら開発しながら改善されていく様子が見れ、使っていくイメージがとても持ちやすい発表でした。&lt;br&gt;
+今回の発表内容は &lt;a href=&quot;build-darkmode-switch&quot;&gt;Build a Darkmode Switch&lt;/a&gt; で紹介されています。(英語の記事です。)  &lt;/p&gt;
+&lt;h3&gt;#2 Web のアクセス解析に必要な Web ビーコンを実装してみたよ - 渡辺 信生&lt;/h3&gt;
+&lt;p&gt;これまで何度か meetup に参加いただいており、今回初めての発表を行っていただいた渡辺さんは、&lt;br&gt;
+東京の会社に所属しながら、山形でのリモートワーク生活を早くから実践されているエンジニアさん。&lt;/p&gt;
+&lt;p&gt;Web ビーコンは、PCやスマホといった端末、閲覧者の識別しつつ、閲覧行動の捉える Web 計測ツールの一種。&lt;br&gt;
+実在するサービスを例にした概要説明と、実際に作られた Webビーコン の計測ツールの実現方法を紹介いただきました。&lt;/p&gt;
+&lt;p&gt;Web ビーコンの実例として、具体的なタグの内容などに触れていただき、概要からわかりやすい説明でした。&lt;br&gt;
+また、実現方法として AWS のサービスを利用しており、利用されたサービスの特徴や tips も参考になるお話でした。&lt;/p&gt;
+&lt;h3&gt;#3 Googleの検索結果をリッチに！ 構造化データマークアップ入門 - 伊藤大貴&lt;/h3&gt;
+&lt;p&gt;これまでの meetup の中で、SEO 関連の発表をしてくださる伊藤さん。&lt;br&gt;
+今回は Google 検索の結果で多く見られるようになってきたリッチリザルト表示のための、構造化データについて紹介いただきました。&lt;/p&gt;
+&lt;p&gt;YDS のブログのコンテンツをリッチリザルト表示させる例を用いて、&lt;br&gt;
+構造化データの作り方について、概要とツールの紹介と操作概要を説明いただきました。&lt;/p&gt;
+&lt;h2&gt;振り返り&lt;/h2&gt;
+&lt;p&gt;通常通りであれば、懇親会となりますが、今回はリモート開催ということで、参加者の近況や、今回の meetup 通しての感想をシェアしました。&lt;/p&gt;
+&lt;p&gt;今回の meetup 通しての感想では、以下のような声が挙がりました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;大きな問題なく開始から終了までスムーズに実施できてよかった。(商用で十分使えそうだね！という意見も。)&lt;/li&gt;
+&lt;li&gt;発表者側からすると、聞く側の反応が見えず発表しづらかった。&lt;/li&gt;
+&lt;li&gt;リモートの良さも感じられる。特に、遠方の人も参加しやすいのがよい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最後に、今回の参加メンバー全員で集合写真を撮りました。
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/attendee_photo-cdf8250125a3d97c9331db1986ca9e4d-1c7b7.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1170px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.36904761904762%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABQ3JMBUr/xAAZEAACAwEAAAAAAAAAAAAAAAABAgAREhD/2gAIAQEAAQUCU6YrGTRuptjz/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAQQDAAAAAAAAAAAAAAAAEQACEBIhMYH/2gAIAQEABj8CFWoCvFh9Y3H/xAAcEAEBAAICAwAAAAAAAAAAAAABEQAxIWEQQVH/2gAIAQEAAT8hACnqgk7cGUWiXnO8CoA4n3vBaMx2HqeP/9oADAMBAAIAAwAAABDfH//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EKr/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxCI/8QAHRABAAMBAAIDAAAAAAAAAAAAAQARQSExUWFxgf/aAAgBAQABPxBNojQnyNqPv1CSZzrDf2NPBgL4+2yyWSU1pOg2teV6qJP/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;集合写真&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/attendee_photo-cdf8250125a3d97c9331db1986ca9e4d-27561.jpg&quot;
+        srcset=&quot;/blog/static/attendee_photo-cdf8250125a3d97c9331db1986ca9e4d-06456.jpg 293w,
+/blog/static/attendee_photo-cdf8250125a3d97c9331db1986ca9e4d-4b3e4.jpg 585w,
+/blog/static/attendee_photo-cdf8250125a3d97c9331db1986ca9e4d-27561.jpg 1170w,
+/blog/static/attendee_photo-cdf8250125a3d97c9331db1986ca9e4d-1c7b7.jpg 1680w&quot;
+        sizes=&quot;(max-width: 1170px) 100vw, 1170px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;次回の Meetup 開催について&lt;/h1&gt;
+&lt;p&gt;今後の Meetup は、&lt;a href=&quot;https://www.facebook.com/as.works.2015/&quot;&gt;Coworking space too の Facebook ページ&lt;/a&gt;などで公開予定です。&lt;br&gt;
+今後もコロナウイルスに対する対応状況に応じて、場合によってはリモート開催を検討しています。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Build a Darkmode Switch]]></title><description><![CDATA[Let’s learn how to build a darkmode switch using localstorage, React and React Hooks. If you missed my last article, please be sure to check…]]></description><link>https://yamagata-developers-society.github.io/blog/build-darkmode-switch/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/build-darkmode-switch/</guid><pubDate>Sat, 25 Apr 2020 18:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Let’s learn how to build a darkmode switch using localstorage, React and React Hooks.&lt;/p&gt;
 &lt;p&gt;If you missed my last article, please be sure to check out &lt;a href=&quot;/blog/react-hooks-slide-in-modal&quot;&gt;How to Build a React Hooks Slide In Modal&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;What we’re building&lt;/h2&gt;
 &lt;p&gt;
