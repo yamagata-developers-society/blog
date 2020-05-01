@@ -31,7 +31,7 @@ PCであればブラウザを通して会議の開催、プレゼンテーショ
 
 ### #1 React.js を使って「 Darkmode Switch 」を作ろう！ - Elliott Hindman
 
-Yamagata Developer Society幹事である Elliott さんからは、これまでライブコーディングで React.js を使った開発を何度も説明いただき、
+Yamagata Developers Society幹事である Elliott さんからは、これまでライブコーディングで React.js を使った開発を何度も説明いただき、
 React.js, React Hooks, Styled Components など、過去の発表からの積み重ねの内容にもなっているので、復習にもなっています。  
 今回も [CodeSandbox](https://codesandbox.io/) を実際に使いながら、英語での発表していただきました。 
 
