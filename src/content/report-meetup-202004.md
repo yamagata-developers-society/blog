@@ -29,14 +29,14 @@ PCであればブラウザを通して会議の開催、プレゼンテーショ
 
 ## ショートプレゼンテーション
 
-### #1 React.jp を使って「 Darkmode Switcher 」を作ろう！ - Elliott Hindman
+### #1 React.js を使って「 Darkmode Switch 」を作ろう！ - Elliott Hindman
 
 Yamagata Developer Society幹事である Elliott さんからは、これまでライブコーディングで React.js を使った開発を何度も説明いただき、
 React.js, React Hooks, Styled Components など、過去の発表からの積み重ねの内容にもなっているので、復習にもなっています。  
 今回も [CodeSandbox](https://codesandbox.io/) を実際に使いながら、英語での発表していただきました。 
 
-今回のテーマは「 Darkmord Switcher 」ということで、Webサイトをブラウザで参照する際にダークモードで見せるスイッチを実装する内容でした。  
-これまでの発表で出ている React.js, React Hook, Styled Component に加え、 CSS 変数 (カスタムプロパティ), HTML5 の Local Strage を活用します。
+今回のテーマは「 Darkmode Switch 」ということで、Webサイトをブラウザで参照する際にダークモードで見せるスイッチを実装する内容でした。  
+これまでの発表で出ている React.js, React Hooks, Styled Components に加え、 CSS 変数 (カスタムプロパティ), HTML5 の Local Storage を活用します。
 
 いつも通り、 CodeSandbox のプレビューを見ながら開発しながら改善されていく様子が見れ、使っていくイメージがとても持ちやすい発表でした。  
 今回の発表内容は [Build a Darkmode Switch](build-darkmode-switch) で紹介されています。(英語の記事です。)  
