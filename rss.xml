@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Thu, 30 Apr 2020 05:07:03 GMT</lastBuildDate><item><title><![CDATA[【開催報告】Yamagata Developer's Online Meetup! 2020年04月]]></title><description><![CDATA[Yamagata Developer’s Online Meetup! - April 2020 2020 年 04 月 26 日(土)に Yamagata Developer’s Online Meetup! (2002 年…]]></description><link>https://yamagata-developers-society.github.io/blog/report-meetup-202004/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/report-meetup-202004/</guid><pubDate>Sun, 26 Apr 2020 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Yamagata Developer’s Online Meetup! - April 2020&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yamagata Developers Society]]></title><description><![CDATA[Official Homepage of Yamagata Developers Society]]></description><link>https://yamagata-developers-society.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Mon, 04 May 2020 01:44:24 GMT</lastBuildDate><item><title><![CDATA[【開催報告】Yamagata Developer's Online Meetup! 2020年04月]]></title><description><![CDATA[Yamagata Developer’s Online Meetup! - April 2020 2020 年 04 月 26 日(土)に Yamagata Developer’s Online Meetup! (2002 年…]]></description><link>https://yamagata-developers-society.github.io/blog/report-meetup-202004/</link><guid isPermaLink="false">https://yamagata-developers-society.github.io/blog/report-meetup-202004/</guid><pubDate>Sun, 26 Apr 2020 18:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Yamagata Developer’s Online Meetup! - April 2020&lt;/h1&gt;
 &lt;p&gt;2020 年 04 月 26 日(土)に Yamagata Developer’s Online Meetup! (2002 年 4 月開催分）が開催されました。  &lt;/p&gt;
 &lt;h2&gt;リモート形式での開催&lt;/h2&gt;
 &lt;p&gt;これまでの meetup は、コワーキングスペース too を会場に Yamagata Developer’s Meetup Night! として実施してきましたが、
@@ -11,12 +11,12 @@
 &lt;p&gt;j-mee は、オープンソースの &lt;a href=&quot;https://github.com/jitsi&quot;&gt;Jitsui&lt;/a&gt; を採用しており、
 PCであればブラウザを通して会議の開催、プレゼンテーション資料の共有などができます。  &lt;/p&gt;
 &lt;h2&gt;ショートプレゼンテーション&lt;/h2&gt;
-&lt;h3&gt;#1 React.jp を使って「 Darkmode Switcher 」を作ろう！ - Elliott Hindman&lt;/h3&gt;
-&lt;p&gt;Yamagata Developer Society幹事である Elliott さんからは、これまでライブコーディングで React.js を使った開発を何度も説明いただき、
+&lt;h3&gt;#1 React.js を使って「 Darkmode Switch 」を作ろう！ - Elliott Hindman&lt;/h3&gt;
+&lt;p&gt;Yamagata Developers Society幹事である Elliott さんからは、これまでライブコーディングで React.js を使った開発を何度も説明いただき、
 React.js, React Hooks, Styled Components など、過去の発表からの積み重ねの内容にもなっているので、復習にもなっています。&lt;br&gt;
 今回も &lt;a href=&quot;https://codesandbox.io/&quot;&gt;CodeSandbox&lt;/a&gt; を実際に使いながら、英語での発表していただきました。 &lt;/p&gt;
-&lt;p&gt;今回のテーマは「 Darkmord Switcher 」ということで、Webサイトをブラウザで参照する際にダークモードで見せるスイッチを実装する内容でした。&lt;br&gt;
-これまでの発表で出ている React.js, React Hook, Styled Component に加え、 CSS 変数 (カスタムプロパティ), HTML5 の Local Strage を活用します。&lt;/p&gt;
+&lt;p&gt;今回のテーマは「 Darkmode Switch 」ということで、Webサイトをブラウザで参照する際にダークモードで見せるスイッチを実装する内容でした。&lt;br&gt;
+これまでの発表で出ている React.js, React Hooks, Styled Components に加え、 CSS 変数 (カスタムプロパティ), HTML5 の Local Storage を活用します。&lt;/p&gt;
 &lt;p&gt;いつも通り、 CodeSandbox のプレビューを見ながら開発しながら改善されていく様子が見れ、使っていくイメージがとても持ちやすい発表でした。&lt;br&gt;
 今回の発表内容は &lt;a href=&quot;build-darkmode-switch&quot;&gt;Build a Darkmode Switch&lt;/a&gt; で紹介されています。(英語の記事です。)  &lt;/p&gt;
 &lt;h3&gt;#2 Web のアクセス解析に必要な Web ビーコンを実装してみたよ - 渡辺 信生&lt;/h3&gt;
@@ -43,7 +43,7 @@ React.js, React Hooks, Styled Components など、過去の発表からの積み
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/attendee_photo-cdf8250125a3d97c9331db1986ca9e4d-1c7b7.jpg&quot;
+    href=&quot;/blog/static/attendee_photo-d8b59c01226b47cb1389cd99d640dfd3-1c7b7.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -62,11 +62,11 @@ React.js, React Hooks, Styled Components など、過去の発表からの積み
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;集合写真&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/attendee_photo-cdf8250125a3d97c9331db1986ca9e4d-27561.jpg&quot;
-        srcset=&quot;/blog/static/attendee_photo-cdf8250125a3d97c9331db1986ca9e4d-06456.jpg 293w,
-/blog/static/attendee_photo-cdf8250125a3d97c9331db1986ca9e4d-4b3e4.jpg 585w,
-/blog/static/attendee_photo-cdf8250125a3d97c9331db1986ca9e4d-27561.jpg 1170w,
-/blog/static/attendee_photo-cdf8250125a3d97c9331db1986ca9e4d-1c7b7.jpg 1680w&quot;
+        src=&quot;/blog/static/attendee_photo-d8b59c01226b47cb1389cd99d640dfd3-27561.jpg&quot;
+        srcset=&quot;/blog/static/attendee_photo-d8b59c01226b47cb1389cd99d640dfd3-06456.jpg 293w,
+/blog/static/attendee_photo-d8b59c01226b47cb1389cd99d640dfd3-4b3e4.jpg 585w,
+/blog/static/attendee_photo-d8b59c01226b47cb1389cd99d640dfd3-27561.jpg 1170w,
+/blog/static/attendee_photo-d8b59c01226b47cb1389cd99d640dfd3-1c7b7.jpg 1680w&quot;
         sizes=&quot;(max-width: 1170px) 100vw, 1170px&quot;
       /&gt;
     &lt;/span&gt;
