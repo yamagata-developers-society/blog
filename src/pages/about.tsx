@@ -87,7 +87,7 @@ const About: React.SFC = () => (
               </p>
               <hr />
               <p>
-                Yamagata Developer Society is a community for professionals and students alike. We
+                Yamagata Developers Society is a community for professionals and students alike. We
                 hold monthly developer meetups at{' '}
                 <a href="https://www.coworking-too.com/">coworking space too</a> in downtown
                 Yamagata.
