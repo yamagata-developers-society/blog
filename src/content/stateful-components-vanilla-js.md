@@ -8,7 +8,7 @@ date: '2019-05-16T18:00:00.000Z'
 draft: false
 ---
 
-Today I'd like to show you how you can create stateful componenents with vanilla JavaScript
+Today I'd like to show you how to create stateful components with vanilla JavaScript
 <span role="img" aria-label="Soft Ice Cream">🍦</span>, and demonstrate that:
 
 > You don't need to download any library to apply the amazing concepts used by React.js in your JavaScript programming.
@@ -19,9 +19,9 @@ Yes, it's now entirely possible to use the powerful features of JavaScript out-o
 
 To see the final version of what we are building, check out this <a href="https://jsfiddle.net/jzft0o7r/" target="_blank" rel="noopener">JS Fiddle <span role="img" aria-label="Up-Right Arrow">↗️</span></a>
 
-## Start
+## Step 1
 
-Let's start with a simple object, which will represent the initial "state" of our data:
+Let's start with a simple object, which will represent the initial state of our data:
 
 ```js
 let state = {
@@ -38,30 +38,42 @@ We will use ES6 template strings (See: <a href="https://developer.mozilla.org/en
 
 <b>Render functions</b> will be called to display the component when the user triggers changes.
 
+## Step 2
+
 First let's create our counter component, which is just an arrow function that returns a template string.
 
 ```js
-const counter = (count) => {
-  return `<div class="counter">${count}</div>;
-}
+const counter = (count) => `<div class="counter">${count}</div>`;
 ```
 
-Then let's create a render function, which we can call to update the DOM when a user triggers a change to the count.
+> Disclaimer: When passing values to template strings, you must be very certain that the data you pass to your functions is secure, since JS won’t automatically escape these values like they do in React.
+
+<p><b>
+Be mindful of XSS when you do this by either sanitizing any values or making sure the values passed are only ones that you control.
+</b></p>
+
+## Step 3
+
+Next, let's create a render function, which we can call to update the DOM when a user triggers a change to the count.
 
 ```js
 renderCount = () => {
-  document.getElementById('app').innerHTML = counter(this.state.count);
+  document.getElementById('app').innerHTML = counter(state.count);
 };
 ```
+
+## Step 4
 
 Now, all we need is a method to update the count. Since we don't have a `setState({})` method built-in to JavaScript just yet, we will do a React no-no, and set the state directly <span role="img" aria-label="Weary Cat Face">🙀</span>:
 
 ```js
 incrementCountUp = () => {
-  let newCount = this.state.count + 1;
-  this.state.count = newCount;
+  let newCount = state.count + 1;
+  state.count = newCount;
 };
 ```
+
+## Step 5
 
 Then we can attach an event listener to a button click.
 
@@ -100,7 +112,7 @@ const counter = (count) => {
 
 And in our CSS:
 
-```sass
+```css
 .text-error {
   color: red;
 }
@@ -110,7 +122,7 @@ And in our CSS:
 }
 ```
 
-Now, when we increment our count past 10, the color of the text will automatically change, without having to do any extra DOM manipulation wacky jQuery stuff.
+Now, when we increment our count past 10, the color of the text will automatically change, without having to do any extra DOM queries or wacky jQuery stuff.
 
 ## Conclusion
 
@@ -151,7 +163,7 @@ const state = {
 
 // Components
 
-const counter = count => {
+const counter = (count) => {
   let classname = 'text-error';
 
   if (count >= 5) {
